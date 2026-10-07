@@ -1,0 +1,112 @@
+{
+  "halong": {
+    "id": "halong",
+    "src": "/images/halong.webp",
+    "width": 1400,
+    "height": 934,
+    "alt": { "en": "Misty limestone islands on Ha Long Bay.", "vi": "Đảo đá vôi trong sương ở vịnh Hạ Long." },
+    "credit": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ha_Long_Bay,_Vietnam,_Islands.jpg"
+  },
+  "hoan-kiem": {
+    "id": "hoan-kiem",
+    "src": "/images/hoan-kiem.webp",
+    "width": 1100,
+    "height": 734,
+    "alt": { "en": "A shaded path beside Hoan Kiem Lake in Hanoi.", "vi": "Lối đi rợp bóng bên Hồ Hoàn Kiếm, Hà Nội." },
+    "credit": "Daderot",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake_-_Hanoi,_Vietnam_-_DSC03687.JPG"
+  },
+  "temple": {
+    "id": "temple",
+    "src": "/images/temple.webp",
+    "width": 1200,
+    "height": 800,
+    "alt": { "en": "The main gate of the Temple of Literature in Hanoi.", "vi": "Cổng chính Văn Miếu ở Hà Nội." },
+    "credit": "Daderot",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Main_gate_-_Temple_of_Literature,_Hanoi_-_DSC04519.JPG"
+  },
+  "one-pillar": {
+    "id": "one-pillar",
+    "src": "/images/one-pillar.webp",
+    "width": 1100,
+    "height": 832,
+    "alt": { "en": "One Pillar Pagoda standing over a small pool.", "vi": "Chùa Một Cột trên hồ nước nhỏ." },
+    "credit": "Staffan Scherz",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:One_Pillar_Pagoda_Hanoi.jpg"
+  },
+  "opera": {
+    "id": "opera",
+    "src": "/images/opera.webp",
+    "width": 1200,
+    "height": 802,
+    "alt": { "en": "Hanoi Opera House, a pale French-era theatre.", "vi": "Nhà hát Lớn Hà Nội, nhà hát thời Pháp màu nhạt." },
+    "credit": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_24_December_2016.jpg"
+  },
+  "tran-quoc": {
+    "id": "tran-quoc",
+    "src": "/images/tran-quoc.webp",
+    "width": 1200,
+    "height": 802,
+    "alt": { "en": "Tran Quoc Pagoda and its tower beside the water.", "vi": "Chùa Trấn Quốc và tháp bên mặt nước." },
+    "credit": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tran_Quoc_Pagoda,_Hanoi,_Vietnam,_20240123_1212_3307.jpg"
+  },
+  "cathedral": {
+    "id": "cathedral",
+    "src": "/images/cathedral.webp",
+    "width": 1200,
+    "height": 896,
+    "alt": { "en": "The stone towers of St Joseph's Cathedral in Hanoi.", "vi": "Hai tháp đá của Nhà thờ Lớn Hà Nội." },
+    "credit": "Rudolph.A.Furtado",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:St_Josephs_Cathedral_of_Hanoi.jpg"
+  },
+  "flag-tower": {
+    "id": "flag-tower",
+    "src": "/images/flag-tower.webp",
+    "width": 1000,
+    "height": 1500,
+    "alt": { "en": "The Flag Tower of Hanoi with the national flag.", "vi": "Cột cờ Hà Nội và cờ Tổ quốc." },
+    "credit": "Gary Todd",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_(9735319302).jpg"
+  },
+  "long-bien": {
+    "id": "long-bien",
+    "src": "/images/long-bien.webp",
+    "width": 1200,
+    "height": 800,
+    "alt": { "en": "Rusted steel of Long Bien Bridge above the tracks.", "vi": "Thép gỉ của cầu Long Biên trên đường ray." },
+    "credit": "Quangpraha",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Long-bien-bridge-3371617.jpg"
+  },
+  "french": {
+    "id": "french",
+    "src": "/images/french.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": { "en": "A wide Hanoi junction lined with older buildings.", "vi": "Ngã tư rộng ở Hà Nội, nhà cũ hai bên." },
+    "credit": "thalling55",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:French_Quarter,_Hanoi_(1346056681).jpg"
+  },
+  "egg-coffee": {
+    "id": "egg-coffee",
+    "src": "/images/egg-coffee.webp",
+    "width": 1000,
+    "height": 1172,
+    "alt": { "en": "A glass of egg coffee beside a croissant.", "vi": "Ly cà phê trứng cạnh một chiếc bánh sừng bò." },
+    "credit": "Souradeep.Dasgupta",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:C%C3%80_PH%C3%8A_KEM_TR%E1%BB%A8NG_(Egg_cream_coffee).jpg"
+  }
+}

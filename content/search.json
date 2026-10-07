@@ -1,0 +1,74 @@
+[
+  {
+    "href": "/regions/hanoi",
+    "title": { "en": "Hanoi", "vi": "Hà Nội" },
+    "hint": { "en": "Old Quarter, Hoan Kiem, egg coffee", "vi": "Phố cổ, Hoàn Kiếm, cà phê trứng" },
+    "keywords": "hanoi ha noi hoan kiem hoan kiem lake pho co old quarter egg coffee ca phe trung van mieu temple of literature one pillar chua mot cot ho tay west lake opera nha hat lon bia hoi bun cha pho long bien flag tower tran quoc cathedral nha tho"
+  },
+  {
+    "href": "/regions/north-vietnam",
+    "title": { "en": "North Vietnam", "vi": "Miền Bắc" },
+    "hint": { "en": "Sapa, Ha Giang, Cat Ba", "vi": "Sa Pa, Hà Giang, Cát Bà" },
+    "keywords": "north vietnam mien bac sapa sa pa ha giang cat ba lan ha mai chau bac ha ba be dien bien phu mu cang chai"
+  },
+  {
+    "href": "/regions/central-vietnam",
+    "title": { "en": "Central Vietnam", "vi": "Miền Trung" },
+    "hint": { "en": "Hue, Hoi An, Phong Nha", "vi": "Huế, Hội An, Phong Nha" },
+    "keywords": "central vietnam mien trung hue hoi an ninh binh phong nha danang da nang lang co"
+  },
+  {
+    "href": "/regions/southeast-coast",
+    "title": { "en": "Southeast Coast", "vi": "Duyên hải Đông Nam" },
+    "hint": { "en": "Also called South Central Vietnam", "vi": "Còn gọi là Nam Trung Bộ" },
+    "keywords": "southeast coast south central vietnam south-central nam trung bo nha trang mui ne quy nhon vung tau quang ngai"
+  },
+  {
+    "href": "/regions/central-highlands",
+    "title": { "en": "Central Highlands", "vi": "Tây Nguyên" },
+    "hint": { "en": "Dalat, coffee hills", "vi": "Đà Lạt, đồi cà phê" },
+    "keywords": "central highlands tay nguyen dalat da lat buon ma thuot kon tum cat tien"
+  },
+  {
+    "href": "/regions/ho-chi-minh-city",
+    "title": { "en": "Ho Chi Minh City", "vi": "Thành phố Hồ Chí Minh" },
+    "hint": { "en": "Saigon", "vi": "Sài Gòn" },
+    "keywords": "ho chi minh city hcmc saigon sai gon dong khoi cholon cho lon district 1"
+  },
+  {
+    "href": "/regions/mekong-delta",
+    "title": { "en": "Mekong Delta", "vi": "Đồng bằng sông Cửu Long" },
+    "hint": { "en": "Includes Phu Quoc and Con Dao", "vi": "Gồm Phú Quốc và Côn Đảo" },
+    "keywords": "mekong delta cuu long can tho ben tre phu quoc phú quốc con dao côn đảo chau doc ha tien vinh long"
+  },
+  {
+    "href": "/regions/siem-reap-angkor",
+    "title": { "en": "Siem Reap & Angkor Wat", "vi": "Siem Reap và Angkor Wat" },
+    "hint": { "en": "Cambodia, not Vietnam", "vi": "Campuchia, không phải Việt Nam" },
+    "keywords": "siem reap angkor wat angkor thom cambodia campuchia"
+  },
+  {
+    "href": "/plan",
+    "title": { "en": "Plan", "vi": "Lịch trình" },
+    "hint": { "en": "Itineraries and when to go", "vi": "Lịch trình và mùa đi" },
+    "keywords": "plan itinerary when to go tet"
+  },
+  {
+    "href": "/eat",
+    "title": { "en": "Eat", "vi": "Ăn uống" },
+    "hint": { "en": "Food scene and coffee", "vi": "Đồ ăn và cà phê" },
+    "keywords": "eat food coffee pho bun cha bia hoi"
+  },
+  {
+    "href": "/essentials",
+    "title": { "en": "Essentials", "vi": "Cần biết" },
+    "hint": { "en": "Money, health, getting around", "vi": "Tiền, sức khoẻ, đi lại" },
+    "keywords": "essentials money visa health phrasebook"
+  },
+  {
+    "href": "/credits",
+    "title": { "en": "Photo credits", "vi": "Nguồn ảnh" },
+    "hint": { "en": "Who took the pictures", "vi": "Ai chụp ảnh" },
+    "keywords": "photo credits license wikimedia"
+  }
+]

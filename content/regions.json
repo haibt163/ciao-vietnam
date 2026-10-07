@@ -1,0 +1,96 @@
+[
+  {
+    "slug": "hanoi",
+    "name": { "en": "Hanoi", "vi": "Hà Nội" },
+    "blurb": { "en": "Lakes, the Old Quarter, egg coffee.", "vi": "Hồ, phố cổ, cà phê trứng." },
+    "chips": [
+      { "en": "Old Quarter", "vi": "Phố cổ" },
+      { "en": "Hoan Kiem", "vi": "Hoàn Kiếm" }
+    ],
+    "keywords": "hanoi ha noi"
+  },
+  {
+    "slug": "north-vietnam",
+    "name": { "en": "North Vietnam", "vi": "Miền Bắc" },
+    "blurb": { "en": "Bays, high valleys, market towns.", "vi": "Vịnh, thung lũng cao, chợ phiên." },
+    "chips": [
+      { "en": "Sapa", "vi": "Sa Pa" },
+      { "en": "Ha Giang", "vi": "Hà Giang" },
+      { "en": "Cat Ba", "vi": "Cát Bà" }
+    ],
+    "keywords": "north vietnam mien bac sapa sa pa ha giang cat ba lan ha bay mai chau bac ha ba be dien bien phu mu cang chai"
+  },
+  {
+    "slug": "central-vietnam",
+    "name": { "en": "Central Vietnam", "vi": "Miền Trung" },
+    "blurb": { "en": "Caves, imperial hue, the old port.", "vi": "Hang động, cố đô, phố cổ Hội An." },
+    "chips": [
+      { "en": "Hue", "vi": "Huế" },
+      { "en": "Hoi An", "vi": "Hội An" },
+      { "en": "Phong Nha", "vi": "Phong Nha" }
+    ],
+    "keywords": "central vietnam mien trung hue hoi an ninh binh phong nha danang da nang lang co"
+  },
+  {
+    "slug": "southeast-coast",
+    "name": { "en": "Southeast Coast", "vi": "Duyên hải Đông Nam" },
+    "blurb": { "en": "Beaches after the Hai Van pass.", "vi": "Biển sau đèo Hải Vân." },
+    "chips": [
+      { "en": "Nha Trang", "vi": "Nha Trang" },
+      { "en": "Mui Ne", "vi": "Mũi Né" },
+      { "en": "Quy Nhon", "vi": "Quy Nhơn" }
+    ],
+    "keywords": "southeast coast south central vietnam south-central nam trung bo nha trang mui ne quy nhon vung tau quang ngai son my",
+    "note": {
+      "en": "Also called South Central Vietnam.",
+      "vi": "DK gọi vùng này là Nam Trung Bộ."
+    }
+  },
+  {
+    "slug": "central-highlands",
+    "name": { "en": "Central Highlands", "vi": "Tây Nguyên" },
+    "blurb": { "en": "Cool hills, coffee country, pine air.", "vi": "Đồi mát, xứ cà phê, không khí thông." },
+    "chips": [
+      { "en": "Dalat", "vi": "Đà Lạt" },
+      { "en": "Buon Ma Thuot", "vi": "Buôn Ma Thuột" },
+      { "en": "Kon Tum", "vi": "Kon Tum" }
+    ],
+    "keywords": "central highlands tay nguyen dalat da lat buon ma thuot kon tum cat tien"
+  },
+  {
+    "slug": "ho-chi-minh-city",
+    "name": { "en": "Ho Chi Minh City", "vi": "Thành phố Hồ Chí Minh" },
+    "blurb": { "en": "The loud, late, hungry south.", "vi": "Phía nam ồn, khuya, và đói." },
+    "chips": [
+      { "en": "Dong Khoi", "vi": "Đồng Khởi" },
+      { "en": "Cholon", "vi": "Chợ Lớn" }
+    ],
+    "keywords": "ho chi minh city hcmc saigon sai gon thanh pho ho chi minh dong khoi cholon cho lon district 1"
+  },
+  {
+    "slug": "mekong-delta",
+    "name": { "en": "Mekong Delta", "vi": "Đồng bằng sông Cửu Long" },
+    "blurb": { "en": "Rivers, orchards, and two islands.", "vi": "Sông, vườn cây, và hai hòn đảo." },
+    "chips": [
+      { "en": "Can Tho", "vi": "Cần Thơ" },
+      { "en": "Phu Quoc", "vi": "Phú Quốc" },
+      { "en": "Con Dao", "vi": "Côn Đảo" }
+    ],
+    "keywords": "mekong delta dong bang song cuu long can tho ben tre vinh long chau doc ha tien phu quoc phú quốc con dao côn đảo",
+    "note": {
+      "en": "Phu Quoc and Con Dao sit in this chapter.",
+      "vi": "Phú Quốc và Côn Đảo nằm trong chương này."
+    }
+  },
+  {
+    "slug": "siem-reap-angkor",
+    "name": { "en": "Siem Reap & Angkor Wat", "vi": "Siem Reap và Angkor Wat" },
+    "blurb": { "en": "A common add-on. Not in Vietnam.", "vi": "Chặng hay ghép thêm. Không thuộc Việt Nam." },
+    "chips": [
+      { "en": "Angkor Wat", "vi": "Angkor Wat" },
+      { "en": "Angkor Thom", "vi": "Angkor Thom" }
+    ],
+    "keywords": "siem reap angkor wat angkor thom cambodia campuchia",
+    "note": { "en": "This stop is in Cambodia.", "vi": "Điểm này ở Campuchia." }
+  }
+]

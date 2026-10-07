@@ -1,0 +1,60 @@
+{
+  "home": { "en": "Home", "vi": "Trang chủ" },
+  "regions": { "en": "Regions", "vi": "Vùng" },
+  "plan": { "en": "Plan", "vi": "Lịch trình" },
+  "eat": { "en": "Eat", "vi": "Ăn uống" },
+  "essentials": { "en": "Essentials", "vi": "Cần biết" },
+  "search": { "en": "Search", "vi": "Tìm" },
+  "searchPlaceholder": {
+    "en": "Hanoi, Phu Quoc, egg coffee",
+    "vi": "Hà Nội, Phú Quốc, cà phê trứng"
+  },
+  "close": { "en": "Close", "vi": "Đóng" },
+  "themeToDark": { "en": "Switch to dark", "vi": "Bật nền tối" },
+  "themeToLight": { "en": "Switch to light", "vi": "Bật nền sáng" },
+  "soundOn": { "en": "Sound on. Tap to mute.", "vi": "Đang bật tiếng. Chạm để tắt." },
+  "soundOff": { "en": "Sound off. Tap to unmute.", "vi": "Đang tắt tiếng. Chạm để bật." },
+  "credits": { "en": "Photo credits", "vi": "Nguồn ảnh" },
+  "comingSoon": { "en": "Coming soon", "vi": "Sắp có" },
+  "soonNote": {
+    "en": "This page is a placeholder. The map pin is real. The write-up arrives in the next pass.",
+    "vi": "Trang này chỉ là chỗ giữ. Tên địa danh là đúng. Phần viết sẽ có ở lượt sau."
+  },
+  "verify": { "en": "Verify locally", "vi": "Nên hỏi lại tại chỗ" },
+  "viReview": {
+    "en": "Vietnamese text needs a native review.",
+    "vi": "Bản tiếng Việt cần người bản ngữ xem lại."
+  },
+  "dontMiss": { "en": "Don't miss", "vi": "Đừng bỏ lỡ" },
+  "sights": { "en": "Top sights", "vi": "Điểm chính" },
+  "stay": { "en": "Stay", "vi": "Chỗ ở" },
+  "gettingThere": { "en": "Getting there", "vi": "Cách đến" },
+  "ourPicks": { "en": "Our picks", "vi": "Chúng tôi chọn" },
+  "when": { "en": "When to go", "vi": "Khi nào đi" },
+  "reasons": { "en": "Reasons to love Vietnam", "vi": "Lý do yêu Việt Nam" },
+  "more": { "en": "More", "vi": "Thêm" },
+  "less": { "en": "Less", "vi": "Thu gọn" },
+  "noResults": { "en": "No matches", "vi": "Không thấy" },
+  "outdoors": { "en": "The Outdoors", "vi": "Ngoài trời" },
+  "history": { "en": "A brief history", "vi": "Lịch sử ngắn" },
+  "foodScene": { "en": "The food scene", "vi": "Chuyện ăn uống" },
+  "skip": { "en": "Skip to content", "vi": "Tới nội dung" },
+  "prompt": { "en": "ciao vietnam", "vi": "ciao vietnam" },
+  "pocket": { "en": "A pocket guide", "vi": "Cẩm nang bỏ túi" },
+  "regionsIntro": {
+    "en": "Eight chapters. One is ready.",
+    "vi": "Tám chương. Một chương đã xong."
+  },
+  "also": { "en": "Also on this page", "vi": "Cũng ở trang này" },
+  "cambodia": { "en": "This stop is in Cambodia.", "vi": "Điểm này ở Campuchia." },
+  "alias": { "en": "Also called South Central Vietnam.", "vi": "DK gọi vùng này là Nam Trung Bộ." },
+  "creditsIntro": {
+    "en": "Every photo is licensed. None come from the guidebooks.",
+    "vi": "Mọi ảnh đều có giấy phép. Không ảnh nào lấy từ sách hướng dẫn."
+  },
+  "sourceLink": { "en": "Source", "vi": "Nguồn" },
+  "essentialsLink": {
+    "en": "Photo credits are ready now.",
+    "vi": "Trang nguồn ảnh đã có."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "heroTitle": {
+    "en": "A pocket guide for people just off the plane.",
+    "vi": "Cẩm nang bỏ túi cho người vừa xuống máy bay."
+  },
+  "heroLede": {
+    "en": "Keywords first. Details when you tap.",
+    "vi": "Từ khoá trước. Chi tiết khi bạn chạm."
+  },
+  "picks": [
+    {
+      "href": "/regions/hanoi#hoan-kiem",
+      "title": { "en": "Dawn at Hoan Kiem", "vi": "Bình minh Hồ Hoàn Kiếm" },
+      "text": { "en": "Walk the lake before the city starts.", "vi": "Đi bộ quanh hồ trước khi phố thức." },
+      "image": "hoan-kiem"
+    },
+    {
+      "href": "/regions/hanoi#temple",
+      "title": { "en": "Temple of Literature", "vi": "Văn Miếu" },
+      "text": { "en": "Courtyards, old gates, quiet stone.", "vi": "Sân, cổng cũ, đá yên." },
+      "image": "temple"
+    },
+    {
+      "href": "/regions/hanoi#egg-coffee",
+      "title": { "en": "Egg coffee", "vi": "Cà phê trứng" },
+      "text": { "en": "Sweet foam. Sit down for it.", "vi": "Lớp kem ngọt. Ngồi lại mà uống." },
+      "image": "egg-coffee"
+    }
+  ],
+  "reasons": [
+    {
+      "icon": "lotus",
+      "title": { "en": "Street food", "vi": "Ăn đường phố" },
+      "text": { "en": "A low stool is a restaurant.", "vi": "Một cái ghế thấp là một quán." }
+    },
+    {
+      "icon": "hat",
+      "title": { "en": "One country, many climates", "vi": "Một nước, nhiều khí hậu" },
+      "text": { "en": "Bay, city, and cool hills.", "vi": "Vịnh, phố, và đồi mát." }
+    },
+    {
+      "icon": "lantern",
+      "title": { "en": "Coffee, daily", "vi": "Cà phê mỗi ngày" },
+      "text": { "en": "Strong, slow, and social.", "vi": "Đậm, chậm, và có bạn." }
+    },
+    {
+      "icon": "bike",
+      "title": { "en": "The motorbike river", "vi": "Dòng xe máy" },
+      "text": { "en": "Cross with the crowd, not against it.", "vi": "Sang đường cùng dòng người." }
+    }
+  ],
+  "seasons": [
+    {
+      "label": { "en": "Oct–Dec", "vi": "Tháng 10–12" },
+      "text": { "en": "Dry. Clear. The easy months.", "vi": "Khô. Quang. Những tháng dễ đi." }
+    },
+    {
+      "label": { "en": "Jan–Feb", "vi": "Tháng 1–2" },
+      "text": { "en": "Cool. Tet crowds. Book ahead.", "vi": "Mát. Đông Tết. Đặt chỗ sớm." }
+    },
+    {
+      "label": { "en": "Mar–Apr", "vi": "Tháng 3–4" },
+      "text": { "en": "Warm walks. Good light.", "vi": "Đi bộ ấm. Ánh đẹp." }
+    },
+    {
+      "label": { "en": "May–Sep", "vi": "Tháng 5–9" },
+      "text": { "en": "Hot. Heavy rain. Go early.", "vi": "Nóng. Mưa lớn. Đi sớm." }
+    }
+  ],
+  "tool": {
+    "lines": [
+      { "key": { "en": "start", "vi": "bắt đầu" }, "value": { "en": "Hanoi", "vi": "Hà Nội" } },
+      { "key": { "en": "then", "vi": "rồi" }, "value": { "en": "north, or the coast", "vi": "miền Bắc, hoặc biển" } },
+      { "key": { "en": "note", "vi": "chú" }, "value": { "en": "Angkor is Cambodia", "vi": "Angkor thuộc Campuchia" } }
+    ]
+  }
+}
