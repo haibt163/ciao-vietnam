@@ -95,8 +95,17 @@ Decisions already made:
 
 - Git-confirmed on `phase-2-photos`: `scripts/images.mjs` accepts `--originals <folder>`, then `CIAO_PHOTO_ORIGINALS`, then repository-root `owner-photos`.
 - Git-confirmed: `docs/photo-selection.md` documents the lookup order and PowerShell usage.
-- Web-confirmed: compliant public candidates have been found for several weak images, including Hoan Kiem, Ben Tre, Mui Ne and multiple weak cards. Candidate pages and available dimensions are being recorded before any wiring.
-- Needs verification: original binary files, final visual selection, image preparation output, typecheck/lint/build, and browser screenshots.
+- Git-confirmed: selected originals were fetched on a GitHub Actions runner and 11 source files passed the 3000 px long-edge rule; generated image output was 12.0 MB.
+- Git-confirmed: the same runner passed `npm run typecheck`, `npm run lint`, and `npm run build` (20 static pages generated).
+- Git-confirmed: generated photo commit is `78382e443c6ec343bbe652e35def096a1bc14082`; the temporary preparation workflow removed itself after generation.
+- Needs verification: live rendered appearance and 390 px light/dark EN/VI screenshots.
+
+## 7. Photo follow-up — autonomous selection
+
+- Owner decision: on 8 October 2026, the Project Owner authorized the Main Engineer (ChatGPT) to select and wire replacement photos autonomously from public web sources.
+- Round 4 target set: Hoan Kiem, Ben Tre and Mui Ne heroes; Cat Tien, Chau Doc, Cu Chi, French Quarter, Ha Giang, Hai Van, Khai Dinh and Japanese Covered Bridge cards.
+- Selection rule remains the project license and quality bar in AGENTS.project.md: Pexels License only here, original long edge at least 3000 px, sharp/clear, no watermarks or readable branding, no upscaling.
+- Because this sandbox cannot download binary originals, a short-lived GitHub Actions runner will fetch and prepare the selected public originals on the feature branch.
 
 ## 7. Known environment limits
 

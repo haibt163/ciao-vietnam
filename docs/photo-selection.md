@@ -1,5 +1,25 @@
 # Photo selection
 
+## Round 4 — autonomous photo replacement
+
+Owner-approved autonomous selection by ChatGPT (Main Engineer). All selected photos below use the Pexels License, which is on the project's allowed list. Final originals are fetched by GitHub Actions so their actual dimensions can be checked before wiring; any source failing the 3000 px long-edge minimum is rejected rather than upscaled.
+
+| id | photographer | source | reason |
+|---|---|---|---|
+| hoan-kiem | Hồng Quang Official | https://www.pexels.com/photo/turtle-tower-in-hoan-kiem-lake-hanoi-vietnam-33740950/ | Strong landmark hero; clear Turtle Tower; 6240×4160 reported by Pexels. |
+| bentre | Yang Thanh | https://www.pexels.com/photo/view-of-people-getting-into-a-rowboat-for-a-mekong-delta-boat-ride-in-vietnam-18903675/ | Lush Ben Tre canal scene with boats and people; travel-oriented. |
+| muine | Quang Nguyen Vinh | https://www.pexels.com/photo/palm-trees-and-stacked-boats-8259999/ | Sunny, sharp coastal scene; 6000×4000 reported by Pexels; avoids the current washed/saturated dune frame. |
+| cattien | Thien Nhan | https://www.pexels.com/photo/exploring-roots-in-nam-cat-tien-forest-37006081/ | Direct Nam Cat Tien forest subject; natural outdoor texture. |
+| chaudoc | HONG SON | https://www.pexels.com/photo/ancient-city-gate-surrounded-by-lush-trees-39944748/ | Exact Chau Doc location; 6144×8192 reported by Pexels; bright, clean architecture. |
+| cuchi | manvinder social | https://www.pexels.com/photo/cu-chi-tunnels-entrance-in-ho-chi-minh-city-31832778/ | Exact Cu Chi subject; 5003×3335 reported by Pexels. |
+| french | Q. Hưng Phạm | https://www.pexels.com/photo/colonial-architecture-in-hanoi-vietnam-28998626/ | Hanoi colonial architecture; 4096×4067 reported by Pexels. |
+| hagiang | TUAN PHAN | https://www.pexels.com/photo/scenic-landscape-of-ha-giang-mountains-vietnam-34574527/ | Winding-road mountain scene; 4256×2832 reported by Pexels. |
+| haivan | Nhà văn | https://www.pexels.com/photo/scenic-view-of-hai-van-pass-35211010/ | Morning mountain/ocean view; selected to replace the flatter existing pass image. |
+| khai-dinh | Dương Nhân | https://www.pexels.com/photo/entrance-of-khai-dinh-tomb-18509403/ | Strong architectural entrance detail; cleaner than the current statue snapshot. |
+| japan-bridge | Fernando B M | https://www.pexels.com/photo/japanese-covered-bridge-in-hoi-an-vietnam-29781428/ | Bright, clear Japanese Covered Bridge frame; good card composition. |
+
+Rejections remain recorded in Round 3 and are not rewritten. No CC BY-SA, NC or ND source is introduced.
+
 ## Round 3
 
 The four keepers are wired. CC BY-SA stays excluded.
