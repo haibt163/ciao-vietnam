@@ -264,7 +264,7 @@
           }
         }
       ],
-      "image": "banhmi"
+      "image": "vietnamese-food-stall"
     },
     {
       "id": "ca-phe-sua",
@@ -288,7 +288,7 @@
           }
         }
       ],
-      "image": "vietnam-coffee"
+      "image": "phin-coffee"
     },
     {
       "id": "banh-mi-saigon",
@@ -300,7 +300,7 @@
         "en": "Crisp bread, pickles and savoury fillings. An easy city meal.",
         "vi": "Bánh giòn, đồ chua và nhân mặn. Một bữa nhanh trong phố."
       },
-      "image": "banhmi",
+      "image": "banh-mi-food",
       "facts": [
         {
           "label": {
@@ -324,7 +324,7 @@
         "en": "The city eats after dark. Follow busy low-stool places and order one thing at a time.",
         "vi": "Thành phố vẫn ăn sau tối. Theo quán ghế thấp đông người và gọi từng món một."
       },
-      "image": "saigon-post",
+      "image": "hcm-night-street",
       "facts": [
         {
           "label": {
@@ -366,7 +366,7 @@
           }
         }
       ],
-      "image": "saigon-post"
+      "image": "hcm-night"
     },
     {
       "id": "stay-cholon",
@@ -440,7 +440,7 @@
           }
         }
       ],
-      "image": "saigon-post"
+      "image": "hcm-station"
     }
   ]
 }
