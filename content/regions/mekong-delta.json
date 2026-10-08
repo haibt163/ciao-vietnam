@@ -252,7 +252,7 @@
           }
         }
       ],
-      "image": "bentre"
+      "image": "banana-boat"
     },
     {
       "id": "hu-tieu",
@@ -264,7 +264,7 @@
         "en": "A southern noodle bowl with a lighter, sweeter profile. Look for it in river towns.",
         "vi": "Một bát mì miền Nam, vị nhẹ và ngọt hơn. Tìm ở các phố sông."
       },
-      "image": "cantho",
+      "image": "cairang",
       "facts": [
         {
           "label": {
@@ -288,7 +288,7 @@
         "en": "Coconut is part of the delta pantry. Try small sweets or fresh coconut from a market stall.",
         "vi": "Dừa là một phần của bếp đồng bằng. Thử kẹo nhỏ hoặc dừa tươi ở quầy chợ."
       },
-      "image": "bentre",
+      "image": "coconut-market",
       "facts": [
         {
           "label": {
@@ -330,7 +330,7 @@
           }
         }
       ],
-      "image": "cantho"
+      "image": "cai-rang-aerial"
     },
     {
       "id": "stay-islands",
@@ -404,7 +404,7 @@
           }
         }
       ],
-      "image": "bentre"
+      "image": "mekong-boat"
     },
     {
       "id": "delta-ferries",
@@ -416,7 +416,7 @@
         "en": "River travel is part of the delta experience. Routes change; ask the operator before setting out.",
         "vi": "Đi sông là một phần trải nghiệm đồng bằng. Tuyến có thể đổi; hỏi nhà vận hành trước khi đi."
       },
-      "image": "bentre",
+      "image": "mekong-boat-2",
       "facts": [
         {
           "label": {
