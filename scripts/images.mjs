@@ -3,7 +3,17 @@ import path from "node:path";
 import sharp from "sharp";
 
 const root = path.resolve(import.meta.dirname, "..");
-const originals = "/workspace/artifacts/photo-originals";
+const originalsFlag = process.argv.indexOf("--originals");
+const originalsFromFlag = originalsFlag >= 0 ? process.argv[originalsFlag + 1] : undefined;
+
+if (originalsFlag >= 0 && !originalsFromFlag) {
+  console.error("Usage: node scripts/images.mjs --originals <folder>");
+  process.exit(1);
+}
+
+const originals = path.resolve(
+  originalsFromFlag || process.env.CIAO_PHOTO_ORIGINALS || path.join(root, "owner-photos"),
+);
 const pub = path.join(root, "public", "images");
 const imageFile = path.join(root, "content", "images.json");
 const manifestFile = path.join(originals, "manifest.json");
