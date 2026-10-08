@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - revamp/part-b-visual-content-v2
+      - repair/image-integrity-20261008
   pull_request:
     types: [opened, synchronize, reopened]
     branches: [main]
