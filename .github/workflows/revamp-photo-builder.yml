@@ -29,6 +29,7 @@ jobs:
 
       - run: npm ci
       - run: node scripts/revamp-images.mjs
+      - run: node scripts/check-images.mjs
 
       - name: Commit generated WebP assets
         run: |
