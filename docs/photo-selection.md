@@ -76,4 +76,4 @@ Owner photos of those places would be welcome. I will not fill the gaps with gre
 
 ## App
 
-`public/images` was not replaced. Heroes were not recropped. Compression settings were not changed.
+Round 2 state: `public/images` was not replaced, heroes were not recropped and compression settings were not changed. Round 3 changed this: heroes are now portrait-cropped from the originals with a focal point, and the WebP quality floors were raised (see `scripts/images.mjs`).
