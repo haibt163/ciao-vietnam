@@ -206,7 +206,7 @@
           }
         }
       ],
-      "image": "angkorwat"
+      "image": "hoi-an-market"
     },
     {
       "id": "fish-amok",
@@ -218,7 +218,7 @@
         "en": "A Cambodian classic worth ordering once. Mild, aromatic, and different from Vietnamese bowls.",
         "vi": "Một món kinh điển Campuchia đáng thử một lần. Dịu, thơm, và khác các bát mì Việt."
       },
-      "image": "angkorwat",
+      "image": "night-market-vietnam",
       "facts": [
         {
           "label": {
@@ -242,7 +242,7 @@
         "en": "The town is built around evening wandering. Sample small plates instead of one large dinner.",
         "vi": "Phố được làm cho việc đi bộ buổi tối. Thử nhiều món nhỏ thay vì một bữa lớn."
       },
-      "image": "bayon",
+      "image": "night-food-market",
       "facts": [
         {
           "label": {
@@ -296,7 +296,7 @@
         "en": "Stay near the evening centre when you want dinner, coffee and a short ride back to bed.",
         "vi": "Ở gần trung tâm buổi tối khi muốn ăn, uống cà phê và về giường bằng một chuyến xe ngắn."
       },
-      "image": "bayon",
+      "image": "angkor-night",
       "facts": [
         {
           "label": {
@@ -334,7 +334,7 @@
           }
         }
       ],
-      "image": "angkorwat"
+      "image": "angkor-gate"
     },
     {
       "id": "temple-ride",
