@@ -20,6 +20,20 @@ Dropped: the Notre-Dame file with the Easter banner, and the Con Dao strip (too 
 
 The two guidebooks were not in this sandbox when this log was written, so the shot briefs below are mine. They are not copied from a page. Round 3 superseded the "not wired" line: the four keepers are in the app. The rest of this log is unchanged.
 
+## Image preparation usage
+
+scripts/images.mjs looks for the original photo folder in this order:
+
+1. --originals <folder> command-line argument.
+2. CIAO_PHOTO_ORIGINALS environment variable.
+3. owner-photos at the repository root.
+
+Example in PowerShell:
+
+node scripts/images.mjs --originals "D:\ciao-vietnam\owner-photos"
+
+The folder may contain the original JPGs and an optional manifest.json. If the resolved folder does not exist, the script exits cleanly without changing public/images.
+
 ## What was reachable
 
 
