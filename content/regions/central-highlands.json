@@ -114,7 +114,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "bmt-coffee"
     },
     {
       "id": "kontum",
@@ -201,6 +201,55 @@
             "vi": "Quán Đà Lạt, rẫy Buôn Ma Thuột"
           }
         }
+      ],
+      "image": "bmt-coffee"
+    },
+    {
+      "id": "artichoke-tea",
+      "title": {
+        "en": "Artichoke tea",
+        "vi": "Trà atisô"
+      },
+      "summary": {
+        "en": "Dalat's artichoke is an easy café pause. Treat it as a local drink, not a health claim.",
+        "vi": "Trà atisô Đà Lạt là một quãng nghỉ dễ trong quán. Xem như đồ uống địa phương, không phải lời khuyên sức khỏe."
+      },
+      "image": "vietnam-coffee",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A cool afternoon",
+            "vi": "Buổi chiều mát"
+          }
+        }
+      ]
+    },
+    {
+      "id": "highland-market",
+      "title": {
+        "en": "Highland market plates",
+        "vi": "Món chợ cao nguyên"
+      },
+      "summary": {
+        "en": "Vegetables, grilled foods and coffee sit close together in the highland food scene.",
+        "vi": "Rau, món nướng và cà phê đứng gần nhau trong bức tranh ẩm thực cao nguyên."
+      },
+      "image": "bmt-coffee",
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "Dalat and Buon Ma Thuot",
+            "vi": "Đà Lạt và Buôn Ma Thuột"
+          }
+        }
       ]
     }
   ],
@@ -230,6 +279,31 @@
             "vi": "Mang thêm một lớp áo. Quần áo biển thì không đủ."
           }
         }
+      ],
+      "image": "xuanhuong"
+    },
+    {
+      "id": "stay-buon-ma-thuot",
+      "title": {
+        "en": "Buon Ma Thuot",
+        "vi": "Buôn Ma Thuột"
+      },
+      "summary": {
+        "en": "A useful base when coffee country is the point of the trip. Expect more rides than central Dalat.",
+        "vi": "Chỗ nghỉ hữu ích khi mục tiêu là xứ cà phê. Sẽ đi xe nhiều hơn ở trung tâm Đà Lạt."
+      },
+      "image": "bmt-coffee",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Coffee-focused trips",
+            "vi": "Chuyến đi thiên về cà phê"
+          }
+        }
       ]
     }
   ],
@@ -253,6 +327,31 @@
           "value": {
             "en": "Verify the ride from the airport locally",
             "vi": "Hỏi xe từ sân bay tại chỗ"
+          }
+        }
+      ],
+      "image": "dalat-falls"
+    },
+    {
+      "id": "highland-loop",
+      "title": {
+        "en": "Across the highlands",
+        "vi": "Qua cao nguyên"
+      },
+      "summary": {
+        "en": "Use one town as a base, then make day trips. Recheck road and onward transport the same day.",
+        "vi": "Chọn một thành phố làm gốc rồi đi trong ngày. Hỏi lại đường và xe nối tiếp trong ngày."
+      },
+      "image": "dalat-falls",
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Bus, car, or flight for main bases",
+            "vi": "Xe khách, ô tô hoặc máy bay cho các điểm chính"
           }
         }
       ]
