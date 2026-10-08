@@ -36,8 +36,7 @@
                 "vi": "Kiểm tra hướng dẫn sân bay hoặc cửa khẩu trong ngày"
               }
             }
-          ],
-          "image": "airport-hanoi"
+          ]
         },
         {
           "id": "arrive-entry",
@@ -116,8 +115,7 @@
                 "vi": "Kiểm tra chuyến trong ngày"
               }
             }
-          ],
-          "image": "hanoi-train"
+          ]
         }
       ]
     },
@@ -181,8 +179,7 @@
                 "vi": "Xem vị trí, không chỉ ảnh phòng"
               }
             }
-          ],
-          "image": "hanoi-old-quarter"
+          ]
         }
       ]
     },
@@ -755,8 +752,8 @@
             "vi": "Một"
           },
           "summary": {
-            "en": "Useful for ordering or counting.",
-            "vi": "Useful for ordering or counting."
+            "en": "Use when ordering one item or asking for a single serving.",
+            "vi": "Dùng khi gọi một món hoặc một phần."
           },
           "facts": [
             {
@@ -778,8 +775,8 @@
             "vi": "Hai"
           },
           "summary": {
-            "en": "Useful for ordering or counting.",
-            "vi": "Useful for ordering or counting."
+            "en": "Use when ordering two items or asking for two servings.",
+            "vi": "Dùng khi gọi hai món hoặc hai phần."
           },
           "facts": [
             {
