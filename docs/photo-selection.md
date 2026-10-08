@@ -139,3 +139,9 @@ Owner approved autonomous photo selection for Part B on 8 October 2026. The goal
 | seafood-nhatrang | DUONG QUÁCH · Pexels | Coastal seafood |
 
 All Pexels sources use the Pexels License. CC BY sources retain attribution and source URLs in `content/images.json`. Final dimensions and generated WebP sizes are checked by the Part B preparation workflow; no source is upscaled.
+
+### Round 5 disposition
+
+The Bun Bo candidate was rejected after the automated source-quality check measured only 2397 px on its long edge. It was not upscaled; the existing qualified `pho-bowl` image is reused for that card.
+
+The original Wikimedia Commons Saigon Cathedral and Cholon candidates were replaced for this round because GitHub Actions was rate-limited by Wikimedia during automated download. The replacements are Pexels assets; the Cholon card uses a contextual Ho Chi Minh City street photograph and is labelled accordingly in `content/images.json`.
