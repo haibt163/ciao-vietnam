@@ -11,6 +11,8 @@ const sources = [
   { id:"hue", url:"https://images.pexels.com/photos/33551604/pexels-photo-33551604.jpeg", kind:"pexels" },
   { id:"quynhon", url:"https://images.pexels.com/photos/37920556/pexels-photo-37920556.jpeg", kind:"pexels" },
   { id:"bmt-coffee", url:"https://images.pexels.com/photos/27777798/pexels-photo-27777798.jpeg", kind:"pexels" },
+  { id:"saigon-cathedral", url:"https://images.pexels.com/photos/35746118/pexels-photo-35746118.jpeg", kind:"pexels" },
+  { id:"cholon", url:"https://images.pexels.com/photos/25324505/pexels-photo-25324505.jpeg", kind:"pexels" },
   { id:"palace", url:"https://images.pexels.com/photos/37336177/pexels-photo-37336177.png", kind:"pexels" },
   { id:"cantho", url:"https://images.pexels.com/photos/32607908/pexels-photo-32607908.jpeg", kind:"pexels" },
   { id:"hatien", url:"https://images.pexels.com/photos/38960936/pexels-photo-38960936.jpeg", kind:"pexels" },
