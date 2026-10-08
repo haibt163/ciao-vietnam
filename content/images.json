@@ -929,21 +929,6 @@
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/vietnamese-coffee-with-condensed-milk-16496241/"
   },
-  "banhmi": {
-    "id": "banhmi",
-    "src": "/images/banhmi-960.webp",
-    "srcSet": "/images/banhmi-640.webp 640w, /images/banhmi-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A Vietnamese banh mi sandwich.",
-      "vi": "Bánh mì Việt Nam."
-    },
-    "credit": "Hậu Mai",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/vietnamese-banh-mi-sandwich-on-newspaper-32961649/"
-  },
   "hoian-food": {
     "id": "hoian-food",
     "src": "/images/hoian-food-960.webp",
@@ -1420,22 +1405,6 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/sunny-day-at-nha-trang-beach-vietnam-37797688/",
-    "cropped": false
-  },
-  "quynhon-beach": {
-    "id": "quynhon-beach",
-    "src": "/images/quynhon-beach-960.webp",
-    "srcSet": "/images/quynhon-beach-640.webp 640w, /images/quynhon-beach-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A quiet beach with mountains at Quy Nhon.",
-      "vi": "Bãi biển yên tĩnh với núi ở Quy Nhơn."
-    },
-    "credit": "Flint Huynh",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/serene-beach-view-at-quy-nhon-vietnam-37920556/",
     "cropped": false
   },
   "quynhon-village": {
