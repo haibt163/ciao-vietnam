@@ -86,9 +86,17 @@ Decisions already made:
 ## 6. Phases
 
 - Phase 0 — done. Phase 1 — done. Phase 2A (regions, pipeline) — merged.
-- Phase 2A follow-up — photos and script path (next).
+- Phase 2A follow-up — **A1 complete on branch `phase-2-photos`**: photo originals path is configurable and documented.
+- Phase 2A follow-up — **A2 in progress**: Main Engineer (ChatGPT) now owns public-web photo selection. No replacement photo has been wired yet because the current sandbox cannot download binary originals.
 - Phase 2B — Plan, Eat, Essentials, Outdoors, History (not started).
 - Phase 3 — polish: sounds, accessibility, performance, SEO/meta, final QA.
+
+## 7. Current follow-up evidence
+
+- Git-confirmed on `phase-2-photos`: `scripts/images.mjs` accepts `--originals <folder>`, then `CIAO_PHOTO_ORIGINALS`, then repository-root `owner-photos`.
+- Git-confirmed: `docs/photo-selection.md` documents the lookup order and PowerShell usage.
+- Web-confirmed: compliant public candidates have been found for several weak images, including Hoan Kiem, Ben Tre, Mui Ne and multiple weak cards. Candidate pages and available dimensions are being recorded before any wiring.
+- Needs verification: original binary files, final visual selection, image preparation output, typecheck/lint/build, and browser screenshots.
 
 ## 7. Known environment limits
 
