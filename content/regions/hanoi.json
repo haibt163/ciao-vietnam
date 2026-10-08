@@ -618,7 +618,7 @@
           }
         }
       ],
-      "image": "pho-bowl"
+      "image": "pho-hanoi"
     },
     {
       "id": "bun-cha",
@@ -652,7 +652,7 @@
           }
         }
       ],
-      "image": "banhmi"
+      "image": "bun-cha-food"
     },
     {
       "id": "egg-coffee",
@@ -720,7 +720,7 @@
           }
         }
       ],
-      "image": "hoan-kiem"
+      "image": "bia-hanoi"
     }
   ],
   "stayIntro": {
@@ -760,7 +760,7 @@
           }
         }
       ],
-      "image": "hoan-kiem"
+      "image": "hanoi-old-quarter"
     },
     {
       "id": "stay-french",
@@ -864,7 +864,7 @@
           }
         }
       ],
-      "image": "hoan-kiem"
+      "image": "airport-hanoi"
     },
     {
       "id": "train",
@@ -898,7 +898,7 @@
           }
         }
       ],
-      "image": "long-bien"
+      "image": "hanoi-train"
     },
     {
       "id": "in-town",
@@ -932,7 +932,7 @@
           }
         }
       ],
-      "image": "french"
+      "image": "hanoi-street-food"
     }
   ]
 }
