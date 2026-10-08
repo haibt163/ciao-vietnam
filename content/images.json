@@ -739,7 +739,7 @@
     "src": "/images/maichau-960.webp",
     "srcSet": "/images/maichau-640.webp 640w, /images/maichau-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 639,
     "alt": {
       "en": "Traditional Hmong embroidery in Mai Chau.",
       "vi": "Thêu H'Mông truyền thống ở Mai Châu."
@@ -814,7 +814,7 @@
     "src": "/images/palace-960.webp",
     "srcSet": "/images/palace-640.webp 640w, /images/palace-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 1706,
     "alt": {
       "en": "Reunification Palace in Ho Chi Minh City.",
       "vi": "Dinh Độc Lập ở Thành phố Hồ Chí Minh."
@@ -829,7 +829,7 @@
     "src": "/images/cholon-960.webp",
     "srcSet": "/images/cholon-640.webp 640w, /images/cholon-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 1440,
     "alt": {
       "en": "A busy urban street in Ho Chi Minh City, used as a contextual Cholon image.",
       "vi": "Phố đô thị nhộn nhịp ở Thành phố Hồ Chí Minh, dùng làm ảnh minh họa bối cảnh Chợ Lớn."
@@ -844,7 +844,7 @@
     "src": "/images/cantho-960.webp",
     "srcSet": "/images/cantho-640.webp 640w, /images/cantho-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 540,
     "alt": {
       "en": "Cai Rang floating market in Can Tho.",
       "vi": "Chợ nổi Cái Răng ở Cần Thơ."
@@ -859,7 +859,7 @@
     "src": "/images/hatien-960.webp",
     "srcSet": "/images/hatien-640.webp 640w, /images/hatien-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 720,
     "alt": {
       "en": "A fishing boat off Ha Tien.",
       "vi": "Thuyền đánh cá ngoài khơi Hà Tiên."
@@ -889,7 +889,7 @@
     "src": "/images/angkorwat-960.webp",
     "srcSet": "/images/angkorwat-640.webp 640w, /images/angkorwat-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 638,
     "alt": {
       "en": "Angkor Wat temple complex in Cambodia.",
       "vi": "Quần thể đền Angkor Wat ở Campuchia."
@@ -919,7 +919,7 @@
     "src": "/images/vietnam-coffee-960.webp",
     "srcSet": "/images/vietnam-coffee-640.webp 640w, /images/vietnam-coffee-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 1231,
     "alt": {
       "en": "Vietnamese coffee with condensed milk.",
       "vi": "Cà phê Việt Nam với sữa đặc."
@@ -949,7 +949,7 @@
     "src": "/images/hoian-food-960.webp",
     "srcSet": "/images/hoian-food-640.webp 640w, /images/hoian-food-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 1491,
     "alt": {
       "en": "A street food stall in Hoi An.",
       "vi": "Quầy thức ăn đường phố ở Hội An."
@@ -964,7 +964,7 @@
     "src": "/images/seafood-nhatrang-960.webp",
     "srcSet": "/images/seafood-nhatrang-640.webp 640w, /images/seafood-nhatrang-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 1382,
     "alt": {
       "en": "Fresh Vietnamese seafood in Nha Trang.",
       "vi": "Hải sản Việt Nam tươi ở Nha Trang."

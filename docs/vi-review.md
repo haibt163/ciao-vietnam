@@ -83,6 +83,365 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `tool.lines[2].key` — chú
 - `tool.lines[2].value` — Angkor thuộc Campuchia
 
+## plan
+
+- `title` — Lịch trình
+- `lede` — Xây chuyến đi từ các vùng, không phải từ danh sách điểm đến.
+- `sections[0].title` — Lịch trình
+- `sections[0].intro` — Bốn khung khởi hành. Muốn chậm thì bớt một điểm, không phải thêm chặng nhanh.
+- `sections[0].cards[0].title` — Bắc → đèn lồng
+- `sections[0].cards[0].summary` — Một trục dễ đi lần đầu: Hà Nội, xứ đá vôi, rồi các phố cổ miền Trung.
+- `sections[0].cards[0].links[0].label` — Ngày 1–2 · Hà Nội
+- `sections[0].cards[0].links[1].label` — Ngày 3–4 · Miền Bắc
+- `sections[0].cards[0].links[2].label` — Ngày 5–7 · Miền Trung
+- `sections[0].cards[1].title` — Trục di sản
+- `sections[0].cards[1].summary` — Kiến trúc và lịch sử từ Hà Nội đến Huế và Hội An, rồi kết ở thành phố lớn phía Nam.
+- `sections[0].cards[1].links[0].label` — Hà Nội
+- `sections[0].cards[1].links[1].label` — Miền Trung
+- `sections[0].cards[1].links[2].label` — Thành phố Hồ Chí Minh
+- `sections[0].cards[2].title` — Biển + cao nguyên
+- `sections[0].cards[2].summary` — Ghép ngày biển với đồi mát. Chọn một điểm nghỉ biển và một điểm nghỉ cao nguyên.
+- `sections[0].cards[2].links[0].label` — Miền Trung
+- `sections[0].cards[2].links[1].label` — Duyên hải
+- `sections[0].cards[2].links[2].label` — Tây Nguyên
+- `sections[0].cards[3].title` — Sông nước & đảo
+- `sections[0].cards[3].summary` — Bắt đầu ở thành phố phía Nam, chậm lại ở đồng bằng, rồi kết bên biển.
+- `sections[0].cards[3].links[0].label` — Thành phố Hồ Chí Minh
+- `sections[0].cards[3].links[1].label` — Đồng bằng sông Cửu Long
+- `sections[1].title` — Việt Nam theo cách bạn thích
+- `sections[1].intro` — Chạm một sở thích để xem vùng phù hợp.
+- `sections[1].links[0].label` — Ăn uống
+- `sections[1].links[1].label` — Biển
+- `sections[1].links[2].label` — Núi
+- `sections[1].links[3].label` — Lịch sử
+- `sections[1].links[4].label` — Cà phê
+- `sections[1].links[5].label` — Đi chậm
+- `sections[1].links[6].label` — Gia đình
+- `sections[2].title` — Một năm ở Việt Nam
+- `sections[2].intro` — La bàn vùng theo mùa. Thời tiết thay đổi theo nơi; kiểm tra trước khi đặt.
+- `sections[2].months[0].label` — Tháng 1
+- `sections[2].months[0].links[0].label` — Miền Bắc
+- `sections[2].months[0].links[1].label` — Miền Nam
+- `sections[2].months[1].label` — Tháng 2
+- `sections[2].months[1].links[0].label` — Miền Bắc
+- `sections[2].months[1].links[1].label` — Miền Trung
+- `sections[2].months[2].label` — Tháng 3
+- `sections[2].months[2].links[0].label` — Miền Bắc
+- `sections[2].months[2].links[1].label` — Miền Trung
+- `sections[2].months[3].label` — Tháng 4
+- `sections[2].months[3].links[0].label` — Miền Bắc
+- `sections[2].months[3].links[1].label` — Miền Trung
+- `sections[2].months[4].label` — Tháng 5
+- `sections[2].months[4].links[0].label` — Tây Nguyên
+- `sections[2].months[4].links[1].label` — Miền Nam
+- `sections[2].months[5].label` — Tháng 6
+- `sections[2].months[5].links[0].label` — Duyên hải miền Trung
+- `sections[2].months[5].links[1].label` — Tây Nguyên
+- `sections[2].months[6].label` — Tháng 7
+- `sections[2].months[6].links[0].label` — Miền Trung
+- `sections[2].months[6].links[1].label` — Tây Nguyên
+- `sections[2].months[7].label` — Tháng 8
+- `sections[2].months[7].links[0].label` — Miền Trung
+- `sections[2].months[7].links[1].label` — Tây Nguyên
+- `sections[2].months[8].label` — Tháng 9
+- `sections[2].months[8].links[0].label` — Miền Trung
+- `sections[2].months[8].links[1].label` — Miền Nam
+- `sections[2].months[9].label` — Tháng 10
+- `sections[2].months[9].links[0].label` — Miền Bắc
+- `sections[2].months[9].links[1].label` — Miền Nam
+- `sections[2].months[10].label` — Tháng 11
+- `sections[2].months[10].links[0].label` — Miền Bắc
+- `sections[2].months[10].links[1].label` — Đồng bằng
+- `sections[2].months[11].label` — Tháng 12
+- `sections[2].months[11].links[0].label` — Miền Bắc
+- `sections[2].months[11].links[1].label` — Miền Nam
+
+## eat
+
+- `title` — Ăn uống
+- `lede` — Ẩm thực Việt Nam là bản đồ vùng. Chọn món, rồi đi theo nơi.
+- `sections[0].title` — Chuyện ăn uống
+- `sections[0].intro` — Mì, cơm, bánh mì, rau thơm và lửa đổi tính theo từng miền.
+- `sections[0].cards[0].title` — Phở
+- `sections[0].cards[0].summary` — Một bát mì hằng ngày, mỗi miền có nét riêng.
+- `sections[0].cards[0].facts[0].label` — Hợp với
+- `sections[0].cards[0].facts[0].value` — Bữa sáng
+- `sections[0].cards[0].links[0].label` — Hà Nội
+- `sections[0].cards[0].links[1].label` — Miền Bắc
+- `sections[0].cards[1].title` — Bún chả
+- `sections[0].cards[1].summary` — Thịt nướng, bún và nước chấm: món quen của Hà Nội.
+- `sections[0].cards[1].facts[0].label` — Hợp với
+- `sections[0].cards[1].facts[0].value` — Bữa trưa thong thả
+- `sections[0].cards[1].links[0].label` — Hà Nội
+- `sections[0].cards[2].title` — Bánh mì
+- `sections[0].cards[2].summary` — Bánh giòn, đồ chua và nhân mặn cho một điểm ăn nhanh.
+- `sections[0].cards[2].facts[0].label` — Hợp với
+- `sections[0].cards[2].facts[0].value` — Một bữa nhanh
+- `sections[0].cards[2].links[0].label` — Hà Nội
+- `sections[0].cards[2].links[1].label` — Thành phố Hồ Chí Minh
+- `sections[0].cards[3].title` — Bún bò Huế
+- `sections[0].cards[3].summary` — Một bát miền Trung cay với rau thơm và vị đậm.
+- `sections[0].cards[3].facts[0].label` — Hợp với
+- `sections[0].cards[3].facts[0].value` — Bữa mì đậm hơn
+- `sections[0].cards[3].links[0].label` — Miền Trung
+- `sections[0].cards[4].title` — Cao lầu
+- `sections[0].cards[4].summary` — Mì Hội An với phong cách địa phương rất riêng.
+- `sections[0].cards[4].facts[0].label` — Hợp với
+- `sections[0].cards[4].facts[0].value` — Đi ăn ở Hội An
+- `sections[0].cards[4].links[0].label` — Miền Trung
+- `sections[0].cards[5].title` — Cơm tấm
+- `sections[0].cards[5].summary` — Cơm tấm, thịt nướng và vị ngọt mặn của bàn ăn miền Nam.
+- `sections[0].cards[5].facts[0].label` — Hợp với
+- `sections[0].cards[5].facts[0].value` — Bữa trưa trong phố
+- `sections[0].cards[5].links[0].label` — Thành phố Hồ Chí Minh
+- `sections[0].cards[6].title` — Hải sản bờ biển
+- `sections[0].cards[6].summary` — Cá, mực và hải sản đi nhanh từ biển lên bàn.
+- `sections[0].cards[6].facts[0].label` — Lưu ý
+- `sections[0].cards[6].facts[0].value` — Hỏi giá trước khi gọi
+- `sections[0].cards[6].links[0].label` — Duyên hải
+- `sections[0].cards[7].title` — Trái cây đồng bằng
+- `sections[0].cards[7].summary` — Dừa, xoài, bưởi và nhiều loại khác xuất hiện ở chợ và ghe.
+- `sections[0].cards[7].facts[0].label` — Ở đâu
+- `sections[0].cards[7].facts[0].value` — Đồng bằng sông Cửu Long
+- `sections[0].cards[7].links[0].label` — Đồng bằng sông Cửu Long
+- `sections[1].title` — Ăn, uống & buổi tối
+- `sections[1].cards[0].title` — Bia hơi
+- `sections[1].cards[0].summary` — Bia nhẹ, ghế thấp và tiếng phố.
+- `sections[1].cards[0].facts[0].label` — Khi nào
+- `sections[1].cards[0].facts[0].value` — Buổi tối
+- `sections[1].cards[0].links[0].label` — Hà Nội
+- `sections[1].cards[1].title` — Cà phê sữa đá
+- `sections[1].cards[1].summary` — Cà phê đậm, sữa đặc và đá: một quãng nghỉ miền Nam.
+- `sections[1].cards[1].facts[0].label` — Hợp với
+- `sections[1].cards[1].facts[0].value` — Buổi chiều nóng
+- `sections[1].cards[1].links[0].label` — Thành phố Hồ Chí Minh
+- `sections[1].cards[2].title` — Đồ ăn chợ tối
+- `sections[1].cards[2].summary` — Món nhỏ hợp khi bạn vẫn muốn đi tiếp.
+- `sections[1].cards[2].facts[0].label` — Lưu ý
+- `sections[1].cards[2].facts[0].value` — Đông người thay đổi theo nơi và ngày
+- `sections[1].cards[2].links[0].label` — Hà Nội
+- `sections[1].cards[2].links[1].label` — Siem Reap
+- `sections[2].title` — Văn hóa cà phê
+- `sections[2].intro` — Phin, sữa đặc, kem trứng và hạt cao nguyên tạo nên một từ điển riêng.
+- `sections[2].cards[0].title` — Cà phê phin
+- `sections[2].cards[0].summary` — Bộ lọc kim loại nhỏ, hợp với việc ngồi lại.
+- `sections[2].cards[0].facts[0].label` — Hợp với
+- `sections[2].cards[0].facts[0].value` — Buổi sáng chậm
+- `sections[2].cards[0].links[0].label` — Việt Nam
+- `sections[2].cards[1].title` — Cà phê trứng
+- `sections[2].cards[1].summary` — Cà phê dưới lớp kem ngọt, ấm: gắn với Hà Nội.
+- `sections[2].cards[1].facts[0].label` — Hợp với
+- `sections[2].cards[1].facts[0].value` — Một quãng nghỉ ở quán
+- `sections[2].cards[1].links[0].label` — Hà Nội
+- `sections[2].cards[2].title` — Cà phê cao nguyên
+- `sections[2].cards[2].summary` — Đến xứ cà phê vì cảnh quan cũng như vì chiếc cốc.
+- `sections[2].cards[2].facts[0].label` — Ở đâu
+- `sections[2].cards[2].facts[0].value` — Tây Nguyên
+- `sections[2].cards[2].links[0].label` — Tây Nguyên
+
+## essentials
+
+- `title` — Cần biết
+- `lede` — Điều hữu ích, không giả vờ rằng quy định thay đổi là bất biến.
+- `sections[0].title` — Đến nơi
+- `sections[0].cards[0].title` — Giờ đầu tiên
+- `sections[0].cards[0].summary` — Lưu tên chỗ ở, giữ điện thoại có pin và có kế hoạch đơn giản cho chuyến xe đầu.
+- `sections[0].cards[0].facts[0].label` — Nhớ
+- `sections[0].cards[0].facts[0].value` — Kiểm tra hướng dẫn sân bay hoặc cửa khẩu trong ngày
+- `sections[0].cards[1].title` — Quy định nhập cảnh
+- `sections[0].cards[1].summary` — Quy định có thể đổi. Dùng thông tin chính thức hiện hành trước chuyến đi.
+- `sections[0].cards[1].facts[0].label` — Nguyên tắc
+- `sections[0].cards[1].facts[0].value` — Kiểm tra trước khi bay
+- `sections[1].title` — Đi lại
+- `sections[1].cards[0].title` — Trong thành phố
+- `sections[1].cards[0].summary` — Đi bộ khi phố phù hợp; dùng xe khi nóng và giao thông khiến đi bộ không hợp.
+- `sections[1].cards[0].facts[0].label` — Nguyên tắc
+- `sections[1].cards[0].facts[0].value` — Chọn phương án ngắn và an toàn
+- `sections[1].cards[1].title` — Giữa các vùng
+- `sections[1].cards[1].summary` — Máy bay, tàu, xe khách và ô tô hợp với những chặng khác nhau. Kiểm tra lại trước khi đi.
+- `sections[1].cards[1].facts[0].label` — Nguyên tắc
+- `sections[1].cards[1].facts[0].value` — Kiểm tra chuyến trong ngày
+- `sections[2].title` — Tiền
+- `sections[2].cards[0].title` — Giữ đơn giản
+- `sections[2].cards[0].summary` — Mang một ít tiền mặt, để thẻ riêng và kiểm tra số tiền cuối trước khi trả.
+- `sections[2].cards[0].facts[0].label` — Nguyên tắc
+- `sections[2].cards[0].facts[0].value` — Hỏi tỷ giá và phí tại chỗ
+- `sections[3].title` — Chỗ ở
+- `sections[3].cards[0].title` — Chọn theo khu
+- `sections[3].cards[0].summary` — Ngủ gần thứ bạn muốn làm. Chỗ ở trung tâm có thể đỡ công hơn một nơi rẻ nhưng xa.
+- `sections[3].cards[0].facts[0].label` — Nguyên tắc
+- `sections[3].cards[0].facts[0].value` — Xem vị trí, không chỉ ảnh phòng
+- `sections[4].title` — Du lịch gia đình
+- `sections[4].cards[0].title` — Mỗi lần một điểm nghỉ
+- `sections[4].cards[0].summary` — Ít đổi chỗ ở và một hoạt động chính mỗi ngày có thể làm chuyến gia đình nhẹ hơn.
+- `sections[4].cards[0].facts[0].label` — Hợp với
+- `sections[4].cards[0].facts[0].value` — Nhịp đi chậm
+- `sections[5].title` — Sức khỏe & an toàn
+- `sections[5].cards[0].title` — Nắng, nước, nghỉ
+- `sections[5].cards[0].summary` — Mang nước, tìm bóng râm và dành giờ nghỉ trong ngày nóng. Dùng hướng dẫn sức khỏe chính thức hiện hành cho quyết định y tế.
+- `sections[5].cards[0].facts[0].label` — Nguyên tắc
+- `sections[5].cards[0].facts[0].value` — Nhu cầu y tế cá nhân cần tư vấn chuyên môn
+- `sections[6].title` — Du lịch có trách nhiệm
+- `sections[6].cards[0].title` — Để nơi chốn nhẹ hơn
+- `sections[6].cards[0].summary` — Ăn mặc phù hợp ở nơi linh thiêng, giữ yên và hỏi trước khi chụp cận người khác.
+- `sections[6].cards[0].facts[0].label` — Nguyên tắc
+- `sections[6].cards[0].facts[0].value` — Theo yêu cầu tại chỗ
+- `sections[7].title` — LGBTIQ+
+- `sections[7].cards[0].title` — Đọc không gian
+- `sections[7].cards[0].summary` — Trải nghiệm khác theo thành phố, địa điểm và cộng đồng. Chọn nơi cởi mở và dùng hướng dẫn địa phương hiện hành.
+- `sections[7].cards[0].facts[0].label` — Nguyên tắc
+- `sections[7].cards[0].facts[0].value` — Dùng thông tin địa phương hiện hành
+- `sections[8].title` — Du lịch tiếp cận
+- `sections[8].cards[0].title` — Tính đến mặt đường
+- `sections[8].cards[0].summary` — Phố cổ, cầu thang và mặt đường không phẳng có thể làm quãng ngắn trở nên khó. Hỏi chỗ ở về lối vào trước khi đến.
+- `sections[8].cards[0].facts[0].label` — Nguyên tắc
+- `sections[8].cards[0].facts[0].value` — Xác nhận khả năng tiếp cận trực tiếp
+- `sections[9].title` — Ngôn ngữ / câu bỏ túi
+- `sections[9].intro` — Chỉ là cách đọc đơn giản. Từ tiếng Việt cần người bản ngữ xem trong docs/vi-review.md.
+- `sections[9].cards[0].title` — Xin chào
+- `sections[9].cards[0].summary` — sin chow · cần người bản ngữ xem.
+- `sections[9].cards[0].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[0].facts[0].value` — sin chow
+- `sections[9].cards[1].title` — Cảm ơn
+- `sections[9].cards[1].summary` — gahm uhn · cần người bản ngữ xem.
+- `sections[9].cards[1].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[1].facts[0].value` — gahm uhn
+- `sections[9].cards[2].title` — Làm ơn
+- `sections[9].cards[2].summary` — lahm uhn · cần người bản ngữ xem.
+- `sections[9].cards[2].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[2].facts[0].value` — lahm uhn
+- `sections[9].cards[3].title` — Vâng
+- `sections[9].cards[3].summary` — vuhng · cần người bản ngữ xem.
+- `sections[9].cards[3].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[3].facts[0].value` — vuhng
+- `sections[9].cards[4].title` — Không
+- `sections[9].cards[4].summary` — khong · cần người bản ngữ xem.
+- `sections[9].cards[4].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[4].facts[0].value` — khong
+- `sections[9].cards[5].title` — Xin lỗi
+- `sections[9].cards[5].summary` — sin loy · cần người bản ngữ xem.
+- `sections[9].cards[5].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[5].facts[0].value` — sin loy
+- `sections[9].cards[6].title` — Xin lỗi
+- `sections[9].cards[6].summary` — sin loy · cần người bản ngữ xem.
+- `sections[9].cards[6].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[6].facts[0].value` — sin loy
+- `sections[9].cards[7].title` — Bao nhiêu?
+- `sections[9].cards[7].summary` — bao nyew · cần người bản ngữ xem.
+- `sections[9].cards[7].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[7].facts[0].value` — bao nyew
+- `sections[9].cards[8].title` — Đắt quá
+- `sections[9].cards[8].summary` — daht kwa · cần người bản ngữ xem.
+- `sections[9].cards[8].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[8].facts[0].value` — daht kwa
+- `sections[9].cards[9].title` — … ở đâu?
+- `sections[9].cards[9].summary` — uh dow · cần người bản ngữ xem.
+- `sections[9].cards[9].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[9].facts[0].value` — uh dow
+- `sections[9].cards[10].title` — Nhà vệ sinh
+- `sections[9].cards[10].summary` — nya veh sin · cần người bản ngữ xem.
+- `sections[9].cards[10].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[10].facts[0].value` — nya veh sin
+- `sections[9].cards[11].title` — Nước
+- `sections[9].cards[11].summary` — nook · cần người bản ngữ xem.
+- `sections[9].cards[11].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[11].facts[0].value` — nook
+- `sections[9].cards[12].title` — Không đá
+- `sections[9].cards[12].summary` — khong dah · cần người bản ngữ xem.
+- `sections[9].cards[12].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[12].facts[0].value` — khong dah
+- `sections[9].cards[13].title` — Không cay
+- `sections[9].cards[13].summary` — khong kai · cần người bản ngữ xem.
+- `sections[9].cards[13].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[13].facts[0].value` — khong kai
+- `sections[9].cards[14].title` — Ăn chay
+- `sections[9].cards[14].summary` — an chai · cần người bản ngữ xem.
+- `sections[9].cards[14].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[14].facts[0].value` — an chai
+- `sections[9].cards[15].title` — Tôi không hiểu
+- `sections[9].cards[15].summary` — toy khong hyew · cần người bản ngữ xem.
+- `sections[9].cards[15].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[15].facts[0].value` — toy khong hyew
+- `sections[9].cards[16].title` — Giúp tôi
+- `sections[9].cards[16].summary` — zoop toy · cần người bản ngữ xem.
+- `sections[9].cards[16].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[16].facts[0].value` — zoop toy
+- `sections[9].cards[17].title` — Một
+- `sections[9].cards[17].summary` — moht · cần người bản ngữ xem.
+- `sections[9].cards[17].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[17].facts[0].value` — moht
+- `sections[9].cards[18].title` — Hai
+- `sections[9].cards[18].summary` — hai · cần người bản ngữ xem.
+- `sections[9].cards[18].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[18].facts[0].value` — hai
+- `sections[9].cards[19].title` — Tạm biệt
+- `sections[9].cards[19].summary` — tahm byet · cần người bản ngữ xem.
+- `sections[9].cards[19].facts[0].label` — Cách đọc đơn giản
+- `sections[9].cards[19].facts[0].value` — tahm byet
+
+## outdoors
+
+- `title` — Ngoài trời
+- `lede` — Từ khóa cảnh quan để chọn nơi trước khi chọn đường.
+- `sections[0].title` — Bản đồ cảnh quan
+- `sections[0].cards[0].title` — Đá vôi & hang
+- `sections[0].cards[0].summary` — Đảo đá vôi, hang sông và những ngày trên thuyền.
+- `sections[0].cards[0].links[0].label` — Miền Bắc
+- `sections[0].cards[1].title` — Đường núi cao
+- `sections[0].cards[1].summary` — Sống núi, đèo, ruộng bậc thang và ngày di chuyển dài.
+- `sections[0].cards[1].links[0].label` — Miền Bắc
+- `sections[0].cards[2].title` — Hang & sông
+- `sections[0].cards[2].summary` — Phong Nha đưa thế giới dưới lòng đất vào chuyến đi.
+- `sections[0].cards[2].links[0].label` — Miền Trung
+- `sections[0].cards[3].title` — Biển & đèo
+- `sections[0].cards[3].summary` — Biển, đồi cát và đèo Hải Vân tạo nên cảnh quan luôn chuyển động.
+- `sections[0].cards[3].links[0].label` — Miền Trung
+- `sections[0].cards[3].links[1].label` — Duyên hải
+- `sections[0].cards[4].title` — Đồi thông & cà phê
+- `sections[0].cards[4].summary` — Thành phố cao nguyên mát hơn, rừng và xứ cà phê.
+- `sections[0].cards[4].links[0].label` — Tây Nguyên
+- `sections[0].cards[5].title` — Sông & vườn
+- `sections[0].cards[5].summary` — Kênh, ghe, vườn cây và nước đồng bằng tạo hình nơi này.
+- `sections[0].cards[5].links[0].label` — Đồng bằng
+- `sections[0].cards[6].title` — Rừng trên đảo
+- `sections[0].cards[6].summary` — Biển và rừng gặp nhau ở Phú Quốc và Côn Đảo.
+- `sections[0].cards[6].links[0].label` — Đồng bằng
+- `sections[0].cards[7].title` — Đá vôi trên đảo
+- `sections[0].cards[7].summary` — Cát Bà gom biển, vách đá và rừng vào một điểm.
+- `sections[0].cards[7].links[0].label` — Miền Bắc
+
+## history
+
+- `title` — Lịch sử ngắn
+- `lede` — Dòng thời gian bằng từ khóa. Cẩm nang kể rộng và chỉ vào những nơi còn giữ câu chuyện.
+- `sections[0].title` — Từ khóa
+- `sections[0].cards[0].title` — Các vương quốc sớm
+- `sections[0].cards[0].summary` — Đông Sơn · Chăm · thế giới Khmer
+- `sections[0].cards[1].title` — Huế triều Nguyễn
+- `sections[0].cards[1].summary` — Triều Nguyễn · kinh thành · lăng tẩm
+- `sections[0].cards[1].links[0].label` — Miền Trung
+- `sections[0].cards[2].title` — Đô thị thời thuộc địa
+- `sections[0].cards[2].summary` — Đại lộ · biệt thự · đường sắt thời Pháp
+- `sections[0].cards[2].links[0].label` — Hà Nội
+- `sections[0].cards[3].title` — Chia cắt & chiến tranh
+- `sections[0].cards[3].summary` — Bắc · Nam · xung đột · thống nhất
+- `sections[0].cards[3].links[0].label` — Thành phố Hồ Chí Minh
+- `sections[0].cards[4].title` — Ký ức
+- `sections[0].cards[4].summary` — Bảo tàng · đài tưởng niệm · những hình ảnh khó xem
+- `sections[0].cards[4].links[0].label` — Thành phố Hồ Chí Minh
+- `sections[0].cards[5].title` — Thương mại & cảng
+- `sections[0].cards[5].summary` — Hội An · thương mại sông · trao đổi ven biển
+- `sections[0].cards[5].links[0].label` — Miền Trung
+- `sections[0].cards[6].title` — Đời sống Hoa-Việt
+- `sections[0].cards[6].summary` — Chợ Lớn · chợ · chùa · buôn bán
+- `sections[0].cards[6].links[0].label` — Thành phố Hồ Chí Minh
+- `sections[0].cards[7].title` — Đời sống đồng bằng
+- `sections[0].cards[7].summary` — Kênh · vườn · chợ nổi · di cư
+- `sections[0].cards[7].links[0].label` — Đồng bằng
+- `sections[0].cards[8].title` — Angkor
+- `sections[0].cards[8].summary` — Đền Khmer · Angkor Thom · di sản sống
+- `sections[0].cards[8].links[0].label` — Siem Reap và Angkor
+
 ## central-highlands
 
 - `name` — Tây Nguyên
@@ -120,15 +479,31 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `eat[0].summary` — Uống ở nơi nó được trồng. Đà Lạt còn có trà atiso.
 - `eat[0].facts[0].label` — Ở đâu
 - `eat[0].facts[0].value` — Quán Đà Lạt, rẫy Buôn Ma Thuột
+- `eat[1].title` — Trà atisô
+- `eat[1].summary` — Trà atisô Đà Lạt là một quãng nghỉ dễ trong quán. Xem như đồ uống địa phương, không phải lời khuyên sức khỏe.
+- `eat[1].facts[0].label` — Hợp với
+- `eat[1].facts[0].value` — Buổi chiều mát
+- `eat[2].title` — Món chợ cao nguyên
+- `eat[2].summary` — Rau, món nướng và cà phê đứng gần nhau trong bức tranh ẩm thực cao nguyên.
+- `eat[2].facts[0].label` — Ở đâu
+- `eat[2].facts[0].value` — Đà Lạt và Buôn Ma Thuột
 - `stayIntro` — Trung tâm Đà Lạt nếu muốn đi bộ. Rìa rừng thông nếu không ngại đi xe.
 - `stay[0].title` — Đà Lạt
 - `stay[0].summary` — Chỗ ở thực tế cho cao nguyên. Đêm thì mát.
 - `stay[0].facts[0].label` — Lưu ý
 - `stay[0].facts[0].value` — Mang thêm một lớp áo. Quần áo biển thì không đủ.
+- `stay[1].title` — Buôn Ma Thuột
+- `stay[1].summary` — Chỗ nghỉ hữu ích khi mục tiêu là xứ cà phê. Sẽ đi xe nhiều hơn ở trung tâm Đà Lạt.
+- `stay[1].facts[0].label` — Hợp với
+- `stay[1].facts[0].value` — Chuyến đi thiên về cà phê
 - `gettingThere[0].title` — Đến Đà Lạt
 - `gettingThere[0].summary` — Bay và xe khách từ Thành phố Hồ Chí Minh và ven biển. Đường thì leo.
 - `gettingThere[0].facts[0].label` — Cách đến
 - `gettingThere[0].facts[0].value` — Hỏi xe từ sân bay tại chỗ
+- `gettingThere[1].title` — Qua cao nguyên
+- `gettingThere[1].summary` — Chọn một thành phố làm gốc rồi đi trong ngày. Hỏi lại đường và xe nối tiếp trong ngày.
+- `gettingThere[1].facts[0].label` — Cách đến
+- `gettingThere[1].facts[0].value` — Xe khách, ô tô hoặc máy bay cho các điểm chính
 
 ## central-vietnam
 
@@ -184,6 +559,10 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `eat[1].summary` — Mì riêng của Hội An. Sợi dày, rau, và ít nước.
 - `eat[1].facts[0].label` — Ở đâu
 - `eat[1].facts[0].value` — Trong phố cổ, buổi trưa
+- `eat[2].title` — Mì Quảng
+- `eat[2].summary` — Mì vàng nghệ, rau thơm và ít nước. Một bát miền Trung có nhịp vị khác.
+- `eat[2].facts[0].label` — Hợp với
+- `eat[2].facts[0].value` — Bữa trưa ở Hội An hoặc Đà Nẵng
 - `stayIntro` — Chọn một phố để ngủ. Đi xe đến chỗ kia.
 - `stay[0].title` — Huế
 - `stay[0].summary` — Trong hoặc sát tường thành. Phía sông thì yên hơn.
@@ -201,6 +580,10 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `gettingThere[1].summary` — Đường cao giữa Huế và Đà Nẵng. Mây, cua tay áo, có view nếu trời quang.
 - `gettingThere[1].facts[0].label` — Lưu ý
 - `gettingThere[1].facts[0].value` — Tàu đi hầm. Cảnh thì ở trên đường.
+- `gettingThere[2].title` — Dọc bờ biển miền Trung
+- `gettingThere[2].summary` — Bờ biển hợp với các chặng ngắn. Chọn hai điểm nghỉ thay vì gom mọi thành phố.
+- `gettingThere[2].facts[0].label` — Cách đến
+- `gettingThere[2].facts[0].value` — Tàu, xe khách hoặc ô tô; hỏi lựa chọn trong ngày
 
 ## hanoi
 
@@ -424,6 +807,14 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `eat[1].summary` — Cà phê đặc, sữa đặc, đá. Nút tạm dừng của phố.
 - `eat[1].facts[0].label` — Ở đâu
 - `eat[1].facts[0].value` — Vỉa hè nào có ghế thấp
+- `eat[2].title` — Bánh mì
+- `eat[2].summary` — Bánh giòn, đồ chua và nhân mặn. Một bữa nhanh trong phố.
+- `eat[2].facts[0].label` — Hợp với
+- `eat[2].facts[0].value` — Một bữa nhanh trong phố
+- `eat[3].title` — Đồ ăn khuya
+- `eat[3].summary` — Thành phố vẫn ăn sau tối. Theo quán ghế thấp đông người và gọi từng món một.
+- `eat[3].facts[0].label` — Khi nào
+- `eat[3].facts[0].value` — Từ tối đến khuya
 - `stayIntro` — Quận 1 nếu đây là đêm đầu. Bạn sẽ đi bộ nhiều hơn đi xe.
 - `stay[0].title` — Quận 1
 - `stay[0].summary` — Đồng Khởi và các khối phố quanh Bến Thành. Ở giữa, và không yên.
@@ -488,6 +879,14 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `eat[0].summary` — Bưởi, xoài, dừa. Mua chỗ họ đang bổ.
 - `eat[0].facts[0].label` — Ở đâu
 - `eat[0].facts[0].value` — Chợ và ghe vườn
+- `eat[1].title` — Hủ tiếu
+- `eat[1].summary` — Một bát mì miền Nam, vị nhẹ và ngọt hơn. Tìm ở các phố sông.
+- `eat[1].facts[0].label` — Hợp với
+- `eat[1].facts[0].value` — Bữa sáng hoặc bát muộn
+- `eat[2].title` — Kẹo dừa
+- `eat[2].summary` — Dừa là một phần của bếp đồng bằng. Thử kẹo nhỏ hoặc dừa tươi ở quầy chợ.
+- `eat[2].facts[0].label` — Ở đâu
+- `eat[2].facts[0].value` — Bến Tre và các phố chợ
 - `stayIntro` — Cần Thơ cho sông nước. Hai đảo không phải một đêm đi từ đó.
 - `stay[0].title` — Cần Thơ
 - `stay[0].summary` — Khách sạn trong phố, hoặc nhà dân trên kênh nhỏ.
@@ -497,10 +896,18 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `stay[1].summary` — Phú Quốc thì nhiều phòng. Côn Đảo thì ít. Đặt vé bay và giường cùng lúc.
 - `stay[1].facts[0].label` — Lưu ý
 - `stay[1].facts[0].value` — Hỏi lịch tại chỗ
+- `stay[2].title` — Bến Tre
+- `stay[2].summary` — Ở gần kênh nhỏ và vườn cây khi chính cảnh sông nước là lý do bạn đến.
+- `stay[2].facts[0].label` — Hợp với
+- `stay[2].facts[0].value` — Một đêm đồng bằng yên hơn
 - `gettingThere[0].title` — Từ Thành phố Hồ Chí Minh
 - `gettingThere[0].summary` — Xe và thuyền tới Cần Thơ và vườn gần. Hai đảo thì không.
 - `gettingThere[0].facts[0].label` — Cách đến
 - `gettingThere[0].facts[0].value` — Đường bộ cho đồng bằng. Máy bay cho Phú Quốc và Côn Đảo.
+- `gettingThere[1].title` — Thuyền và các chuyến qua sông
+- `gettingThere[1].summary` — Đi sông là một phần trải nghiệm đồng bằng. Tuyến có thể đổi; hỏi nhà vận hành trước khi đi.
+- `gettingThere[1].facts[0].label` — Cách đến
+- `gettingThere[1].facts[0].value` — Kết hợp chặng đường bộ và đường sông
 
 ## north-vietnam
 
@@ -557,6 +964,10 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `eat[1].summary` — Thịt nướng, cơm, và món chợ nấu sáng hôm đó.
 - `eat[1].facts[0].label` — Ở đâu
 - `eat[1].facts[0].value` — Sa Pa, Bắc Hà, Hà Giang
+- `eat[2].title` — Xôi & món nướng
+- `eat[2].summary` — Đồ ăn vùng cao giản dị: xôi, thịt nướng và rau thơm. Chợ làm gì thì gọi đó.
+- `eat[2].facts[0].label` — Hợp với
+- `eat[2].facts[0].value` — Bữa trưa ở chợ
 - `stayIntro` — Ngủ gần thứ bạn đến để thấy. Khoảng cách là thật.
 - `stay[0].title` — Phố Sa Pa hoặc một bản
 - `stay[0].summary` — Ở phố thì dễ. Ở bản thì yên, và phải đi bộ về.
@@ -566,6 +977,10 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `stay[1].summary` — Một đêm trên thuyền, hoặc phòng ở Cát Bà. Không phải cùng một chuyến.
 - `stay[1].facts[0].label` — Lưu ý
 - `stay[1].facts[0].value` — Hỏi vé gồm những gì
+- `stay[2].title` — Thị trấn Hà Giang
+- `stay[2].summary` — Chỗ nghỉ thực tế trước đường núi. Đi sớm và hỏi đường tại chỗ.
+- `stay[2].facts[0].label` — Hợp với
+- `stay[2].facts[0].value` — Vòng miền Bắc thong thả
 - `gettingThere[0].title` — Từ Hà Nội
 - `gettingThere[0].summary` — Hầu hết chuyến miền Bắc bắt đầu ở đây. Xe khách, tàu, hoặc ô tô.
 - `gettingThere[0].facts[0].label` — Cách đến
@@ -613,11 +1028,23 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `eat[0].summary` — Phố nấu cho khách. Gọi cà ri cá Khmer nếu muốn món không phải Việt.
 - `eat[0].facts[0].label` — Ở đâu
 - `eat[0].facts[0].value` — Phố Siem Reap, sau khi về từ đền
+- `eat[1].title` — Amok cá
+- `eat[1].summary` — Một món kinh điển Campuchia đáng thử một lần. Dịu, thơm, và khác các bát mì Việt.
+- `eat[1].facts[0].label` — Hợp với
+- `eat[1].facts[0].value` — Bữa tối Khmer đầu tiên
+- `eat[2].title` — Đồ ăn chợ tối
+- `eat[2].summary` — Phố được làm cho việc đi bộ buổi tối. Thử nhiều món nhỏ thay vì một bữa lớn.
+- `eat[2].facts[0].label` — Khi nào
+- `eat[2].facts[0].value` — Sau một ngày ở đền
 - `stayIntro` — Ngủ ở Siem Reap. Đá thì mỗi sáng phải đi xe ra.
 - `stay[0].title` — Siem Reap
 - `stay[0].summary` — Phố của khách. Ở chỗ còn tìm được bữa sáng trước giờ đền mở.
 - `stay[0].facts[0].label` — Lưu ý
 - `stay[0].facts[0].value` — Tính tiền xe ra đền, mỗi ngày
+- `stay[1].title` — Khu phố trung tâm
+- `stay[1].summary` — Ở gần trung tâm buổi tối khi muốn ăn, uống cà phê và về giường bằng một chuyến xe ngắn.
+- `stay[1].facts[0].label` — Hợp với
+- `stay[1].facts[0].value` — Người đi lần đầu
 - `gettingThere[0].title` — Sang Campuchia
 - `gettingThere[0].summary` — Phần lớn khách đi từ Thành phố Hồ Chí Minh, bằng máy bay hoặc đường bộ. Đây là nước khác. Kiểm tra quy định nhập cảnh. Cẩm nang này không liệt kê visa hay phí.
 - `gettingThere[0].facts[0].label` — Lưu ý
@@ -671,6 +1098,14 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `eat[0].summary` — Cá và tôm cua dọc bờ. Thực đơn là bể kính.
 - `eat[0].facts[0].label` — Lưu ý
 - `eat[0].facts[0].value` — Hỏi giá một ký tại chỗ
+- `eat[1].title` — Bánh căn
+- `eat[1].summary` — Bánh gạo nhỏ nướng trong khuôn. Tìm một quán sáng hoặc hàng tối địa phương.
+- `eat[1].facts[0].label` — Hợp với
+- `eat[1].facts[0].value` — Một bữa nhỏ
+- `eat[2].title` — Trái cây & đồ uống đá
+- `eat[2].summary` — Ngày biển nóng hợp với trái cây, đá và chiếc ghế nhựa có bóng râm.
+- `eat[2].facts[0].label` — Ở đâu
+- `eat[2].facts[0].value` — Phố chợ và khu gần biển
 - `stayIntro` — Đường biển thì dài. Ở gần đoạn bạn sẽ đi bộ.
 - `stay[0].title` — Biển Nha Trang
 - `stay[0].summary` — Dải giữa thì đi bộ được và ồn. Bắc và nam thì yên hơn.
@@ -680,10 +1115,18 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `stay[1].summary` — Khu nghỉ nằm dọc một đường. Bạn sẽ cần xe.
 - `stay[1].facts[0].label` — Hợp với
 - `stay[1].facts[0].value` — Đồi cát buổi sáng
+- `stay[2].title` — Quy Nhơn
+- `stay[2].summary` — Điểm nghỉ biển yên hơn cho vài ngày. Chọn theo đoạn bờ bạn muốn khám phá.
+- `stay[2].facts[0].label` — Hợp với
+- `stay[2].facts[0].value` — Một chặng biển thong thả
 - `gettingThere[0].title` — Bay vào
 - `gettingThere[0].summary` — Cam Ranh phục vụ Nha Trang. Phố khác thì xe khách hoặc xe dọc biển.
 - `gettingThere[0].facts[0].label` — Lưu ý
 - `gettingThere[0].facts[0].value` — Hỏi xe trước khi hạ cánh
+- `gettingThere[1].title` — Đi đường bộ dọc bờ biển
+- `gettingThere[1].summary` — Xe khách và ô tô nối các phố biển. Xem chuyến tiếp theo trước khi rời chỗ ở.
+- `gettingThere[1].facts[0].label` — Cách đến
+- `gettingThere[1].facts[0].value` — Chia bờ biển thành từng chặng
 
 ## Photo alt text
 
@@ -691,30 +1134,30 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `banteay` — Đá chạm ở Banteay Srei.
 - `bayon` — Mặt đá ở Bayon.
 - `ben-thanh` — Chợ Bến Thành ở Thành phố Hồ Chí Minh.
-- `bentre` — Ghe trên sông ở Bến Tre.
+- `bentre` — Thuyền nhỏ trên con rạch xanh ở Bến Tre.
 - `cairang` — Ghe ở chợ nổi gần Cần Thơ.
 - `cathedral` — Hai tháp đá của Nhà thờ Lớn Hà Nội.
 - `cattien` — Rừng ở Vườn quốc gia Cát Tiên.
-- `chaudoc` — Đồng bằng nhìn từ núi Sam, Châu Đốc.
-- `cuchi` — Một hiện vật ở địa đạo Củ Chi.
+- `chaudoc` — Cổng cổ giữa cây xanh ở Châu Đốc.
+- `cuchi` — Lối vào địa đạo Củ Chi gần Thành phố Hồ Chí Minh.
 - `dalat-falls` — Thác Pongour, gần Đà Lạt.
 - `danang` — Ngũ Hành Sơn gần Đà Nẵng.
 - `egg-coffee` — Ly cà phê trứng cạnh một chiếc bánh sừng bò.
 - `flag-tower` — Cột cờ Hà Nội và cờ Tổ quốc.
-- `french` — Ngã tư rộng ở Hà Nội, nhà cũ hai bên.
-- `hagiang` — Đường qua đèo Mã Pí Lèng, Hà Giang.
-- `haivan` — Bờ biển nhìn từ đèo Hải Vân.
+- `french` — Kiến trúc thời thuộc địa ở khu phố Pháp Hà Nội.
+- `hagiang` — Phong cảnh núi non ở Hà Giang.
+- `haivan` — Cảnh quan đèo Hải Vân.
 - `halong` — Thuyền dưới tháp đá vôi ở vịnh Hạ Long.
 - `halong-air` — Vịnh Hạ Long nhìn từ trên cao.
-- `hoan-kiem` — Lối đi rợp bóng bên Hồ Hoàn Kiếm, Hà Nội.
+- `hoan-kiem` — Tháp Rùa giữa Hồ Hoàn Kiếm ở Hà Nội.
 - `hoian` — Sông chảy qua phố cổ Hội An.
 - `hon-chong` — Đá Hòn Chồng, Nha Trang.
 - `jade` — Cổng chùa Ngọc Hoàng.
 - `japan-bridge` — Chùa Cầu ở Hội An.
-- `khai-dinh` — Tượng quan ở lăng Khải Định.
+- `khai-dinh` — Lối vào lăng Khải Định gần Huế.
 - `kontum` — Nhà thờ gỗ ở Kon Tum.
 - `long-bien` — Thép gỉ của cầu Long Biên trên đường ray.
-- `muine` — Đồi cát ở Mũi Né.
+- `muine` — Thuyền đánh cá và hàng dừa trên bờ biển Mũi Né.
 - `ninhbinh` — Thuyền giữa núi đá ở Ninh Bình.
 - `one-pillar` — Chùa Một Cột trên hồ nước nhỏ.
 - `opera` — Nhà hát Lớn Hà Nội, nhà hát thời Pháp màu nhạt.
@@ -731,3 +1174,20 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `vungtau` — Bãi biển Vũng Tàu.
 - `war-remnants` — Bảo tàng Chứng tích Chiến tranh
 - `xuanhuong` — Hồ Xuân Hương ở Đà Lạt.
+- `catba` — Bãi biển và vách đá xanh trên đảo Cát Bà.
+- `maichau` — Thêu H'Mông truyền thống ở Mai Châu.
+- `hue` — Kiến trúc Đại Nội ở Huế.
+- `quynhon` — Bãi biển yên ở Quy Nhơn.
+- `bmt-coffee` — Quả cà phê ở Buôn Ma Thuột.
+- `saigon-cathedral` — Nhà thờ Đức Bà Sài Gòn.
+- `palace` — Dinh Độc Lập ở Thành phố Hồ Chí Minh.
+- `cholon` — Phố đô thị nhộn nhịp ở Thành phố Hồ Chí Minh, dùng làm ảnh minh họa bối cảnh Chợ Lớn.
+- `cantho` — Chợ nổi Cái Răng ở Cần Thơ.
+- `hatien` — Thuyền đánh cá ngoài khơi Hà Tiên.
+- `condao` — Đường ven biển trên đảo Côn Đảo.
+- `angkorwat` — Quần thể đền Angkor Wat ở Campuchia.
+- `pho-bowl` — Bát phở Việt Nam với rau thơm.
+- `vietnam-coffee` — Cà phê Việt Nam với sữa đặc.
+- `banhmi` — Bánh mì Việt Nam.
+- `hoian-food` — Quầy thức ăn đường phố ở Hội An.
+- `seafood-nhatrang` — Hải sản Việt Nam tươi ở Nha Trang.
