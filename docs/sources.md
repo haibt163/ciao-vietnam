@@ -65,3 +65,15 @@ These card titles are on the pages, but they were not found as guidebook text. T
 - Reaching Dalat
 - Sapa town or a village
 - Mui Ne strip
+
+
+## Part B content mapping
+
+The Part B pages use original keyword-style writing. Regional themes are mapped to the same Lonely Planet (16th edition) and DK chapter placements already recorded above; no guidebook sentences are copied. Practical items that can change are intentionally generic and say to verify locally or before travel.
+
+- Plan: routes are assembled from the existing regional chapters; they are original sequencing choices, not copied itineraries.
+- Eat: food themes follow the existing Hanoi, Northern Vietnam, Central Vietnam, Southeast Coast, Central Highlands, Ho Chi Minh City and Mekong Delta chapter map.
+- Essentials: general travel habits only. Entry, currency, health and other changing rules are not stated as fixed facts.
+- Outdoors: karst, mountains, caves, coast, highlands, delta and islands use the same regional chapter map.
+- History: broad keyword timeline only; place links point to existing region pages. No precise dates are introduced in this round.
+- Angkor is retained as the separate Cambodia add-on described above.
