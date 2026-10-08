@@ -274,7 +274,7 @@
           }
         }
       ],
-      "image": "pho-bowl"
+      "image": "pho-hanoi"
     },
     {
       "id": "hill-grill",
@@ -298,7 +298,7 @@
           }
         }
       ],
-      "image": "maichau"
+      "image": "night-food-market"
     },
     {
       "id": "sticky-rice",
@@ -310,7 +310,7 @@
         "en": "Simple mountain food: sticky rice, grilled meat and herbs. Order what the market is making.",
         "vi": "Đồ ăn vùng cao giản dị: xôi, thịt nướng và rau thơm. Chợ làm gì thì gọi đó."
       },
-      "image": "maichau",
+      "image": "night-food-market",
       "facts": [
         {
           "label": {
@@ -388,7 +388,7 @@
         "en": "A practical base before the mountain roads. Start early and ask locally about the route.",
         "vi": "Chỗ nghỉ thực tế trước đường núi. Đi sớm và hỏi đường tại chỗ."
       },
-      "image": "hagiang",
+      "image": "hagian-road",
       "facts": [
         {
           "label": {
@@ -426,7 +426,7 @@
           }
         }
       ],
-      "image": "hoan-kiem"
+      "image": "hanoi-old-quarter"
     },
     {
       "id": "lao-cai",
@@ -450,7 +450,7 @@
           }
         }
       ],
-      "image": "sapa"
+      "image": "hanoi-train"
     }
   ]
 }
