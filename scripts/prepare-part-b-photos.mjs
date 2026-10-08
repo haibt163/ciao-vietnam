@@ -22,7 +22,6 @@ const sources = [
   { id:"vietnam-coffee", url:"https://images.pexels.com/photos/16496241/pexels-photo-16496241.jpeg", kind:"pexels" },
   { id:"banhmi", url:"https://images.pexels.com/photos/32961649/pexels-photo-32961649.jpeg", kind:"pexels" },
   { id:"hoian-food", url:"https://images.pexels.com/photos/29374692/pexels-photo-29374692.jpeg", kind:"pexels" },
-  { id:"bun-bo", url:"https://images.pexels.com/photos/2591594/pexels-photo-2591594.jpeg", kind:"pexels" },
   { id:"seafood-nhatrang", url:"https://images.pexels.com/photos/31302693/pexels-photo-31302693.jpeg", kind:"pexels" }
 ];
 
