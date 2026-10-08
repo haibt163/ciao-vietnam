@@ -1,0 +1,91 @@
+name: Prepare Part B photos and verify
+
+on:
+  push:
+    branches: [part-b-content-photos]
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Part B photo variants
+        run: node scripts/prepare-part-b-photos.mjs
+
+      - name: Verify every regional card has a photo
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import path from 'node:path';
+          const root=process.cwd();
+          const images=JSON.parse(fs.readFileSync('content/images.json','utf8'));
+          const names=fs.readdirSync('content/regions').filter(n=>n.endsWith('.json'));
+          const missing=[];
+          for(const name of names){
+            const data=JSON.parse(fs.readFileSync(path.join('content/regions',name),'utf8'));
+            for(const section of ['sights','eat','stay','gettingThere']){
+              for(const card of data[section]||[]){
+                if(!card.image || !images[card.image]) missing.push(`${name}:${section}:${card.id}`);
+                if(card.gap) missing.push(`${name}:${section}:${card.id}:gap`);
+              }
+            }
+          }
+          if(missing.length) throw new Error('Photo coverage gaps: '+missing.join(', '));
+          console.log('All regional cards have image metadata.');
+          NODE
+
+      - name: Regenerate Vietnamese review
+        run: node scripts/vi-review.mjs
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Production build
+        run: npm run build
+
+      - name: Basic server-rendered smoke test
+        shell: bash
+        run: |
+          (npm start > /tmp/ciao-start.log 2>&1 & echo $! > /tmp/ciao-pid)
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:3000/plan >/tmp/plan.html; then break; fi
+            sleep 1
+          done
+          grep -q "North → lanterns" /tmp/plan.html
+          curl -fsS http://127.0.0.1:3000/eat >/tmp/eat.html
+          grep -q "Food Scene" /tmp/eat.html
+          curl -fsS http://127.0.0.1:3000/essentials >/tmp/essentials.html
+          grep -q "Phrasebook" /tmp/essentials.html
+          curl -fsS http://127.0.0.1:3000/regions/hanoi >/tmp/hanoi.html
+          grep -q "Old Quarter" /tmp/hanoi.html
+          kill $(cat /tmp/ciao-pid) || true
+
+      - name: Remove temporary preparation tooling
+        run: git rm scripts/prepare-part-b-photos.mjs .github/workflows/prepare-part-b-photos.yml
+
+      - name: Commit generated assets and verification outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --check
+          git status --short
+          git commit -m "feat: add Part B photo set and generated docs [skip ci]"
+          git push origin HEAD:part-b-content-photos
