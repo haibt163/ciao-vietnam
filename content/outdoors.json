@@ -26,7 +26,18 @@
             "vi": "Chọn kiểu ngày này khi chính cảnh quan là hoạt động: mặt nước, vách đá vôi và nhịp di chuyển chậm."
           },
           "image": "catba-cruise",
-          "facts": [],
+          "facts": [
+            {
+              "label": {
+                "en": "Good for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Landscape-first trips",
+                "vi": "Chuyến đi vì cảnh quan"
+              }
+            }
+          ],
           "links": [
             {
               "label": {
@@ -47,7 +58,18 @@
             "en": "High passes and remote valleys reward travellers who can give one route a full day instead of squeezing it between transfers.",
             "vi": "Đèo cao và thung lũng xa hợp với người dành trọn một ngày cho cung đường thay vì chen giữa các chặng di chuyển."
           },
-          "facts": [],
+          "facts": [
+            {
+              "label": {
+                "en": "Good for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Slow road trips",
+                "vi": "Chuyến đường chậm"
+              }
+            }
+          ],
           "links": [
             {
               "label": {
@@ -68,7 +90,18 @@
             "en": "Cave trips are their own kind of outing: boats, darkness, uneven ground and time away from the city.",
             "vi": "Đi hang là một kiểu trải nghiệm riêng: thuyền, bóng tối, địa hình gồ ghề và thời gian rời khỏi phố."
           },
-          "facts": [],
+          "facts": [
+            {
+              "label": {
+                "en": "Good for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Active mornings",
+                "vi": "Buổi sáng vận động"
+              }
+            }
+          ],
           "links": [
             {
               "label": {
@@ -89,7 +122,18 @@
             "en": "A coastal route works best when you leave room for viewpoints, weather and an unplanned stop.",
             "vi": "Cung đường ven biển hợp nhất khi bạn chừa chỗ cho điểm ngắm, thời tiết và một lần dừng bất chợt."
           },
-          "facts": [],
+          "facts": [
+            {
+              "label": {
+                "en": "Good for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Flexible itineraries",
+                "vi": "Lịch trình linh hoạt"
+              }
+            }
+          ],
           "links": [
             {
               "label": {
@@ -117,7 +161,18 @@
             "en": "Highland towns change the pace: cooler mornings, short walks, farms and longer gaps between sights.",
             "vi": "Thành phố cao nguyên đổi nhịp chuyến đi: sáng mát, quãng đi bộ ngắn, nông trại và khoảng cách dài hơn giữa các điểm."
           },
-          "facts": [],
+          "facts": [
+            {
+              "label": {
+                "en": "Good for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Cooler mornings",
+                "vi": "Buổi sáng mát hơn"
+              }
+            }
+          ],
           "links": [
             {
               "label": {
@@ -138,7 +193,18 @@
             "en": "The Mekong is less about ticking off sights and more about canals, boats, markets and early mornings.",
             "vi": "Đồng bằng không phải để chạy hết điểm; hãy dành thời gian cho kênh, ghe, chợ và buổi sáng sớm."
           },
-          "facts": [],
+          "facts": [
+            {
+              "label": {
+                "en": "Good for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Unhurried travel",
+                "vi": "Đi chậm"
+              }
+            }
+          ],
           "links": [
             {
               "label": {
@@ -159,7 +225,18 @@
             "en": "Island trips work when you mix one active outing with stretches of water, shade and empty time.",
             "vi": "Chuyến đi đảo hợp khi xen một hoạt động chính với những khoảng biển, bóng râm và thời gian trống."
           },
-          "facts": [],
+          "facts": [
+            {
+              "label": {
+                "en": "Good for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Active + idle",
+                "vi": "Vận động + nghỉ"
+              }
+            }
+          ],
           "links": [
             {
               "label": {
@@ -181,7 +258,18 @@
             "vi": "Tìm sự kết hợp giữa vách đá, vịnh nhỏ, đời sống làng chài và chuyến thuyền ngắn thay vì lịch kín."
           },
           "image": "catba-fishing-village",
-          "facts": [],
+          "facts": [
+            {
+              "label": {
+                "en": "Good for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Mixed-age days",
+                "vi": "Ngày hợp nhiều lứa tuổi"
+              }
+            }
+          ],
           "links": [
             {
               "label": {
