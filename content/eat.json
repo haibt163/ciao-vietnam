@@ -142,7 +142,6 @@
             "en": "A spicy Central bowl with herbs and depth.",
             "vi": "Một bát miền Trung cay với rau thơm và vị đậm."
           },
-          "image": "bun-bo-context",
           "facts": [
             {
               "label": {
@@ -163,7 +162,8 @@
               },
               "href": "/regions/central-vietnam"
             }
-          ]
+          ],
+          "gap": true
         },
         {
           "id": "eat-cao-lau",
