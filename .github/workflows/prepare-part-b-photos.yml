@@ -65,27 +65,22 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          (npm start > /tmp/ciao-start.log 2>&1 & echo $! > /tmp/ciao-pid)
-          ready=false
-          for i in {1..45}; do
-            if curl -fsS --max-time 2 http://127.0.0.1:3000/plan >/tmp/plan.html; then
-              ready=true
-              break
-            fi
-            sleep 1
-          done
-          if [ "$ready" != "true" ]; then
+          npm start > /tmp/ciao-start.log 2>&1 &
+          server_pid=$!
+          sleep 8
+          if ! curl -fsS --max-time 10 http://127.0.0.1:3000/plan >/tmp/plan.html; then
             cat /tmp/ciao-start.log
+            kill "$server_pid" || true
             exit 1
           fi
           grep -q "North → lanterns" /tmp/plan.html
-          curl -fsS --max-time 5 http://127.0.0.1:3000/eat >/tmp/eat.html
+          curl -fsS --max-time 10 http://127.0.0.1:3000/eat >/tmp/eat.html
           grep -q "Food Scene" /tmp/eat.html
-          curl -fsS --max-time 5 http://127.0.0.1:3000/essentials >/tmp/essentials.html
+          curl -fsS --max-time 10 http://127.0.0.1:3000/essentials >/tmp/essentials.html
           grep -q "Phrasebook" /tmp/essentials.html
-          curl -fsS --max-time 5 http://127.0.0.1:3000/regions/hanoi >/tmp/hanoi.html
+          curl -fsS --max-time 10 http://127.0.0.1:3000/regions/hanoi >/tmp/hanoi.html
           grep -q "Old Quarter" /tmp/hanoi.html
-          kill $(cat /tmp/ciao-pid) || true
+          kill "$server_pid" || true
 
       - name: Remove temporary preparation tooling
         run: git rm scripts/prepare-part-b-photos.mjs .github/workflows/prepare-part-b-photos.yml
