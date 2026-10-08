@@ -6,24 +6,24 @@ const root = process.cwd();
 const imagesPath = path.join(root, "content", "images.json");
 
 const sources = [
-  { id:"catba", url:"https://www.pexels.com/photo/small-sandy-beach-with-people-in-narrow-rocky-tree-bay-in-cat-ba-in-vietnam-24701013/", kind:"pexels" },
-  { id:"maichau", url:"https://www.pexels.com/fr-fr/photo/broderie-traditionnelle-hmong-a-mai-chau-vietnam-39998012/", kind:"pexels" },
-  { id:"hue", url:"https://www.pexels.com/photo/majestic-hue-imperial-city-architecture-in-vietnam-33551604/", kind:"pexels" },
-  { id:"quynhon", url:"https://www.pexels.com/photo/serene-beach-view-at-quy-nhon-vietnam-37920556/", kind:"pexels" },
-  { id:"bmt-coffee", url:"https://www.pexels.com/photo/l-h-i-ca-phe-buon-ma-thu-t-2023-27777798/", kind:"pexels" },
+  { id:"catba", url:"https://images.pexels.com/photos/24701013/pexels-photo-24701013.jpeg", kind:"pexels" },
+  { id:"maichau", url:"https://images.pexels.com/photos/39998012/pexels-photo-39998012.jpeg", kind:"pexels" },
+  { id:"hue", url:"https://images.pexels.com/photos/33551604/pexels-photo-33551604.jpeg", kind:"pexels" },
+  { id:"quynhon", url:"https://images.pexels.com/photos/37920556/pexels-photo-37920556.jpeg", kind:"pexels" },
+  { id:"bmt-coffee", url:"https://images.pexels.com/photos/27777798/pexels-photo-27777798.jpeg", kind:"pexels" },
   { id:"saigon-cathedral", url:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Saigon_Notre-Dame_Cathedral.jpg", kind:"commons" },
-  { id:"palace", url:"https://www.pexels.com/photo/reunification-palace-in-ho-chi-minh-city-vietnam-37336177/", kind:"pexels" },
+  { id:"palace", url:"https://images.pexels.com/photos/37336177/pexels-photo-37336177.jpeg", kind:"pexels" },
   { id:"cholon", url:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Cholon%2C_Ho_Chi_Minh_City_%2849057490021%29.png", kind:"commons" },
-  { id:"cantho", url:"https://www.pexels.com/photo/c-i-r-ng-floating-market-aerial-view-in-c-n-th-32607908/", kind:"pexels" },
-  { id:"hatien", url:"https://www.pexels.com/pt-br/foto/vista-panoramica-de-um-barco-de-pesca-no-oceano-com-uma-encosta-ao-fundo-38960936/", kind:"pexels" },
-  { id:"condao", url:"https://www.pexels.com/photo/man-with-a-motorcycle-and-a-herd-of-cattle-on-a-seashore-road-con-dao-island-vietnam-17581863/", kind:"pexels" },
-  { id:"angkorwat", url:"https://www.pexels.com/photo/angkor-wat-temple-complex-in-cambodia-37251675/", kind:"pexels" },
-  { id:"pho-bowl", url:"https://www.pexels.com/photo/cooked-food-in-the-bowl-6646022/", kind:"pexels" },
-  { id:"vietnam-coffee", url:"https://www.pexels.com/photo/vietnamese-coffee-with-condensed-milk-16496241/", kind:"pexels" },
-  { id:"banhmi", url:"https://www.pexels.com/photo/vietnamese-banh-mi-sandwich-on-newspaper-32961649/", kind:"pexels" },
-  { id:"hoian-food", url:"https://www.pexels.com/photo/street-food-vendor-in-h-i-an-vietnam-29374692/", kind:"pexels" },
-  { id:"bun-bo", url:"https://www.pexels.com/photo/top-view-photo-of-ramen-soup-2591594/", kind:"pexels" },
-  { id:"seafood-nhatrang", url:"https://www.pexels.com/photo/delicious-vietnamese-seafood-dish-on-ice-31302693/", kind:"pexels" }
+  { id:"cantho", url:"https://images.pexels.com/photos/32607908/pexels-photo-32607908.jpeg", kind:"pexels" },
+  { id:"hatien", url:"https://images.pexels.com/photos/38960936/pexels-photo-38960936.jpeg", kind:"pexels" },
+  { id:"condao", url:"https://images.pexels.com/photos/17581863/pexels-photo-17581863.jpeg", kind:"pexels" },
+  { id:"angkorwat", url:"https://images.pexels.com/photos/37251675/pexels-photo-37251675.jpeg", kind:"pexels" },
+  { id:"pho-bowl", url:"https://images.pexels.com/photos/6646022/pexels-photo-6646022.jpeg", kind:"pexels" },
+  { id:"vietnam-coffee", url:"https://images.pexels.com/photos/16496241/pexels-photo-16496241.jpeg", kind:"pexels" },
+  { id:"banhmi", url:"https://images.pexels.com/photos/32961649/pexels-photo-32961649.jpeg", kind:"pexels" },
+  { id:"hoian-food", url:"https://images.pexels.com/photos/29374692/pexels-photo-29374692.jpeg", kind:"pexels" },
+  { id:"bun-bo", url:"https://images.pexels.com/photos/2591594/pexels-photo-2591594.jpeg", kind:"pexels" },
+  { id:"seafood-nhatrang", url:"https://images.pexels.com/photos/31302693/pexels-photo-31302693.jpeg", kind:"pexels" }
 ];
 
 const headers = { "user-agent":"ciao-vietnam-photo-prep/1.0" };
@@ -34,27 +34,13 @@ async function fetchBuffer(url) {
   return Buffer.from(await res.arrayBuffer());
 }
 
-function ogImage(html) {
-  const patterns = [
-    /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
-    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i
-  ];
-  for (const re of patterns) {
-    const match = html.match(re);
-    if (match && match[1]) return match[1].replaceAll("&amp;", "&");
-  }
-  throw new Error("Pexels page did not expose an og:image URL");
-}
-
 const images = JSON.parse(await fs.readFile(imagesPath, "utf8"));
 const generated = [];
 
 for (const source of sources) {
   let original;
   if (source.kind === "pexels") {
-    const pageRes = await fetch(source.url, { headers, redirect:"follow" });
-    if (!pageRes.ok) throw new Error("Pexels page HTTP " + pageRes.status + ": " + source.url);
-    original = await fetchBuffer(ogImage(await pageRes.text()));
+    original = await fetchBuffer(source.url);
   } else {
     original = await fetchBuffer(source.url);
   }
