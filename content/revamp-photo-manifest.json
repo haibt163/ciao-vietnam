@@ -322,5 +322,14 @@
       "vi": "Hồ và đồi Đà Lạt trong giờ vàng."
     },
     "source": "https://www.pexels.com/photo/young-woman-capturing-golden-hour-in-dalat-36630524/"
+  },
+  "_buildPolicy": {
+    "minLongEdge": 2400,
+    "widths": [
+      640,
+      960
+    ],
+    "quality": 82,
+    "noUpscale": true
   }
 }
