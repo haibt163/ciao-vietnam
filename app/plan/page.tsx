@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { SoonBlock } from "@/components/cards";
-import { ui } from "@/lib/content";
+import { GuideView } from "@/components/guide-view";
+import data from "@/content/plan.json";
+import type { GuideContent } from "@/content/types";
 
 export const metadata: Metadata = { title: "Plan" };
 
 export default function PlanPage() {
-  return <SoonBlock title={ui.plan} />;
+  return <GuideView content={data as GuideContent} />;
 }

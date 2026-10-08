@@ -137,7 +137,8 @@
             "vi": "Phía bắc hồ, đi bộ"
           }
         }
-      ]
+      ],
+      "image": "hoan-kiem"
     },
     {
       "id": "temple",
@@ -268,7 +269,8 @@
             "vi": "Cùng khu với Chùa Một Cột"
           }
         }
-      ]
+      ],
+      "image": "one-pillar"
     },
     {
       "id": "opera",
@@ -487,7 +489,8 @@
             "vi": "Đi xe. Đừng đi bộ hết một vòng hồ."
           }
         }
-      ]
+      ],
+      "image": "tran-quoc"
     },
     {
       "id": "flag-tower",
@@ -614,7 +617,8 @@
             "vi": "Sớm. Nhiều nồi hết trước mười giờ."
           }
         }
-      ]
+      ],
+      "image": "pho-hanoi"
     },
     {
       "id": "bun-cha",
@@ -647,7 +651,8 @@
             "vi": "Cuối sáng đến giữa chiều"
           }
         }
-      ]
+      ],
+      "image": "bun-cha-food"
     },
     {
       "id": "egg-coffee",
@@ -714,7 +719,8 @@
             "vi": "Sau năm giờ, khi ghế được bày ra"
           }
         }
-      ]
+      ],
+      "image": "bia-hanoi"
     }
   ],
   "stayIntro": {
@@ -753,7 +759,8 @@
             "vi": "Xin phòng không nhìn ra mặt phố"
           }
         }
-      ]
+      ],
+      "image": "hanoi-old-quarter"
     },
     {
       "id": "stay-french",
@@ -820,7 +827,8 @@
             "vi": "Tính tiền xe vào kế hoạch"
           }
         }
-      ]
+      ],
+      "image": "tran-quoc"
     }
   ],
   "gettingThere": [
@@ -855,7 +863,8 @@
             "vi": "Hỏi giá tại chỗ trước khi đi"
           }
         }
-      ]
+      ],
+      "image": "airport-hanoi"
     },
     {
       "id": "train",
@@ -888,7 +897,8 @@
             "vi": "Tàu đêm từ Huế hoặc miền Nam"
           }
         }
-      ]
+      ],
+      "image": "hanoi-train"
     },
     {
       "id": "in-town",
@@ -921,7 +931,8 @@
             "vi": "Chốt giá, hoặc bật đồng hồ"
           }
         }
-      ]
+      ],
+      "image": "hanoi-street-food"
     }
   ]
 }

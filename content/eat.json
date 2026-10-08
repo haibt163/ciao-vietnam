@@ -1,0 +1,530 @@
+{
+  "title": {
+    "en": "Eat",
+    "vi": "Ăn uống"
+  },
+  "lede": {
+    "en": "Start with the dish, then notice where it changes.",
+    "vi": "Bắt đầu từ món ăn, rồi để ý cách món đó thay đổi theo từng nơi."
+  },
+  "sections": [
+    {
+      "id": "food-scene",
+      "title": {
+        "en": "Food Scene",
+        "vi": "Chuyện ăn uống"
+      },
+      "intro": {
+        "en": "Noodles, rice, bread, herbs and fire change character from north to south.",
+        "vi": "Mì, cơm, bánh mì, rau thơm và lửa đổi tính theo từng miền."
+      },
+      "cards": [
+        {
+          "id": "eat-pho",
+          "title": {
+            "en": "Pho, north style",
+            "vi": "Phở kiểu Bắc"
+          },
+          "summary": {
+            "en": "Clear broth, flat rice noodles and herbs; a morning bowl most at home in the north.",
+            "vi": "Nước dùng trong, bánh phở và rau thơm; món buổi sáng đặc trưng của miền Bắc."
+          },
+          "image": "pho-hanoi",
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Breakfast",
+                "vi": "Bữa sáng"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Hanoi",
+                "vi": "Hà Nội"
+              },
+              "href": "/regions/hanoi"
+            },
+            {
+              "label": {
+                "en": "North Vietnam",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            }
+          ]
+        },
+        {
+          "id": "eat-bun-cha",
+          "title": {
+            "en": "Bun cha",
+            "vi": "Bún chả"
+          },
+          "summary": {
+            "en": "Grilled pork, noodles and dipping sauce: a Hanoi classic.",
+            "vi": "Thịt nướng, bún và nước chấm: món quen của Hà Nội."
+          },
+          "image": "bun-cha-food",
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "A slow lunch",
+                "vi": "Bữa trưa thong thả"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Hanoi",
+                "vi": "Hà Nội"
+              },
+              "href": "/regions/hanoi"
+            }
+          ]
+        },
+        {
+          "id": "eat-banh-mi",
+          "title": {
+            "en": "Banh mi",
+            "vi": "Bánh mì"
+          },
+          "summary": {
+            "en": "Crisp bread, pickles and savoury fillings make an easy stop.",
+            "vi": "Bánh giòn, đồ chua và nhân mặn cho một điểm ăn nhanh."
+          },
+          "image": "banh-mi-food",
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "A fast meal",
+                "vi": "Một bữa nhanh"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Hanoi",
+                "vi": "Hà Nội"
+              },
+              "href": "/regions/hanoi"
+            },
+            {
+              "label": {
+                "en": "Ho Chi Minh City",
+                "vi": "Thành phố Hồ Chí Minh"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "id": "eat-bun-bo",
+          "title": {
+            "en": "Bun bo Hue",
+            "vi": "Bún bò Huế"
+          },
+          "summary": {
+            "en": "A spicy Central bowl with herbs and depth.",
+            "vi": "Một bát miền Trung cay với rau thơm và vị đậm."
+          },
+          "image": "bun-bo-context",
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "A bolder noodle lunch",
+                "vi": "Bữa mì đậm hơn"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Central Vietnam",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            }
+          ]
+        },
+        {
+          "id": "eat-cao-lau",
+          "title": {
+            "en": "Cao lau in Hoi An",
+            "vi": "Cao lầu ở Hội An"
+          },
+          "summary": {
+            "en": "Hoi An noodles with a distinct local style.",
+            "vi": "Mì Hội An với phong cách địa phương rất riêng."
+          },
+          "image": "hoi-an-food-stall",
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "A Hoi An food walk",
+                "vi": "Đi ăn ở Hội An"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Central Vietnam",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            }
+          ]
+        },
+        {
+          "id": "eat-com-tam",
+          "title": {
+            "en": "Com tam in Saigon",
+            "vi": "Cơm tấm ở Sài Gòn"
+          },
+          "summary": {
+            "en": "Broken rice, grilled pork and the sweet-salty southern table.",
+            "vi": "Cơm tấm, thịt nướng và vị ngọt mặn của bàn ăn miền Nam."
+          },
+          "image": "vietnamese-food-stall",
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "A city lunch",
+                "vi": "Bữa trưa trong phố"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Ho Chi Minh City",
+                "vi": "Thành phố Hồ Chí Minh"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "id": "eat-seafood",
+          "title": {
+            "en": "Coastal seafood",
+            "vi": "Hải sản ven biển"
+          },
+          "summary": {
+            "en": "Fish, squid and shellfish move quickly from coast to table.",
+            "vi": "Cá, mực và hải sản đi nhanh từ biển lên bàn."
+          },
+          "image": "seafood-nhatrang",
+          "facts": [
+            {
+              "label": {
+                "en": "Watch",
+                "vi": "Lưu ý"
+              },
+              "value": {
+                "en": "Ask the price before ordering",
+                "vi": "Hỏi giá trước khi gọi"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Southeast Coast",
+                "vi": "Duyên hải"
+              },
+              "href": "/regions/southeast-coast"
+            }
+          ]
+        },
+        {
+          "id": "eat-fruit",
+          "title": {
+            "en": "River-market fruit",
+            "vi": "Trái cây chợ sông"
+          },
+          "summary": {
+            "en": "Coconut, mango, pomelo and more appear in markets and boats.",
+            "vi": "Dừa, xoài, bưởi và nhiều loại khác xuất hiện ở chợ và ghe."
+          },
+          "image": "banana-boat",
+          "facts": [
+            {
+              "label": {
+                "en": "Where",
+                "vi": "Ở đâu"
+              },
+              "value": {
+                "en": "Mekong Delta",
+                "vi": "Đồng bằng sông Cửu Long"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Mekong Delta",
+                "vi": "Đồng bằng sông Cửu Long"
+              },
+              "href": "/regions/mekong-delta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drink-night",
+      "title": {
+        "en": "Food, drink & nightlife",
+        "vi": "Ăn, uống & buổi tối"
+      },
+      "cards": [
+        {
+          "id": "eat-bia-hoi",
+          "title": {
+            "en": "Bia hoi",
+            "vi": "Bia hơi"
+          },
+          "summary": {
+            "en": "Fresh, light beer with low stools and street noise.",
+            "vi": "Bia nhẹ, ghế thấp và tiếng phố."
+          },
+          "image": "bia-hanoi",
+          "facts": [
+            {
+              "label": {
+                "en": "When",
+                "vi": "Khi nào"
+              },
+              "value": {
+                "en": "Evening",
+                "vi": "Buổi tối"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Hanoi",
+                "vi": "Hà Nội"
+              },
+              "href": "/regions/hanoi"
+            }
+          ]
+        },
+        {
+          "id": "eat-iced-coffee",
+          "title": {
+            "en": "Iced coffee",
+            "vi": "Cà phê đá"
+          },
+          "summary": {
+            "en": "Strong coffee, condensed milk and ice: a southern pause.",
+            "vi": "Cà phê đậm, sữa đặc và đá: một quãng nghỉ miền Nam."
+          },
+          "image": "coffee-setup-hanoi",
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "A hot afternoon",
+                "vi": "Buổi chiều nóng"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Ho Chi Minh City",
+                "vi": "Thành phố Hồ Chí Minh"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "id": "eat-night-markets",
+          "title": {
+            "en": "Night markets",
+            "vi": "Chợ đêm"
+          },
+          "summary": {
+            "en": "Snack-sized eating works well when you want to keep moving.",
+            "vi": "Món nhỏ hợp khi bạn vẫn muốn đi tiếp."
+          },
+          "image": "night-market-vietnam",
+          "facts": [
+            {
+              "label": {
+                "en": "Watch",
+                "vi": "Lưu ý"
+              },
+              "value": {
+                "en": "Crowds change by place and day",
+                "vi": "Đông người thay đổi theo nơi và ngày"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Hanoi",
+                "vi": "Hà Nội"
+              },
+              "href": "/regions/hanoi"
+            },
+            {
+              "label": {
+                "en": "Siem Reap",
+                "vi": "Siem Reap"
+              },
+              "href": "/regions/siem-reap-angkor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "title": {
+        "en": "Coffee culture",
+        "vi": "Văn hóa cà phê"
+      },
+      "intro": {
+        "en": "Phin, condensed milk, egg foam and highland beans give the map its own vocabulary.",
+        "vi": "Phin, sữa đặc, kem trứng và hạt cao nguyên tạo nên một từ điển riêng."
+      },
+      "cards": [
+        {
+          "id": "coffee-phin",
+          "title": {
+            "en": "Phin coffee",
+            "vi": "Cà phê phin"
+          },
+          "summary": {
+            "en": "A small metal filter that rewards sitting down.",
+            "vi": "Bộ lọc kim loại nhỏ, hợp với việc ngồi lại."
+          },
+          "image": "phin-coffee",
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "Slow mornings",
+                "vi": "Buổi sáng chậm"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Vietnam",
+                "vi": "Việt Nam"
+              },
+              "href": "/regions/hanoi"
+            }
+          ]
+        },
+        {
+          "id": "coffee-egg",
+          "title": {
+            "en": "Egg coffee",
+            "vi": "Cà phê trứng"
+          },
+          "summary": {
+            "en": "Coffee under a sweet, warm foam: closely associated with Hanoi.",
+            "vi": "Cà phê dưới lớp kem ngọt, ấm: gắn với Hà Nội."
+          },
+          "image": "egg-coffee",
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "A cafe pause",
+                "vi": "Một quãng nghỉ ở quán"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Hanoi",
+                "vi": "Hà Nội"
+              },
+              "href": "/regions/hanoi"
+            }
+          ]
+        },
+        {
+          "id": "coffee-highlands",
+          "title": {
+            "en": "Coffee country",
+            "vi": "Vùng cà phê"
+          },
+          "summary": {
+            "en": "Visit coffee country for the landscape as much as the cup.",
+            "vi": "Đến xứ cà phê vì cảnh quan cũng như vì chiếc cốc."
+          },
+          "image": "coffee-farm",
+          "facts": [
+            {
+              "label": {
+                "en": "Where",
+                "vi": "Ở đâu"
+              },
+              "value": {
+                "en": "Central Highlands",
+                "vi": "Tây Nguyên"
+              }
+            }
+          ],
+          "links": [
+            {
+              "label": {
+                "en": "Central Highlands",
+                "vi": "Tây Nguyên"
+              },
+              "href": "/regions/central-highlands"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

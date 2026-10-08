@@ -54,6 +54,17 @@ export function InfoCard({ card }: { card: Card }) {
               </div>
             ))}
           </dl>
+          {card.links && card.links.length > 0 ? (
+            <ul className="m-0 flex list-none flex-wrap gap-2 p-0">
+              {card.links.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="chip tap inline-flex min-h-11 items-center no-underline">
+                    <T text={link.label} />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          ) : null}
         </div>
       </details>
     </article>

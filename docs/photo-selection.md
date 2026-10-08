@@ -111,3 +111,37 @@ Owner photos of those places would be welcome. I will not fill the gaps with gre
 ## App
 
 Round 2 state: `public/images` was not replaced, heroes were not recropped and compression settings were not changed. Round 3 changed this: heroes are now portrait-cropped from the originals with a focal point, and the WebP quality floors were raised (see `scripts/images.mjs`).
+
+
+## Round 5 — autonomous Part B coverage
+
+Owner approved autonomous photo selection for Part B on 8 October 2026. The goal is to eliminate the remaining region-card photo gaps while keeping the public image budget controlled. New sources are Pexels unless marked CC BY 2.0 from Wikimedia Commons.
+
+| ID | Source / credit | Use |
+|---|---|---|
+| catba | Đạt Nguyễn · Pexels | Cat Ba |
+| maichau | TUAN PHAN · Pexels | Mai Chau |
+| hue | Lộc Nguyễn · Pexels | Hue |
+| quynhon | Flint Huynh · Pexels | Quy Nhon |
+| bmt-coffee | Nay Sa Muel · Pexels | Buon Ma Thuot / coffee |
+| saigon-cathedral | Allan Henderson · CC BY 2.0 | Notre-Dame Cathedral |
+| palace | Phát Trương · Pexels | Reunification Palace |
+| cholon | Nick · CC BY 2.0 | Cholon |
+| cantho | Duy Nguyen · Pexels | Can Tho |
+| hatien | lhthoai · Pexels | Ha Tien |
+| condao | Thắng-Nhật Trần · Pexels | Con Dao |
+| angkorwat | gang liang · Pexels | Angkor Wat |
+| pho-bowl | RDNE Stock project · Pexels | Pho |
+| vietnam-coffee | Nguyen Huy · Pexels | Coffee |
+| banhmi | Hậu Mai · Pexels | Banh mi |
+| hoian-food | Võ Văn Tiến · Pexels | Hoi An food |
+| bun-bo | JANG 'S 🍂 · Pexels | Central noodle dish |
+| seafood-nhatrang | DUONG QUÁCH · Pexels | Coastal seafood |
+
+All Pexels sources use the Pexels License. CC BY sources retain attribution and source URLs in `content/images.json`. Final dimensions and generated WebP sizes are checked by the Part B preparation workflow; no source is upscaled.
+
+### Round 5 disposition
+
+The Bun Bo candidate was rejected after the automated source-quality check measured only 2397 px on its long edge. It was not upscaled; the existing qualified `pho-bowl` image is reused for that card.
+
+The original Wikimedia Commons Saigon Cathedral and Cholon candidates were replaced for this round because GitHub Actions was rate-limited by Wikimedia during automated download. The replacements are Pexels assets; the Cholon card uses a contextual Ho Chi Minh City street photograph and is labelled accordingly in `content/images.json`.

@@ -718,5 +718,260 @@
     "cropped": true,
     "focus": "47% 50%",
     "heroLayout": "portrait"
+  },
+  "catba": {
+    "id": "catba",
+    "src": "/images/catba-960.webp",
+    "srcSet": "/images/catba-640.webp 640w, /images/catba-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Cat Ba Island beach and green cliffs.",
+      "vi": "Bãi biển và vách đá xanh trên đảo Cát Bà."
+    },
+    "credit": "Đạt Nguyễn",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/small-sandy-beach-with-people-in-narrow-rocky-tree-bay-in-cat-ba-in-vietnam-24701013/"
+  },
+  "maichau": {
+    "id": "maichau",
+    "src": "/images/maichau-960.webp",
+    "srcSet": "/images/maichau-640.webp 640w, /images/maichau-960.webp 960w",
+    "width": 960,
+    "height": 639,
+    "alt": {
+      "en": "Traditional Hmong embroidery in Mai Chau.",
+      "vi": "Thêu H'Mông truyền thống ở Mai Châu."
+    },
+    "credit": "TUAN PHAN",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/fr-fr/photo/broderie-traditionnelle-hmong-a-mai-chau-vietnam-39998012/"
+  },
+  "hue": {
+    "id": "hue",
+    "src": "/images/hue-960.webp",
+    "srcSet": "/images/hue-640.webp 640w, /images/hue-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Imperial City architecture in Hue.",
+      "vi": "Kiến trúc Đại Nội ở Huế."
+    },
+    "credit": "Lộc Nguyễn",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/majestic-hue-imperial-city-architecture-in-vietnam-33551604/"
+  },
+  "quynhon": {
+    "id": "quynhon",
+    "src": "/images/quynhon-960.webp",
+    "srcSet": "/images/quynhon-640.webp 640w, /images/quynhon-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A calm beach at Quy Nhon.",
+      "vi": "Bãi biển yên ở Quy Nhơn."
+    },
+    "credit": "Flint Huynh",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/serene-beach-view-at-quy-nhon-vietnam-37920556/"
+  },
+  "bmt-coffee": {
+    "id": "bmt-coffee",
+    "src": "/images/bmt-coffee-960.webp",
+    "srcSet": "/images/bmt-coffee-640.webp 640w, /images/bmt-coffee-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Coffee cherries from Buon Ma Thuot.",
+      "vi": "Quả cà phê ở Buôn Ma Thuột."
+    },
+    "credit": "Nay Sa Muel",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/l-h-i-ca-phe-buon-ma-thu-t-2023-27777798/"
+  },
+  "saigon-cathedral": {
+    "id": "saigon-cathedral",
+    "src": "/images/saigon-cathedral-960.webp",
+    "srcSet": "/images/saigon-cathedral-640.webp 640w, /images/saigon-cathedral-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Notre-Dame Cathedral Basilica of Saigon.",
+      "vi": "Nhà thờ Đức Bà Sài Gòn."
+    },
+    "credit": "Quang Vuong",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/notre-dame-cathedral-basilica-of-saigon-under-renovation-35746118/"
+  },
+  "palace": {
+    "id": "palace",
+    "src": "/images/palace-960.webp",
+    "srcSet": "/images/palace-640.webp 640w, /images/palace-960.webp 960w",
+    "width": 960,
+    "height": 1706,
+    "alt": {
+      "en": "Reunification Palace in Ho Chi Minh City.",
+      "vi": "Dinh Độc Lập ở Thành phố Hồ Chí Minh."
+    },
+    "credit": "Phát Trương",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/reunification-palace-in-ho-chi-minh-city-vietnam-37336177/"
+  },
+  "cholon": {
+    "id": "cholon",
+    "src": "/images/cholon-960.webp",
+    "srcSet": "/images/cholon-640.webp 640w, /images/cholon-960.webp 960w",
+    "width": 960,
+    "height": 1440,
+    "alt": {
+      "en": "A busy urban street in Ho Chi Minh City, used as a contextual Cholon image.",
+      "vi": "Phố đô thị nhộn nhịp ở Thành phố Hồ Chí Minh, dùng làm ảnh minh họa bối cảnh Chợ Lớn."
+    },
+    "credit": "Theodore Nguyen",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/saigon-city-street-25324505/"
+  },
+  "cantho": {
+    "id": "cantho",
+    "src": "/images/cantho-960.webp",
+    "srcSet": "/images/cantho-640.webp 640w, /images/cantho-960.webp 960w",
+    "width": 960,
+    "height": 540,
+    "alt": {
+      "en": "Cai Rang floating market in Can Tho.",
+      "vi": "Chợ nổi Cái Răng ở Cần Thơ."
+    },
+    "credit": "Duy Nguyen",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/c-i-r-ng-floating-market-aerial-view-in-c-n-th-32607908/"
+  },
+  "hatien": {
+    "id": "hatien",
+    "src": "/images/hatien-960.webp",
+    "srcSet": "/images/hatien-640.webp 640w, /images/hatien-960.webp 960w",
+    "width": 960,
+    "height": 720,
+    "alt": {
+      "en": "A fishing boat off Ha Tien.",
+      "vi": "Thuyền đánh cá ngoài khơi Hà Tiên."
+    },
+    "credit": "lhthoai",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/pt-br/foto/vista-panoramica-de-um-barco-de-pesca-no-oceano-com-uma-encosta-ao-fundo-38960936/"
+  },
+  "condao": {
+    "id": "condao",
+    "src": "/images/condao-960.webp",
+    "srcSet": "/images/condao-640.webp 640w, /images/condao-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A coastal road on Con Dao Island.",
+      "vi": "Đường ven biển trên đảo Côn Đảo."
+    },
+    "credit": "Thắng-Nhật Trần",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/man-with-a-motorcycle-and-a-herd-of-cattle-on-a-seashore-road-con-dao-island-vietnam-17581863/"
+  },
+  "angkorwat": {
+    "id": "angkorwat",
+    "src": "/images/angkorwat-960.webp",
+    "srcSet": "/images/angkorwat-640.webp 640w, /images/angkorwat-960.webp 960w",
+    "width": 960,
+    "height": 638,
+    "alt": {
+      "en": "Angkor Wat temple complex in Cambodia.",
+      "vi": "Quần thể đền Angkor Wat ở Campuchia."
+    },
+    "credit": "gang liang",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/angkor-wat-temple-complex-in-cambodia-37251675/"
+  },
+  "pho-bowl": {
+    "id": "pho-bowl",
+    "src": "/images/pho-bowl-960.webp",
+    "srcSet": "/images/pho-bowl-640.webp 640w, /images/pho-bowl-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A bowl of Vietnamese pho with herbs.",
+      "vi": "Bát phở Việt Nam với rau thơm."
+    },
+    "credit": "RDNE Stock project",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/cooked-food-in-the-bowl-6646022/"
+  },
+  "vietnam-coffee": {
+    "id": "vietnam-coffee",
+    "src": "/images/vietnam-coffee-960.webp",
+    "srcSet": "/images/vietnam-coffee-640.webp 640w, /images/vietnam-coffee-960.webp 960w",
+    "width": 960,
+    "height": 1231,
+    "alt": {
+      "en": "Vietnamese coffee with condensed milk.",
+      "vi": "Cà phê Việt Nam với sữa đặc."
+    },
+    "credit": "Nguyen Huy",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/vietnamese-coffee-with-condensed-milk-16496241/"
+  },
+  "banhmi": {
+    "id": "banhmi",
+    "src": "/images/banhmi-960.webp",
+    "srcSet": "/images/banhmi-640.webp 640w, /images/banhmi-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A Vietnamese banh mi sandwich.",
+      "vi": "Bánh mì Việt Nam."
+    },
+    "credit": "Hậu Mai",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/vietnamese-banh-mi-sandwich-on-newspaper-32961649/"
+  },
+  "hoian-food": {
+    "id": "hoian-food",
+    "src": "/images/hoian-food-960.webp",
+    "srcSet": "/images/hoian-food-640.webp 640w, /images/hoian-food-960.webp 960w",
+    "width": 960,
+    "height": 1491,
+    "alt": {
+      "en": "A street food stall in Hoi An.",
+      "vi": "Quầy thức ăn đường phố ở Hội An."
+    },
+    "credit": "Võ Văn Tiến",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/street-food-vendor-in-h-i-an-vietnam-29374692/"
+  },
+  "seafood-nhatrang": {
+    "id": "seafood-nhatrang",
+    "src": "/images/seafood-nhatrang-960.webp",
+    "srcSet": "/images/seafood-nhatrang-640.webp 640w, /images/seafood-nhatrang-960.webp 960w",
+    "width": 960,
+    "height": 1382,
+    "alt": {
+      "en": "Fresh Vietnamese seafood in Nha Trang.",
+      "vi": "Hải sản Việt Nam tươi ở Nha Trang."
+    },
+    "credit": "DUONG QUÁCH",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/delicious-vietnamese-seafood-dish-on-ice-31302693/"
   }
 }

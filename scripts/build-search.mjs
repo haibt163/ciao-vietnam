@@ -30,6 +30,28 @@ for (const region of regions) {
   }
 }
 
+for (const name of ["plan", "eat", "essentials", "outdoors", "history"]) {
+  const data = JSON.parse(fs.readFileSync(path.join(root, "content", `${name}.json`), "utf8"));
+  if (!["plan", "eat", "essentials"].includes(name)) {
+    entries.push({
+      href: `/${name}`,
+      title: data.title,
+      hint: data.lede,
+      keywords: data.sections.map((section) => `${section.title.en} ${section.title.vi}`).join(" "),
+    });
+  }
+  for (const section of data.sections) {
+    for (const card of section.cards || []) {
+      entries.push({
+        href: `/${name}#${card.id}`,
+        title: card.title,
+        hint: data.title,
+        keywords: [card.title.en, card.title.vi, card.summary.en, card.summary.vi].join(" "),
+      });
+    }
+  }
+}
+
 entries.push(
   {
     href: "/plan",

@@ -1,0 +1,823 @@
+{
+  "title": {
+    "en": "Essentials",
+    "vi": "Cần biết"
+  },
+  "lede": {
+    "en": "Practical notes for the parts of a trip that are easy to get wrong.",
+    "vi": "Những ghi chú thực tế cho các phần chuyến đi dễ nhầm nhất."
+  },
+  "sections": [
+    {
+      "id": "arriving",
+      "title": {
+        "en": "Arriving",
+        "vi": "Đến nơi"
+      },
+      "cards": [
+        {
+          "id": "arrive-first",
+          "title": {
+            "en": "First hour",
+            "vi": "Giờ đầu tiên"
+          },
+          "summary": {
+            "en": "Save your accommodation name, keep your phone charged, and have a simple plan for the first ride.",
+            "vi": "Lưu tên chỗ ở, giữ điện thoại có pin và có kế hoạch đơn giản cho chuyến xe đầu."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Remember",
+                "vi": "Nhớ"
+              },
+              "value": {
+                "en": "Verify today's airport or border instructions",
+                "vi": "Kiểm tra hướng dẫn sân bay hoặc cửa khẩu trong ngày"
+              }
+            }
+          ],
+          "image": "airport-hanoi"
+        },
+        {
+          "id": "arrive-entry",
+          "title": {
+            "en": "Entry rules",
+            "vi": "Quy định nhập cảnh"
+          },
+          "summary": {
+            "en": "Requirements can change. Use current official information before travel.",
+            "vi": "Quy định có thể đổi. Dùng thông tin chính thức hiện hành trước chuyến đi."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Rule",
+                "vi": "Nguyên tắc"
+              },
+              "value": {
+                "en": "Verify before you fly",
+                "vi": "Kiểm tra trước khi bay"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-around",
+      "title": {
+        "en": "Getting around",
+        "vi": "Đi lại"
+      },
+      "cards": [
+        {
+          "id": "move-city",
+          "title": {
+            "en": "Inside cities",
+            "vi": "Trong thành phố"
+          },
+          "summary": {
+            "en": "Walk where the streets reward it; use a ride or taxi when heat and traffic make walking a poor choice.",
+            "vi": "Đi bộ khi phố phù hợp; dùng xe khi nóng và giao thông khiến đi bộ không hợp."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Rule",
+                "vi": "Nguyên tắc"
+              },
+              "value": {
+                "en": "Choose the short safe option",
+                "vi": "Chọn phương án ngắn và an toàn"
+              }
+            }
+          ],
+          "image": "hanoi-old-quarter"
+        },
+        {
+          "id": "move-between",
+          "title": {
+            "en": "Between regions",
+            "vi": "Giữa các vùng"
+          },
+          "summary": {
+            "en": "Planes, trains, buses and cars each make sense on different legs. Recheck the connection before leaving.",
+            "vi": "Máy bay, tàu, xe khách và ô tô hợp với những chặng khác nhau. Kiểm tra lại trước khi đi."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Rule",
+                "vi": "Nguyên tắc"
+              },
+              "value": {
+                "en": "Verify the day's service",
+                "vi": "Kiểm tra chuyến trong ngày"
+              }
+            }
+          ],
+          "image": "hanoi-train"
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "title": {
+        "en": "Money",
+        "vi": "Tiền"
+      },
+      "cards": [
+        {
+          "id": "money-basics",
+          "title": {
+            "en": "Keep it simple",
+            "vi": "Giữ đơn giản"
+          },
+          "summary": {
+            "en": "Carry a small amount of cash, keep cards separate, and check the final amount before paying.",
+            "vi": "Mang một ít tiền mặt, để thẻ riêng và kiểm tra số tiền cuối trước khi trả."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Rule",
+                "vi": "Nguyên tắc"
+              },
+              "value": {
+                "en": "Verify rates and fees locally",
+                "vi": "Hỏi tỷ giá và phí tại chỗ"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accommodation",
+      "title": {
+        "en": "Accommodation",
+        "vi": "Chỗ ở"
+      },
+      "cards": [
+        {
+          "id": "stay-choice",
+          "title": {
+            "en": "Choose by neighbourhood",
+            "vi": "Chọn theo khu"
+          },
+          "summary": {
+            "en": "Sleep near the thing you want to do. A central bed can save more effort than a cheaper far bed.",
+            "vi": "Ngủ gần thứ bạn muốn làm. Chỗ ở trung tâm có thể đỡ công hơn một nơi rẻ nhưng xa."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Rule",
+                "vi": "Nguyên tắc"
+              },
+              "value": {
+                "en": "Read the location, not just the room photo",
+                "vi": "Xem vị trí, không chỉ ảnh phòng"
+              }
+            }
+          ],
+          "image": "hanoi-old-quarter"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": {
+        "en": "Family travel",
+        "vi": "Du lịch gia đình"
+      },
+      "cards": [
+        {
+          "id": "family-rhythm",
+          "title": {
+            "en": "One base at a time",
+            "vi": "Mỗi lần một điểm nghỉ"
+          },
+          "summary": {
+            "en": "Fewer hotel changes and one main outing each day can make family travel easier.",
+            "vi": "Ít đổi chỗ ở và một hoạt động chính mỗi ngày có thể làm chuyến gia đình nhẹ hơn."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Best for",
+                "vi": "Hợp với"
+              },
+              "value": {
+                "en": "A slower rhythm",
+                "vi": "Nhịp đi chậm"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-safe",
+      "title": {
+        "en": "Health & safe travel",
+        "vi": "Sức khỏe & an toàn"
+      },
+      "cards": [
+        {
+          "id": "health-basics",
+          "title": {
+            "en": "Heat, water, rest",
+            "vi": "Nắng, nước, nghỉ"
+          },
+          "summary": {
+            "en": "Carry water, seek shade, and build rest into hot days. Use current official health guidance for medical decisions.",
+            "vi": "Mang nước, tìm bóng râm và dành giờ nghỉ trong ngày nóng. Dùng hướng dẫn sức khỏe chính thức hiện hành cho quyết định y tế."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Rule",
+                "vi": "Nguyên tắc"
+              },
+              "value": {
+                "en": "Personal medical needs need professional advice",
+                "vi": "Nhu cầu y tế cá nhân cần tư vấn chuyên môn"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "responsible",
+      "title": {
+        "en": "Responsible travel",
+        "vi": "Du lịch có trách nhiệm"
+      },
+      "cards": [
+        {
+          "id": "respect-places",
+          "title": {
+            "en": "Leave places lighter",
+            "vi": "Để nơi chốn nhẹ hơn"
+          },
+          "summary": {
+            "en": "Dress appropriately at sacred sites, keep noise down, and ask before photographing people closely.",
+            "vi": "Ăn mặc phù hợp ở nơi linh thiêng, giữ yên và hỏi trước khi chụp cận người khác."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Rule",
+                "vi": "Nguyên tắc"
+              },
+              "value": {
+                "en": "Follow local requests",
+                "vi": "Theo yêu cầu tại chỗ"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lgbtiq",
+      "title": {
+        "en": "LGBTIQ+",
+        "vi": "LGBTIQ+"
+      },
+      "cards": [
+        {
+          "id": "lgbtiq-travel",
+          "title": {
+            "en": "Read the room",
+            "vi": "Đọc không gian"
+          },
+          "summary": {
+            "en": "Experiences vary by city, venue and community. Choose welcoming spaces and use current local guidance.",
+            "vi": "Trải nghiệm khác theo thành phố, địa điểm và cộng đồng. Chọn nơi cởi mở và dùng hướng dẫn địa phương hiện hành."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Rule",
+                "vi": "Nguyên tắc"
+              },
+              "value": {
+                "en": "Use current local information",
+                "vi": "Dùng thông tin địa phương hiện hành"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accessible",
+      "title": {
+        "en": "Accessible travel",
+        "vi": "Du lịch tiếp cận"
+      },
+      "cards": [
+        {
+          "id": "accessible-plan",
+          "title": {
+            "en": "Plan the surface",
+            "vi": "Tính đến mặt đường"
+          },
+          "summary": {
+            "en": "Historic streets, stairs and uneven paving can make short distances hard. Ask accommodation about entrances before arrival.",
+            "vi": "Phố cổ, cầu thang và mặt đường không phẳng có thể làm quãng ngắn trở nên khó. Hỏi chỗ ở về lối vào trước khi đến."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Rule",
+                "vi": "Nguyên tắc"
+              },
+              "value": {
+                "en": "Confirm access details directly",
+                "vi": "Xác nhận khả năng tiếp cận trực tiếp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phrasebook",
+      "title": {
+        "en": "Language / phrasebook",
+        "vi": "Ngôn ngữ / câu bỏ túi"
+      },
+      "intro": {
+        "en": "Simple pronunciation only. Vietnamese wording needs native review in docs/vi-review.md.",
+        "vi": "Chỉ là cách đọc đơn giản. Từ tiếng Việt cần người bản ngữ xem trong docs/vi-review.md."
+      },
+      "cards": [
+        {
+          "id": "phrase-hello",
+          "title": {
+            "en": "Hello / greeting",
+            "vi": "Xin chào"
+          },
+          "summary": {
+            "en": "Use when greeting someone.",
+            "vi": "Use when greeting someone."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Xin chào",
+                "vi": "Xin chào"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-thank-you",
+          "title": {
+            "en": "Thank you",
+            "vi": "Cảm ơn"
+          },
+          "summary": {
+            "en": "Use after a meal, ride or favour.",
+            "vi": "Use after a meal, ride or favour."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Cảm ơn",
+                "vi": "Cảm ơn"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-please",
+          "title": {
+            "en": "Please",
+            "vi": "Làm ơn"
+          },
+          "summary": {
+            "en": "Use for a polite request.",
+            "vi": "Use for a polite request."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Làm ơn",
+                "vi": "Làm ơn"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-yes",
+          "title": {
+            "en": "Yes",
+            "vi": "Vâng"
+          },
+          "summary": {
+            "en": "Polite affirmative.",
+            "vi": "Polite affirmative."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Vâng",
+                "vi": "Vâng"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-no",
+          "title": {
+            "en": "No",
+            "vi": "Không"
+          },
+          "summary": {
+            "en": "Useful for declining something.",
+            "vi": "Useful for declining something."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Không",
+                "vi": "Không"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-excuse-me",
+          "title": {
+            "en": "Excuse me",
+            "vi": "Xin lỗi"
+          },
+          "summary": {
+            "en": "Use before a question or to get attention.",
+            "vi": "Use before a question or to get attention."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Xin lỗi",
+                "vi": "Xin lỗi"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-sorry",
+          "title": {
+            "en": "Sorry",
+            "vi": "Xin lỗi"
+          },
+          "summary": {
+            "en": "Common apology.",
+            "vi": "Common apology."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Xin lỗi",
+                "vi": "Xin lỗi"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-how-much-",
+          "title": {
+            "en": "How much?",
+            "vi": "Bao nhiêu?"
+          },
+          "summary": {
+            "en": "Useful in shops and markets.",
+            "vi": "Useful in shops and markets."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Bao nhiêu?",
+                "vi": "Bao nhiêu?"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-too-expensive",
+          "title": {
+            "en": "Too expensive",
+            "vi": "Đắt quá"
+          },
+          "summary": {
+            "en": "Useful when negotiating at a market.",
+            "vi": "Useful when negotiating at a market."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Đắt quá",
+                "vi": "Đắt quá"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-where-is-",
+          "title": {
+            "en": "Where is…?",
+            "vi": "Ở đâu?"
+          },
+          "summary": {
+            "en": "Add the place you are looking for.",
+            "vi": "Add the place you are looking for."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Ở đâu?",
+                "vi": "Ở đâu?"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-toilet",
+          "title": {
+            "en": "Toilet",
+            "vi": "Nhà vệ sinh"
+          },
+          "summary": {
+            "en": "Keep this ready on travel days.",
+            "vi": "Keep this ready on travel days."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Nhà vệ sinh",
+                "vi": "Nhà vệ sinh"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-water",
+          "title": {
+            "en": "Water",
+            "vi": "Nước"
+          },
+          "summary": {
+            "en": "A simple word to use when ordering.",
+            "vi": "A simple word to use when ordering."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Nước",
+                "vi": "Nước"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-no-ice",
+          "title": {
+            "en": "No ice",
+            "vi": "Không đá"
+          },
+          "summary": {
+            "en": "Useful for drinks.",
+            "vi": "Useful for drinks."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Không đá",
+                "vi": "Không đá"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-no-spicy",
+          "title": {
+            "en": "Not spicy",
+            "vi": "Không cay"
+          },
+          "summary": {
+            "en": "Tell a vendor when you need mild food.",
+            "vi": "Tell a vendor when you need mild food."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Không cay",
+                "vi": "Không cay"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-vegetarian",
+          "title": {
+            "en": "Vegetarian",
+            "vi": "Ăn chay"
+          },
+          "summary": {
+            "en": "Useful shorthand at meals.",
+            "vi": "Useful shorthand at meals."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Ăn chay",
+                "vi": "Ăn chay"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-i-don-t-understand",
+          "title": {
+            "en": "I don't understand",
+            "vi": "Tôi không hiểu"
+          },
+          "summary": {
+            "en": "Use when speech is moving too quickly.",
+            "vi": "Use when speech is moving too quickly."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Tôi không hiểu",
+                "vi": "Tôi không hiểu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-help",
+          "title": {
+            "en": "Help me",
+            "vi": "Giúp tôi"
+          },
+          "summary": {
+            "en": "Useful in an urgent situation.",
+            "vi": "Useful in an urgent situation."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Giúp tôi",
+                "vi": "Giúp tôi"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-one",
+          "title": {
+            "en": "One",
+            "vi": "Một"
+          },
+          "summary": {
+            "en": "Useful for ordering or counting.",
+            "vi": "Useful for ordering or counting."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Một",
+                "vi": "Một"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-two",
+          "title": {
+            "en": "Two",
+            "vi": "Hai"
+          },
+          "summary": {
+            "en": "Useful for ordering or counting.",
+            "vi": "Useful for ordering or counting."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Hai",
+                "vi": "Hai"
+              }
+            }
+          ]
+        },
+        {
+          "id": "phrase-goodbye",
+          "title": {
+            "en": "Goodbye",
+            "vi": "Tạm biệt"
+          },
+          "summary": {
+            "en": "A simple farewell.",
+            "vi": "A simple farewell."
+          },
+          "facts": [
+            {
+              "label": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt"
+              },
+              "value": {
+                "en": "Tạm biệt",
+                "vi": "Tạm biệt"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -54,7 +54,6 @@
         "en": "The brick cathedral and the French post office, one square apart.",
         "vi": "Nhà thờ gạch và bưu điện Pháp, cách nhau một quảng trường."
       },
-      "gap": true,
       "facts": [
         {
           "label": {
@@ -66,7 +65,8 @@
             "vi": "Bước đi bộ đầu tiên từ Đồng Khởi"
           }
         }
-      ]
+      ],
+      "image": "saigon-cathedral"
     },
     {
       "id": "saigon-post",
@@ -114,7 +114,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "palace"
     },
     {
       "id": "ben-thanh",
@@ -186,7 +186,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "cholon"
     },
     {
       "id": "war-remnants",
@@ -263,7 +263,8 @@
             "vi": "Cuối sáng đến chiều"
           }
         }
-      ]
+      ],
+      "image": "vietnamese-food-stall"
     },
     {
       "id": "ca-phe-sua",
@@ -284,6 +285,55 @@
           "value": {
             "en": "Any pavement that has a low stool",
             "vi": "Vỉa hè nào có ghế thấp"
+          }
+        }
+      ],
+      "image": "phin-coffee"
+    },
+    {
+      "id": "banh-mi-saigon",
+      "title": {
+        "en": "Banh mi",
+        "vi": "Bánh mì"
+      },
+      "summary": {
+        "en": "Crisp bread, pickles and savoury fillings. An easy city meal.",
+        "vi": "Bánh giòn, đồ chua và nhân mặn. Một bữa nhanh trong phố."
+      },
+      "image": "banh-mi-food",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A quick city meal",
+            "vi": "Một bữa nhanh trong phố"
+          }
+        }
+      ]
+    },
+    {
+      "id": "late-night-street",
+      "title": {
+        "en": "Late-night street food",
+        "vi": "Đồ ăn khuya"
+      },
+      "summary": {
+        "en": "The city eats after dark. Follow busy low-stool places and order one thing at a time.",
+        "vi": "Thành phố vẫn ăn sau tối. Theo quán ghế thấp đông người và gọi từng món một."
+      },
+      "image": "hcm-night-street",
+      "facts": [
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Evening into late night",
+            "vi": "Từ tối đến khuya"
           }
         }
       ]
@@ -315,7 +365,8 @@
             "vi": "Xin phòng không nhìn mặt đường chính"
           }
         }
-      ]
+      ],
+      "image": "hcm-night"
     },
     {
       "id": "stay-cholon",
@@ -338,7 +389,8 @@
             "vi": "Lần ở thứ hai, không phải đêm đầu"
           }
         }
-      ]
+      ],
+      "image": "cholon"
     }
   ],
   "gettingThere": [
@@ -363,7 +415,8 @@
             "vi": "Taxi hoặc ứng dụng. Hỏi giá tại chỗ."
           }
         }
-      ]
+      ],
+      "image": "saigon-post"
     },
     {
       "id": "saigon-station",
@@ -386,7 +439,8 @@
             "vi": "Đừng đi bộ với túi khi trời nóng"
           }
         }
-      ]
+      ],
+      "image": "hcm-station"
     }
   ]
 }

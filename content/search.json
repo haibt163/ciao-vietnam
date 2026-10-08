@@ -384,6 +384,18 @@
     "keywords": "Hill markets Chợ vùng cao Grilled meat, rice, and whatever the market cooked that morning. Thịt nướng, cơm, và món chợ nấu sáng hôm đó."
   },
   {
+    "href": "/regions/north-vietnam#sticky-rice",
+    "title": {
+      "en": "Sticky rice & grilled bites",
+      "vi": "Xôi & món nướng"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Sticky rice & grilled bites Xôi & món nướng Simple mountain food: sticky rice, grilled meat and herbs. Order what the market is making. Đồ ăn vùng cao giản dị: xôi, thịt nướng và rau thơm. Chợ làm gì thì gọi đó."
+  },
+  {
     "href": "/regions/north-vietnam#stay-sapa",
     "title": {
       "en": "Sapa town or a village",
@@ -406,6 +418,18 @@
       "vi": "Miền Bắc"
     },
     "keywords": "The bay Trên vịnh A night on a boat, or a room on Cat Ba. Not the same trip. Một đêm trên thuyền, hoặc phòng ở Cát Bà. Không phải cùng một chuyến."
+  },
+  {
+    "href": "/regions/north-vietnam#stay-ha-giang",
+    "title": {
+      "en": "Ha Giang town",
+      "vi": "Thị trấn Hà Giang"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Ha Giang town Thị trấn Hà Giang A practical base before the mountain roads. Start early and ask locally about the route. Chỗ nghỉ thực tế trước đường núi. Đi sớm và hỏi đường tại chỗ."
   },
   {
     "href": "/regions/north-vietnam#from-hanoi",
@@ -552,6 +576,18 @@
     "keywords": "Cao lau Cao lầu Hoi An's own noodles. Thick, with greens and a little broth. Mì riêng của Hội An. Sợi dày, rau, và ít nước."
   },
   {
+    "href": "/regions/central-vietnam#mi-quang",
+    "title": {
+      "en": "Mi Quang",
+      "vi": "Mì Quảng"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Mi Quang Mì Quảng Turmeric noodles, herbs and a little broth. A Central bowl with a different rhythm. Mì vàng nghệ, rau thơm và ít nước. Một bát miền Trung có nhịp vị khác."
+  },
+  {
     "href": "/regions/central-vietnam#stay-hue",
     "title": {
       "en": "Hue",
@@ -598,6 +634,18 @@
       "vi": "Miền Trung"
     },
     "keywords": "Hai Van pass Đèo Hải Vân The high road between Hue and Danang. Cloud, hairpins, a view if it is clear. Đường cao giữa Huế và Đà Nẵng. Mây, cua tay áo, có view nếu trời quang."
+  },
+  {
+    "href": "/regions/central-vietnam#central-coast",
+    "title": {
+      "en": "Along the central coast",
+      "vi": "Dọc bờ biển miền Trung"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Along the central coast Dọc bờ biển miền Trung The coast works as a chain of short stops. Pick two bases rather than every city. Bờ biển hợp với các chặng ngắn. Chọn hai điểm nghỉ thay vì gom mọi thành phố."
   },
   {
     "href": "/regions/southeast-coast",
@@ -696,6 +744,30 @@
     "keywords": "Beach seafood Hải sản bờ biển Fish and shellfish along the strip. The menu is the tank. Cá và tôm cua dọc bờ. Thực đơn là bể kính."
   },
   {
+    "href": "/regions/southeast-coast#banh-can",
+    "title": {
+      "en": "Banh can",
+      "vi": "Bánh căn"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Banh can Bánh căn Small rice cakes cooked in little pans. Look for a local breakfast or evening stall. Bánh gạo nhỏ nướng trong khuôn. Tìm một quán sáng hoặc hàng tối địa phương."
+  },
+  {
+    "href": "/regions/southeast-coast#coast-cold-drink",
+    "title": {
+      "en": "Fresh fruit & iced drinks",
+      "vi": "Trái cây & đồ uống đá"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Fresh fruit & iced drinks Trái cây & đồ uống đá Hot coastal days call for fruit, ice and a shaded plastic chair. Ngày biển nóng hợp với trái cây, đá và chiếc ghế nhựa có bóng râm."
+  },
+  {
     "href": "/regions/southeast-coast#stay-nhatrang",
     "title": {
       "en": "Nha Trang beach",
@@ -720,6 +792,18 @@
     "keywords": "Mui Ne strip Dải Mũi Né Resorts line one road. You will want a bike or a ride. Khu nghỉ nằm dọc một đường. Bạn sẽ cần xe."
   },
   {
+    "href": "/regions/southeast-coast#stay-quynhon",
+    "title": {
+      "en": "Quy Nhon",
+      "vi": "Quy Nhơn"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Quy Nhon Quy Nhơn A calmer beach base for a few days. Choose by the part of the coast you plan to explore. Điểm nghỉ biển yên hơn cho vài ngày. Chọn theo đoạn bờ bạn muốn khám phá."
+  },
+  {
     "href": "/regions/southeast-coast#coast-air",
     "title": {
       "en": "Flying in",
@@ -730,6 +814,18 @@
       "vi": "Duyên hải Nam Trung Bộ"
     },
     "keywords": "Flying in Bay vào Cam Ranh serves Nha Trang. The other towns are a bus or a ride along the coast. Cam Ranh phục vụ Nha Trang. Phố khác thì xe khách hoặc xe dọc biển."
+  },
+  {
+    "href": "/regions/southeast-coast#coast-road",
+    "title": {
+      "en": "By road along the coast",
+      "vi": "Đi đường bộ dọc bờ biển"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "By road along the coast Đi đường bộ dọc bờ biển Bus and car links connect the coastal towns. Check the next departure before leaving. Xe khách và ô tô nối các phố biển. Xem chuyến tiếp theo trước khi rời chỗ ở."
   },
   {
     "href": "/regions/central-highlands",
@@ -816,6 +912,30 @@
     "keywords": "Highland coffee Cà phê cao nguyên Drink it where it is grown. Dalat also does artichoke tea. Uống ở nơi nó được trồng. Đà Lạt còn có trà atiso."
   },
   {
+    "href": "/regions/central-highlands#artichoke-tea",
+    "title": {
+      "en": "Artichoke tea",
+      "vi": "Trà atisô"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Artichoke tea Trà atisô Dalat's artichoke is an easy café pause. Treat it as a local drink, not a health claim. Trà atisô Đà Lạt là một quãng nghỉ dễ trong quán. Xem như đồ uống địa phương, không phải lời khuyên sức khỏe."
+  },
+  {
+    "href": "/regions/central-highlands#highland-market",
+    "title": {
+      "en": "Highland market plates",
+      "vi": "Món chợ cao nguyên"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Highland market plates Món chợ cao nguyên Vegetables, grilled foods and coffee sit close together in the highland food scene. Rau, món nướng và cà phê đứng gần nhau trong bức tranh ẩm thực cao nguyên."
+  },
+  {
     "href": "/regions/central-highlands#stay-dalat",
     "title": {
       "en": "Dalat",
@@ -828,6 +948,18 @@
     "keywords": "Dalat Đà Lạt The practical base for the highlands. Nights are cool. Chỗ ở thực tế cho cao nguyên. Đêm thì mát."
   },
   {
+    "href": "/regions/central-highlands#stay-buon-ma-thuot",
+    "title": {
+      "en": "Buon Ma Thuot",
+      "vi": "Buôn Ma Thuột"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Buon Ma Thuot Buôn Ma Thuột A useful base when coffee country is the point of the trip. Expect more rides than central Dalat. Chỗ nghỉ hữu ích khi mục tiêu là xứ cà phê. Sẽ đi xe nhiều hơn ở trung tâm Đà Lạt."
+  },
+  {
     "href": "/regions/central-highlands#dalat-road",
     "title": {
       "en": "Reaching Dalat",
@@ -838,6 +970,18 @@
       "vi": "Tây Nguyên"
     },
     "keywords": "Reaching Dalat Đến Đà Lạt Flights and buses from Ho Chi Minh City and the coast. The road climbs. Bay và xe khách từ Thành phố Hồ Chí Minh và ven biển. Đường thì leo."
+  },
+  {
+    "href": "/regions/central-highlands#highland-loop",
+    "title": {
+      "en": "Across the highlands",
+      "vi": "Qua cao nguyên"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Across the highlands Qua cao nguyên Use one town as a base, then make day trips. Recheck road and onward transport the same day. Chọn một thành phố làm gốc rồi đi trong ngày. Hỏi lại đường và xe nối tiếp trong ngày."
   },
   {
     "href": "/regions/ho-chi-minh-city",
@@ -970,6 +1114,30 @@
       "vi": "Thành phố Hồ Chí Minh"
     },
     "keywords": "Iced coffee Cà phê sữa đá Strong coffee, condensed milk, ice. The city's pause button. Cà phê đặc, sữa đặc, đá. Nút tạm dừng của phố."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#banh-mi-saigon",
+    "title": {
+      "en": "Banh mi",
+      "vi": "Bánh mì"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Banh mi Bánh mì Crisp bread, pickles and savoury fillings. An easy city meal. Bánh giòn, đồ chua và nhân mặn. Một bữa nhanh trong phố."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#late-night-street",
+    "title": {
+      "en": "Late-night street food",
+      "vi": "Đồ ăn khuya"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Late-night street food Đồ ăn khuya The city eats after dark. Follow busy low-stool places and order one thing at a time. Thành phố vẫn ăn sau tối. Theo quán ghế thấp đông người và gọi từng món một."
   },
   {
     "href": "/regions/ho-chi-minh-city#stay-d1",
@@ -1128,6 +1296,30 @@
     "keywords": "River fruit Trái cây sông Pomelo, mango, coconut. Buy it where you see it cut. Bưởi, xoài, dừa. Mua chỗ họ đang bổ."
   },
   {
+    "href": "/regions/mekong-delta#hu-tieu",
+    "title": {
+      "en": "Hu tieu",
+      "vi": "Hủ tiếu"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Hu tieu Hủ tiếu A southern noodle bowl with a lighter, sweeter profile. Look for it in river towns. Một bát mì miền Nam, vị nhẹ và ngọt hơn. Tìm ở các phố sông."
+  },
+  {
+    "href": "/regions/mekong-delta#coconut-sweets",
+    "title": {
+      "en": "Coconut sweets",
+      "vi": "Kẹo dừa"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Coconut sweets Kẹo dừa Coconut is part of the delta pantry. Try small sweets or fresh coconut from a market stall. Dừa là một phần của bếp đồng bằng. Thử kẹo nhỏ hoặc dừa tươi ở quầy chợ."
+  },
+  {
     "href": "/regions/mekong-delta#stay-cantho",
     "title": {
       "en": "Can Tho",
@@ -1152,6 +1344,18 @@
     "keywords": "The islands Hai đảo Phu Quoc has the rooms. Con Dao has fewer. Book the flight and the bed together. Phú Quốc thì nhiều phòng. Côn Đảo thì ít. Đặt vé bay và giường cùng lúc."
   },
   {
+    "href": "/regions/mekong-delta#stay-bentre",
+    "title": {
+      "en": "Ben Tre",
+      "vi": "Bến Tre"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Ben Tre Bến Tre Stay close to small channels and orchards when the river landscape is the reason to come. Ở gần kênh nhỏ và vườn cây khi chính cảnh sông nước là lý do bạn đến."
+  },
+  {
     "href": "/regions/mekong-delta#delta-bus",
     "title": {
       "en": "From Ho Chi Minh City",
@@ -1162,6 +1366,18 @@
       "vi": "Đồng bằng sông Cửu Long"
     },
     "keywords": "From Ho Chi Minh City Từ Thành phố Hồ Chí Minh Buses and boats reach Can Tho and the nearer orchards. The islands do not. Xe và thuyền tới Cần Thơ và vườn gần. Hai đảo thì không."
+  },
+  {
+    "href": "/regions/mekong-delta#delta-ferries",
+    "title": {
+      "en": "Boats and local crossings",
+      "vi": "Thuyền và các chuyến qua sông"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Boats and local crossings Thuyền và các chuyến qua sông River travel is part of the delta experience. Routes change; ask the operator before setting out. Đi sông là một phần trải nghiệm đồng bằng. Tuyến có thể đổi; hỏi nhà vận hành trước khi đi."
   },
   {
     "href": "/regions/siem-reap-angkor",
@@ -1248,6 +1464,30 @@
     "keywords": "A Khmer meal Một bữa Khmer The town cooks for visitors. Ask for a Khmer fish curry if you want something that is not Vietnamese. Phố nấu cho khách. Gọi cà ri cá Khmer nếu muốn món không phải Việt."
   },
   {
+    "href": "/regions/siem-reap-angkor#fish-amok",
+    "title": {
+      "en": "Fish amok",
+      "vi": "Amok cá"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Fish amok Amok cá A Cambodian classic worth ordering once. Mild, aromatic, and different from Vietnamese bowls. Một món kinh điển Campuchia đáng thử một lần. Dịu, thơm, và khác các bát mì Việt."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#market-night",
+    "title": {
+      "en": "Night-market snacks",
+      "vi": "Đồ ăn chợ tối"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Night-market snacks Đồ ăn chợ tối The town is built around evening wandering. Sample small plates instead of one large dinner. Phố được làm cho việc đi bộ buổi tối. Thử nhiều món nhỏ thay vì một bữa lớn."
+  },
+  {
     "href": "/regions/siem-reap-angkor#stay-siemreap",
     "title": {
       "en": "Siem Reap",
@@ -1258,6 +1498,18 @@
       "vi": "Siem Reap và Angkor Wat"
     },
     "keywords": "Siem Reap Siem Reap The visitor town. Stay where you can find breakfast before the temples open. Phố của khách. Ở chỗ còn tìm được bữa sáng trước giờ đền mở."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#stay-old-town",
+    "title": {
+      "en": "Old town",
+      "vi": "Khu phố trung tâm"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Old town Khu phố trung tâm Stay near the evening centre when you want dinner, coffee and a short ride back to bed. Ở gần trung tâm buổi tối khi muốn ăn, uống cà phê và về giường bằng một chuyến xe ngắn."
   },
   {
     "href": "/regions/siem-reap-angkor#enter-cambodia",
@@ -1282,6 +1534,822 @@
       "vi": "Siem Reap và Angkor Wat"
     },
     "keywords": "Out to the temples Ra khu đền A short ride from town. Passes and opening times: verify locally. Xe ngắn từ phố. Vé và giờ mở: hỏi tại chỗ."
+  },
+  {
+    "href": "/plan#route-north-centre",
+    "title": {
+      "en": "North → lanterns",
+      "vi": "Bắc → đèn lồng"
+    },
+    "hint": {
+      "en": "Plan",
+      "vi": "Lịch trình"
+    },
+    "keywords": "North → lanterns Bắc → đèn lồng A first-timer spine: Hanoi, karst country, then the old towns of the centre. Một trục dễ đi lần đầu: Hà Nội, xứ đá vôi, rồi các phố cổ miền Trung."
+  },
+  {
+    "href": "/plan#route-heritage",
+    "title": {
+      "en": "Heritage spine",
+      "vi": "Trục di sản"
+    },
+    "hint": {
+      "en": "Plan",
+      "vi": "Lịch trình"
+    },
+    "keywords": "Heritage spine Trục di sản Architecture and history from Hanoi to Hue and Hoi An, finishing in the big southern city. Kiến trúc và lịch sử từ Hà Nội đến Huế và Hội An, rồi kết ở thành phố lớn phía Nam."
+  },
+  {
+    "href": "/plan#route-coast-highlands",
+    "title": {
+      "en": "Coast + highlands",
+      "vi": "Biển + cao nguyên"
+    },
+    "hint": {
+      "en": "Plan",
+      "vi": "Lịch trình"
+    },
+    "keywords": "Coast + highlands Biển + cao nguyên Pair beach days with cooler hills. Pick one coast base and one highland base. Ghép ngày biển với đồi mát. Chọn một điểm nghỉ biển và một điểm nghỉ cao nguyên."
+  },
+  {
+    "href": "/plan#route-water",
+    "title": {
+      "en": "Water & islands",
+      "vi": "Sông nước & đảo"
+    },
+    "hint": {
+      "en": "Plan",
+      "vi": "Lịch trình"
+    },
+    "keywords": "Water & islands Sông nước & đảo Start in the southern city, slow down in the delta, then finish by the sea. Bắt đầu ở thành phố phía Nam, chậm lại ở đồng bằng, rồi kết bên biển."
+  },
+  {
+    "href": "/eat#eat-pho",
+    "title": {
+      "en": "Pho",
+      "vi": "Phở"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Pho Phở A daily noodle bowl with regional accents. Một bát mì hằng ngày, mỗi miền có nét riêng."
+  },
+  {
+    "href": "/eat#eat-bun-cha",
+    "title": {
+      "en": "Bun cha",
+      "vi": "Bún chả"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Bun cha Bún chả Grilled pork, noodles and dipping sauce: a Hanoi classic. Thịt nướng, bún và nước chấm: món quen của Hà Nội."
+  },
+  {
+    "href": "/eat#eat-banh-mi",
+    "title": {
+      "en": "Banh mi",
+      "vi": "Bánh mì"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Banh mi Bánh mì Crisp bread, pickles and savoury fillings make an easy stop. Bánh giòn, đồ chua và nhân mặn cho một điểm ăn nhanh."
+  },
+  {
+    "href": "/eat#eat-bun-bo",
+    "title": {
+      "en": "Bun bo Hue",
+      "vi": "Bún bò Huế"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Bun bo Hue Bún bò Huế A spicy Central bowl with herbs and depth. Một bát miền Trung cay với rau thơm và vị đậm."
+  },
+  {
+    "href": "/eat#eat-cao-lau",
+    "title": {
+      "en": "Cao lau",
+      "vi": "Cao lầu"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Cao lau Cao lầu Hoi An noodles with a distinct local style. Mì Hội An với phong cách địa phương rất riêng."
+  },
+  {
+    "href": "/eat#eat-com-tam",
+    "title": {
+      "en": "Com tam",
+      "vi": "Cơm tấm"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Com tam Cơm tấm Broken rice, grilled pork and the sweet-salty southern table. Cơm tấm, thịt nướng và vị ngọt mặn của bàn ăn miền Nam."
+  },
+  {
+    "href": "/eat#eat-seafood",
+    "title": {
+      "en": "Coastal seafood",
+      "vi": "Hải sản bờ biển"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Coastal seafood Hải sản bờ biển Fish, squid and shellfish move quickly from coast to table. Cá, mực và hải sản đi nhanh từ biển lên bàn."
+  },
+  {
+    "href": "/eat#eat-fruit",
+    "title": {
+      "en": "Delta fruit",
+      "vi": "Trái cây đồng bằng"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Delta fruit Trái cây đồng bằng Coconut, mango, pomelo and more appear in markets and boats. Dừa, xoài, bưởi và nhiều loại khác xuất hiện ở chợ và ghe."
+  },
+  {
+    "href": "/eat#eat-bia-hoi",
+    "title": {
+      "en": "Bia hoi",
+      "vi": "Bia hơi"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Bia hoi Bia hơi Fresh, light beer with low stools and street noise. Bia nhẹ, ghế thấp và tiếng phố."
+  },
+  {
+    "href": "/eat#eat-iced-coffee",
+    "title": {
+      "en": "Iced coffee",
+      "vi": "Cà phê sữa đá"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Iced coffee Cà phê sữa đá Strong coffee, condensed milk and ice: a southern pause. Cà phê đậm, sữa đặc và đá: một quãng nghỉ miền Nam."
+  },
+  {
+    "href": "/eat#eat-night-markets",
+    "title": {
+      "en": "Night-market snacks",
+      "vi": "Đồ ăn chợ tối"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Night-market snacks Đồ ăn chợ tối Snack-sized eating works well when you want to keep moving. Món nhỏ hợp khi bạn vẫn muốn đi tiếp."
+  },
+  {
+    "href": "/eat#coffee-phin",
+    "title": {
+      "en": "Phin coffee",
+      "vi": "Cà phê phin"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Phin coffee Cà phê phin A small metal filter that rewards sitting down. Bộ lọc kim loại nhỏ, hợp với việc ngồi lại."
+  },
+  {
+    "href": "/eat#coffee-egg",
+    "title": {
+      "en": "Egg coffee",
+      "vi": "Cà phê trứng"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Egg coffee Cà phê trứng Coffee under a sweet, warm foam: closely associated with Hanoi. Cà phê dưới lớp kem ngọt, ấm: gắn với Hà Nội."
+  },
+  {
+    "href": "/eat#coffee-highlands",
+    "title": {
+      "en": "Highland coffee",
+      "vi": "Cà phê cao nguyên"
+    },
+    "hint": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "keywords": "Highland coffee Cà phê cao nguyên Visit coffee country for the landscape as much as the cup. Đến xứ cà phê vì cảnh quan cũng như vì chiếc cốc."
+  },
+  {
+    "href": "/essentials#arrive-first",
+    "title": {
+      "en": "First hour",
+      "vi": "Giờ đầu tiên"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "First hour Giờ đầu tiên Save your accommodation name, keep your phone charged, and have a simple plan for the first ride. Lưu tên chỗ ở, giữ điện thoại có pin và có kế hoạch đơn giản cho chuyến xe đầu."
+  },
+  {
+    "href": "/essentials#arrive-entry",
+    "title": {
+      "en": "Entry rules",
+      "vi": "Quy định nhập cảnh"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Entry rules Quy định nhập cảnh Requirements can change. Use current official information before travel. Quy định có thể đổi. Dùng thông tin chính thức hiện hành trước chuyến đi."
+  },
+  {
+    "href": "/essentials#move-city",
+    "title": {
+      "en": "Inside cities",
+      "vi": "Trong thành phố"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Inside cities Trong thành phố Walk where the streets reward it; use a ride or taxi when heat and traffic make walking a poor choice. Đi bộ khi phố phù hợp; dùng xe khi nóng và giao thông khiến đi bộ không hợp."
+  },
+  {
+    "href": "/essentials#move-between",
+    "title": {
+      "en": "Between regions",
+      "vi": "Giữa các vùng"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Between regions Giữa các vùng Planes, trains, buses and cars each make sense on different legs. Recheck the connection before leaving. Máy bay, tàu, xe khách và ô tô hợp với những chặng khác nhau. Kiểm tra lại trước khi đi."
+  },
+  {
+    "href": "/essentials#money-basics",
+    "title": {
+      "en": "Keep it simple",
+      "vi": "Giữ đơn giản"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Keep it simple Giữ đơn giản Carry a small amount of cash, keep cards separate, and check the final amount before paying. Mang một ít tiền mặt, để thẻ riêng và kiểm tra số tiền cuối trước khi trả."
+  },
+  {
+    "href": "/essentials#stay-choice",
+    "title": {
+      "en": "Choose by neighbourhood",
+      "vi": "Chọn theo khu"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Choose by neighbourhood Chọn theo khu Sleep near the thing you want to do. A central bed can save more effort than a cheaper far bed. Ngủ gần thứ bạn muốn làm. Chỗ ở trung tâm có thể đỡ công hơn một nơi rẻ nhưng xa."
+  },
+  {
+    "href": "/essentials#family-rhythm",
+    "title": {
+      "en": "One base at a time",
+      "vi": "Mỗi lần một điểm nghỉ"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "One base at a time Mỗi lần một điểm nghỉ Fewer hotel changes and one main outing each day can make family travel easier. Ít đổi chỗ ở và một hoạt động chính mỗi ngày có thể làm chuyến gia đình nhẹ hơn."
+  },
+  {
+    "href": "/essentials#health-basics",
+    "title": {
+      "en": "Heat, water, rest",
+      "vi": "Nắng, nước, nghỉ"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Heat, water, rest Nắng, nước, nghỉ Carry water, seek shade, and build rest into hot days. Use current official health guidance for medical decisions. Mang nước, tìm bóng râm và dành giờ nghỉ trong ngày nóng. Dùng hướng dẫn sức khỏe chính thức hiện hành cho quyết định y tế."
+  },
+  {
+    "href": "/essentials#respect-places",
+    "title": {
+      "en": "Leave places lighter",
+      "vi": "Để nơi chốn nhẹ hơn"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Leave places lighter Để nơi chốn nhẹ hơn Dress appropriately at sacred sites, keep noise down, and ask before photographing people closely. Ăn mặc phù hợp ở nơi linh thiêng, giữ yên và hỏi trước khi chụp cận người khác."
+  },
+  {
+    "href": "/essentials#lgbtiq-travel",
+    "title": {
+      "en": "Read the room",
+      "vi": "Đọc không gian"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Read the room Đọc không gian Experiences vary by city, venue and community. Choose welcoming spaces and use current local guidance. Trải nghiệm khác theo thành phố, địa điểm và cộng đồng. Chọn nơi cởi mở và dùng hướng dẫn địa phương hiện hành."
+  },
+  {
+    "href": "/essentials#accessible-plan",
+    "title": {
+      "en": "Plan the surface",
+      "vi": "Tính đến mặt đường"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Plan the surface Tính đến mặt đường Historic streets, stairs and uneven paving can make short distances hard. Ask accommodation about entrances before arrival. Phố cổ, cầu thang và mặt đường không phẳng có thể làm quãng ngắn trở nên khó. Hỏi chỗ ở về lối vào trước khi đến."
+  },
+  {
+    "href": "/essentials#phrase-hello",
+    "title": {
+      "en": "Hello",
+      "vi": "Xin chào"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Hello Xin chào sin chow · native review flag. sin chow · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-thank-you",
+    "title": {
+      "en": "Thank you",
+      "vi": "Cảm ơn"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Thank you Cảm ơn gahm uhn · native review flag. gahm uhn · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-please",
+    "title": {
+      "en": "Please",
+      "vi": "Làm ơn"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Please Làm ơn lahm uhn · native review flag. lahm uhn · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-yes",
+    "title": {
+      "en": "Yes",
+      "vi": "Vâng"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Yes Vâng vuhng · native review flag. vuhng · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-no",
+    "title": {
+      "en": "No",
+      "vi": "Không"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "No Không khong · native review flag. khong · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-excuse-me",
+    "title": {
+      "en": "Excuse me",
+      "vi": "Xin lỗi"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Excuse me Xin lỗi sin loy · native review flag. sin loy · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-sorry",
+    "title": {
+      "en": "Sorry",
+      "vi": "Xin lỗi"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Sorry Xin lỗi sin loy · native review flag. sin loy · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-how-much-",
+    "title": {
+      "en": "How much?",
+      "vi": "Bao nhiêu?"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "How much? Bao nhiêu? bao nyew · native review flag. bao nyew · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-too-expensive",
+    "title": {
+      "en": "Too expensive",
+      "vi": "Đắt quá"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Too expensive Đắt quá daht kwa · native review flag. daht kwa · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-where-is-",
+    "title": {
+      "en": "Where is…?",
+      "vi": "… ở đâu?"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Where is…? … ở đâu? uh dow · native review flag. uh dow · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-toilet",
+    "title": {
+      "en": "Toilet",
+      "vi": "Nhà vệ sinh"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Toilet Nhà vệ sinh nya veh sin · native review flag. nya veh sin · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-water",
+    "title": {
+      "en": "Water",
+      "vi": "Nước"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Water Nước nook · native review flag. nook · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-no-ice",
+    "title": {
+      "en": "No ice",
+      "vi": "Không đá"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "No ice Không đá khong dah · native review flag. khong dah · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-no-spicy",
+    "title": {
+      "en": "No spicy",
+      "vi": "Không cay"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "No spicy Không cay khong kai · native review flag. khong kai · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-vegetarian",
+    "title": {
+      "en": "Vegetarian",
+      "vi": "Ăn chay"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Vegetarian Ăn chay an chai · native review flag. an chai · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-i-don-t-understand",
+    "title": {
+      "en": "I don't understand",
+      "vi": "Tôi không hiểu"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "I don't understand Tôi không hiểu toy khong hyew · native review flag. toy khong hyew · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-help",
+    "title": {
+      "en": "Help",
+      "vi": "Giúp tôi"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Help Giúp tôi zoop toy · native review flag. zoop toy · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-one",
+    "title": {
+      "en": "One",
+      "vi": "Một"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "One Một moht · native review flag. moht · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-two",
+    "title": {
+      "en": "Two",
+      "vi": "Hai"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Two Hai hai · native review flag. hai · cần người bản ngữ xem."
+  },
+  {
+    "href": "/essentials#phrase-goodbye",
+    "title": {
+      "en": "Goodbye",
+      "vi": "Tạm biệt"
+    },
+    "hint": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "keywords": "Goodbye Tạm biệt tahm byet · native review flag. tahm byet · cần người bản ngữ xem."
+  },
+  {
+    "href": "/outdoors",
+    "title": {
+      "en": "The Outdoors",
+      "vi": "Ngoài trời"
+    },
+    "hint": {
+      "en": "Keyword trails for choosing the landscape before you choose the route.",
+      "vi": "Từ khóa cảnh quan để chọn nơi trước khi chọn đường."
+    },
+    "keywords": "Landscape map Bản đồ cảnh quan"
+  },
+  {
+    "href": "/outdoors#out-north-limestone",
+    "title": {
+      "en": "Karst & caves",
+      "vi": "Đá vôi & hang"
+    },
+    "hint": {
+      "en": "The Outdoors",
+      "vi": "Ngoài trời"
+    },
+    "keywords": "Karst & caves Đá vôi & hang Limestone islands, river caves and boat days. Đảo đá vôi, hang sông và những ngày trên thuyền."
+  },
+  {
+    "href": "/outdoors#out-high-mountains",
+    "title": {
+      "en": "High mountain roads",
+      "vi": "Đường núi cao"
+    },
+    "hint": {
+      "en": "The Outdoors",
+      "vi": "Ngoài trời"
+    },
+    "keywords": "High mountain roads Đường núi cao Ridges, passes, terraces and long travel days. Sống núi, đèo, ruộng bậc thang và ngày di chuyển dài."
+  },
+  {
+    "href": "/outdoors#out-central-caves",
+    "title": {
+      "en": "Caves & rivers",
+      "vi": "Hang & sông"
+    },
+    "hint": {
+      "en": "The Outdoors",
+      "vi": "Ngoài trời"
+    },
+    "keywords": "Caves & rivers Hang & sông Phong Nha makes the underground world part of the trip. Phong Nha đưa thế giới dưới lòng đất vào chuyến đi."
+  },
+  {
+    "href": "/outdoors#out-coast",
+    "title": {
+      "en": "Coast & passes",
+      "vi": "Biển & đèo"
+    },
+    "hint": {
+      "en": "The Outdoors",
+      "vi": "Ngoài trời"
+    },
+    "keywords": "Coast & passes Biển & đèo Sea, dunes and the Hai Van ridge make the central coast a moving landscape. Biển, đồi cát và đèo Hải Vân tạo nên cảnh quan luôn chuyển động."
+  },
+  {
+    "href": "/outdoors#out-highlands",
+    "title": {
+      "en": "Pine & coffee hills",
+      "vi": "Đồi thông & cà phê"
+    },
+    "hint": {
+      "en": "The Outdoors",
+      "vi": "Ngoài trời"
+    },
+    "keywords": "Pine & coffee hills Đồi thông & cà phê Cooler highland towns, forests and coffee country. Thành phố cao nguyên mát hơn, rừng và xứ cà phê."
+  },
+  {
+    "href": "/outdoors#out-mekong",
+    "title": {
+      "en": "River & orchards",
+      "vi": "Sông & vườn"
+    },
+    "hint": {
+      "en": "The Outdoors",
+      "vi": "Ngoài trời"
+    },
+    "keywords": "River & orchards Sông & vườn Canals, boats, orchards and lowland water shape the delta. Kênh, ghe, vườn cây và nước đồng bằng tạo hình nơi này."
+  },
+  {
+    "href": "/outdoors#out-islands",
+    "title": {
+      "en": "Island forests",
+      "vi": "Rừng trên đảo"
+    },
+    "hint": {
+      "en": "The Outdoors",
+      "vi": "Ngoài trời"
+    },
+    "keywords": "Island forests Rừng trên đảo Beach and forest meet on Phu Quoc and Con Dao. Biển và rừng gặp nhau ở Phú Quốc và Côn Đảo."
+  },
+  {
+    "href": "/outdoors#out-catba",
+    "title": {
+      "en": "Island karst",
+      "vi": "Đá vôi trên đảo"
+    },
+    "hint": {
+      "en": "The Outdoors",
+      "vi": "Ngoài trời"
+    },
+    "keywords": "Island karst Đá vôi trên đảo Cat Ba combines sea, cliffs and forest in one stop. Cát Bà gom biển, vách đá và rừng vào một điểm."
+  },
+  {
+    "href": "/history",
+    "title": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "hint": {
+      "en": "A keyword timeline. The guide keeps the story broad and points you to places that carry it.",
+      "vi": "Dòng thời gian bằng từ khóa. Cẩm nang kể rộng và chỉ vào những nơi còn giữ câu chuyện."
+    },
+    "keywords": "Keywords Từ khóa"
+  },
+  {
+    "href": "/history#hist-early",
+    "title": {
+      "en": "Early kingdoms",
+      "vi": "Các vương quốc sớm"
+    },
+    "hint": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "keywords": "Early kingdoms Các vương quốc sớm Dong Son · Champa · Khmer worlds Đông Sơn · Chăm · thế giới Khmer"
+  },
+  {
+    "href": "/history#hist-imperial",
+    "title": {
+      "en": "Imperial Hue",
+      "vi": "Huế triều Nguyễn"
+    },
+    "hint": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "keywords": "Imperial Hue Huế triều Nguyễn Nguyen court · citadel · tombs Triều Nguyễn · kinh thành · lăng tẩm"
+  },
+  {
+    "href": "/history#hist-colonial",
+    "title": {
+      "en": "Colonial cities",
+      "vi": "Đô thị thời thuộc địa"
+    },
+    "hint": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "keywords": "Colonial cities Đô thị thời thuộc địa French-era boulevards · villas · railways Đại lộ · biệt thự · đường sắt thời Pháp"
+  },
+  {
+    "href": "/history#hist-division",
+    "title": {
+      "en": "Division & war",
+      "vi": "Chia cắt & chiến tranh"
+    },
+    "hint": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "keywords": "Division & war Chia cắt & chiến tranh North · South · conflict · reunification Bắc · Nam · xung đột · thống nhất"
+  },
+  {
+    "href": "/history#hist-remnants",
+    "title": {
+      "en": "Memory",
+      "vi": "Ký ức"
+    },
+    "hint": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "keywords": "Memory Ký ức Museums · memorials · difficult photographs Bảo tàng · đài tưởng niệm · những hình ảnh khó xem"
+  },
+  {
+    "href": "/history#hist-trade",
+    "title": {
+      "en": "Trade & ports",
+      "vi": "Thương mại & cảng"
+    },
+    "hint": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "keywords": "Trade & ports Thương mại & cảng Hoi An · river trade · coastal exchange Hội An · thương mại sông · trao đổi ven biển"
+  },
+  {
+    "href": "/history#hist-cholon",
+    "title": {
+      "en": "Chinese-Vietnamese city life",
+      "vi": "Đời sống Hoa-Việt"
+    },
+    "hint": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "keywords": "Chinese-Vietnamese city life Đời sống Hoa-Việt Cholon · markets · temples · trade Chợ Lớn · chợ · chùa · buôn bán"
+  },
+  {
+    "href": "/history#hist-delta",
+    "title": {
+      "en": "Delta life",
+      "vi": "Đời sống đồng bằng"
+    },
+    "hint": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "keywords": "Delta life Đời sống đồng bằng Canals · orchards · floating markets · migration Kênh · vườn · chợ nổi · di cư"
+  },
+  {
+    "href": "/history#hist-angkor",
+    "title": {
+      "en": "Angkor",
+      "vi": "Angkor"
+    },
+    "hint": {
+      "en": "A brief history",
+      "vi": "Lịch sử ngắn"
+    },
+    "keywords": "Angkor Angkor Khmer temples · Angkor Thom · living heritage Đền Khmer · Angkor Thom · di sản sống"
   },
   {
     "href": "/plan",

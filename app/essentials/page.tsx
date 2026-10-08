@@ -1,17 +1,10 @@
 import type { Metadata } from "next";
-import { SoonBlock, TextLink } from "@/components/cards";
-import { T } from "@/components/text";
-import { ui } from "@/lib/content";
+import { GuideView } from "@/components/guide-view";
+import data from "@/content/essentials.json";
+import type { GuideContent } from "@/content/types";
 
 export const metadata: Metadata = { title: "Essentials" };
 
 export default function EssentialsPage() {
-  return (
-    <div className="grid gap-2">
-      <SoonBlock title={ui.essentials} />
-      <TextLink href="/credits">
-        <T text={ui.essentialsLink} />
-      </TextLink>
-    </div>
-  );
+  return <GuideView content={data as GuideContent} />;
 }

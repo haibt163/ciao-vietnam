@@ -1,0 +1,204 @@
+{
+  "title": {
+    "en": "The Outdoors",
+    "vi": "Ngoài trời"
+  },
+  "lede": {
+    "en": "Choose the landscape first; the route comes second.",
+    "vi": "Chọn kiểu cảnh quan trước; tuyến đi tính sau."
+  },
+  "sections": [
+    {
+      "id": "landscapes",
+      "title": {
+        "en": "Landscape map",
+        "vi": "Bản đồ cảnh quan"
+      },
+      "cards": [
+        {
+          "id": "out-north-limestone",
+          "title": {
+            "en": "Karst & caves",
+            "vi": "Đá vôi & hang"
+          },
+          "summary": {
+            "en": "Limestone islands, river caves and boat days.",
+            "vi": "Đảo đá vôi, hang sông và những ngày trên thuyền."
+          },
+          "image": "halong",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "North Vietnam",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            }
+          ]
+        },
+        {
+          "id": "out-high-mountains",
+          "title": {
+            "en": "High mountain roads",
+            "vi": "Đường núi cao"
+          },
+          "summary": {
+            "en": "Ridges, passes, terraces and long travel days.",
+            "vi": "Sống núi, đèo, ruộng bậc thang và ngày di chuyển dài."
+          },
+          "image": "hagiang",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "North Vietnam",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            }
+          ]
+        },
+        {
+          "id": "out-central-caves",
+          "title": {
+            "en": "Caves & rivers",
+            "vi": "Hang & sông"
+          },
+          "summary": {
+            "en": "Phong Nha makes the underground world part of the trip.",
+            "vi": "Phong Nha đưa thế giới dưới lòng đất vào chuyến đi."
+          },
+          "image": "phongnha",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Central Vietnam",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            }
+          ]
+        },
+        {
+          "id": "out-coast",
+          "title": {
+            "en": "Coast & passes",
+            "vi": "Biển & đèo"
+          },
+          "summary": {
+            "en": "Sea, dunes and the Hai Van ridge make the central coast a moving landscape.",
+            "vi": "Biển, đồi cát và đèo Hải Vân tạo nên cảnh quan luôn chuyển động."
+          },
+          "image": "haivan",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Central Vietnam",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            },
+            {
+              "label": {
+                "en": "Southeast Coast",
+                "vi": "Duyên hải"
+              },
+              "href": "/regions/southeast-coast"
+            }
+          ]
+        },
+        {
+          "id": "out-highlands",
+          "title": {
+            "en": "Pine & coffee hills",
+            "vi": "Đồi thông & cà phê"
+          },
+          "summary": {
+            "en": "Cooler highland towns, forests and coffee country.",
+            "vi": "Thành phố cao nguyên mát hơn, rừng và xứ cà phê."
+          },
+          "image": "xuanhuong",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Central Highlands",
+                "vi": "Tây Nguyên"
+              },
+              "href": "/regions/central-highlands"
+            }
+          ]
+        },
+        {
+          "id": "out-mekong",
+          "title": {
+            "en": "River & orchards",
+            "vi": "Sông & vườn"
+          },
+          "summary": {
+            "en": "Canals, boats, orchards and lowland water shape the delta.",
+            "vi": "Kênh, ghe, vườn cây và nước đồng bằng tạo hình nơi này."
+          },
+          "image": "bentre",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Mekong Delta",
+                "vi": "Đồng bằng"
+              },
+              "href": "/regions/mekong-delta"
+            }
+          ]
+        },
+        {
+          "id": "out-islands",
+          "title": {
+            "en": "Island forests",
+            "vi": "Rừng trên đảo"
+          },
+          "summary": {
+            "en": "Beach and forest meet on Phu Quoc and Con Dao.",
+            "vi": "Biển và rừng gặp nhau ở Phú Quốc và Côn Đảo."
+          },
+          "image": "phuquoc",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Mekong Delta",
+                "vi": "Đồng bằng"
+              },
+              "href": "/regions/mekong-delta"
+            }
+          ]
+        },
+        {
+          "id": "out-catba",
+          "title": {
+            "en": "Island karst",
+            "vi": "Đá vôi trên đảo"
+          },
+          "summary": {
+            "en": "Cat Ba combines sea, cliffs and forest in one stop.",
+            "vi": "Cát Bà gom biển, vách đá và rừng vào một điểm."
+          },
+          "image": "catba",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "North Vietnam",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

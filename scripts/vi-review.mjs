@@ -37,6 +37,9 @@ function addFile(label, file) {
 
 addFile("Shared interface", path.join(root, "content", "ui.json"));
 addFile("Home", path.join(root, "content", "home.json"));
+for (const name of ["plan", "eat", "essentials", "outdoors", "history"]) {
+  addFile(name, path.join(root, "content", `${name}.json`));
+}
 for (const name of fs.readdirSync(path.join(root, "content", "regions")).filter((item) => item.endsWith(".json")).sort()) {
   addFile(name.replace(".json", ""), path.join(root, "content", "regions", name));
 }

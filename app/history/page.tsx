@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { SoonBlock } from "@/components/cards";
-import { ui } from "@/lib/content";
+import { GuideView } from "@/components/guide-view";
+import data from "@/content/history.json";
+import type { GuideContent } from "@/content/types";
 
 export const metadata: Metadata = { title: "A brief history" };
 
 export default function HistoryPage() {
-  return <SoonBlock title={ui.history} />;
+  return <GuideView content={data as GuideContent} />;
 }

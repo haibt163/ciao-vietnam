@@ -94,7 +94,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "cantho"
     },
     {
       "id": "bentre",
@@ -166,7 +166,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "hatien"
     },
     {
       "id": "phuquoc",
@@ -222,7 +222,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "condao"
     }
   ],
   "eatIntro": {
@@ -249,6 +249,55 @@
           "value": {
             "en": "Markets and orchard boats",
             "vi": "Chợ và ghe vườn"
+          }
+        }
+      ],
+      "image": "banana-boat"
+    },
+    {
+      "id": "hu-tieu",
+      "title": {
+        "en": "Hu tieu",
+        "vi": "Hủ tiếu"
+      },
+      "summary": {
+        "en": "A southern noodle bowl with a lighter, sweeter profile. Look for it in river towns.",
+        "vi": "Một bát mì miền Nam, vị nhẹ và ngọt hơn. Tìm ở các phố sông."
+      },
+      "image": "cairang",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Breakfast or a late bowl",
+            "vi": "Bữa sáng hoặc bát muộn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "coconut-sweets",
+      "title": {
+        "en": "Coconut sweets",
+        "vi": "Kẹo dừa"
+      },
+      "summary": {
+        "en": "Coconut is part of the delta pantry. Try small sweets or fresh coconut from a market stall.",
+        "vi": "Dừa là một phần của bếp đồng bằng. Thử kẹo nhỏ hoặc dừa tươi ở quầy chợ."
+      },
+      "image": "coconut-market",
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "Ben Tre and market towns",
+            "vi": "Bến Tre và các phố chợ"
           }
         }
       ]
@@ -280,7 +329,8 @@
             "vi": "Chợ nổi lúc bình minh"
           }
         }
-      ]
+      ],
+      "image": "cai-rang-aerial"
     },
     {
       "id": "stay-islands",
@@ -301,6 +351,31 @@
           "value": {
             "en": "Verify the schedule locally",
             "vi": "Hỏi lịch tại chỗ"
+          }
+        }
+      ],
+      "image": "phuquoc"
+    },
+    {
+      "id": "stay-bentre",
+      "title": {
+        "en": "Ben Tre",
+        "vi": "Bến Tre"
+      },
+      "summary": {
+        "en": "Stay close to small channels and orchards when the river landscape is the reason to come.",
+        "vi": "Ở gần kênh nhỏ và vườn cây khi chính cảnh sông nước là lý do bạn đến."
+      },
+      "image": "bentre",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A quieter delta night",
+            "vi": "Một đêm đồng bằng yên hơn"
           }
         }
       ]
@@ -326,6 +401,31 @@
           "value": {
             "en": "Road for the delta. Air for Phu Quoc and Con Dao.",
             "vi": "Đường bộ cho đồng bằng. Máy bay cho Phú Quốc và Côn Đảo."
+          }
+        }
+      ],
+      "image": "mekong-boat"
+    },
+    {
+      "id": "delta-ferries",
+      "title": {
+        "en": "Boats and local crossings",
+        "vi": "Thuyền và các chuyến qua sông"
+      },
+      "summary": {
+        "en": "River travel is part of the delta experience. Routes change; ask the operator before setting out.",
+        "vi": "Đi sông là một phần trải nghiệm đồng bằng. Tuyến có thể đổi; hỏi nhà vận hành trước khi đi."
+      },
+      "image": "mekong-boat-2",
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Combine road and boat legs",
+            "vi": "Kết hợp chặng đường bộ và đường sông"
           }
         }
       ]

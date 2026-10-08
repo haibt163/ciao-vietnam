@@ -122,3 +122,54 @@ Decisions already made:
 Read `AGENTS.md` → `AGENTS.project.md` → `docs/ENGINEERING_GOVERNANCE.md` → this
 file → `docs/sources.md` and `docs/photo-selection.md` → the relevant code. Verify
 important claims independently. State your capabilities first.
+
+
+## Part B — regional coverage and core guide pages
+
+Owner authorized autonomous continuation through end of Part B on 8 October 2026. Feature branch: `part-b-content-photos`.
+
+Implementation target:
+- every existing regional card receives an image reference;
+- explicit `gap` photo placeholders are removed for the named locations;
+- sparse Eat / Stay / Getting There sections gain additional original keyword-style cards;
+- Plan, Eat, Essentials, Outdoors and History are data-driven from `content/*.json` using shared rendering;
+- search and Vietnamese-review generation include the new guide content;
+- no new dependencies or backend/auth/data layer.
+
+Guidebook provenance remains the existing chapter map in `docs/sources.md`. Guidebook text is not copied. Volatile practical details stay generic and are marked for verification.
+
+### Verification for this Part B branch
+
+GitHub Actions will verify original-image dimensions, generated image budget, typecheck, lint, production build and basic server-rendered HTML checks before the branch is raised for owner review. Browser screenshots at 390 px in EN/VI and light/dark remain a separate visual check.
+
+## Part B — regional coverage and core guide pages
+
+Owner authorized autonomous continuation through end of Part B on 8 October 2026. Feature branch: `part-b-content-photos`.
+
+### Implemented
+- All 120 existing regional cards across 8 region pages now have a valid image reference; no regional `gap` placeholders remain.
+- Regional Eat / Stay / Getting There sections were expanded where sparse, using short original bilingual cards.
+- Plan, Eat, Essentials, Outdoors and History are data-driven through a shared guide renderer and `content/*.json`.
+- Plan includes 4 original route shapes, Vietnam Your Way interest links, and a month-by-region compass.
+- Eat includes Food Scene, Food/Drink & Nightlife, and Coffee culture.
+- Essentials includes Arriving, Getting Around, Money, Accommodation, Family Travel, Health & Safe Travel, Responsible Travel, LGBTIQ+, Accessible Travel, and a 20-item phrasebook with simple pronunciation plus native-review flag.
+- Search generation and Vietnamese review generation include the new guide content.
+- No new package dependency or backend/auth layer was added.
+
+### Verified Part B gate
+GitHub Actions run 27 completed successfully:
+- 17 new public photo sources generated as 34 responsive WebP assets.
+- Every new source passed the 3000 px long-edge minimum.
+- Combined WebP image set reported 15.0 MB, below the 40 MB budget.
+- Regional photo coverage check passed for all 120 cards.
+- Vietnamese review document regenerated.
+- `npm run typecheck` passed.
+- `npm run lint` passed.
+- `npm run build` passed; Next generated all 20 static pages, including Plan, Eat and Essentials.
+- Production server smoke test returned HTTP 200 for Plan, Eat, Essentials and Hanoi region.
+
+### Review limits
+- 390 px EN/VI light/dark browser screenshots are UNVERIFIED in this lane because a headless browser is not available.
+- Live deployment status is UNVERIFIED here.
+- The two HCMC replacement photos use Pexels; the Cholon image is explicitly marked as a contextual HCMC street image rather than a landmark-specific Cholon photograph.
+- The guide copy is original keyword-style writing and follows the existing guidebook chapter map in `docs/sources.md`; no guidebook sentences were copied.

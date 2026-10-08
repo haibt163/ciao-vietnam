@@ -21,6 +21,14 @@ export type ImageAsset = {
 
 export type Fact = { label: LangText; value: LangText };
 
+export type GuideLink = { label: LangText; href: string };
+
+export type GuideMonth = { label: LangText; links: GuideLink[] };
+
+export type GuideSection = { id: string; title: LangText; intro?: LangText; cards?: Card[]; links?: GuideLink[]; months?: GuideMonth[] };
+
+export type GuideContent = { title: LangText; lede: LangText; sections: GuideSection[] };
+
 export type Card = {
   id: string;
   title: LangText;
@@ -30,6 +38,7 @@ export type Card = {
   gap?: boolean;
   kicker?: LangText;
   facts: Fact[];
+  links?: GuideLink[];
 };
 
 export type RegionContent = {

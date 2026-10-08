@@ -162,7 +162,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "quynhon"
     },
     {
       "id": "sonmy",
@@ -239,6 +239,55 @@
             "vi": "Hỏi giá một ký tại chỗ"
           }
         }
+      ],
+      "image": "seafood-nhatrang"
+    },
+    {
+      "id": "banh-can",
+      "title": {
+        "en": "Banh can",
+        "vi": "Bánh căn"
+      },
+      "summary": {
+        "en": "Small rice cakes cooked in little pans. Look for a local breakfast or evening stall.",
+        "vi": "Bánh gạo nhỏ nướng trong khuôn. Tìm một quán sáng hoặc hàng tối địa phương."
+      },
+      "image": "banh-can-food",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A snack-sized meal",
+            "vi": "Một bữa nhỏ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "coast-cold-drink",
+      "title": {
+        "en": "Fresh fruit & iced drinks",
+        "vi": "Trái cây & đồ uống đá"
+      },
+      "summary": {
+        "en": "Hot coastal days call for fruit, ice and a shaded plastic chair.",
+        "vi": "Ngày biển nóng hợp với trái cây, đá và chiếc ghế nhựa có bóng râm."
+      },
+      "image": "quynhon-beach",
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "Market streets and beach neighbourhoods",
+            "vi": "Phố chợ và khu gần biển"
+          }
+        }
       ]
     }
   ],
@@ -268,7 +317,8 @@
             "vi": "Sân bay ở Cam Ranh, không ở trong phố"
           }
         }
-      ]
+      ],
+      "image": "nha-trang-beach"
     },
     {
       "id": "stay-muine",
@@ -289,6 +339,31 @@
           "value": {
             "en": "Dunes in the morning",
             "vi": "Đồi cát buổi sáng"
+          }
+        }
+      ],
+      "image": "muine"
+    },
+    {
+      "id": "stay-quynhon",
+      "title": {
+        "en": "Quy Nhon",
+        "vi": "Quy Nhơn"
+      },
+      "summary": {
+        "en": "A calmer beach base for a few days. Choose by the part of the coast you plan to explore.",
+        "vi": "Điểm nghỉ biển yên hơn cho vài ngày. Chọn theo đoạn bờ bạn muốn khám phá."
+      },
+      "image": "quynhon-village",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A slower coast stop",
+            "vi": "Một chặng biển thong thả"
           }
         }
       ]
@@ -314,6 +389,31 @@
           "value": {
             "en": "Verify the transfer before you land",
             "vi": "Hỏi xe trước khi hạ cánh"
+          }
+        }
+      ],
+      "image": "nha-trang-beach"
+    },
+    {
+      "id": "coast-road",
+      "title": {
+        "en": "By road along the coast",
+        "vi": "Đi đường bộ dọc bờ biển"
+      },
+      "summary": {
+        "en": "Bus and car links connect the coastal towns. Check the next departure before leaving.",
+        "vi": "Xe khách và ô tô nối các phố biển. Xem chuyến tiếp theo trước khi rời chỗ ở."
+      },
+      "image": "quynhon-village",
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Build the coast as separate legs",
+            "vi": "Chia bờ biển thành từng chặng"
           }
         }
       ]

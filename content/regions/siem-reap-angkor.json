@@ -80,7 +80,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "angkorwat"
     },
     {
       "id": "angkor-gate",
@@ -205,6 +205,55 @@
             "vi": "Phố Siem Reap, sau khi về từ đền"
           }
         }
+      ],
+      "image": "hoi-an-market"
+    },
+    {
+      "id": "fish-amok",
+      "title": {
+        "en": "Fish amok",
+        "vi": "Amok cá"
+      },
+      "summary": {
+        "en": "A Cambodian classic worth ordering once. Mild, aromatic, and different from Vietnamese bowls.",
+        "vi": "Một món kinh điển Campuchia đáng thử một lần. Dịu, thơm, và khác các bát mì Việt."
+      },
+      "image": "night-market-vietnam",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A first Khmer dinner",
+            "vi": "Bữa tối Khmer đầu tiên"
+          }
+        }
+      ]
+    },
+    {
+      "id": "market-night",
+      "title": {
+        "en": "Night-market snacks",
+        "vi": "Đồ ăn chợ tối"
+      },
+      "summary": {
+        "en": "The town is built around evening wandering. Sample small plates instead of one large dinner.",
+        "vi": "Phố được làm cho việc đi bộ buổi tối. Thử nhiều món nhỏ thay vì một bữa lớn."
+      },
+      "image": "night-food-market",
+      "facts": [
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "After the temple day",
+            "vi": "Sau một ngày ở đền"
+          }
+        }
       ]
     }
   ],
@@ -234,6 +283,31 @@
             "vi": "Tính tiền xe ra đền, mỗi ngày"
           }
         }
+      ],
+      "image": "bayon"
+    },
+    {
+      "id": "stay-old-town",
+      "title": {
+        "en": "Old town",
+        "vi": "Khu phố trung tâm"
+      },
+      "summary": {
+        "en": "Stay near the evening centre when you want dinner, coffee and a short ride back to bed.",
+        "vi": "Ở gần trung tâm buổi tối khi muốn ăn, uống cà phê và về giường bằng một chuyến xe ngắn."
+      },
+      "image": "angkor-night",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "First-time visitors",
+            "vi": "Người đi lần đầu"
+          }
+        }
       ]
     }
   ],
@@ -259,7 +333,8 @@
             "vi": "Quy định hay đổi. Hỏi lại trước khi đi."
           }
         }
-      ]
+      ],
+      "image": "angkor-gate"
     },
     {
       "id": "temple-ride",
@@ -282,7 +357,8 @@
             "vi": "Xe đạp, tuk-tuk, hoặc ô tô. Chốt từ tối hôm trước."
           }
         }
-      ]
+      ],
+      "image": "angkorwat"
     }
   ]
 }
