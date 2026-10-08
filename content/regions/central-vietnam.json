@@ -80,7 +80,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "hue"
     },
     {
       "id": "thienmu",
@@ -273,7 +273,8 @@
             "vi": "Cuối buổi sáng"
           }
         }
-      ]
+      ],
+      "image": "bun-bo"
     },
     {
       "id": "cao-lau",
@@ -294,6 +295,31 @@
           "value": {
             "en": "In the old town, at lunch",
             "vi": "Trong phố cổ, buổi trưa"
+          }
+        }
+      ],
+      "image": "hoian-food"
+    },
+    {
+      "id": "mi-quang",
+      "title": {
+        "en": "Mi Quang",
+        "vi": "Mì Quảng"
+      },
+      "summary": {
+        "en": "Turmeric noodles, herbs and a little broth. A Central bowl with a different rhythm.",
+        "vi": "Mì vàng nghệ, rau thơm và ít nước. Một bát miền Trung có nhịp vị khác."
+      },
+      "image": "hoian-food",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A Hoi An or Da Nang lunch",
+            "vi": "Bữa trưa ở Hội An hoặc Đà Nẵng"
           }
         }
       ]
@@ -325,7 +351,8 @@
             "vi": "Lăng và Đại Nội"
           }
         }
-      ]
+      ],
+      "image": "hue"
     },
     {
       "id": "stay-hoian",
@@ -348,7 +375,8 @@
             "vi": "Sân bay Đà Nẵng phải đi xe, không đi bộ"
           }
         }
-      ]
+      ],
+      "image": "japan-bridge"
     }
   ],
   "gettingThere": [
@@ -373,7 +401,8 @@
             "vi": "Tàu, rồi xe vào Hội An"
           }
         }
-      ]
+      ],
+      "image": "haivan"
     },
     {
       "id": "hai-van",
@@ -398,6 +427,30 @@
         }
       ],
       "image": "haivan"
+    },
+    {
+      "id": "central-coast",
+      "title": {
+        "en": "Along the central coast",
+        "vi": "Dọc bờ biển miền Trung"
+      },
+      "summary": {
+        "en": "The coast works as a chain of short stops. Pick two bases rather than every city.",
+        "vi": "Bờ biển hợp với các chặng ngắn. Chọn hai điểm nghỉ thay vì gom mọi thành phố."
+      },
+      "image": "haivan",
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Train, bus, or car; verify the day",
+            "vi": "Tàu, xe khách hoặc ô tô; hỏi lựa chọn trong ngày"
+          }
+        }
+      ]
     }
   ]
 }
