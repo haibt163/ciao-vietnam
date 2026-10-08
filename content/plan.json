@@ -4,8 +4,8 @@
     "vi": "Lịch trình"
   },
   "lede": {
-    "en": "Build the trip from regions, not from a checklist.",
-    "vi": "Xây chuyến đi từ các vùng, không phải từ danh sách điểm đến."
+    "en": "Plan by rhythm, not by collecting places.",
+    "vi": "Lên kế hoạch theo nhịp điệu, không phải sưu tầm địa danh."
   },
   "sections": [
     {
@@ -22,36 +22,24 @@
         {
           "id": "route-north-centre",
           "title": {
-            "en": "North → lanterns",
-            "vi": "Bắc → đèn lồng"
+            "en": "North → centre",
+            "vi": "Bắc → miền Trung"
           },
+          "image": "halong-air",
           "summary": {
-            "en": "A first-timer spine: Hanoi, karst country, then the old towns of the centre.",
-            "vi": "Một trục dễ đi lần đầu: Hà Nội, xứ đá vôi, rồi các phố cổ miền Trung."
+            "en": "Hanoi, limestone country, then the old cities. Give the north enough nights instead of racing south.",
+            "vi": "Hà Nội, vùng núi đá vôi rồi các đô thị cổ. Hãy dành đủ đêm cho miền Bắc thay vì vội xuống phía Nam."
           },
-          "image": "hoan-kiem",
-          "facts": [],
-          "links": [
+          "facts": [
             {
               "label": {
-                "en": "Days 1–2 · Hanoi",
-                "vi": "Ngày 1–2 · Hà Nội"
+                "en": "Good for",
+                "vi": "Hợp với"
               },
-              "href": "/regions/hanoi"
-            },
-            {
-              "label": {
-                "en": "Days 3–4 · North",
-                "vi": "Ngày 3–4 · Miền Bắc"
-              },
-              "href": "/regions/north-vietnam"
-            },
-            {
-              "label": {
-                "en": "Days 5–7 · Central",
-                "vi": "Ngày 5–7 · Miền Trung"
-              },
-              "href": "/regions/central-vietnam"
+              "value": {
+                "en": "First trip, mixed landscapes, 10–14 days.",
+                "vi": "Chuyến đầu tiên, nhiều cảnh quan, 10–14 ngày."
+              }
             }
           ]
         },
@@ -61,33 +49,21 @@
             "en": "Heritage spine",
             "vi": "Trục di sản"
           },
+          "image": "hue-imperial",
           "summary": {
-            "en": "Architecture and history from Hanoi to Hue and Hoi An, finishing in the big southern city.",
-            "vi": "Kiến trúc và lịch sử từ Hà Nội đến Huế và Hội An, rồi kết ở thành phố lớn phía Nam."
+            "en": "Hanoi → Ninh Binh → Hue → Hoi An → Ho Chi Minh City. Built for architecture, food and history.",
+            "vi": "Hà Nội → Ninh Bình → Huế → Hội An → Thành phố Hồ Chí Minh. Hợp với kiến trúc, ẩm thực và lịch sử."
           },
-          "image": "hue",
-          "facts": [],
-          "links": [
+          "facts": [
             {
               "label": {
-                "en": "Hanoi",
-                "vi": "Hà Nội"
+                "en": "Good for",
+                "vi": "Hợp với"
               },
-              "href": "/regions/hanoi"
-            },
-            {
-              "label": {
-                "en": "Central Vietnam",
-                "vi": "Miền Trung"
-              },
-              "href": "/regions/central-vietnam"
-            },
-            {
-              "label": {
-                "en": "Ho Chi Minh City",
-                "vi": "Thành phố Hồ Chí Minh"
-              },
-              "href": "/regions/ho-chi-minh-city"
+              "value": {
+                "en": "Heritage-focused travellers, 12–16 days.",
+                "vi": "Người thích di sản, 12–16 ngày."
+              }
             }
           ]
         },
@@ -97,33 +73,21 @@
             "en": "Coast + highlands",
             "vi": "Biển + cao nguyên"
           },
+          "image": "quynhon-beach",
           "summary": {
-            "en": "Pair beach days with cooler hills. Pick one coast base and one highland base.",
-            "vi": "Ghép ngày biển với đồi mát. Chọn một điểm nghỉ biển và một điểm nghỉ cao nguyên."
+            "en": "Choose one coastal base and one cool highland base. Fewer transfers; more time outside the transport window.",
+            "vi": "Chọn một điểm ven biển và một điểm cao nguyên mát. Ít đổi chỗ hơn, có nhiều thời gian tận hưởng hơn."
           },
-          "image": "quynhon",
-          "facts": [],
-          "links": [
+          "facts": [
             {
               "label": {
-                "en": "Central Vietnam",
-                "vi": "Miền Trung"
+                "en": "Good for",
+                "vi": "Hợp với"
               },
-              "href": "/regions/central-vietnam"
-            },
-            {
-              "label": {
-                "en": "Southeast Coast",
-                "vi": "Duyên hải"
-              },
-              "href": "/regions/southeast-coast"
-            },
-            {
-              "label": {
-                "en": "Central Highlands",
-                "vi": "Tây Nguyên"
-              },
-              "href": "/regions/central-highlands"
+              "value": {
+                "en": "Slower trips, 7–12 days.",
+                "vi": "Chuyến đi chậm, 7–12 ngày."
+              }
             }
           ]
         },
@@ -133,26 +97,21 @@
             "en": "Water & islands",
             "vi": "Sông nước & đảo"
           },
+          "image": "cai-rang-aerial",
           "summary": {
-            "en": "Start in the southern city, slow down in the delta, then finish by the sea.",
-            "vi": "Bắt đầu ở thành phố phía Nam, chậm lại ở đồng bằng, rồi kết bên biển."
+            "en": "Ho Chi Minh City → Mekong Delta → Phu Quoc or Con Dao. Keep water days separate from beach days.",
+            "vi": "Thành phố Hồ Chí Minh → Đồng bằng sông Cửu Long → Phú Quốc hoặc Côn Đảo. Tách ngày sông nước khỏi ngày biển."
           },
-          "image": "bentre",
-          "facts": [],
-          "links": [
+          "facts": [
             {
               "label": {
-                "en": "Ho Chi Minh City",
-                "vi": "Thành phố Hồ Chí Minh"
+                "en": "Good for",
+                "vi": "Hợp với"
               },
-              "href": "/regions/ho-chi-minh-city"
-            },
-            {
-              "label": {
-                "en": "Mekong Delta",
-                "vi": "Đồng bằng sông Cửu Long"
-              },
-              "href": "/regions/mekong-delta"
+              "value": {
+                "en": "Food, markets and low-key coastal time.",
+                "vi": "Ẩm thực, chợ và những ngày ven biển thư thả."
+              }
             }
           ]
         }
