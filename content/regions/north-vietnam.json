@@ -118,7 +118,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "catba"
     },
     {
       "id": "sapa",
@@ -244,7 +244,7 @@
           }
         }
       ],
-      "gap": true
+      "image": "maichau"
     }
   ],
   "eatIntro": {
@@ -273,7 +273,8 @@
             "vi": "Hà Nội, và phố bạn ngủ"
           }
         }
-      ]
+      ],
+      "image": "pho-bowl"
     },
     {
       "id": "hill-grill",
@@ -294,6 +295,31 @@
           "value": {
             "en": "Sapa, Bac Ha, Ha Giang",
             "vi": "Sa Pa, Bắc Hà, Hà Giang"
+          }
+        }
+      ],
+      "image": "maichau"
+    },
+    {
+      "id": "sticky-rice",
+      "title": {
+        "en": "Sticky rice & grilled bites",
+        "vi": "Xôi & món nướng"
+      },
+      "summary": {
+        "en": "Simple mountain food: sticky rice, grilled meat and herbs. Order what the market is making.",
+        "vi": "Đồ ăn vùng cao giản dị: xôi, thịt nướng và rau thơm. Chợ làm gì thì gọi đó."
+      },
+      "image": "maichau",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A market lunch",
+            "vi": "Bữa trưa ở chợ"
           }
         }
       ]
@@ -325,7 +351,8 @@
             "vi": "Đêm lạnh. Xin thêm chăn."
           }
         }
-      ]
+      ],
+      "image": "sapa"
     },
     {
       "id": "stay-bay",
@@ -346,6 +373,31 @@
           "value": {
             "en": "Verify what the ticket covers",
             "vi": "Hỏi vé gồm những gì"
+          }
+        }
+      ],
+      "image": "halong"
+    },
+    {
+      "id": "stay-ha-giang",
+      "title": {
+        "en": "Ha Giang town",
+        "vi": "Thị trấn Hà Giang"
+      },
+      "summary": {
+        "en": "A practical base before the mountain roads. Start early and ask locally about the route.",
+        "vi": "Chỗ nghỉ thực tế trước đường núi. Đi sớm và hỏi đường tại chỗ."
+      },
+      "image": "hagiang",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A slow northern loop",
+            "vi": "Vòng miền Bắc thong thả"
           }
         }
       ]
@@ -373,7 +425,8 @@
             "vi": "Ninh Bình thì gần. Hà Giang thì không."
           }
         }
-      ]
+      ],
+      "image": "hoan-kiem"
     },
     {
       "id": "lao-cai",
@@ -396,7 +449,8 @@
             "vi": "Tàu đến Lào Cai, rồi đi xe"
           }
         }
-      ]
+      ],
+      "image": "sapa"
     }
   ]
 }
