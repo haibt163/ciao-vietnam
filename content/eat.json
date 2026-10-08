@@ -4,8 +4,8 @@
     "vi": "Ăn uống"
   },
   "lede": {
-    "en": "Vietnam is a regional food map. Use the dish, then follow the place.",
-    "vi": "Ẩm thực Việt Nam là bản đồ vùng. Chọn món, rồi đi theo nơi."
+    "en": "Start with the dish, then notice where it changes.",
+    "vi": "Bắt đầu từ món ăn, rồi để ý cách món đó thay đổi theo từng nơi."
   },
   "sections": [
     {
@@ -22,14 +22,14 @@
         {
           "id": "eat-pho",
           "title": {
-            "en": "Pho",
-            "vi": "Phở"
+            "en": "Pho, north style",
+            "vi": "Phở kiểu Bắc"
           },
           "summary": {
-            "en": "A daily noodle bowl with regional accents.",
-            "vi": "Một bát mì hằng ngày, mỗi miền có nét riêng."
+            "en": "Clear broth, flat rice noodles and herbs; a morning bowl most at home in the north.",
+            "vi": "Nước dùng trong, bánh phở và rau thơm; món buổi sáng đặc trưng của miền Bắc."
           },
-          "image": "pho-bowl",
+          "image": "pho-hanoi",
           "facts": [
             {
               "label": {
@@ -69,7 +69,7 @@
             "en": "Grilled pork, noodles and dipping sauce: a Hanoi classic.",
             "vi": "Thịt nướng, bún và nước chấm: món quen của Hà Nội."
           },
-          "image": "banhmi",
+          "image": "bun-cha-food",
           "facts": [
             {
               "label": {
@@ -102,7 +102,7 @@
             "en": "Crisp bread, pickles and savoury fillings make an easy stop.",
             "vi": "Bánh giòn, đồ chua và nhân mặn cho một điểm ăn nhanh."
           },
-          "image": "banhmi",
+          "image": "banh-mi-food",
           "facts": [
             {
               "label": {
@@ -142,7 +142,7 @@
             "en": "A spicy Central bowl with herbs and depth.",
             "vi": "Một bát miền Trung cay với rau thơm và vị đậm."
           },
-          "image": "pho-bowl",
+          "image": "bun-bo-context",
           "facts": [
             {
               "label": {
@@ -168,14 +168,14 @@
         {
           "id": "eat-cao-lau",
           "title": {
-            "en": "Cao lau",
-            "vi": "Cao lầu"
+            "en": "Cao lau in Hoi An",
+            "vi": "Cao lầu ở Hội An"
           },
           "summary": {
             "en": "Hoi An noodles with a distinct local style.",
             "vi": "Mì Hội An với phong cách địa phương rất riêng."
           },
-          "image": "hoian-food",
+          "image": "hoi-an-food-stall",
           "facts": [
             {
               "label": {
@@ -201,14 +201,14 @@
         {
           "id": "eat-com-tam",
           "title": {
-            "en": "Com tam",
-            "vi": "Cơm tấm"
+            "en": "Com tam in Saigon",
+            "vi": "Cơm tấm ở Sài Gòn"
           },
           "summary": {
             "en": "Broken rice, grilled pork and the sweet-salty southern table.",
             "vi": "Cơm tấm, thịt nướng và vị ngọt mặn của bàn ăn miền Nam."
           },
-          "image": "banhmi",
+          "image": "vietnamese-food-stall",
           "facts": [
             {
               "label": {
@@ -235,7 +235,7 @@
           "id": "eat-seafood",
           "title": {
             "en": "Coastal seafood",
-            "vi": "Hải sản bờ biển"
+            "vi": "Hải sản ven biển"
           },
           "summary": {
             "en": "Fish, squid and shellfish move quickly from coast to table.",
@@ -267,14 +267,14 @@
         {
           "id": "eat-fruit",
           "title": {
-            "en": "Delta fruit",
-            "vi": "Trái cây đồng bằng"
+            "en": "River-market fruit",
+            "vi": "Trái cây chợ sông"
           },
           "summary": {
             "en": "Coconut, mango, pomelo and more appear in markets and boats.",
             "vi": "Dừa, xoài, bưởi và nhiều loại khác xuất hiện ở chợ và ghe."
           },
-          "image": "bentre",
+          "image": "banana-boat",
           "facts": [
             {
               "label": {
@@ -316,7 +316,7 @@
             "en": "Fresh, light beer with low stools and street noise.",
             "vi": "Bia nhẹ, ghế thấp và tiếng phố."
           },
-          "image": "hoan-kiem",
+          "image": "bia-hanoi",
           "facts": [
             {
               "label": {
@@ -343,13 +343,13 @@
           "id": "eat-iced-coffee",
           "title": {
             "en": "Iced coffee",
-            "vi": "Cà phê sữa đá"
+            "vi": "Cà phê đá"
           },
           "summary": {
             "en": "Strong coffee, condensed milk and ice: a southern pause.",
             "vi": "Cà phê đậm, sữa đặc và đá: một quãng nghỉ miền Nam."
           },
-          "image": "vietnam-coffee",
+          "image": "coffee-setup-hanoi",
           "facts": [
             {
               "label": {
@@ -375,14 +375,14 @@
         {
           "id": "eat-night-markets",
           "title": {
-            "en": "Night-market snacks",
-            "vi": "Đồ ăn chợ tối"
+            "en": "Night markets",
+            "vi": "Chợ đêm"
           },
           "summary": {
             "en": "Snack-sized eating works well when you want to keep moving.",
             "vi": "Món nhỏ hợp khi bạn vẫn muốn đi tiếp."
           },
-          "image": "bayon",
+          "image": "night-market-vietnam",
           "facts": [
             {
               "label": {
@@ -435,7 +435,7 @@
             "en": "A small metal filter that rewards sitting down.",
             "vi": "Bộ lọc kim loại nhỏ, hợp với việc ngồi lại."
           },
-          "image": "vietnam-coffee",
+          "image": "phin-coffee",
           "facts": [
             {
               "label": {
@@ -494,14 +494,14 @@
         {
           "id": "coffee-highlands",
           "title": {
-            "en": "Highland coffee",
-            "vi": "Cà phê cao nguyên"
+            "en": "Coffee country",
+            "vi": "Vùng cà phê"
           },
           "summary": {
             "en": "Visit coffee country for the landscape as much as the cup.",
             "vi": "Đến xứ cà phê vì cảnh quan cũng như vì chiếc cốc."
           },
-          "image": "bmt-coffee",
+          "image": "coffee-farm",
           "facts": [
             {
               "label": {
