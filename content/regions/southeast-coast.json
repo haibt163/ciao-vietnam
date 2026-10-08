@@ -252,7 +252,7 @@
         "en": "Small rice cakes cooked in little pans. Look for a local breakfast or evening stall.",
         "vi": "Bánh gạo nhỏ nướng trong khuôn. Tìm một quán sáng hoặc hàng tối địa phương."
       },
-      "image": "seafood-nhatrang",
+      "image": "banh-can-food",
       "facts": [
         {
           "label": {
@@ -276,7 +276,7 @@
         "en": "Hot coastal days call for fruit, ice and a shaded plastic chair.",
         "vi": "Ngày biển nóng hợp với trái cây, đá và chiếc ghế nhựa có bóng râm."
       },
-      "image": "quynhon",
+      "image": "quynhon-beach",
       "facts": [
         {
           "label": {
@@ -318,7 +318,7 @@
           }
         }
       ],
-      "image": "ponagar"
+      "image": "nha-trang-beach"
     },
     {
       "id": "stay-muine",
@@ -354,7 +354,7 @@
         "en": "A calmer beach base for a few days. Choose by the part of the coast you plan to explore.",
         "vi": "Điểm nghỉ biển yên hơn cho vài ngày. Chọn theo đoạn bờ bạn muốn khám phá."
       },
-      "image": "quynhon",
+      "image": "quynhon-village",
       "facts": [
         {
           "label": {
@@ -392,7 +392,7 @@
           }
         }
       ],
-      "image": "quynhon"
+      "image": "nha-trang-beach"
     },
     {
       "id": "coast-road",
@@ -404,7 +404,7 @@
         "en": "Bus and car links connect the coastal towns. Check the next departure before leaving.",
         "vi": "Xe khách và ô tô nối các phố biển. Xem chuyến tiếp theo trước khi rời chỗ ở."
       },
-      "image": "haivan",
+      "image": "quynhon-village",
       "facts": [
         {
           "label": {
