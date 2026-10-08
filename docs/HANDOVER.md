@@ -122,3 +122,22 @@ Decisions already made:
 Read `AGENTS.md` → `AGENTS.project.md` → `docs/ENGINEERING_GOVERNANCE.md` → this
 file → `docs/sources.md` and `docs/photo-selection.md` → the relevant code. Verify
 important claims independently. State your capabilities first.
+
+
+## Part B — regional coverage and core guide pages
+
+Owner authorized autonomous continuation through end of Part B on 8 October 2026. Feature branch: `part-b-content-photos`.
+
+Implementation target:
+- every existing regional card receives an image reference;
+- explicit `gap` photo placeholders are removed for the named locations;
+- sparse Eat / Stay / Getting There sections gain additional original keyword-style cards;
+- Plan, Eat, Essentials, Outdoors and History are data-driven from `content/*.json` using shared rendering;
+- search and Vietnamese-review generation include the new guide content;
+- no new dependencies or backend/auth/data layer.
+
+Guidebook provenance remains the existing chapter map in `docs/sources.md`. Guidebook text is not copied. Volatile practical details stay generic and are marked for verification.
+
+### Verification for this Part B branch
+
+GitHub Actions will verify original-image dimensions, generated image budget, typecheck, lint, production build and basic server-rendered HTML checks before the branch is raised for owner review. Browser screenshots at 390 px in EN/VI and light/dark remain a separate visual check.
