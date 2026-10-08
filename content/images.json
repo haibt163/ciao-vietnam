@@ -959,21 +959,6 @@
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/street-food-vendor-in-h-i-an-vietnam-29374692/"
   },
-  "bun-bo": {
-    "id": "bun-bo",
-    "src": "/images/bun-bo-960.webp",
-    "srcSet": "/images/bun-bo-640.webp 640w, /images/bun-bo-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A Vietnamese noodle soup with herbs.",
-      "vi": "Món bún nước Việt Nam với rau thơm."
-    },
-    "credit": "JANG 'S 🍂",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/top-view-photo-of-ramen-soup-2591594/"
-  },
   "seafood-nhatrang": {
     "id": "seafood-nhatrang",
     "src": "/images/seafood-nhatrang-960.webp",
