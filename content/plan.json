@@ -1,0 +1,501 @@
+{
+  "title": {
+    "en": "Plan",
+    "vi": "Lịch trình"
+  },
+  "lede": {
+    "en": "Build the trip from regions, not from a checklist.",
+    "vi": "Xây chuyến đi từ các vùng, không phải từ danh sách điểm đến."
+  },
+  "sections": [
+    {
+      "id": "itineraries",
+      "title": {
+        "en": "Itineraries",
+        "vi": "Lịch trình"
+      },
+      "intro": {
+        "en": "Four starting shapes. Slow down by dropping a stop, not by adding a faster transfer.",
+        "vi": "Bốn khung khởi hành. Muốn chậm thì bớt một điểm, không phải thêm chặng nhanh."
+      },
+      "cards": [
+        {
+          "id": "route-north-centre",
+          "title": {
+            "en": "North → lanterns",
+            "vi": "Bắc → đèn lồng"
+          },
+          "summary": {
+            "en": "A first-timer spine: Hanoi, karst country, then the old towns of the centre.",
+            "vi": "Một trục dễ đi lần đầu: Hà Nội, xứ đá vôi, rồi các phố cổ miền Trung."
+          },
+          "image": "hoan-kiem",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Days 1–2 · Hanoi",
+                "vi": "Ngày 1–2 · Hà Nội"
+              },
+              "href": "/regions/hanoi"
+            },
+            {
+              "label": {
+                "en": "Days 3–4 · North",
+                "vi": "Ngày 3–4 · Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            },
+            {
+              "label": {
+                "en": "Days 5–7 · Central",
+                "vi": "Ngày 5–7 · Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            }
+          ]
+        },
+        {
+          "id": "route-heritage",
+          "title": {
+            "en": "Heritage spine",
+            "vi": "Trục di sản"
+          },
+          "summary": {
+            "en": "Architecture and history from Hanoi to Hue and Hoi An, finishing in the big southern city.",
+            "vi": "Kiến trúc và lịch sử từ Hà Nội đến Huế và Hội An, rồi kết ở thành phố lớn phía Nam."
+          },
+          "image": "hue",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Hanoi",
+                "vi": "Hà Nội"
+              },
+              "href": "/regions/hanoi"
+            },
+            {
+              "label": {
+                "en": "Central Vietnam",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            },
+            {
+              "label": {
+                "en": "Ho Chi Minh City",
+                "vi": "Thành phố Hồ Chí Minh"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "id": "route-coast-highlands",
+          "title": {
+            "en": "Coast + highlands",
+            "vi": "Biển + cao nguyên"
+          },
+          "summary": {
+            "en": "Pair beach days with cooler hills. Pick one coast base and one highland base.",
+            "vi": "Ghép ngày biển với đồi mát. Chọn một điểm nghỉ biển và một điểm nghỉ cao nguyên."
+          },
+          "image": "quynhon",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Central Vietnam",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            },
+            {
+              "label": {
+                "en": "Southeast Coast",
+                "vi": "Duyên hải"
+              },
+              "href": "/regions/southeast-coast"
+            },
+            {
+              "label": {
+                "en": "Central Highlands",
+                "vi": "Tây Nguyên"
+              },
+              "href": "/regions/central-highlands"
+            }
+          ]
+        },
+        {
+          "id": "route-water",
+          "title": {
+            "en": "Water & islands",
+            "vi": "Sông nước & đảo"
+          },
+          "summary": {
+            "en": "Start in the southern city, slow down in the delta, then finish by the sea.",
+            "vi": "Bắt đầu ở thành phố phía Nam, chậm lại ở đồng bằng, rồi kết bên biển."
+          },
+          "image": "bentre",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Ho Chi Minh City",
+                "vi": "Thành phố Hồ Chí Minh"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            },
+            {
+              "label": {
+                "en": "Mekong Delta",
+                "vi": "Đồng bằng sông Cửu Long"
+              },
+              "href": "/regions/mekong-delta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "your-way",
+      "title": {
+        "en": "Vietnam Your Way",
+        "vi": "Việt Nam theo cách bạn thích"
+      },
+      "intro": {
+        "en": "Tap an interest to see the regions that fit it.",
+        "vi": "Chạm một sở thích để xem vùng phù hợp."
+      },
+      "links": [
+        {
+          "label": {
+            "en": "Food",
+            "vi": "Ăn uống"
+          },
+          "href": "/regions/hanoi"
+        },
+        {
+          "label": {
+            "en": "Beaches",
+            "vi": "Biển"
+          },
+          "href": "/regions/southeast-coast"
+        },
+        {
+          "label": {
+            "en": "Mountains",
+            "vi": "Núi"
+          },
+          "href": "/regions/north-vietnam"
+        },
+        {
+          "label": {
+            "en": "History",
+            "vi": "Lịch sử"
+          },
+          "href": "/regions/central-vietnam"
+        },
+        {
+          "label": {
+            "en": "Coffee",
+            "vi": "Cà phê"
+          },
+          "href": "/regions/central-highlands"
+        },
+        {
+          "label": {
+            "en": "Slow travel",
+            "vi": "Đi chậm"
+          },
+          "href": "/regions/mekong-delta"
+        },
+        {
+          "label": {
+            "en": "Family",
+            "vi": "Gia đình"
+          },
+          "href": "/regions/hanoi"
+        }
+      ]
+    },
+    {
+      "id": "year",
+      "title": {
+        "en": "A year in Vietnam",
+        "vi": "Một năm ở Việt Nam"
+      },
+      "intro": {
+        "en": "A broad regional compass. Weather shifts locally; verify before you book.",
+        "vi": "La bàn vùng theo mùa. Thời tiết thay đổi theo nơi; kiểm tra trước khi đặt."
+      },
+      "months": [
+        {
+          "label": {
+            "en": "January",
+            "vi": "Tháng 1"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "North",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            },
+            {
+              "label": {
+                "en": "South",
+                "vi": "Miền Nam"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "February",
+            "vi": "Tháng 2"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "North",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            },
+            {
+              "label": {
+                "en": "Central",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "March",
+            "vi": "Tháng 3"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "North",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            },
+            {
+              "label": {
+                "en": "Central",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "April",
+            "vi": "Tháng 4"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "North",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            },
+            {
+              "label": {
+                "en": "Central",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "May",
+            "vi": "Tháng 5"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "Highlands",
+                "vi": "Tây Nguyên"
+              },
+              "href": "/regions/central-highlands"
+            },
+            {
+              "label": {
+                "en": "South",
+                "vi": "Miền Nam"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "June",
+            "vi": "Tháng 6"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "Central coast",
+                "vi": "Duyên hải miền Trung"
+              },
+              "href": "/regions/southeast-coast"
+            },
+            {
+              "label": {
+                "en": "Highlands",
+                "vi": "Tây Nguyên"
+              },
+              "href": "/regions/central-highlands"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "July",
+            "vi": "Tháng 7"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "Central",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            },
+            {
+              "label": {
+                "en": "Highlands",
+                "vi": "Tây Nguyên"
+              },
+              "href": "/regions/central-highlands"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "August",
+            "vi": "Tháng 8"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "Central",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            },
+            {
+              "label": {
+                "en": "Highlands",
+                "vi": "Tây Nguyên"
+              },
+              "href": "/regions/central-highlands"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "September",
+            "vi": "Tháng 9"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "Central",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            },
+            {
+              "label": {
+                "en": "South",
+                "vi": "Miền Nam"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "October",
+            "vi": "Tháng 10"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "North",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            },
+            {
+              "label": {
+                "en": "South",
+                "vi": "Miền Nam"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "November",
+            "vi": "Tháng 11"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "North",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            },
+            {
+              "label": {
+                "en": "Mekong",
+                "vi": "Đồng bằng"
+              },
+              "href": "/regions/mekong-delta"
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "December",
+            "vi": "Tháng 12"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "North",
+                "vi": "Miền Bắc"
+              },
+              "href": "/regions/north-vietnam"
+            },
+            {
+              "label": {
+                "en": "South",
+                "vi": "Miền Nam"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
