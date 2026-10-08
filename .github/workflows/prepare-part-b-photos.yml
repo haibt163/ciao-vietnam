@@ -12,7 +12,7 @@ jobs:
     if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    # Part B verification rerun after photo-source transport fix
+    # Part B verification rerun after Pexels download-format fix
     steps:
       - uses: actions/checkout@v4
 
