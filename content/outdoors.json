@@ -18,14 +18,14 @@
         {
           "id": "out-north-limestone",
           "title": {
-            "en": "Karst & caves",
-            "vi": "Đá vôi & hang"
+            "en": "Boat through karst",
+            "vi": "Đi thuyền giữa núi đá vôi"
           },
           "summary": {
-            "en": "Limestone islands, river caves and boat days.",
-            "vi": "Đảo đá vôi, hang sông và những ngày trên thuyền."
+            "en": "Choose these days when the landscape itself is the activity: water, limestone walls and slow movement.",
+            "vi": "Chọn kiểu ngày này khi chính cảnh quan là hoạt động: mặt nước, vách đá vôi và nhịp di chuyển chậm."
           },
-          "image": "halong",
+          "image": "catba-cruise",
           "facts": [],
           "links": [
             {
@@ -40,14 +40,13 @@
         {
           "id": "out-high-mountains",
           "title": {
-            "en": "High mountain roads",
-            "vi": "Đường núi cao"
+            "en": "Long mountain days",
+            "vi": "Những ngày dài trên núi"
           },
           "summary": {
-            "en": "Ridges, passes, terraces and long travel days.",
-            "vi": "Sống núi, đèo, ruộng bậc thang và ngày di chuyển dài."
+            "en": "High passes and remote valleys reward travellers who can give one route a full day instead of squeezing it between transfers.",
+            "vi": "Đèo cao và thung lũng xa hợp với người dành trọn một ngày cho cung đường thay vì chen giữa các chặng di chuyển."
           },
-          "image": "hagiang",
           "facts": [],
           "links": [
             {
@@ -62,14 +61,13 @@
         {
           "id": "out-central-caves",
           "title": {
-            "en": "Caves & rivers",
-            "vi": "Hang & sông"
+            "en": "Cave days",
+            "vi": "Ngày khám phá hang"
           },
           "summary": {
-            "en": "Phong Nha makes the underground world part of the trip.",
-            "vi": "Phong Nha đưa thế giới dưới lòng đất vào chuyến đi."
+            "en": "Cave trips are their own kind of outing: boats, darkness, uneven ground and time away from the city.",
+            "vi": "Đi hang là một kiểu trải nghiệm riêng: thuyền, bóng tối, địa hình gồ ghề và thời gian rời khỏi phố."
           },
-          "image": "phongnha",
           "facts": [],
           "links": [
             {
@@ -84,14 +82,13 @@
         {
           "id": "out-coast",
           "title": {
-            "en": "Coast & passes",
-            "vi": "Biển & đèo"
+            "en": "Coastal road days",
+            "vi": "Những ngày chạy dọc biển"
           },
           "summary": {
-            "en": "Sea, dunes and the Hai Van ridge make the central coast a moving landscape.",
-            "vi": "Biển, đồi cát và đèo Hải Vân tạo nên cảnh quan luôn chuyển động."
+            "en": "A coastal route works best when you leave room for viewpoints, weather and an unplanned stop.",
+            "vi": "Cung đường ven biển hợp nhất khi bạn chừa chỗ cho điểm ngắm, thời tiết và một lần dừng bất chợt."
           },
-          "image": "haivan",
           "facts": [],
           "links": [
             {
@@ -113,14 +110,13 @@
         {
           "id": "out-highlands",
           "title": {
-            "en": "Pine & coffee hills",
-            "vi": "Đồi thông & cà phê"
+            "en": "Cooler highland walks",
+            "vi": "Đi bộ ở cao nguyên mát hơn"
           },
           "summary": {
-            "en": "Cooler highland towns, forests and coffee country.",
-            "vi": "Thành phố cao nguyên mát hơn, rừng và xứ cà phê."
+            "en": "Highland towns change the pace: cooler mornings, short walks, farms and longer gaps between sights.",
+            "vi": "Thành phố cao nguyên đổi nhịp chuyến đi: sáng mát, quãng đi bộ ngắn, nông trại và khoảng cách dài hơn giữa các điểm."
           },
-          "image": "xuanhuong",
           "facts": [],
           "links": [
             {
@@ -135,14 +131,13 @@
         {
           "id": "out-mekong",
           "title": {
-            "en": "River & orchards",
-            "vi": "Sông & vườn"
+            "en": "Slow water days",
+            "vi": "Những ngày sông nước chậm"
           },
           "summary": {
-            "en": "Canals, boats, orchards and lowland water shape the delta.",
-            "vi": "Kênh, ghe, vườn cây và nước đồng bằng tạo hình nơi này."
+            "en": "The Mekong is less about ticking off sights and more about canals, boats, markets and early mornings.",
+            "vi": "Đồng bằng không phải để chạy hết điểm; hãy dành thời gian cho kênh, ghe, chợ và buổi sáng sớm."
           },
-          "image": "bentre",
           "facts": [],
           "links": [
             {
@@ -157,14 +152,13 @@
         {
           "id": "out-islands",
           "title": {
-            "en": "Island forests",
-            "vi": "Rừng trên đảo"
+            "en": "Beach + forest days",
+            "vi": "Ngày biển + rừng"
           },
           "summary": {
-            "en": "Beach and forest meet on Phu Quoc and Con Dao.",
-            "vi": "Biển và rừng gặp nhau ở Phú Quốc và Côn Đảo."
+            "en": "Island trips work when you mix one active outing with stretches of water, shade and empty time.",
+            "vi": "Chuyến đi đảo hợp khi xen một hoạt động chính với những khoảng biển, bóng râm và thời gian trống."
           },
-          "image": "phuquoc",
           "facts": [],
           "links": [
             {
@@ -183,10 +177,10 @@
             "vi": "Đá vôi trên đảo"
           },
           "summary": {
-            "en": "Cat Ba combines sea, cliffs and forest in one stop.",
-            "vi": "Cát Bà gom biển, vách đá và rừng vào một điểm."
+            "en": "Look for a mix of cliff views, small bays, fishing life and short boat trips rather than one packed schedule.",
+            "vi": "Tìm sự kết hợp giữa vách đá, vịnh nhỏ, đời sống làng chài và chuyến thuyền ngắn thay vì lịch kín."
           },
-          "image": "catba",
+          "image": "catba-fishing-village",
           "facts": [],
           "links": [
             {
