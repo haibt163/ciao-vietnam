@@ -1,0 +1,403 @@
+{
+  "order": 3,
+  "slug": "central-vietnam",
+  "name": {
+    "en": "Central Vietnam",
+    "vi": "Miền Trung"
+  },
+  "blurb": {
+    "en": "Caves, imperial Hue, the old port.",
+    "vi": "Hang động, cố đô Huế, phố cổ Hội An."
+  },
+  "keywords": "central vietnam mien trung hue hoi an phong nha danang da nang lang co hai van thien mu khai dinh japanese bridge cao lau bun bo imperial city",
+  "lede": {
+    "en": "Caves, an imperial city, and a port town. They do not feel like one place.",
+    "vi": "Hang động, một kinh thành, và một phố cảng. Không giống cùng một nơi."
+  },
+  "hero": "hoian",
+  "chips": [
+    {
+      "en": "Hue",
+      "vi": "Huế"
+    },
+    {
+      "en": "Hoi An",
+      "vi": "Hội An"
+    },
+    {
+      "en": "Phong Nha",
+      "vi": "Phong Nha"
+    },
+    {
+      "en": "Danang",
+      "vi": "Đà Nẵng"
+    },
+    {
+      "en": "Hai Van",
+      "vi": "Hải Vân"
+    }
+  ],
+  "dontMiss": [
+    "hue",
+    "hoian",
+    "phongnha",
+    "thienmu"
+  ],
+  "sightsIntro": {
+    "en": "Three bases. Do not try to sleep in all of them on one night.",
+    "vi": "Ba chỗ ở. Đừng cố ngủ cả ba trong một đêm."
+  },
+  "sights": [
+    {
+      "id": "hue",
+      "title": {
+        "en": "Imperial City",
+        "vi": "Đại Nội"
+      },
+      "summary": {
+        "en": "The Nguyen citadel in Hue. Walls, gates, and quiet ruined courts.",
+        "vi": "Kinh thành nhà Nguyễn ở Huế. Tường, cổng, và sân vắng."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A slow morning inside the walls",
+            "vi": "Một buổi sáng chậm trong tường thành"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Tickets and hours: verify locally",
+            "vi": "Vé và giờ: hỏi tại chỗ"
+          }
+        }
+      ],
+      "gap": true
+    },
+    {
+      "id": "thienmu",
+      "title": {
+        "en": "Thien Mu Pagoda",
+        "vi": "Chùa Thiên Mụ"
+      },
+      "summary": {
+        "en": "The riverside tower west of the citadel. A short ride, or a long walk.",
+        "vi": "Tháp bên sông, phía tây kinh thành. Đi xe ngắn, hoặc đi bộ dài."
+      },
+      "image": "thienmu",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Late light on the river",
+            "vi": "Ánh cuối ngày trên sông"
+          }
+        }
+      ]
+    },
+    {
+      "id": "khai-dinh",
+      "title": {
+        "en": "Royal tombs",
+        "vi": "Lăng vua"
+      },
+      "summary": {
+        "en": "Scattered south of the city. Khai Dinh is the concrete one. The others are gardens.",
+        "vi": "Nằm rải phía nam thành phố. Khải Định là lăng bê tông. Lăng kia là vườn."
+      },
+      "image": "khai-dinh",
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "A ride. Do not walk tomb to tomb.",
+            "vi": "Đi xe. Đừng đi bộ từ lăng này sang lăng kia."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoian",
+      "title": {
+        "en": "Hoi An old town",
+        "vi": "Phố cổ Hội An"
+      },
+      "summary": {
+        "en": "A river port of low houses, lanterns, and tailor shops. Walk it.",
+        "vi": "Phố cảng nhà thấp, đèn lồng, và tiệm may. Đi bộ."
+      },
+      "image": "hoian",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Dusk, when the lanterns go on",
+            "vi": "Chạng vạng, khi đèn lồng bật"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "The old streets close to cars. Verify the ticket locally.",
+            "vi": "Phố cổ hạn chế xe. Hỏi vé tại chỗ."
+          }
+        }
+      ]
+    },
+    {
+      "id": "japan-bridge",
+      "title": {
+        "en": "Japanese Covered Bridge",
+        "vi": "Chùa Cầu"
+      },
+      "summary": {
+        "en": "The short covered bridge at the west end of the old town.",
+        "vi": "Cây cầu mái ngắn ở đầu tây phố cổ."
+      },
+      "image": "japan-bridge",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A five-minute stop on the walk",
+            "vi": "Một điểm năm phút trên đường đi bộ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phongnha",
+      "title": {
+        "en": "Phong Nha caves",
+        "vi": "Hang Phong Nha"
+      },
+      "summary": {
+        "en": "River caves in a national park. Boats go into the rock.",
+        "vi": "Hang sông trong vườn quốc gia. Thuyền vào trong đá."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A day that is not a city",
+            "vi": "Một ngày không phải phố"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Which cave is open changes. Ask that morning.",
+            "vi": "Hang nào mở thì hay đổi. Hỏi sáng hôm đó."
+          }
+        }
+      ],
+      "image": "phongnha"
+    },
+    {
+      "id": "danang",
+      "title": {
+        "en": "Danang",
+        "vi": "Đà Nẵng"
+      },
+      "summary": {
+        "en": "The beach city between Hue and Hoi An. Marble Mountains sit at the edge.",
+        "vi": "Thành phố biển giữa Huế và Hội An. Ngũ Hành Sơn nằm ở rìa."
+      },
+      "image": "danang",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The airport, the beach, the pass",
+            "vi": "Sân bay, biển, và đèo"
+          }
+        }
+      ]
+    }
+  ],
+  "eatIntro": {
+    "en": "Hue and Hoi An do not share a menu. Eat the local bowl.",
+    "vi": "Huế và Hội An không dùng chung thực đơn. Ăn đúng bát của chỗ đó."
+  },
+  "eat": [
+    {
+      "id": "bun-bo",
+      "title": {
+        "en": "Bun bo Hue",
+        "vi": "Bún bò Huế"
+      },
+      "summary": {
+        "en": "A spicy beef noodle bowl. It belongs to this city.",
+        "vi": "Bát bún bò cay. Nó thuộc về thành phố này."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Late morning",
+            "vi": "Cuối buổi sáng"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cao-lau",
+      "title": {
+        "en": "Cao lau",
+        "vi": "Cao lầu"
+      },
+      "summary": {
+        "en": "Hoi An's own noodles. Thick, with greens and a little broth.",
+        "vi": "Mì riêng của Hội An. Sợi dày, rau, và ít nước."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "In the old town, at lunch",
+            "vi": "Trong phố cổ, buổi trưa"
+          }
+        }
+      ]
+    }
+  ],
+  "stayIntro": {
+    "en": "Pick one town to sleep in. Ride to the others.",
+    "vi": "Chọn một phố để ngủ. Đi xe đến chỗ kia."
+  },
+  "stay": [
+    {
+      "id": "stay-hue",
+      "title": {
+        "en": "Hue",
+        "vi": "Huế"
+      },
+      "summary": {
+        "en": "Inside or just outside the citadel walls. The river side is calmer.",
+        "vi": "Trong hoặc sát tường thành. Phía sông thì yên hơn."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The tombs and the citadel",
+            "vi": "Lăng và Đại Nội"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stay-hoian",
+      "title": {
+        "en": "Hoi An",
+        "vi": "Hội An"
+      },
+      "summary": {
+        "en": "Inside the old streets is pretty and loud. One street out is kinder at night.",
+        "vi": "Trong phố cổ thì đẹp và ồn. Ra một phố thì đêm dễ chịu hơn."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Danang airport is a ride away, not a walk",
+            "vi": "Sân bay Đà Nẵng phải đi xe, không đi bộ"
+          }
+        }
+      ]
+    }
+  ],
+  "gettingThere": [
+    {
+      "id": "coast-train",
+      "title": {
+        "en": "The coastal train",
+        "vi": "Tàu dọc biển"
+      },
+      "summary": {
+        "en": "Hue and Danang have stations. Hoi An does not.",
+        "vi": "Huế và Đà Nẵng có ga. Hội An thì không."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Train, then a ride into Hoi An",
+            "vi": "Tàu, rồi xe vào Hội An"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hai-van",
+      "title": {
+        "en": "Hai Van pass",
+        "vi": "Đèo Hải Vân"
+      },
+      "summary": {
+        "en": "The high road between Hue and Danang. Cloud, hairpins, a view if it is clear.",
+        "vi": "Đường cao giữa Huế và Đà Nẵng. Mây, cua tay áo, có view nếu trời quang."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "The train uses a tunnel. The view is the road.",
+            "vi": "Tàu đi hầm. Cảnh thì ở trên đường."
+          }
+        }
+      ],
+      "image": "haivan"
+    }
+  ]
+}

@@ -1,74 +1,1334 @@
 [
   {
     "href": "/regions/hanoi",
-    "title": { "en": "Hanoi", "vi": "Hà Nội" },
-    "hint": { "en": "Old Quarter, Hoan Kiem, egg coffee", "vi": "Phố cổ, Hoàn Kiếm, cà phê trứng" },
-    "keywords": "hanoi ha noi hoan kiem hoan kiem lake pho co old quarter egg coffee ca phe trung van mieu temple of literature one pillar chua mot cot ho tay west lake opera nha hat lon bia hoi bun cha pho long bien flag tower tran quoc cathedral nha tho"
+    "title": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "hint": {
+      "en": "Lakes, the Old Quarter, egg coffee.",
+      "vi": "Hồ, phố cổ, cà phê trứng."
+    },
+    "keywords": "hanoi ha noi hoan kiem old quarter egg coffee temple one pillar west lake"
+  },
+  {
+    "href": "/regions/hanoi#hoan-kiem",
+    "title": {
+      "en": "Hoan Kiem Lake",
+      "vi": "Hồ Hoàn Kiếm"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Hoan Kiem Lake Hồ Hoàn Kiếm The city's living room. A shaded loop around the water. Phòng khách của phố. Một vòng rợp bóng quanh hồ."
+  },
+  {
+    "href": "/regions/hanoi#old-quarter",
+    "title": {
+      "en": "Old Quarter",
+      "vi": "Phố cổ"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Old Quarter Phố cổ Narrow streets, each once a trade. Easy to get lost. That is the point. Phố hẹp, xưa mỗi phố một nghề. Lạc là đúng."
+  },
+  {
+    "href": "/regions/hanoi#temple",
+    "title": {
+      "en": "Temple of Literature",
+      "vi": "Văn Miếu"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Temple of Literature Văn Miếu Confucian courtyards. Vietnam's first university, still standing. Khu sân Khổng học. Trường đại học đầu tiên, còn đó."
+  },
+  {
+    "href": "/regions/hanoi#one-pillar",
+    "title": {
+      "en": "One Pillar Pagoda",
+      "vi": "Chùa Một Cột"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "One Pillar Pagoda Chùa Một Cột A wooden lotus on a single stone pillar. Đài sen gỗ trên một cột đá."
+  },
+  {
+    "href": "/regions/hanoi#mausoleum",
+    "title": {
+      "en": "Ho Chi Minh Mausoleum",
+      "vi": "Lăng Chủ tịch Hồ Chí Minh"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Ho Chi Minh Mausoleum Lăng Chủ tịch Hồ Chí Minh A vast square and a strict dress code. Often closed. Quảng trường rộng, y phục nghiêm. Hay đóng cửa."
+  },
+  {
+    "href": "/regions/hanoi#opera",
+    "title": {
+      "en": "Opera House",
+      "vi": "Nhà hát Lớn"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Opera House Nhà hát Lớn Pale French theatre on a wide junction. Nhà hát Pháp màu nhạt, ngã tư rộng."
+  },
+  {
+    "href": "/regions/hanoi#cathedral",
+    "title": {
+      "en": "St Joseph's Cathedral",
+      "vi": "Nhà thờ Lớn"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "St Joseph's Cathedral Nhà thờ Lớn Stone neo-gothic towers. A small square of cafes. Tháp đá. Quảng trường nhỏ toàn quán."
+  },
+  {
+    "href": "/regions/hanoi#french",
+    "title": {
+      "en": "French Quarter",
+      "vi": "Khu phố Pháp"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "French Quarter Khu phố Pháp Wider streets, trees, old villas. Phố rộng hơn, cây, biệt thự cũ."
+  },
+  {
+    "href": "/regions/hanoi#tran-quoc",
+    "title": {
+      "en": "Tran Quoc Pagoda",
+      "vi": "Chùa Trấn Quốc"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Tran Quoc Pagoda Chùa Trấn Quốc A lakeside pagoda on a small causeway. Chùa bên hồ, trên con đường đắp ngắn."
+  },
+  {
+    "href": "/regions/hanoi#west-lake",
+    "title": {
+      "en": "West Lake",
+      "vi": "Hồ Tây"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "West Lake Hồ Tây The big water. Cafes on the east shore. Space to breathe. Mặt nước lớn. Quán cà phê bờ đông. Có chỗ thở."
+  },
+  {
+    "href": "/regions/hanoi#flag-tower",
+    "title": {
+      "en": "Flag Tower",
+      "vi": "Cột cờ"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Flag Tower Cột cờ A citadel tower and a long flag. Tháp thành và lá cờ dài."
+  },
+  {
+    "href": "/regions/hanoi#long-bien",
+    "title": {
+      "en": "Long Bien Bridge",
+      "vi": "Cầu Long Biên"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Long Bien Bridge Cầu Long Biên The old river bridge. Rust, rivets, bikes. Cầu sông cũ. Gỉ, đinh tán, xe đạp."
+  },
+  {
+    "href": "/regions/hanoi#pho",
+    "title": {
+      "en": "Pho",
+      "vi": "Phở"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Pho Phở Breakfast bowl. Clear broth. Herbs on the side. Bát sáng. Nước trong. Rau thơm để riêng."
+  },
+  {
+    "href": "/regions/hanoi#bun-cha",
+    "title": {
+      "en": "Bun cha",
+      "vi": "Bún chả"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Bun cha Bún chả Grilled pork, noodles, a bowl of sharp sauce. Thịt nướng, bún, bát nước chấm chua ngọt."
+  },
+  {
+    "href": "/regions/hanoi#egg-coffee",
+    "title": {
+      "en": "Egg coffee",
+      "vi": "Cà phê trứng"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Egg coffee Cà phê trứng Coffee under a warm yolk foam. Dessert, really. Cà phê dưới lớp kem trứng ấm. Gần như món tráng miệng."
+  },
+  {
+    "href": "/regions/hanoi#bia-hoi",
+    "title": {
+      "en": "Bia hoi",
+      "vi": "Bia hơi"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Bia hoi Bia hơi Fresh light beer on the pavement. Peanuts, not a cocktail list. Bia tươi nhẹ trên vỉa hè. Đậu phộng, không phải menu cocktail."
+  },
+  {
+    "href": "/regions/hanoi#stay-old",
+    "title": {
+      "en": "Old Quarter",
+      "vi": "Phố cổ"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Old Quarter Phố cổ Steps from everything. Nights are loud. Gần mọi thứ. Đêm thì ồn."
+  },
+  {
+    "href": "/regions/hanoi#stay-french",
+    "title": {
+      "en": "French Quarter",
+      "vi": "Khu phố Pháp"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "French Quarter Khu phố Pháp Quieter blocks. A short walk back to the lake. Phố yên hơn. Đi bộ một quãng là về hồ."
+  },
+  {
+    "href": "/regions/hanoi#stay-west",
+    "title": {
+      "en": "West Lake",
+      "vi": "Hồ Tây"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "West Lake Hồ Tây Space and cafes. You will ride back to the centre. Rộng và nhiều quán. Về trung tâm thì đi xe."
+  },
+  {
+    "href": "/regions/hanoi#airport",
+    "title": {
+      "en": "Noi Bai airport",
+      "vi": "Sân bay Nội Bài"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "Noi Bai airport Sân bay Nội Bài North of town. Allow the better part of an hour. Phía bắc thành phố. Dành gần một giờ."
+  },
+  {
+    "href": "/regions/hanoi#train",
+    "title": {
+      "en": "The train",
+      "vi": "Tàu hoả"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "The train Tàu hoả Long-distance trains use the main station, south of the old centre. Tàu đường dài vào ga chính, phía nam trung tâm cũ."
+  },
+  {
+    "href": "/regions/hanoi#in-town",
+    "title": {
+      "en": "In town",
+      "vi": "Trong phố"
+    },
+    "hint": {
+      "en": "Hanoi",
+      "vi": "Hà Nội"
+    },
+    "keywords": "In town Trong phố Walk the quarter. Ride when the heat or the distance wins. Đi bộ trong phố cổ. Đi xe khi nóng hoặc khi xa."
   },
   {
     "href": "/regions/north-vietnam",
-    "title": { "en": "North Vietnam", "vi": "Miền Bắc" },
-    "hint": { "en": "Sapa, Ha Giang, Cat Ba", "vi": "Sa Pa, Hà Giang, Cát Bà" },
-    "keywords": "north vietnam mien bac sapa sa pa ha giang cat ba lan ha mai chau bac ha ba be dien bien phu mu cang chai"
+    "title": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "hint": {
+      "en": "Bays, high valleys, market towns.",
+      "vi": "Vịnh, thung lũng cao, chợ phiên."
+    },
+    "keywords": "north vietnam mien bac sapa sa pa ha giang cat ba lan ha bay mai chau bac ha ba be dien bien phu mu cang chai ninh binh tam coc trang an fansipan ma pi leng"
+  },
+  {
+    "href": "/regions/north-vietnam#halong-bay",
+    "title": {
+      "en": "Ha Long Bay",
+      "vi": "Vịnh Hạ Long"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Ha Long Bay Vịnh Hạ Long Limestone towers in green water. Most visits are by boat. Tháp đá vôi trên nước xanh. Phần lớn đi bằng thuyền."
+  },
+  {
+    "href": "/regions/north-vietnam#catba",
+    "title": {
+      "en": "Cat Ba and Lan Ha",
+      "vi": "Cát Bà và Lan Hạ"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Cat Ba and Lan Ha Cát Bà và Lan Hạ The island side of the same water. Quieter than the main cruise route. Phía đảo của cùng một vùng nước. Yên hơn tuyến du thuyền chính."
+  },
+  {
+    "href": "/regions/north-vietnam#sapa",
+    "title": {
+      "en": "Sapa",
+      "vi": "Sa Pa"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Sapa Sa Pa A hill town above the terraces. The walks start at the edge of town. Thị trấn đồi trên ruộng bậc thang. Đường đi bộ bắt đầu từ rìa phố."
+  },
+  {
+    "href": "/regions/north-vietnam#hagiang",
+    "title": {
+      "en": "Ha Giang",
+      "vi": "Hà Giang"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Ha Giang Hà Giang The far-north loop. Passes, markets, slow roads. Not a day from Hanoi. Vòng cực bắc. Đèo, chợ, đường chậm. Không phải một ngày từ Hà Nội."
+  },
+  {
+    "href": "/regions/north-vietnam#ninhbinh",
+    "title": {
+      "en": "Ninh Binh",
+      "vi": "Ninh Bình"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Ninh Binh Ninh Bình Karst south of Hanoi. Tam Coc and Trang An are boat country. Núi đá phía nam Hà Nội. Tam Cốc và Tràng An là xứ thuyền."
+  },
+  {
+    "href": "/regions/north-vietnam#maichau",
+    "title": {
+      "en": "Mai Chau",
+      "vi": "Mai Châu"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Mai Chau Mai Châu A gentler valley. Rice, stilt houses, a shorter hop from the capital. Thung lũng hiền hơn. Lúa, nhà sàn, gần thủ đô hơn."
+  },
+  {
+    "href": "/regions/north-vietnam#north-pho",
+    "title": {
+      "en": "Northern pho",
+      "vi": "Phở miền Bắc"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Northern pho Phở miền Bắc Clearer broth than the south. Morning food, in town. Nước trong hơn miền Nam. Đồ ăn buổi sáng, trong phố."
+  },
+  {
+    "href": "/regions/north-vietnam#hill-grill",
+    "title": {
+      "en": "Hill markets",
+      "vi": "Chợ vùng cao"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Hill markets Chợ vùng cao Grilled meat, rice, and whatever the market cooked that morning. Thịt nướng, cơm, và món chợ nấu sáng hôm đó."
+  },
+  {
+    "href": "/regions/north-vietnam#stay-sapa",
+    "title": {
+      "en": "Sapa town or a village",
+      "vi": "Phố Sa Pa hoặc một bản"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Sapa town or a village Phố Sa Pa hoặc một bản Town is easier. A village is quieter and means a walk home. Ở phố thì dễ. Ở bản thì yên, và phải đi bộ về."
+  },
+  {
+    "href": "/regions/north-vietnam#stay-bay",
+    "title": {
+      "en": "The bay",
+      "vi": "Trên vịnh"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "The bay Trên vịnh A night on a boat, or a room on Cat Ba. Not the same trip. Một đêm trên thuyền, hoặc phòng ở Cát Bà. Không phải cùng một chuyến."
+  },
+  {
+    "href": "/regions/north-vietnam#from-hanoi",
+    "title": {
+      "en": "From Hanoi",
+      "vi": "Từ Hà Nội"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "From Hanoi Từ Hà Nội Almost every northern trip starts here. Bus, train, or a car. Hầu hết chuyến miền Bắc bắt đầu ở đây. Xe khách, tàu, hoặc ô tô."
+  },
+  {
+    "href": "/regions/north-vietnam#lao-cai",
+    "title": {
+      "en": "Toward Sapa",
+      "vi": "Hướng Sa Pa"
+    },
+    "hint": {
+      "en": "North Vietnam",
+      "vi": "Miền Bắc"
+    },
+    "keywords": "Toward Sapa Hướng Sa Pa The railway ends in the lowland. The town is up the hill. Đường sắt dừng ở đất thấp. Thị trấn ở trên đồi."
   },
   {
     "href": "/regions/central-vietnam",
-    "title": { "en": "Central Vietnam", "vi": "Miền Trung" },
-    "hint": { "en": "Hue, Hoi An, Phong Nha", "vi": "Huế, Hội An, Phong Nha" },
-    "keywords": "central vietnam mien trung hue hoi an ninh binh phong nha danang da nang lang co"
+    "title": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "hint": {
+      "en": "Caves, imperial Hue, the old port.",
+      "vi": "Hang động, cố đô Huế, phố cổ Hội An."
+    },
+    "keywords": "central vietnam mien trung hue hoi an phong nha danang da nang lang co hai van thien mu khai dinh japanese bridge cao lau bun bo imperial city"
+  },
+  {
+    "href": "/regions/central-vietnam#hue",
+    "title": {
+      "en": "Imperial City",
+      "vi": "Đại Nội"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Imperial City Đại Nội The Nguyen citadel in Hue. Walls, gates, and quiet ruined courts. Kinh thành nhà Nguyễn ở Huế. Tường, cổng, và sân vắng."
+  },
+  {
+    "href": "/regions/central-vietnam#thienmu",
+    "title": {
+      "en": "Thien Mu Pagoda",
+      "vi": "Chùa Thiên Mụ"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Thien Mu Pagoda Chùa Thiên Mụ The riverside tower west of the citadel. A short ride, or a long walk. Tháp bên sông, phía tây kinh thành. Đi xe ngắn, hoặc đi bộ dài."
+  },
+  {
+    "href": "/regions/central-vietnam#khai-dinh",
+    "title": {
+      "en": "Royal tombs",
+      "vi": "Lăng vua"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Royal tombs Lăng vua Scattered south of the city. Khai Dinh is the concrete one. The others are gardens. Nằm rải phía nam thành phố. Khải Định là lăng bê tông. Lăng kia là vườn."
+  },
+  {
+    "href": "/regions/central-vietnam#hoian",
+    "title": {
+      "en": "Hoi An old town",
+      "vi": "Phố cổ Hội An"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Hoi An old town Phố cổ Hội An A river port of low houses, lanterns, and tailor shops. Walk it. Phố cảng nhà thấp, đèn lồng, và tiệm may. Đi bộ."
+  },
+  {
+    "href": "/regions/central-vietnam#japan-bridge",
+    "title": {
+      "en": "Japanese Covered Bridge",
+      "vi": "Chùa Cầu"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Japanese Covered Bridge Chùa Cầu The short covered bridge at the west end of the old town. Cây cầu mái ngắn ở đầu tây phố cổ."
+  },
+  {
+    "href": "/regions/central-vietnam#phongnha",
+    "title": {
+      "en": "Phong Nha caves",
+      "vi": "Hang Phong Nha"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Phong Nha caves Hang Phong Nha River caves in a national park. Boats go into the rock. Hang sông trong vườn quốc gia. Thuyền vào trong đá."
+  },
+  {
+    "href": "/regions/central-vietnam#danang",
+    "title": {
+      "en": "Danang",
+      "vi": "Đà Nẵng"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Danang Đà Nẵng The beach city between Hue and Hoi An. Marble Mountains sit at the edge. Thành phố biển giữa Huế và Hội An. Ngũ Hành Sơn nằm ở rìa."
+  },
+  {
+    "href": "/regions/central-vietnam#bun-bo",
+    "title": {
+      "en": "Bun bo Hue",
+      "vi": "Bún bò Huế"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Bun bo Hue Bún bò Huế A spicy beef noodle bowl. It belongs to this city. Bát bún bò cay. Nó thuộc về thành phố này."
+  },
+  {
+    "href": "/regions/central-vietnam#cao-lau",
+    "title": {
+      "en": "Cao lau",
+      "vi": "Cao lầu"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Cao lau Cao lầu Hoi An's own noodles. Thick, with greens and a little broth. Mì riêng của Hội An. Sợi dày, rau, và ít nước."
+  },
+  {
+    "href": "/regions/central-vietnam#stay-hue",
+    "title": {
+      "en": "Hue",
+      "vi": "Huế"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Hue Huế Inside or just outside the citadel walls. The river side is calmer. Trong hoặc sát tường thành. Phía sông thì yên hơn."
+  },
+  {
+    "href": "/regions/central-vietnam#stay-hoian",
+    "title": {
+      "en": "Hoi An",
+      "vi": "Hội An"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Hoi An Hội An Inside the old streets is pretty and loud. One street out is kinder at night. Trong phố cổ thì đẹp và ồn. Ra một phố thì đêm dễ chịu hơn."
+  },
+  {
+    "href": "/regions/central-vietnam#coast-train",
+    "title": {
+      "en": "The coastal train",
+      "vi": "Tàu dọc biển"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "The coastal train Tàu dọc biển Hue and Danang have stations. Hoi An does not. Huế và Đà Nẵng có ga. Hội An thì không."
+  },
+  {
+    "href": "/regions/central-vietnam#hai-van",
+    "title": {
+      "en": "Hai Van pass",
+      "vi": "Đèo Hải Vân"
+    },
+    "hint": {
+      "en": "Central Vietnam",
+      "vi": "Miền Trung"
+    },
+    "keywords": "Hai Van pass Đèo Hải Vân The high road between Hue and Danang. Cloud, hairpins, a view if it is clear. Đường cao giữa Huế và Đà Nẵng. Mây, cua tay áo, có view nếu trời quang."
   },
   {
     "href": "/regions/southeast-coast",
-    "title": { "en": "Southeast Coast", "vi": "Duyên hải Đông Nam" },
-    "hint": { "en": "Also called South Central Vietnam", "vi": "Còn gọi là Nam Trung Bộ" },
-    "keywords": "southeast coast south central vietnam south-central nam trung bo nha trang mui ne quy nhon vung tau quang ngai"
+    "title": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "hint": {
+      "en": "Beaches after the Hai Van pass.",
+      "vi": "Biển sau đèo Hải Vân."
+    },
+    "keywords": "southeast coast south central vietnam south-central nam trung bo duyen hai nha trang mui ne quy nhon vung tau quang ngai son my po nagar cam ranh bai xep Also called South Central Vietnam. DK gọi vùng này là Nam Trung Bộ."
+  },
+  {
+    "href": "/regions/southeast-coast#nhatrang",
+    "title": {
+      "en": "Nha Trang",
+      "vi": "Nha Trang"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Nha Trang Nha Trang The busy beach city. Islands offshore if you want a boat day. Thành phố biển đông. Đảo ngoài khơi nếu muốn một ngày thuyền."
+  },
+  {
+    "href": "/regions/southeast-coast#ponagar",
+    "title": {
+      "en": "Po Nagar",
+      "vi": "Tháp Po Nagar"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Po Nagar Tháp Po Nagar Cham towers on the north bank, still a place of worship. Tháp Chăm bờ bắc, vẫn là nơi thờ."
+  },
+  {
+    "href": "/regions/southeast-coast#muine",
+    "title": {
+      "en": "Mui Ne",
+      "vi": "Mũi Né"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Mui Ne Mũi Né Red and white dunes behind a fishing beach. The town is a long strip. Đồi cát đỏ và trắng sau bãi cá. Phố là một dải dài."
+  },
+  {
+    "href": "/regions/southeast-coast#quynhon",
+    "title": {
+      "en": "Quy Nhon",
+      "vi": "Quy Nhơn"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Quy Nhon Quy Nhơn A quieter city beach between the big resorts. Bai Xep is the small bay south. Biển phố yên hơn các khu nghỉ lớn. Bãi Xép là vịnh nhỏ phía nam."
+  },
+  {
+    "href": "/regions/southeast-coast#sonmy",
+    "title": {
+      "en": "Son My",
+      "vi": "Sơn Mỹ"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Son My Sơn Mỹ A memorial near Quang Ngai. Go quietly. It is not a photo stop. Đài tưởng niệm gần Quảng Ngãi. Đi nhẹ. Không phải chỗ chụp ảnh."
+  },
+  {
+    "href": "/regions/southeast-coast#vungtau",
+    "title": {
+      "en": "Vung Tau",
+      "vi": "Vũng Tàu"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Vung Tau Vũng Tàu The beach city at the southern end of this coast, close to Ho Chi Minh City. Thành phố biển cuối dải này, gần Thành phố Hồ Chí Minh."
+  },
+  {
+    "href": "/regions/southeast-coast#coast-seafood",
+    "title": {
+      "en": "Beach seafood",
+      "vi": "Hải sản bờ biển"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Beach seafood Hải sản bờ biển Fish and shellfish along the strip. The menu is the tank. Cá và tôm cua dọc bờ. Thực đơn là bể kính."
+  },
+  {
+    "href": "/regions/southeast-coast#stay-nhatrang",
+    "title": {
+      "en": "Nha Trang beach",
+      "vi": "Biển Nha Trang"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Nha Trang beach Biển Nha Trang The central strip is walkable and loud. North and south are quieter. Dải giữa thì đi bộ được và ồn. Bắc và nam thì yên hơn."
+  },
+  {
+    "href": "/regions/southeast-coast#stay-muine",
+    "title": {
+      "en": "Mui Ne strip",
+      "vi": "Dải Mũi Né"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Mui Ne strip Dải Mũi Né Resorts line one road. You will want a bike or a ride. Khu nghỉ nằm dọc một đường. Bạn sẽ cần xe."
+  },
+  {
+    "href": "/regions/southeast-coast#coast-air",
+    "title": {
+      "en": "Flying in",
+      "vi": "Bay vào"
+    },
+    "hint": {
+      "en": "Southeast Coast",
+      "vi": "Duyên hải Nam Trung Bộ"
+    },
+    "keywords": "Flying in Bay vào Cam Ranh serves Nha Trang. The other towns are a bus or a ride along the coast. Cam Ranh phục vụ Nha Trang. Phố khác thì xe khách hoặc xe dọc biển."
   },
   {
     "href": "/regions/central-highlands",
-    "title": { "en": "Central Highlands", "vi": "Tây Nguyên" },
-    "hint": { "en": "Dalat, coffee hills", "vi": "Đà Lạt, đồi cà phê" },
-    "keywords": "central highlands tay nguyen dalat da lat buon ma thuot kon tum cat tien"
+    "title": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "hint": {
+      "en": "Cool hills, coffee country, pine air.",
+      "vi": "Đồi mát, xứ cà phê, không khí thông."
+    },
+    "keywords": "central highlands tay nguyen dalat da lat buon ma thuot kon tum cat tien xuan huong coffee pine"
+  },
+  {
+    "href": "/regions/central-highlands#dalat",
+    "title": {
+      "en": "Dalat",
+      "vi": "Đà Lạt"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Dalat Đà Lạt The hill station. Cool, walkable, and full of short rides to waterfalls and farms. Thị trấn cao. Mát, đi bộ được, và nhiều chuyến xe ngắn ra thác và vườn."
+  },
+  {
+    "href": "/regions/central-highlands#xuanhuong",
+    "title": {
+      "en": "Xuan Huong Lake",
+      "vi": "Hồ Xuân Hương"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Xuan Huong Lake Hồ Xuân Hương The lake in the middle of Dalat. Walk the shore before you hire a ride. Hồ giữa Đà Lạt. Đi bộ quanh bờ trước khi thuê xe."
+  },
+  {
+    "href": "/regions/central-highlands#buonmathuot",
+    "title": {
+      "en": "Buon Ma Thuot",
+      "vi": "Buôn Ma Thuột"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Buon Ma Thuot Buôn Ma Thuột Coffee country. The city is a base for the plantations, not a beauty spot. Xứ cà phê. Thành phố là chỗ nghỉ để ra rẫy, không phải điểm ngắm."
+  },
+  {
+    "href": "/regions/central-highlands#kontum",
+    "title": {
+      "en": "Kon Tum",
+      "vi": "Kon Tum"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Kon Tum Kon Tum A quieter highland town. Wooden churches and villages on the edge. Phố cao nguyên yên hơn. Nhà thờ gỗ và làng ở rìa."
+  },
+  {
+    "href": "/regions/central-highlands#cattien",
+    "title": {
+      "en": "Cat Tien",
+      "vi": "Cát Tiên"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Cat Tien Cát Tiên A national park on the way down toward the south. Forest, not a town. Vườn quốc gia trên đường xuống phía nam. Rừng, không phải phố."
+  },
+  {
+    "href": "/regions/central-highlands#dalat-coffee",
+    "title": {
+      "en": "Highland coffee",
+      "vi": "Cà phê cao nguyên"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Highland coffee Cà phê cao nguyên Drink it where it is grown. Dalat also does artichoke tea. Uống ở nơi nó được trồng. Đà Lạt còn có trà atiso."
+  },
+  {
+    "href": "/regions/central-highlands#stay-dalat",
+    "title": {
+      "en": "Dalat",
+      "vi": "Đà Lạt"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Dalat Đà Lạt The practical base for the highlands. Nights are cool. Chỗ ở thực tế cho cao nguyên. Đêm thì mát."
+  },
+  {
+    "href": "/regions/central-highlands#dalat-road",
+    "title": {
+      "en": "Reaching Dalat",
+      "vi": "Đến Đà Lạt"
+    },
+    "hint": {
+      "en": "Central Highlands",
+      "vi": "Tây Nguyên"
+    },
+    "keywords": "Reaching Dalat Đến Đà Lạt Flights and buses from Ho Chi Minh City and the coast. The road climbs. Bay và xe khách từ Thành phố Hồ Chí Minh và ven biển. Đường thì leo."
   },
   {
     "href": "/regions/ho-chi-minh-city",
-    "title": { "en": "Ho Chi Minh City", "vi": "Thành phố Hồ Chí Minh" },
-    "hint": { "en": "Saigon", "vi": "Sài Gòn" },
-    "keywords": "ho chi minh city hcmc saigon sai gon dong khoi cholon cho lon district 1"
+    "title": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "hint": {
+      "en": "The loud, late, hungry south.",
+      "vi": "Phía nam ồn, khuya, và đói."
+    },
+    "keywords": "ho chi minh city hcmc saigon sai gon thanh pho ho chi minh dong khoi cholon cho lon ben thanh notre dame post office reunification palace independence palace jade emperor war remnants cu chi com tam"
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#saigon-cathedral",
+    "title": {
+      "en": "Notre-Dame and the Post Office",
+      "vi": "Nhà thờ Đức Bà và Bưu điện"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Notre-Dame and the Post Office Nhà thờ Đức Bà và Bưu điện The brick cathedral and the French post office, one square apart. Nhà thờ gạch và bưu điện Pháp, cách nhau một quảng trường."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#saigon-post",
+    "title": {
+      "en": "Central Post Office",
+      "vi": "Bưu điện Thành phố"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Central Post Office Bưu điện Thành phố The long hall next to the cathedral. Maps on the walls, stalls in the middle. Hành lang dài cạnh nhà thờ. Bản đồ trên tường, quầy ở giữa."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#palace",
+    "title": {
+      "en": "Reunification Palace",
+      "vi": "Dinh Thống Nhất"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Reunification Palace Dinh Thống Nhất The old presidential palace, kept as it was. Rooms above, bunkers below. Dinh tổng thống cũ, giữ nguyên. Phòng trên, hầm dưới."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#ben-thanh",
+    "title": {
+      "en": "Ben Thanh Market",
+      "vi": "Chợ Bến Thành"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Ben Thanh Market Chợ Bến Thành The covered market. Daytime stalls, a food hall that wakes up later. Chợ có mái. Sạp ban ngày, khu ăn thức khuya hơn."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#jade",
+    "title": {
+      "en": "Jade Emperor Pagoda",
+      "vi": "Chùa Ngọc Hoàng"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Jade Emperor Pagoda Chùa Ngọc Hoàng A crowded, incense-heavy pagoda north of the centre. Small, and worth the ride. Chùa đông, nhiều khói, phía bắc trung tâm. Nhỏ, và đáng đi xe."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#cholon",
+    "title": {
+      "en": "Cholon",
+      "vi": "Chợ Lớn"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Cholon Chợ Lớn The Chinese quarter. Binh Tay market, temples, and a different pace. Khu người Hoa. Chợ Bình Tây, đền, và nhịp khác."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#war-remnants",
+    "title": {
+      "en": "War Remnants Museum",
+      "vi": "Bảo tàng Chứng tích Chiến tranh"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "War Remnants Museum Bảo tàng Chứng tích Chiến tranh A hard museum. Go if you want the war told in objects. Not a light hour. Một bảo tàng nặng. Đến nếu muốn thấy chiến tranh qua hiện vật. Không phải một giờ nhẹ."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#cuchi",
+    "title": {
+      "en": "Cu Chi tunnels",
+      "vi": "Địa đạo Củ Chi"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Cu Chi tunnels Địa đạo Củ Chi A tunnel network outside the city. A half-day ride, not a neighbourhood walk. Hệ thống địa đạo ngoài thành phố. Nửa ngày đi xe, không phải đi bộ trong phố."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#com-tam",
+    "title": {
+      "en": "Com tam",
+      "vi": "Cơm tấm"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Com tam Cơm tấm Broken rice, pork, and a sweet salty side. A lunch, not a ceremony. Cơm tấm, thịt, và nước mắm ngọt mặn. Bữa trưa, không phải yến tiệc."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#ca-phe-sua",
+    "title": {
+      "en": "Iced coffee",
+      "vi": "Cà phê sữa đá"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Iced coffee Cà phê sữa đá Strong coffee, condensed milk, ice. The city's pause button. Cà phê đặc, sữa đặc, đá. Nút tạm dừng của phố."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#stay-d1",
+    "title": {
+      "en": "District 1",
+      "vi": "Quận 1"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "District 1 Quận 1 Dong Khoi and the blocks around Ben Thanh. Central, and not quiet. Đồng Khởi và các khối phố quanh Bến Thành. Ở giữa, và không yên."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#stay-cholon",
+    "title": {
+      "en": "Cholon",
+      "vi": "Chợ Lớn"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Cholon Chợ Lớn Cheaper and more local. Every trip back to the centre is a ride. Rẻ hơn và địa phương hơn. Mỗi lần về trung tâm là một chuyến xe."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#tan-son-nhat",
+    "title": {
+      "en": "Tan Son Nhat airport",
+      "vi": "Sân bay Tân Sơn Nhất"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "Tan Son Nhat airport Sân bay Tân Sơn Nhất Inside the city, not an hour away. Still leave time for the traffic. Trong thành phố, không phải một giờ đồng hồ. Vẫn chừa giờ cho kẹt xe."
+  },
+  {
+    "href": "/regions/ho-chi-minh-city#saigon-station",
+    "title": {
+      "en": "The station",
+      "vi": "Ga"
+    },
+    "hint": {
+      "en": "Ho Chi Minh City",
+      "vi": "Thành phố Hồ Chí Minh"
+    },
+    "keywords": "The station Ga Long-distance trains from the north arrive here, then a short ride to District 1. Tàu đường dài từ miền Bắc vào đây, rồi xe ngắn vào Quận 1."
   },
   {
     "href": "/regions/mekong-delta",
-    "title": { "en": "Mekong Delta", "vi": "Đồng bằng sông Cửu Long" },
-    "hint": { "en": "Includes Phu Quoc and Con Dao", "vi": "Gồm Phú Quốc và Côn Đảo" },
-    "keywords": "mekong delta cuu long can tho ben tre phu quoc phú quốc con dao côn đảo chau doc ha tien vinh long"
+    "title": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "hint": {
+      "en": "Rivers, orchards, and two islands.",
+      "vi": "Sông, vườn cây, và hai hòn đảo."
+    },
+    "keywords": "mekong delta dong bang song cuu long can tho cai rang ben tre vinh long chau doc sam mountain ha tien phu quoc phú quốc con dao côn đảo floating market Phu Quoc and Con Dao sit in this chapter. Phú Quốc và Côn Đảo nằm trong chương này."
+  },
+  {
+    "href": "/regions/mekong-delta#cairang",
+    "title": {
+      "en": "Cai Rang market",
+      "vi": "Chợ nổi Cái Răng"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Cai Rang market Chợ nổi Cái Răng The floating market near Can Tho. Boats sell fruit at dawn. Go early. Chợ nổi gần Cần Thơ. Ghe bán trái cây lúc bình minh. Đi sớm."
+  },
+  {
+    "href": "/regions/mekong-delta#cantho",
+    "title": {
+      "en": "Can Tho",
+      "vi": "Cần Thơ"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Can Tho Cần Thơ The delta's main city. The practical base for the river. Thành phố chính của đồng bằng. Chỗ ở thực tế cho sông nước."
+  },
+  {
+    "href": "/regions/mekong-delta#bentre",
+    "title": {
+      "en": "Ben Tre",
+      "vi": "Bến Tre"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Ben Tre Bến Tre Orchards and small channels. Coconut country, closer to the city than Can Tho. Vườn và kênh nhỏ. Xứ dừa, gần thành phố hơn Cần Thơ."
+  },
+  {
+    "href": "/regions/mekong-delta#chaudoc",
+    "title": {
+      "en": "Chau Doc",
+      "vi": "Châu Đốc"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Chau Doc Châu Đốc A border town. Sam Mountain is the lookout above the floodplain. Phố biên giới. Núi Sam là chỗ nhìn xuống đồng ngập."
+  },
+  {
+    "href": "/regions/mekong-delta#hatien",
+    "title": {
+      "en": "Ha Tien",
+      "vi": "Hà Tiên"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Ha Tien Hà Tiên A small port near the Cambodian edge. Quiet, and a jump toward the coast. Cảng nhỏ gần rìa Campuchia. Yên, và là bước sang phía biển."
+  },
+  {
+    "href": "/regions/mekong-delta#phuquoc",
+    "title": {
+      "en": "Phu Quoc",
+      "vi": "Phú Quốc"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Phu Quoc Phú Quốc A large island in the gulf. Beaches, fish sauce, and a national park in the north. Đảo lớn trong vịnh. Biển, nước mắm, và vườn quốc gia phía bắc. Island. Still this chapter. Đảo. Vẫn chương này."
+  },
+  {
+    "href": "/regions/mekong-delta#condao",
+    "title": {
+      "en": "Con Dao",
+      "vi": "Côn Đảo"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Con Dao Côn Đảo A remote island of prisons, forest, and empty beaches. Fewer flights. Đảo xa: nhà tù, rừng, và biển vắng. Ít chuyến bay hơn. Island. Still this chapter. Đảo. Vẫn chương này."
+  },
+  {
+    "href": "/regions/mekong-delta#delta-fruit",
+    "title": {
+      "en": "River fruit",
+      "vi": "Trái cây sông"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "River fruit Trái cây sông Pomelo, mango, coconut. Buy it where you see it cut. Bưởi, xoài, dừa. Mua chỗ họ đang bổ."
+  },
+  {
+    "href": "/regions/mekong-delta#stay-cantho",
+    "title": {
+      "en": "Can Tho",
+      "vi": "Cần Thơ"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "Can Tho Cần Thơ City hotels, or a homestay on a smaller channel. Khách sạn trong phố, hoặc nhà dân trên kênh nhỏ."
+  },
+  {
+    "href": "/regions/mekong-delta#stay-islands",
+    "title": {
+      "en": "The islands",
+      "vi": "Hai đảo"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "The islands Hai đảo Phu Quoc has the rooms. Con Dao has fewer. Book the flight and the bed together. Phú Quốc thì nhiều phòng. Côn Đảo thì ít. Đặt vé bay và giường cùng lúc."
+  },
+  {
+    "href": "/regions/mekong-delta#delta-bus",
+    "title": {
+      "en": "From Ho Chi Minh City",
+      "vi": "Từ Thành phố Hồ Chí Minh"
+    },
+    "hint": {
+      "en": "Mekong Delta",
+      "vi": "Đồng bằng sông Cửu Long"
+    },
+    "keywords": "From Ho Chi Minh City Từ Thành phố Hồ Chí Minh Buses and boats reach Can Tho and the nearer orchards. The islands do not. Xe và thuyền tới Cần Thơ và vườn gần. Hai đảo thì không."
   },
   {
     "href": "/regions/siem-reap-angkor",
-    "title": { "en": "Siem Reap & Angkor Wat", "vi": "Siem Reap và Angkor Wat" },
-    "hint": { "en": "Cambodia, not Vietnam", "vi": "Campuchia, không phải Việt Nam" },
-    "keywords": "siem reap angkor wat angkor thom cambodia campuchia"
+    "title": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "hint": {
+      "en": "A common add-on. Not in Vietnam.",
+      "vi": "Chặng hay ghép thêm. Không thuộc Việt Nam."
+    },
+    "keywords": "siem reap angkor wat angkor thom bayon ta prohm banteay srei cambodia campuchia tonle sap Separate country. Check entry rules before you go. Quốc gia khác. Kiểm tra quy định nhập cảnh trước khi đi."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#angkorwat",
+    "title": {
+      "en": "Angkor Wat",
+      "vi": "Angkor Wat"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Angkor Wat Angkor Wat The great temple. Go at opening if you want the towers without the crush. Ngôi đền lớn. Đến lúc mở cửa nếu muốn thấy tháp khi chưa đông."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#angkor-gate",
+    "title": {
+      "en": "Angkor Thom gate",
+      "vi": "Cổng Angkor Thom"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Angkor Thom gate Cổng Angkor Thom The south gate, faces on the causeway, then the city inside. Cổng nam, mặt người trên đường vào, rồi thành bên trong."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#bayon",
+    "title": {
+      "en": "Bayon",
+      "vi": "Bayon"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Bayon Bayon The face temple at the centre of Angkor Thom. Đền mặt người ở giữa Angkor Thom."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#taprohm",
+    "title": {
+      "en": "Ta Prohm",
+      "vi": "Ta Prohm"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Ta Prohm Ta Prohm The temple the trees kept. Roots over the stone. Ngôi đền cây giữ lại. Rễ phủ lên đá."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#banteay",
+    "title": {
+      "en": "Banteay Srei",
+      "vi": "Banteay Srei"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Banteay Srei Banteay Srei A small pink temple, further out. Fine stone, a longer ride. Đền nhỏ màu hồng, xa hơn. Đá tinh, đường thì dài hơn."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#khmer-meal",
+    "title": {
+      "en": "A Khmer meal",
+      "vi": "Một bữa Khmer"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "A Khmer meal Một bữa Khmer The town cooks for visitors. Ask for a Khmer fish curry if you want something that is not Vietnamese. Phố nấu cho khách. Gọi cà ri cá Khmer nếu muốn món không phải Việt."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#stay-siemreap",
+    "title": {
+      "en": "Siem Reap",
+      "vi": "Siem Reap"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Siem Reap Siem Reap The visitor town. Stay where you can find breakfast before the temples open. Phố của khách. Ở chỗ còn tìm được bữa sáng trước giờ đền mở."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#enter-cambodia",
+    "title": {
+      "en": "Crossing into Cambodia",
+      "vi": "Sang Campuchia"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Crossing into Cambodia Sang Campuchia Most visitors come from Ho Chi Minh City, by air or by road. It is another country. Check the entry rules. This guide does not list visas or fees. Phần lớn khách đi từ Thành phố Hồ Chí Minh, bằng máy bay hoặc đường bộ. Đây là nước khác. Kiểm tra quy định nhập cảnh. Cẩm nang này không liệt kê visa hay phí."
+  },
+  {
+    "href": "/regions/siem-reap-angkor#temple-ride",
+    "title": {
+      "en": "Out to the temples",
+      "vi": "Ra khu đền"
+    },
+    "hint": {
+      "en": "Siem Reap & Angkor Wat",
+      "vi": "Siem Reap và Angkor Wat"
+    },
+    "keywords": "Out to the temples Ra khu đền A short ride from town. Passes and opening times: verify locally. Xe ngắn từ phố. Vé và giờ mở: hỏi tại chỗ."
   },
   {
     "href": "/plan",
-    "title": { "en": "Plan", "vi": "Lịch trình" },
-    "hint": { "en": "Itineraries and when to go", "vi": "Lịch trình và mùa đi" },
+    "title": {
+      "en": "Plan",
+      "vi": "Lịch trình"
+    },
+    "hint": {
+      "en": "Itineraries and when to go",
+      "vi": "Lịch trình và mùa đi"
+    },
     "keywords": "plan itinerary when to go tet"
   },
   {
     "href": "/eat",
-    "title": { "en": "Eat", "vi": "Ăn uống" },
-    "hint": { "en": "Food scene and coffee", "vi": "Đồ ăn và cà phê" },
+    "title": {
+      "en": "Eat",
+      "vi": "Ăn uống"
+    },
+    "hint": {
+      "en": "Food scene and coffee",
+      "vi": "Đồ ăn và cà phê"
+    },
     "keywords": "eat food coffee pho bun cha bia hoi"
   },
   {
     "href": "/essentials",
-    "title": { "en": "Essentials", "vi": "Cần biết" },
-    "hint": { "en": "Money, health, getting around", "vi": "Tiền, sức khoẻ, đi lại" },
+    "title": {
+      "en": "Essentials",
+      "vi": "Cần biết"
+    },
+    "hint": {
+      "en": "Money, health, getting around",
+      "vi": "Tiền, sức khoẻ, đi lại"
+    },
     "keywords": "essentials money visa health phrasebook"
   },
   {
     "href": "/credits",
-    "title": { "en": "Photo credits", "vi": "Nguồn ảnh" },
-    "hint": { "en": "Who took the pictures", "vi": "Ai chụp ảnh" },
+    "title": {
+      "en": "Photo credits",
+      "vi": "Nguồn ảnh"
+    },
+    "hint": {
+      "en": "Who took the pictures",
+      "vi": "Ai chụp ảnh"
+    },
     "keywords": "photo credits license wikimedia"
   }
 ]

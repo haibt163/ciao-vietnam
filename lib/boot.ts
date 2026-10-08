@@ -1,5 +1,27 @@
-/** Runs in <head> before first paint. Official flash-prevention pattern. */
-export const BOOT_SCRIPT = `(function(){try{var d=document.documentElement;var l=localStorage.getItem("ciao-lang");if(l!=="en"&&l!=="vi"){var n=(navigator.languages||[navigator.language]||[""]).join(",").toLowerCase();l=n.indexOf("vi")!==-1?"vi":"en";}d.setAttribute("data-lang",l);d.lang=l==="vi"?"vi":"en";var t=localStorage.getItem("ciao-theme");if(t!=="light"&&t!=="dark"){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}d.setAttribute("data-theme",t);var s=localStorage.getItem("ciao-sound");d.setAttribute("data-sound",s==="off"?"off":"on");}catch(e){}})();`;
+function applyStoredPrefs() {
+  try {
+    const root = document.documentElement;
+    let lang = localStorage.getItem("ciao-lang");
+    if (lang !== "en" && lang !== "vi") {
+      const names = (navigator.languages || [navigator.language] || [""]).join(",").toLowerCase();
+      lang = names.indexOf("vi") !== -1 ? "vi" : "en";
+    }
+    root.setAttribute("data-lang", lang);
+    root.lang = lang === "vi" ? "vi" : "en";
+    let theme = localStorage.getItem("ciao-theme");
+    if (theme !== "light" && theme !== "dark") {
+      theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    root.setAttribute("data-theme", theme);
+    const sound = localStorage.getItem("ciao-sound");
+    root.setAttribute("data-sound", sound === "off" ? "off" : "on");
+  } catch {
+    /* private mode */
+  }
+}
+
+/** Same function as reapplyPrefs, inlined so it can run before first paint. */
+export const BOOT_SCRIPT = `(${applyStoredPrefs.toString()})();`;
 
 export function readLang(): "en" | "vi" {
   if (typeof document === "undefined") return "en";
@@ -31,27 +53,5 @@ export function toggleSound() {
 }
 
 export function reapplyPrefs() {
-  try {
-    const lang = localStorage.getItem("ciao-lang");
-    const theme = localStorage.getItem("ciao-theme");
-    const sound = localStorage.getItem("ciao-sound");
-    const root = document.documentElement;
-    if (lang === "en" || lang === "vi") {
-      root.setAttribute("data-lang", lang);
-      root.lang = lang === "vi" ? "vi" : "en";
-    } else {
-      const n = (navigator.languages || [navigator.language] || [""]).join(",").toLowerCase();
-      const detected = n.includes("vi") ? "vi" : "en";
-      root.setAttribute("data-lang", detected);
-      root.lang = detected === "vi" ? "vi" : "en";
-    }
-    if (theme === "light" || theme === "dark") {
-      root.setAttribute("data-theme", theme);
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      root.setAttribute("data-theme", "dark");
-    }
-    root.setAttribute("data-sound", sound === "off" ? "off" : "on");
-  } catch {
-    /* private mode */
-  }
+  applyStoredPrefs();
 }

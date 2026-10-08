@@ -3,11 +3,13 @@ export type LangText = { en: string; vi: string };
 export type ImageAsset = {
   id: string;
   src: string;
+  srcSet?: string;
   width: number;
   height: number;
   alt: LangText;
   credit: string;
   license: string;
+  licenseUrl: string;
   source: string;
 };
 
@@ -18,11 +20,19 @@ export type Card = {
   title: LangText;
   summary: LangText;
   image?: string;
+  /** Show the "photograph still needed" block when there is no file yet. */
+  gap?: boolean;
+  kicker?: LangText;
   facts: Fact[];
 };
 
-export type HanoiContent = {
+export type RegionContent = {
+  order: number;
+  slug: string;
   name: LangText;
+  blurb: LangText;
+  keywords: string;
+  note?: LangText;
   lede: LangText;
   hero: string;
   chips: LangText[];

@@ -1,0 +1,288 @@
+{
+  "order": 8,
+  "slug": "siem-reap-angkor",
+  "name": {
+    "en": "Siem Reap & Angkor Wat",
+    "vi": "Siem Reap và Angkor Wat"
+  },
+  "blurb": {
+    "en": "A common add-on. Not in Vietnam.",
+    "vi": "Chặng hay ghép thêm. Không thuộc Việt Nam."
+  },
+  "keywords": "siem reap angkor wat angkor thom bayon ta prohm banteay srei cambodia campuchia tonle sap",
+  "note": {
+    "en": "Separate country. Check entry rules before you go.",
+    "vi": "Quốc gia khác. Kiểm tra quy định nhập cảnh trước khi đi."
+  },
+  "lede": {
+    "en": "Temple country at dawn, and a town built for visitors. This is Cambodia.",
+    "vi": "Xứ đền lúc bình minh, và một phố làm cho khách. Đây là Campuchia."
+  },
+  "hero": "bayon",
+  "chips": [
+    {
+      "en": "Angkor Wat",
+      "vi": "Angkor Wat"
+    },
+    {
+      "en": "Angkor Thom",
+      "vi": "Angkor Thom"
+    },
+    {
+      "en": "Bayon",
+      "vi": "Bayon"
+    },
+    {
+      "en": "Cambodia",
+      "vi": "Campuchia"
+    }
+  ],
+  "dontMiss": [
+    "angkorwat",
+    "bayon",
+    "taprohm",
+    "angkor-gate"
+  ],
+  "sightsIntro": {
+    "en": "The stones are a ride from town. Start early. The pass is a local question: verify it on the day.",
+    "vi": "Đá thì phải đi xe từ phố. Đi sớm. Vé tham quan là câu hỏi tại chỗ: hỏi trong ngày."
+  },
+  "sights": [
+    {
+      "id": "angkorwat",
+      "title": {
+        "en": "Angkor Wat",
+        "vi": "Angkor Wat"
+      },
+      "summary": {
+        "en": "The great temple. Go at opening if you want the towers without the crush.",
+        "vi": "Ngôi đền lớn. Đến lúc mở cửa nếu muốn thấy tháp khi chưa đông."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The first morning",
+            "vi": "Buổi sáng đầu tiên"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Dress for a temple. Shoulders and knees.",
+            "vi": "Ăn mặc như vào đền. Vai và gối."
+          }
+        }
+      ],
+      "gap": true
+    },
+    {
+      "id": "angkor-gate",
+      "title": {
+        "en": "Angkor Thom gate",
+        "vi": "Cổng Angkor Thom"
+      },
+      "summary": {
+        "en": "The south gate, faces on the causeway, then the city inside.",
+        "vi": "Cổng nam, mặt người trên đường vào, rồi thành bên trong."
+      },
+      "image": "angkor-gate",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The way into the old city",
+            "vi": "Lối vào thành cũ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bayon",
+      "title": {
+        "en": "Bayon",
+        "vi": "Bayon"
+      },
+      "summary": {
+        "en": "The face temple at the centre of Angkor Thom.",
+        "vi": "Đền mặt người ở giữa Angkor Thom."
+      },
+      "image": "bayon",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The same morning as the gate",
+            "vi": "Cùng buổi sáng với cổng"
+          }
+        }
+      ]
+    },
+    {
+      "id": "taprohm",
+      "title": {
+        "en": "Ta Prohm",
+        "vi": "Ta Prohm"
+      },
+      "summary": {
+        "en": "The temple the trees kept. Roots over the stone.",
+        "vi": "Ngôi đền cây giữ lại. Rễ phủ lên đá."
+      },
+      "image": "taprohm",
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "It is popular. Earlier is calmer.",
+            "vi": "Chỗ này đông. Sớm hơn thì yên hơn."
+          }
+        }
+      ]
+    },
+    {
+      "id": "banteay",
+      "title": {
+        "en": "Banteay Srei",
+        "vi": "Banteay Srei"
+      },
+      "summary": {
+        "en": "A small pink temple, further out. Fine stone, a longer ride.",
+        "vi": "Đền nhỏ màu hồng, xa hơn. Đá tinh, đường thì dài hơn."
+      },
+      "image": "banteay",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A second day, not the first rush",
+            "vi": "Ngày thứ hai, không phải lúc vội ngày đầu"
+          }
+        }
+      ]
+    }
+  ],
+  "eatIntro": {
+    "en": "Eat in town. The temples are not a lunch spot.",
+    "vi": "Ăn trong phố. Đền không phải chỗ ăn trưa."
+  },
+  "eat": [
+    {
+      "id": "khmer-meal",
+      "title": {
+        "en": "A Khmer meal",
+        "vi": "Một bữa Khmer"
+      },
+      "summary": {
+        "en": "The town cooks for visitors. Ask for a Khmer fish curry if you want something that is not Vietnamese.",
+        "vi": "Phố nấu cho khách. Gọi cà ri cá Khmer nếu muốn món không phải Việt."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "Siem Reap town, after the temples",
+            "vi": "Phố Siem Reap, sau khi về từ đền"
+          }
+        }
+      ]
+    }
+  ],
+  "stayIntro": {
+    "en": "Sleep in Siem Reap. The stones are a ride out, every morning.",
+    "vi": "Ngủ ở Siem Reap. Đá thì mỗi sáng phải đi xe ra."
+  },
+  "stay": [
+    {
+      "id": "stay-siemreap",
+      "title": {
+        "en": "Siem Reap",
+        "vi": "Siem Reap"
+      },
+      "summary": {
+        "en": "The visitor town. Stay where you can find breakfast before the temples open.",
+        "vi": "Phố của khách. Ở chỗ còn tìm được bữa sáng trước giờ đền mở."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Budget the ride out, every day",
+            "vi": "Tính tiền xe ra đền, mỗi ngày"
+          }
+        }
+      ]
+    }
+  ],
+  "gettingThere": [
+    {
+      "id": "enter-cambodia",
+      "title": {
+        "en": "Crossing into Cambodia",
+        "vi": "Sang Campuchia"
+      },
+      "summary": {
+        "en": "Most visitors come from Ho Chi Minh City, by air or by road. It is another country. Check the entry rules. This guide does not list visas or fees.",
+        "vi": "Phần lớn khách đi từ Thành phố Hồ Chí Minh, bằng máy bay hoặc đường bộ. Đây là nước khác. Kiểm tra quy định nhập cảnh. Cẩm nang này không liệt kê visa hay phí."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Rules change. Verify before you travel.",
+            "vi": "Quy định hay đổi. Hỏi lại trước khi đi."
+          }
+        }
+      ]
+    },
+    {
+      "id": "temple-ride",
+      "title": {
+        "en": "Out to the temples",
+        "vi": "Ra khu đền"
+      },
+      "summary": {
+        "en": "A short ride from town. Passes and opening times: verify locally.",
+        "vi": "Xe ngắn từ phố. Vé và giờ mở: hỏi tại chỗ."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Bike, tuk-tuk, or a car. Agree it the night before.",
+            "vi": "Xe đạp, tuk-tuk, hoặc ô tô. Chốt từ tối hôm trước."
+          }
+        }
+      ]
+    }
+  ]
+}

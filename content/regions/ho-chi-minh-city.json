@@ -1,0 +1,392 @@
+{
+  "order": 6,
+  "slug": "ho-chi-minh-city",
+  "name": {
+    "en": "Ho Chi Minh City",
+    "vi": "Thành phố Hồ Chí Minh"
+  },
+  "blurb": {
+    "en": "The loud, late, hungry south.",
+    "vi": "Phía nam ồn, khuya, và đói."
+  },
+  "keywords": "ho chi minh city hcmc saigon sai gon thanh pho ho chi minh dong khoi cholon cho lon ben thanh notre dame post office reunification palace independence palace jade emperor war remnants cu chi com tam",
+  "lede": {
+    "en": "A loud southern city. Walk one old grid, then eat. The war sites are their own hour.",
+    "vi": "Một thành phố phía nam ồn ào. Đi bộ một khu cũ, rồi ăn. Chỗ về chiến tranh là một giờ riêng."
+  },
+  "hero": "saigon-cathedral",
+  "chips": [
+    {
+      "en": "Dong Khoi",
+      "vi": "Đồng Khởi"
+    },
+    {
+      "en": "Cholon",
+      "vi": "Chợ Lớn"
+    },
+    {
+      "en": "Ben Thanh",
+      "vi": "Bến Thành"
+    },
+    {
+      "en": "Cu Chi",
+      "vi": "Củ Chi"
+    }
+  ],
+  "dontMiss": [
+    "saigon-cathedral",
+    "palace",
+    "ben-thanh",
+    "cholon"
+  ],
+  "sightsIntro": {
+    "en": "The centre is walkable. The tunnels are not.",
+    "vi": "Trung tâm thì đi bộ được. Địa đạo thì không."
+  },
+  "sights": [
+    {
+      "id": "saigon-cathedral",
+      "title": {
+        "en": "Notre-Dame and the Post Office",
+        "vi": "Nhà thờ Đức Bà và Bưu điện"
+      },
+      "summary": {
+        "en": "The brick cathedral and the French post office, one square apart.",
+        "vi": "Nhà thờ gạch và bưu điện Pháp, cách nhau một quảng trường."
+      },
+      "image": "saigon-cathedral",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The first walk off Dong Khoi",
+            "vi": "Bước đi bộ đầu tiên từ Đồng Khởi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "saigon-post",
+      "title": {
+        "en": "Central Post Office",
+        "vi": "Bưu điện Thành phố"
+      },
+      "summary": {
+        "en": "The long hall next to the cathedral. Maps on the walls, stalls in the middle.",
+        "vi": "Hành lang dài cạnh nhà thờ. Bản đồ trên tường, quầy ở giữa."
+      },
+      "image": "saigon-post",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Ten minutes out of the heat",
+            "vi": "Mười phút tránh nóng"
+          }
+        }
+      ]
+    },
+    {
+      "id": "palace",
+      "title": {
+        "en": "Reunification Palace",
+        "vi": "Dinh Thống Nhất"
+      },
+      "summary": {
+        "en": "The old presidential palace, kept as it was. Rooms above, bunkers below.",
+        "vi": "Dinh tổng thống cũ, giữ nguyên. Phòng trên, hầm dưới."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Hours and the ticket: verify locally",
+            "vi": "Giờ và vé: hỏi tại chỗ"
+          }
+        }
+      ],
+      "gap": true
+    },
+    {
+      "id": "ben-thanh",
+      "title": {
+        "en": "Ben Thanh Market",
+        "vi": "Chợ Bến Thành"
+      },
+      "summary": {
+        "en": "The covered market. Daytime stalls, a food hall that wakes up later.",
+        "vi": "Chợ có mái. Sạp ban ngày, khu ăn thức khuya hơn."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A look, then eat somewhere else",
+            "vi": "Xem một vòng, rồi ăn chỗ khác"
+          }
+        }
+      ],
+      "image": "ben-thanh"
+    },
+    {
+      "id": "jade",
+      "title": {
+        "en": "Jade Emperor Pagoda",
+        "vi": "Chùa Ngọc Hoàng"
+      },
+      "summary": {
+        "en": "A crowded, incense-heavy pagoda north of the centre. Small, and worth the ride.",
+        "vi": "Chùa đông, nhiều khói, phía bắc trung tâm. Nhỏ, và đáng đi xe."
+      },
+      "image": "jade",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A quiet contrast to the palace",
+            "vi": "Một chỗ khác hẳn dinh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cholon",
+      "title": {
+        "en": "Cholon",
+        "vi": "Chợ Lớn"
+      },
+      "summary": {
+        "en": "The Chinese quarter. Binh Tay market, temples, and a different pace.",
+        "vi": "Khu người Hoa. Chợ Bình Tây, đền, và nhịp khác."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "A ride from District 1. Do not walk it.",
+            "vi": "Đi xe từ Quận 1. Đừng đi bộ."
+          }
+        }
+      ],
+      "gap": true
+    },
+    {
+      "id": "war-remnants",
+      "title": {
+        "en": "War Remnants Museum",
+        "vi": "Bảo tàng Chứng tích Chiến tranh"
+      },
+      "summary": {
+        "en": "A hard museum. Go if you want the war told in objects. Not a light hour.",
+        "vi": "Một bảo tàng nặng. Đến nếu muốn thấy chiến tranh qua hiện vật. Không phải một giờ nhẹ."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "The photographs are graphic",
+            "vi": "Ảnh thì dữ"
+          }
+        }
+      ],
+      "image": "war-remnants"
+    },
+    {
+      "id": "cuchi",
+      "title": {
+        "en": "Cu Chi tunnels",
+        "vi": "Địa đạo Củ Chi"
+      },
+      "summary": {
+        "en": "A tunnel network outside the city. A half-day ride, not a neighbourhood walk.",
+        "vi": "Hệ thống địa đạo ngoài thành phố. Nửa ngày đi xe, không phải đi bộ trong phố."
+      },
+      "image": "cuchi",
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Tour or a ride out of town. Verify locally.",
+            "vi": "Tour hoặc xe ra ngoại thành. Hỏi tại chỗ."
+          }
+        }
+      ]
+    }
+  ],
+  "eatIntro": {
+    "en": "The south is sweeter. Eat early, and eat again late.",
+    "vi": "Miền Nam ngọt hơn. Ăn sớm, rồi ăn lại khuya."
+  },
+  "eat": [
+    {
+      "id": "com-tam",
+      "title": {
+        "en": "Com tam",
+        "vi": "Cơm tấm"
+      },
+      "summary": {
+        "en": "Broken rice, pork, and a sweet salty side. A lunch, not a ceremony.",
+        "vi": "Cơm tấm, thịt, và nước mắm ngọt mặn. Bữa trưa, không phải yến tiệc."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Late morning into afternoon",
+            "vi": "Cuối sáng đến chiều"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ca-phe-sua",
+      "title": {
+        "en": "Iced coffee",
+        "vi": "Cà phê sữa đá"
+      },
+      "summary": {
+        "en": "Strong coffee, condensed milk, ice. The city's pause button.",
+        "vi": "Cà phê đặc, sữa đặc, đá. Nút tạm dừng của phố."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "Any pavement that has a low stool",
+            "vi": "Vỉa hè nào có ghế thấp"
+          }
+        }
+      ]
+    }
+  ],
+  "stayIntro": {
+    "en": "District 1 if this is your first night. You will walk more than you ride.",
+    "vi": "Quận 1 nếu đây là đêm đầu. Bạn sẽ đi bộ nhiều hơn đi xe."
+  },
+  "stay": [
+    {
+      "id": "stay-d1",
+      "title": {
+        "en": "District 1",
+        "vi": "Quận 1"
+      },
+      "summary": {
+        "en": "Dong Khoi and the blocks around Ben Thanh. Central, and not quiet.",
+        "vi": "Đồng Khởi và các khối phố quanh Bến Thành. Ở giữa, và không yên."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Ask for a room off the main road",
+            "vi": "Xin phòng không nhìn mặt đường chính"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stay-cholon",
+      "title": {
+        "en": "Cholon",
+        "vi": "Chợ Lớn"
+      },
+      "summary": {
+        "en": "Cheaper and more local. Every trip back to the centre is a ride.",
+        "vi": "Rẻ hơn và địa phương hơn. Mỗi lần về trung tâm là một chuyến xe."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A second stay, not the first night",
+            "vi": "Lần ở thứ hai, không phải đêm đầu"
+          }
+        }
+      ]
+    }
+  ],
+  "gettingThere": [
+    {
+      "id": "tan-son-nhat",
+      "title": {
+        "en": "Tan Son Nhat airport",
+        "vi": "Sân bay Tân Sơn Nhất"
+      },
+      "summary": {
+        "en": "Inside the city, not an hour away. Still leave time for the traffic.",
+        "vi": "Trong thành phố, không phải một giờ đồng hồ. Vẫn chừa giờ cho kẹt xe."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Taxi or ride app. Verify the fare locally.",
+            "vi": "Taxi hoặc ứng dụng. Hỏi giá tại chỗ."
+          }
+        }
+      ]
+    },
+    {
+      "id": "saigon-station",
+      "title": {
+        "en": "The station",
+        "vi": "Ga"
+      },
+      "summary": {
+        "en": "Long-distance trains from the north arrive here, then a short ride to District 1.",
+        "vi": "Tàu đường dài từ miền Bắc vào đây, rồi xe ngắn vào Quận 1."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Do not walk it with a bag in the heat",
+            "vi": "Đừng đi bộ với túi khi trời nóng"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -19,13 +19,22 @@ export function Chips({ items }: { items: LangText[] }) {
 export function InfoCard({ card }: { card: Card }) {
   return (
     <article id={card.id} className="card">
-      {card.image ? <Photo id={card.image} /> : null}
+      {card.image ? <Photo id={card.image} /> : card.gap ? (
+        <div className="grid min-h-28 place-items-center bg-paper-2 px-3 py-6 text-center font-mono text-sm text-muted">
+          <T text={ui.photoGap} />
+        </div>
+      ) : null}
       <details>
         <summary className="tap">
           <span className="font-mono text-sm text-clay" aria-hidden>
             {">"}
           </span>
-          <span>
+          <span className="grid">
+            {card.kicker ? (
+              <span className="font-mono text-[13px] font-normal text-muted">
+                <T text={card.kicker} />
+              </span>
+            ) : null}
             <T text={card.title} />
           </span>
         </summary>

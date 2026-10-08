@@ -1,0 +1,334 @@
+{
+  "order": 7,
+  "slug": "mekong-delta",
+  "name": {
+    "en": "Mekong Delta",
+    "vi": "Đồng bằng sông Cửu Long"
+  },
+  "blurb": {
+    "en": "Rivers, orchards, and two islands.",
+    "vi": "Sông, vườn cây, và hai hòn đảo."
+  },
+  "keywords": "mekong delta dong bang song cuu long can tho cai rang ben tre vinh long chau doc sam mountain ha tien phu quoc phú quốc con dao côn đảo floating market",
+  "note": {
+    "en": "Phu Quoc and Con Dao sit in this chapter.",
+    "vi": "Phú Quốc và Côn Đảo nằm trong chương này."
+  },
+  "lede": {
+    "en": "Water, fruit, and two islands that are not on the river.",
+    "vi": "Nước, trái cây, và hai đảo không nằm trên sông."
+  },
+  "hero": "bentre",
+  "chips": [
+    {
+      "en": "Can Tho",
+      "vi": "Cần Thơ"
+    },
+    {
+      "en": "Floating market",
+      "vi": "Chợ nổi"
+    },
+    {
+      "en": "Phu Quoc",
+      "vi": "Phú Quốc"
+    },
+    {
+      "en": "Con Dao",
+      "vi": "Côn Đảo"
+    }
+  ],
+  "dontMiss": [
+    "cairang",
+    "bentre",
+    "phuquoc",
+    "condao"
+  ],
+  "sightsIntro": {
+    "en": "The river towns first. The islands are separate trips.",
+    "vi": "Phố sông trước. Hai đảo là hai chuyến riêng."
+  },
+  "sights": [
+    {
+      "id": "cairang",
+      "title": {
+        "en": "Cai Rang market",
+        "vi": "Chợ nổi Cái Răng"
+      },
+      "summary": {
+        "en": "The floating market near Can Tho. Boats sell fruit at dawn. Go early.",
+        "vi": "Chợ nổi gần Cần Thơ. Ghe bán trái cây lúc bình minh. Đi sớm."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Sunrise. It thins out later.",
+            "vi": "Bình minh. Muộn hơn thì thưa."
+          }
+        }
+      ],
+      "image": "cairang"
+    },
+    {
+      "id": "cantho",
+      "title": {
+        "en": "Can Tho",
+        "vi": "Cần Thơ"
+      },
+      "summary": {
+        "en": "The delta's main city. The practical base for the river.",
+        "vi": "Thành phố chính của đồng bằng. Chỗ ở thực tế cho sông nước."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Sleeping near the market boats",
+            "vi": "Ngủ gần ghe chợ"
+          }
+        }
+      ],
+      "gap": true
+    },
+    {
+      "id": "bentre",
+      "title": {
+        "en": "Ben Tre",
+        "vi": "Bến Tre"
+      },
+      "summary": {
+        "en": "Orchards and small channels. Coconut country, closer to the city than Can Tho.",
+        "vi": "Vườn và kênh nhỏ. Xứ dừa, gần thành phố hơn Cần Thơ."
+      },
+      "image": "bentre",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A river day without a long bus",
+            "vi": "Một ngày sông mà không cần xe dài"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chaudoc",
+      "title": {
+        "en": "Chau Doc",
+        "vi": "Châu Đốc"
+      },
+      "summary": {
+        "en": "A border town. Sam Mountain is the lookout above the floodplain.",
+        "vi": "Phố biên giới. Núi Sam là chỗ nhìn xuống đồng ngập."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The far end of the delta",
+            "vi": "Đầu xa của đồng bằng"
+          }
+        }
+      ],
+      "image": "chaudoc"
+    },
+    {
+      "id": "hatien",
+      "title": {
+        "en": "Ha Tien",
+        "vi": "Hà Tiên"
+      },
+      "summary": {
+        "en": "A small port near the Cambodian edge. Quiet, and a jump toward the coast.",
+        "vi": "Cảng nhỏ gần rìa Campuchia. Yên, và là bước sang phía biển."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A stop, not a week",
+            "vi": "Một điểm dừng, không phải một tuần"
+          }
+        }
+      ],
+      "gap": true
+    },
+    {
+      "id": "phuquoc",
+      "title": {
+        "en": "Phu Quoc",
+        "vi": "Phú Quốc"
+      },
+      "kicker": {
+        "en": "Island. Still this chapter.",
+        "vi": "Đảo. Vẫn chương này."
+      },
+      "summary": {
+        "en": "A large island in the gulf. Beaches, fish sauce, and a national park in the north.",
+        "vi": "Đảo lớn trong vịnh. Biển, nước mắm, và vườn quốc gia phía bắc."
+      },
+      "image": "phuquoc",
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "A flight. Not a boat from Can Tho.",
+            "vi": "Đi bay. Không phải thuyền từ Cần Thơ."
+          }
+        }
+      ]
+    },
+    {
+      "id": "condao",
+      "title": {
+        "en": "Con Dao",
+        "vi": "Côn Đảo"
+      },
+      "kicker": {
+        "en": "Island. Still this chapter.",
+        "vi": "Đảo. Vẫn chương này."
+      },
+      "summary": {
+        "en": "A remote island of prisons, forest, and empty beaches. Fewer flights.",
+        "vi": "Đảo xa: nhà tù, rừng, và biển vắng. Ít chuyến bay hơn."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Check the flight before you plan the week",
+            "vi": "Xem chuyến bay trước khi xếp cả tuần"
+          }
+        }
+      ],
+      "image": "condao"
+    }
+  ],
+  "eatIntro": {
+    "en": "Fruit, river fish, and whatever the boat is selling that morning.",
+    "vi": "Trái cây, cá sông, và thứ ghe đang bán sáng hôm đó."
+  },
+  "eat": [
+    {
+      "id": "delta-fruit",
+      "title": {
+        "en": "River fruit",
+        "vi": "Trái cây sông"
+      },
+      "summary": {
+        "en": "Pomelo, mango, coconut. Buy it where you see it cut.",
+        "vi": "Bưởi, xoài, dừa. Mua chỗ họ đang bổ."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "Markets and orchard boats",
+            "vi": "Chợ và ghe vườn"
+          }
+        }
+      ]
+    }
+  ],
+  "stayIntro": {
+    "en": "Can Tho for the river. The islands are not a night trip from there.",
+    "vi": "Cần Thơ cho sông nước. Hai đảo không phải một đêm đi từ đó."
+  },
+  "stay": [
+    {
+      "id": "stay-cantho",
+      "title": {
+        "en": "Can Tho",
+        "vi": "Cần Thơ"
+      },
+      "summary": {
+        "en": "City hotels, or a homestay on a smaller channel.",
+        "vi": "Khách sạn trong phố, hoặc nhà dân trên kênh nhỏ."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The floating market at dawn",
+            "vi": "Chợ nổi lúc bình minh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stay-islands",
+      "title": {
+        "en": "The islands",
+        "vi": "Hai đảo"
+      },
+      "summary": {
+        "en": "Phu Quoc has the rooms. Con Dao has fewer. Book the flight and the bed together.",
+        "vi": "Phú Quốc thì nhiều phòng. Côn Đảo thì ít. Đặt vé bay và giường cùng lúc."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Verify the schedule locally",
+            "vi": "Hỏi lịch tại chỗ"
+          }
+        }
+      ]
+    }
+  ],
+  "gettingThere": [
+    {
+      "id": "delta-bus",
+      "title": {
+        "en": "From Ho Chi Minh City",
+        "vi": "Từ Thành phố Hồ Chí Minh"
+      },
+      "summary": {
+        "en": "Buses and boats reach Can Tho and the nearer orchards. The islands do not.",
+        "vi": "Xe và thuyền tới Cần Thơ và vườn gần. Hai đảo thì không."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Road for the delta. Air for Phu Quoc and Con Dao.",
+            "vi": "Đường bộ cho đồng bằng. Máy bay cho Phú Quốc và Côn Đảo."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -17,18 +17,33 @@ export default function CreditsPage() {
       </p>
       <ul className="m-0 grid list-none gap-4 p-0">
         {Object.values(images).map((image) => (
-          <li key={image.id} className="card">
-            <Photo id={image.id} />
-            <p className="m-0 px-3 pb-3">
+          <li key={image.id} className="card pb-3">
+            <Photo id={image.id} caption={false} />
+            <div className="grid gap-1 px-3 pt-2 font-mono text-sm">
+              <p className="m-0">
+                <T text={image.alt} />
+              </p>
+              <p className="m-0">{image.credit}</p>
+              <a
+                href={image.licenseUrl}
+                className="tap inline-flex min-h-11 items-center text-clay-fill"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {image.license}
+              </a>
               <a
                 href={image.source}
-                className="tap inline-flex min-h-11 items-center font-mono text-sm text-clay-fill"
+                className="tap inline-flex min-h-11 items-center text-clay-fill"
                 target="_blank"
                 rel="noreferrer"
               >
                 <T text={ui.sourceLink} />
               </a>
-            </p>
+              <p className="m-0 text-muted">
+                <T text={ui.resized} />
+              </p>
+            </div>
           </li>
         ))}
       </ul>

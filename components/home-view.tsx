@@ -3,7 +3,8 @@ import { BikeIcon, HatIcon, LanternIcon, LotusIcon } from "@/components/icons";
 import { ParallaxHero } from "@/components/hero";
 import { Photo } from "@/components/photo";
 import { T } from "@/components/text";
-import { home, regions, ui } from "@/lib/content";
+import { home, ui } from "@/lib/content";
+import { regionStubs } from "@/lib/regions";
 
 const icons = {
   lotus: LotusIcon,
@@ -95,7 +96,7 @@ export function HomeView() {
           <T text={ui.regions} />
         </h2>
         <div className="grid grid-cols-2 gap-2">
-          {regions.map((region) => (
+          {regionStubs().map((region) => (
             <Link
               key={region.slug}
               href={`/regions/${region.slug}`}
