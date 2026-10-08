@@ -68,19 +68,19 @@
   "bentre": {
     "id": "bentre",
     "src": "/images/bentre-960.webp",
-    "srcSet": "/images/bentre-640.webp 640w, /images/bentre-960.webp 960w",
-    "width": 960,
-    "height": 1200,
+    "srcSet": "/images/bentre-640.webp 640w, /images/bentre-960.webp 960w, /images/bentre-1280.webp 1280w",
+    "width": 1280,
+    "height": 1600,
     "alt": {
       "en": "A barge on the river at Ben Tre.",
       "vi": "Ghe trên sông ở Bến Tre."
     },
-    "credit": "Balon Greyjoy",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:20190924_Ben_Tre_river_barge-11.jpg",
+    "credit": "Yang Thanh",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/view-of-people-getting-into-a-rowboat-for-a-mekong-delta-boat-ride-in-vietnam-18903675/",
     "cropped": true,
-    "focus": "50% 42%",
+    "focus": "50% 50%",
     "heroLayout": "portrait"
   },
   "cairang": {
@@ -125,10 +125,10 @@
       "en": "Forest in Cat Tien National Park.",
       "vi": "Rừng ở Vườn quốc gia Cát Tiên."
     },
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Cat_Tien_National_Park,_Vietnam.jpg",
+    "credit": "Thien Nhan",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/exploring-roots-in-nam-cat-tien-forest-37006081/",
     "cropped": false
   },
   "chaudoc": {
@@ -136,15 +136,15 @@
     "src": "/images/chaudoc-960.webp",
     "srcSet": "/images/chaudoc-640.webp 640w, /images/chaudoc-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 1280,
     "alt": {
       "en": "The delta seen from Sam Mountain, Chau Doc.",
       "vi": "Đồng bằng nhìn từ núi Sam, Châu Đốc."
     },
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Vietnam%2C_Chau_Doc%2C_View_from_Sam_Mountain.jpg",
+    "credit": "HONG SON",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/ancient-city-gate-surrounded-by-lush-trees-39944748/",
     "cropped": false
   },
   "cuchi": {
@@ -152,15 +152,15 @@
     "src": "/images/cuchi-960.webp",
     "srcSet": "/images/cuchi-640.webp 640w, /images/cuchi-960.webp 960w",
     "width": 960,
-    "height": 720,
+    "height": 640,
     "alt": {
       "en": "A display at the Cu Chi tunnels.",
       "vi": "Một hiện vật ở địa đạo Củ Chi."
     },
-    "credit": "Jorge Láscar from Australia",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Lascar_Another_type_of_booby-trap_-_Cu_Chi_tunnels_(4607995074).jpg",
+    "credit": "manvinder social",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/cu-chi-tunnels-entrance-in-ho-chi-minh-city-31832778/",
     "cropped": false
   },
   "dalat-falls": {
@@ -232,15 +232,15 @@
     "src": "/images/french-960.webp",
     "srcSet": "/images/french-640.webp 640w, /images/french-960.webp 960w",
     "width": 960,
-    "height": 720,
+    "height": 953,
     "alt": {
       "en": "A wide Hanoi junction lined with older buildings.",
       "vi": "Ngã tư rộng ở Hà Nội, nhà cũ hai bên."
     },
-    "credit": "thalling55",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:French_Quarter,_Hanoi_(1346056681).jpg",
+    "credit": "Q. Hưng Phạm",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/colonial-architecture-in-hanoi-vietnam-28998626/",
     "cropped": false
   },
   "hagiang": {
@@ -248,15 +248,15 @@
     "src": "/images/hagiang-960.webp",
     "srcSet": "/images/hagiang-640.webp 640w, /images/hagiang-960.webp 960w",
     "width": 960,
-    "height": 645,
+    "height": 639,
     "alt": {
       "en": "The road over Ma Pi Leng pass, Ha Giang.",
       "vi": "Đường qua đèo Mã Pí Lèng, Hà Giang."
     },
-    "credit": "Khánh Hmoong",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Mountain_road_at_Mã_Pí_Lèng_Pass,_Hà_Giang_Province,_Vietnam.jpg",
+    "credit": "TUAN PHAN",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/scenic-landscape-of-ha-giang-mountains-vietnam-34574527/",
     "cropped": false
   },
   "haivan": {
@@ -264,15 +264,15 @@
     "src": "/images/haivan-960.webp",
     "srcSet": "/images/haivan-640.webp 640w, /images/haivan-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 1440,
     "alt": {
       "en": "The coast seen from Hai Van pass.",
       "vi": "Bờ biển nhìn từ đèo Hải Vân."
     },
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Hai_Van_Pass%2C_Vietnam%2C_View_southwards.jpg",
+    "credit": "Nhà văn",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/scenic-view-of-hai-van-pass-35211010/",
     "cropped": false
   },
   "halong": {
@@ -312,20 +312,20 @@
   "hoan-kiem": {
     "id": "hoan-kiem",
     "src": "/images/hoan-kiem-960.webp",
-    "srcSet": "/images/hoan-kiem-640.webp 640w, /images/hoan-kiem-960.webp 960w",
-    "width": 960,
-    "height": 720,
+    "srcSet": "/images/hoan-kiem-640.webp 640w, /images/hoan-kiem-960.webp 960w, /images/hoan-kiem-1280.webp 1280w",
+    "width": 1280,
+    "height": 1600,
     "alt": {
       "en": "A shaded path beside Hoan Kiem Lake in Hanoi.",
       "vi": "Lối đi rợp bóng bên Hồ Hoàn Kiếm, Hà Nội."
     },
-    "credit": "Daderot",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake_-_Hanoi,_Vietnam_-_DSC03687.JPG",
+    "credit": "Hồng Quang Official",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/turtle-tower-in-hoan-kiem-lake-hanoi-vietnam-33740950/",
     "cropped": true,
-    "focus": "36% 50%",
-    "heroLayout": "landscape"
+    "focus": "50% 50%",
+    "heroLayout": "portrait"
   },
   "hoian": {
     "id": "hoian",
@@ -382,15 +382,15 @@
     "src": "/images/japan-bridge-960.webp",
     "srcSet": "/images/japan-bridge-640.webp 640w, /images/japan-bridge-960.webp 960w",
     "width": 960,
-    "height": 539,
+    "height": 641,
     "alt": {
       "en": "The Japanese Covered Bridge in Hoi An.",
       "vi": "Chùa Cầu ở Hội An."
     },
-    "credit": "David McKelvey from Brisbane, Australia",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Japanese_Covered_Bridge,_Hoi_An,_Vietnam_(7090633807).jpg",
+    "credit": "Fernando B M",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/japanese-covered-bridge-in-hoi-an-vietnam-29781428/",
     "cropped": false
   },
   "khai-dinh": {
@@ -398,15 +398,15 @@
     "src": "/images/khai-dinh-960.webp",
     "srcSet": "/images/khai-dinh-640.webp 640w, /images/khai-dinh-960.webp 960w",
     "width": 960,
-    "height": 640,
+    "height": 1443,
     "alt": {
       "en": "Mandarin statues at Khai Dinh's tomb.",
       "vi": "Tượng quan ở lăng Khải Định."
     },
-    "credit": "dronepicr",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Mandarin_soldiers_Khai_Dinh_tomb_Hue_(38647378655).jpg",
+    "credit": "Dương Nhân",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/entrance-of-khai-dinh-tomb-18509403/",
     "cropped": false
   },
   "kontum": {
@@ -444,19 +444,19 @@
   "muine": {
     "id": "muine",
     "src": "/images/muine-960.webp",
-    "srcSet": "/images/muine-640.webp 640w, /images/muine-960.webp 960w",
-    "width": 960,
-    "height": 1200,
+    "srcSet": "/images/muine-640.webp 640w, /images/muine-960.webp 960w, /images/muine-1280.webp 1280w",
+    "width": 1280,
+    "height": 1600,
     "alt": {
       "en": "A sand dune at Mui Ne.",
       "vi": "Đồi cát ở Mũi Né."
     },
-    "credit": "Benoît Prieur",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Sand_dune_Mui_Né_2003.jpg",
+    "credit": "Quang Nguyen Vinh",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/palm-trees-and-stacked-boats-8259999/",
     "cropped": true,
-    "focus": "50% 62%",
+    "focus": "50% 48%",
     "heroLayout": "portrait"
   },
   "ninhbinh": {
