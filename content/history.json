@@ -1,0 +1,210 @@
+{
+  "title": {
+    "en": "A brief history",
+    "vi": "Lịch sử ngắn"
+  },
+  "lede": {
+    "en": "A keyword timeline. The guide keeps the story broad and points you to places that carry it.",
+    "vi": "Dòng thời gian bằng từ khóa. Cẩm nang kể rộng và chỉ vào những nơi còn giữ câu chuyện."
+  },
+  "sections": [
+    {
+      "id": "timeline",
+      "title": {
+        "en": "Keywords",
+        "vi": "Từ khóa"
+      },
+      "cards": [
+        {
+          "id": "hist-early",
+          "title": {
+            "en": "Early kingdoms",
+            "vi": "Các vương quốc sớm"
+          },
+          "summary": {
+            "en": "Dong Son · Champa · Khmer worlds",
+            "vi": "Đông Sơn · Chăm · thế giới Khmer"
+          },
+          "image": "thienmu",
+          "facts": []
+        },
+        {
+          "id": "hist-imperial",
+          "title": {
+            "en": "Imperial Hue",
+            "vi": "Huế triều Nguyễn"
+          },
+          "summary": {
+            "en": "Nguyen court · citadel · tombs",
+            "vi": "Triều Nguyễn · kinh thành · lăng tẩm"
+          },
+          "image": "hue",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Central Vietnam",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            }
+          ]
+        },
+        {
+          "id": "hist-colonial",
+          "title": {
+            "en": "Colonial cities",
+            "vi": "Đô thị thời thuộc địa"
+          },
+          "summary": {
+            "en": "French-era boulevards · villas · railways",
+            "vi": "Đại lộ · biệt thự · đường sắt thời Pháp"
+          },
+          "image": "french",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Hanoi",
+                "vi": "Hà Nội"
+              },
+              "href": "/regions/hanoi"
+            }
+          ]
+        },
+        {
+          "id": "hist-division",
+          "title": {
+            "en": "Division & war",
+            "vi": "Chia cắt & chiến tranh"
+          },
+          "summary": {
+            "en": "North · South · conflict · reunification",
+            "vi": "Bắc · Nam · xung đột · thống nhất"
+          },
+          "image": "palace",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Ho Chi Minh City",
+                "vi": "Thành phố Hồ Chí Minh"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "id": "hist-remnants",
+          "title": {
+            "en": "Memory",
+            "vi": "Ký ức"
+          },
+          "summary": {
+            "en": "Museums · memorials · difficult photographs",
+            "vi": "Bảo tàng · đài tưởng niệm · những hình ảnh khó xem"
+          },
+          "image": "war-remnants",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Ho Chi Minh City",
+                "vi": "Thành phố Hồ Chí Minh"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "id": "hist-trade",
+          "title": {
+            "en": "Trade & ports",
+            "vi": "Thương mại & cảng"
+          },
+          "summary": {
+            "en": "Hoi An · river trade · coastal exchange",
+            "vi": "Hội An · thương mại sông · trao đổi ven biển"
+          },
+          "image": "hoian-food",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Central Vietnam",
+                "vi": "Miền Trung"
+              },
+              "href": "/regions/central-vietnam"
+            }
+          ]
+        },
+        {
+          "id": "hist-cholon",
+          "title": {
+            "en": "Chinese-Vietnamese city life",
+            "vi": "Đời sống Hoa-Việt"
+          },
+          "summary": {
+            "en": "Cholon · markets · temples · trade",
+            "vi": "Chợ Lớn · chợ · chùa · buôn bán"
+          },
+          "image": "cholon",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Ho Chi Minh City",
+                "vi": "Thành phố Hồ Chí Minh"
+              },
+              "href": "/regions/ho-chi-minh-city"
+            }
+          ]
+        },
+        {
+          "id": "hist-delta",
+          "title": {
+            "en": "Delta life",
+            "vi": "Đời sống đồng bằng"
+          },
+          "summary": {
+            "en": "Canals · orchards · floating markets · migration",
+            "vi": "Kênh · vườn · chợ nổi · di cư"
+          },
+          "image": "cantho",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Mekong Delta",
+                "vi": "Đồng bằng"
+              },
+              "href": "/regions/mekong-delta"
+            }
+          ]
+        },
+        {
+          "id": "hist-angkor",
+          "title": {
+            "en": "Angkor",
+            "vi": "Angkor"
+          },
+          "summary": {
+            "en": "Khmer temples · Angkor Thom · living heritage",
+            "vi": "Đền Khmer · Angkor Thom · di sản sống"
+          },
+          "image": "angkorwat",
+          "facts": [],
+          "links": [
+            {
+              "label": {
+                "en": "Siem Reap & Angkor",
+                "vi": "Siem Reap và Angkor"
+              },
+              "href": "/regions/siem-reap-angkor"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
