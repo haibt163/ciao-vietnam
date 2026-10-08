@@ -62,7 +62,7 @@
         "en": "Limestone towers in green water. Most visits are by boat.",
         "vi": "Tháp đá vôi trên nước xanh. Phần lớn đi bằng thuyền."
       },
-      "image": "halong",
+      "image": "halong-air",
       "facts": [
         {
           "label": {
@@ -198,6 +198,7 @@
         "en": "Karst south of Hanoi. Tam Coc and Trang An are boat country.",
         "vi": "Núi đá phía nam Hà Nội. Tam Cốc và Tràng An là xứ thuyền."
       },
+      "image": "ninhbinh",
       "facts": [
         {
           "label": {
@@ -219,8 +220,7 @@
             "vi": "Đi xe dễ từ Hà Nội"
           }
         }
-      ],
-      "gap": true
+      ]
     },
     {
       "id": "maichau",

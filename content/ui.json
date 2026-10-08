@@ -58,6 +58,10 @@
     "en": "Resized and converted to WebP.",
     "vi": "Đã thu nhỏ và chuyển sang WebP."
   },
+  "croppedNote": {
+    "en": "Cropped and resized to WebP.",
+    "vi": "Đã cắt và thu nhỏ sang WebP."
+  },
   "photoGap": {
     "en": "Photograph still needed.",
     "vi": "Còn thiếu ảnh."

@@ -11,6 +11,12 @@ export type ImageAsset = {
   license: string;
   licenseUrl: string;
   source: string;
+  /** object-position on the cropped file, e.g. "50% 42%". */
+  focus?: string;
+  /** Heroes only. Landscape is a 4:3 box when a 4:5 crop would be too small. */
+  heroLayout?: "portrait" | "landscape";
+  /** True when the file was cropped, not only resized. */
+  cropped?: boolean;
 };
 
 export type Fact = { label: LangText; value: LangText };

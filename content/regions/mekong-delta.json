@@ -222,7 +222,7 @@
           }
         }
       ],
-      "image": "condao"
+      "gap": true
     }
   ],
   "eatIntro": {

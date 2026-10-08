@@ -19,7 +19,7 @@ export function Photo({
   const lang = useLang();
   return (
     <figure className="m-0">
-      {/* Plain img: files are already 480/800/1200 WebP. next/image would hit the optimizer this app turns off. */}
+      {/* Plain img: WebP files are already sized. next/image would hit the optimizer this app turns off. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={image.src}

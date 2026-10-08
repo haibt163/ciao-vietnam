@@ -1,550 +1,10 @@
 {
-  "halong": {
-    "id": "halong",
-    "src": "/images/halong-800.webp",
-    "srcSet": "/images/halong-480.webp 480w, /images/halong-800.webp 800w, /images/halong-1200.webp 1200w",
-    "width": 1200,
-    "height": 801,
-    "alt": {
-      "en": "Misty limestone islands on Ha Long Bay.",
-      "vi": "Đảo đá vôi trong sương ở vịnh Hạ Long."
-    },
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Ha_Long_Bay,_Vietnam,_Islands.jpg"
-  },
-  "hoan-kiem": {
-    "id": "hoan-kiem",
-    "src": "/images/hoan-kiem-800.webp",
-    "srcSet": "/images/hoan-kiem-480.webp 480w, /images/hoan-kiem-800.webp 800w, /images/hoan-kiem-1100.webp 1100w",
-    "width": 1100,
-    "height": 734,
-    "alt": {
-      "en": "A shaded path beside Hoan Kiem Lake in Hanoi.",
-      "vi": "Lối đi rợp bóng bên Hồ Hoàn Kiếm, Hà Nội."
-    },
-    "credit": "Daderot",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake_-_Hanoi,_Vietnam_-_DSC03687.JPG"
-  },
-  "temple": {
-    "id": "temple",
-    "src": "/images/temple-800.webp",
-    "srcSet": "/images/temple-480.webp 480w, /images/temple-800.webp 800w, /images/temple-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
-    "alt": {
-      "en": "The main gate of the Temple of Literature in Hanoi.",
-      "vi": "Cổng chính Văn Miếu ở Hà Nội."
-    },
-    "credit": "Daderot",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Main_gate_-_Temple_of_Literature,_Hanoi_-_DSC04519.JPG"
-  },
-  "one-pillar": {
-    "id": "one-pillar",
-    "src": "/images/one-pillar-800.webp",
-    "srcSet": "/images/one-pillar-480.webp 480w, /images/one-pillar-800.webp 800w, /images/one-pillar-1100.webp 1100w",
-    "width": 1100,
-    "height": 832,
-    "alt": {
-      "en": "One Pillar Pagoda standing over a small pool.",
-      "vi": "Chùa Một Cột trên hồ nước nhỏ."
-    },
-    "credit": "Staffan Scherz",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:One_Pillar_Pagoda_Hanoi.jpg"
-  },
-  "opera": {
-    "id": "opera",
-    "src": "/images/opera-800.webp",
-    "srcSet": "/images/opera-480.webp 480w, /images/opera-800.webp 800w, /images/opera-1200.webp 1200w",
-    "width": 1200,
-    "height": 802,
-    "alt": {
-      "en": "Hanoi Opera House, a pale French-era theatre.",
-      "vi": "Nhà hát Lớn Hà Nội, nhà hát thời Pháp màu nhạt."
-    },
-    "credit": "xiquinhosilva",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_24_December_2016.jpg"
-  },
-  "tran-quoc": {
-    "id": "tran-quoc",
-    "src": "/images/tran-quoc-800.webp",
-    "srcSet": "/images/tran-quoc-480.webp 480w, /images/tran-quoc-800.webp 800w, /images/tran-quoc-1200.webp 1200w",
-    "width": 1200,
-    "height": 802,
-    "alt": {
-      "en": "Tran Quoc Pagoda and its tower beside the water.",
-      "vi": "Chùa Trấn Quốc và tháp bên mặt nước."
-    },
-    "credit": "Jakub Hałun",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Tran_Quoc_Pagoda,_Hanoi,_Vietnam,_20240123_1212_3307.jpg"
-  },
-  "cathedral": {
-    "id": "cathedral",
-    "src": "/images/cathedral-800.webp",
-    "srcSet": "/images/cathedral-480.webp 480w, /images/cathedral-800.webp 800w, /images/cathedral-1200.webp 1200w",
-    "width": 1200,
-    "height": 896,
-    "alt": {
-      "en": "The stone towers of St Joseph's Cathedral in Hanoi.",
-      "vi": "Hai tháp đá của Nhà thờ Lớn Hà Nội."
-    },
-    "credit": "Rudolph.A.Furtado",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:St_Josephs_Cathedral_of_Hanoi.jpg"
-  },
-  "flag-tower": {
-    "id": "flag-tower",
-    "src": "/images/flag-tower-800.webp",
-    "srcSet": "/images/flag-tower-480.webp 480w, /images/flag-tower-800.webp 800w, /images/flag-tower-1000.webp 1000w",
-    "width": 1000,
-    "height": 1500,
-    "alt": {
-      "en": "The Flag Tower of Hanoi with the national flag.",
-      "vi": "Cột cờ Hà Nội và cờ Tổ quốc."
-    },
-    "credit": "Gary Todd",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_(9735319302).jpg"
-  },
-  "long-bien": {
-    "id": "long-bien",
-    "src": "/images/long-bien-800.webp",
-    "srcSet": "/images/long-bien-480.webp 480w, /images/long-bien-800.webp 800w, /images/long-bien-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
-    "alt": {
-      "en": "Rusted steel of Long Bien Bridge above the tracks.",
-      "vi": "Thép gỉ của cầu Long Biên trên đường ray."
-    },
-    "credit": "Quangpraha",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Long-bien-bridge-3371617.jpg"
-  },
-  "french": {
-    "id": "french",
-    "src": "/images/french-800.webp",
-    "srcSet": "/images/french-480.webp 480w, /images/french-800.webp 800w, /images/french-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "A wide Hanoi junction lined with older buildings.",
-      "vi": "Ngã tư rộng ở Hà Nội, nhà cũ hai bên."
-    },
-    "credit": "thalling55",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:French_Quarter,_Hanoi_(1346056681).jpg"
-  },
-  "egg-coffee": {
-    "id": "egg-coffee",
-    "src": "/images/egg-coffee-800.webp",
-    "srcSet": "/images/egg-coffee-480.webp 480w, /images/egg-coffee-800.webp 800w, /images/egg-coffee-1000.webp 1000w",
-    "width": 1000,
-    "height": 1172,
-    "alt": {
-      "en": "A glass of egg coffee beside a croissant.",
-      "vi": "Ly cà phê trứng cạnh một chiếc bánh sừng bò."
-    },
-    "credit": "Souradeep.Dasgupta",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:C%C3%80_PH%C3%8A_KEM_TR%E1%BB%A8NG_(Egg_cream_coffee).jpg"
-  },
-  "xuanhuong": {
-    "id": "xuanhuong",
-    "src": "/images/xuanhuong-800.webp",
-    "srcSet": "/images/xuanhuong-480.webp 480w, /images/xuanhuong-800.webp 800w, /images/xuanhuong-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "Xuan Huong Lake in Dalat.",
-      "vi": "Hồ Xuân Hương ở Đà Lạt."
-    },
-    "credit": "Diane Selwyn",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Xuan_Huong_Lake_05.jpg"
-  },
-  "dalat-falls": {
-    "id": "dalat-falls",
-    "src": "/images/dalat-falls-800.webp",
-    "srcSet": "/images/dalat-falls-480.webp 480w, /images/dalat-falls-800.webp 800w, /images/dalat-falls-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "Pongour Falls, near Dalat.",
-      "vi": "Thác Pongour, gần Đà Lạt."
-    },
-    "credit": "Arian Zwegers",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Pongour_Falls_(6226122698).jpg"
-  },
-  "kontum": {
-    "id": "kontum",
-    "src": "/images/kontum-800.webp",
-    "srcSet": "/images/kontum-480.webp 480w, /images/kontum-800.webp 800w, /images/kontum-1200.webp 1200w",
-    "width": 1200,
-    "height": 1600,
-    "alt": {
-      "en": "The wooden church in Kon Tum.",
-      "vi": "Nhà thờ gỗ ở Kon Tum."
-    },
-    "credit": "Phó Nháy",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Wooden_catholic_church_Kon_Tum_2.JPG"
-  },
-  "cattien": {
-    "id": "cattien",
-    "src": "/images/cattien-800.webp",
-    "srcSet": "/images/cattien-480.webp 480w, /images/cattien-800.webp 800w, /images/cattien-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
-    "alt": {
-      "en": "Forest in Cat Tien National Park.",
-      "vi": "Rừng ở Vườn quốc gia Cát Tiên."
-    },
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Cat_Tien_National_Park,_Vietnam.jpg"
-  },
-  "hoian": {
-    "id": "hoian",
-    "src": "/images/hoian-800.webp",
-    "srcSet": "/images/hoian-480.webp 480w, /images/hoian-800.webp 800w, /images/hoian-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "The river through Hoi An old town.",
-      "vi": "Sông chảy qua phố cổ Hội An."
-    },
-    "credit": "Edgardo W. Olivera from Montevideo, Uruguay",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Río_Thu_Bon,_Hoi_An,_Vietnam_(28292832687).jpg"
-  },
-  "thienmu": {
-    "id": "thienmu",
-    "src": "/images/thienmu-800.webp",
-    "srcSet": "/images/thienmu-480.webp 480w, /images/thienmu-800.webp 800w, /images/thienmu-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
-    "alt": {
-      "en": "Thien Mu Pagoda above the river in Hue.",
-      "vi": "Chùa Thiên Mụ trên sông ở Huế."
-    },
-    "credit": "Dominik Tefert",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Hue_Thien_Mu-Pagoda.JPG"
-  },
-  "khai-dinh": {
-    "id": "khai-dinh",
-    "src": "/images/khai-dinh-800.webp",
-    "srcSet": "/images/khai-dinh-480.webp 480w, /images/khai-dinh-800.webp 800w, /images/khai-dinh-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
-    "alt": {
-      "en": "Mandarin statues at Khai Dinh's tomb.",
-      "vi": "Tượng quan ở lăng Khải Định."
-    },
-    "credit": "dronepicr",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Mandarin_soldiers_Khai_Dinh_tomb_Hue_(38647378655).jpg"
-  },
-  "japan-bridge": {
-    "id": "japan-bridge",
-    "src": "/images/japan-bridge-800.webp",
-    "srcSet": "/images/japan-bridge-480.webp 480w, /images/japan-bridge-800.webp 800w, /images/japan-bridge-1200.webp 1200w",
-    "width": 1200,
-    "height": 674,
-    "alt": {
-      "en": "The Japanese Covered Bridge in Hoi An.",
-      "vi": "Chùa Cầu ở Hội An."
-    },
-    "credit": "David McKelvey from Brisbane, Australia",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Japanese_Covered_Bridge,_Hoi_An,_Vietnam_(7090633807).jpg"
-  },
-  "phongnha": {
-    "id": "phongnha",
-    "src": "/images/phongnha-800.webp",
-    "srcSet": "/images/phongnha-480.webp 480w, /images/phongnha-800.webp 800w, /images/phongnha-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "Boats outside the mouth of Phong Nha cave.",
-      "vi": "Thuyền trước cửa hang Phong Nha."
-    },
-    "credit": "Genghiskhanviet",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Phongnhakebang2.jpg"
-  },
-  "danang": {
-    "id": "danang",
-    "src": "/images/danang-800.webp",
-    "srcSet": "/images/danang-480.webp 480w, /images/danang-800.webp 800w, /images/danang-1200.webp 1200w",
-    "width": 1200,
-    "height": 2133,
-    "alt": {
-      "en": "Marble Mountains near Danang.",
-      "vi": "Ngũ Hành Sơn gần Đà Nẵng."
-    },
-    "credit": "Andre Hospers",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Marble_Mountain_Hoi_An,_Da_Nang_(38427).jpg"
-  },
-  "haivan": {
-    "id": "haivan",
-    "src": "/images/haivan-800.webp",
-    "srcSet": "/images/haivan-480.webp 480w, /images/haivan-800.webp 800w, /images/haivan-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
-    "alt": {
-      "en": "The coast seen from Hai Van pass.",
-      "vi": "Bờ biển nhìn từ đèo Hải Vân."
-    },
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Hai_Van_Pass%2C_Vietnam%2C_View_southwards.jpg"
-  },
-  "saigon-cathedral": {
-    "id": "saigon-cathedral",
-    "src": "/images/saigon-cathedral-800.webp",
-    "srcSet": "/images/saigon-cathedral-480.webp 480w, /images/saigon-cathedral-800.webp 800w, /images/saigon-cathedral-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "Notre-Dame Cathedral in Ho Chi Minh City.",
-      "vi": "Nhà thờ Đức Bà ở Thành phố Hồ Chí Minh."
-    },
-    "credit": "Ottre",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Saigon_Notre-Dame_Basilica_Side.JPG"
-  },
-  "saigon-post": {
-    "id": "saigon-post",
-    "src": "/images/saigon-post-800.webp",
-    "srcSet": "/images/saigon-post-480.webp 480w, /images/saigon-post-800.webp 800w, /images/saigon-post-1200.webp 1200w",
-    "width": 1200,
-    "height": 795,
-    "alt": {
-      "en": "Inside the Central Post Office, Ho Chi Minh City.",
-      "vi": "Bên trong Bưu điện Thành phố."
-    },
-    "credit": "Keith Yahl",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Saigon_Central_Post_Office_(16718198712).jpg"
-  },
-  "ben-thanh": {
-    "id": "ben-thanh",
-    "src": "/images/ben-thanh-800.webp",
-    "srcSet": "/images/ben-thanh-480.webp 480w, /images/ben-thanh-800.webp 800w, /images/ben-thanh-1200.webp 1200w",
-    "width": 1200,
-    "height": 1083,
-    "alt": {
-      "en": "Ben Thanh Market in Ho Chi Minh City.",
-      "vi": "Chợ Bến Thành ở Thành phố Hồ Chí Minh."
-    },
-    "credit": "trungydang",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:B%E1%BA%BFn_Th%C3%A0nh_market,_Ph%C6%B0%E1%BB%9Dng_B%E1%BA%BFn_Th%C3%A0nh,_Qu%E1%BA%ADn_1,_TPHCM,_Vi%E1%BB%87t_Nam_Ch%E1%BB%A3_B%E1%BA%BFn_Th%C3%A0nh_-_panoramio.jpg"
-  },
-  "jade": {
-    "id": "jade",
-    "src": "/images/jade-800.webp",
-    "srcSet": "/images/jade-480.webp 480w, /images/jade-800.webp 800w, /images/jade-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "The gate of the Jade Emperor Pagoda.",
-      "vi": "Cổng chùa Ngọc Hoàng."
-    },
-    "credit": "Dhushara",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Jade_emperor_pagoda-1.jpg"
-  },
-  "war-remnants": {
-    "id": "war-remnants",
-    "src": "/images/war-remnants-800.webp",
-    "srcSet": "/images/war-remnants-480.webp 480w, /images/war-remnants-800.webp 800w, /images/war-remnants-1200.webp 1200w",
-    "width": 1200,
-    "height": 1600,
-    "alt": {
-      "en": "War Remnants Museum",
-      "vi": "Bảo tàng Chứng tích Chiến tranh"
-    },
-    "credit": "Jorge Láscar from Australia",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Lascar_Jail_for_war_prisoners_-_War_Remnants_Museum_(4608007916).jpg"
-  },
-  "cuchi": {
-    "id": "cuchi",
-    "src": "/images/cuchi-800.webp",
-    "srcSet": "/images/cuchi-480.webp 480w, /images/cuchi-800.webp 800w, /images/cuchi-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "A display at the Cu Chi tunnels.",
-      "vi": "Một hiện vật ở địa đạo Củ Chi."
-    },
-    "credit": "Jorge Láscar from Australia",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Lascar_Another_type_of_booby-trap_-_Cu_Chi_tunnels_(4607995074).jpg"
-  },
-  "bentre": {
-    "id": "bentre",
-    "src": "/images/bentre-800.webp",
-    "srcSet": "/images/bentre-480.webp 480w, /images/bentre-800.webp 800w, /images/bentre-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
-    "alt": {
-      "en": "A barge on the river at Ben Tre.",
-      "vi": "Ghe trên sông ở Bến Tre."
-    },
-    "credit": "Balon Greyjoy",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:20190924_Ben_Tre_river_barge-11.jpg"
-  },
-  "cairang": {
-    "id": "cairang",
-    "src": "/images/cairang-800.webp",
-    "srcSet": "/images/cairang-480.webp 480w, /images/cairang-800.webp 800w, /images/cairang-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
-    "alt": {
-      "en": "Boats at the floating market near Can Tho.",
-      "vi": "Ghe ở chợ nổi gần Cần Thơ."
-    },
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Can_Tho%2C_Vietnam%2C_Floating_Market.jpg"
-  },
-  "chaudoc": {
-    "id": "chaudoc",
-    "src": "/images/chaudoc-800.webp",
-    "srcSet": "/images/chaudoc-480.webp 480w, /images/chaudoc-800.webp 800w, /images/chaudoc-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
-    "alt": {
-      "en": "The delta seen from Sam Mountain, Chau Doc.",
-      "vi": "Đồng bằng nhìn từ núi Sam, Châu Đốc."
-    },
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Vietnam%2C_Chau_Doc%2C_View_from_Sam_Mountain.jpg"
-  },
-  "phuquoc": {
-    "id": "phuquoc",
-    "src": "/images/phuquoc-800.webp",
-    "srcSet": "/images/phuquoc-480.webp 480w, /images/phuquoc-800.webp 800w, /images/phuquoc-1200.webp 1200w",
-    "width": 1200,
-    "height": 904,
-    "alt": {
-      "en": "A beach on Phu Quoc.",
-      "vi": "Một bãi biển ở Phú Quốc."
-    },
-    "credit": "Elmschrat",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:1_Phu_Quoc_beach_Saigon_Phu_Quoc_Resort_and_Spa.jpg"
-  },
-  "condao": {
-    "id": "condao",
-    "src": "/images/condao-800.webp",
-    "srcSet": "/images/condao-480.webp 480w, /images/condao-800.webp 800w, /images/condao-1200.webp 1200w",
-    "width": 1200,
-    "height": 171,
-    "alt": {
-      "en": "The old prison wall on Con Dao.",
-      "vi": "Tường nhà tù cũ ở Côn Đảo."
-    },
-    "credit": "Tycho",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:C%C3%B4n_%C4%90%E1%BA%A3o_banner_prison.jpg"
-  },
-  "sapa": {
-    "id": "sapa",
-    "src": "/images/sapa-800.webp",
-    "srcSet": "/images/sapa-480.webp 480w, /images/sapa-800.webp 800w, /images/sapa-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "Rice terraces and houses near Sapa.",
-      "vi": "Ruộng bậc thang và nhà gần Sa Pa."
-    },
-    "credit": "JM Suarez",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Vietnam_Sapa_1.jpeg"
-  },
-  "hagiang": {
-    "id": "hagiang",
-    "src": "/images/hagiang-800.webp",
-    "srcSet": "/images/hagiang-480.webp 480w, /images/hagiang-800.webp 800w, /images/hagiang-1200.webp 1200w",
-    "width": 1200,
-    "height": 806,
-    "alt": {
-      "en": "The road over Ma Pi Leng pass, Ha Giang.",
-      "vi": "Đường qua đèo Mã Pí Lèng, Hà Giang."
-    },
-    "credit": "Khánh Hmoong",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Mountain_road_at_Mã_Pí_Lèng_Pass,_Hà_Giang_Province,_Vietnam.jpg"
-  },
-  "bayon": {
-    "id": "bayon",
-    "src": "/images/bayon-800.webp",
-    "srcSet": "/images/bayon-480.webp 480w, /images/bayon-800.webp 800w, /images/bayon-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
-    "alt": {
-      "en": "Stone faces at Bayon.",
-      "vi": "Mặt đá ở Bayon."
-    },
-    "credit": "Photo Dharma from Penang, Malaysia",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Angkor_-_Bayon_-_002_Tower_Faces_(8580720101).jpg"
-  },
   "angkor-gate": {
     "id": "angkor-gate",
-    "src": "/images/angkor-gate-800.webp",
-    "srcSet": "/images/angkor-gate-480.webp 480w, /images/angkor-gate-800.webp 800w, /images/angkor-gate-1200.webp 1200w",
-    "width": 1200,
-    "height": 1600,
+    "src": "/images/angkor-gate-960.webp",
+    "srcSet": "/images/angkor-gate-640.webp 640w, /images/angkor-gate-960.webp 960w",
+    "width": 960,
+    "height": 1280,
     "alt": {
       "en": "Faces on the south gate of Angkor Thom.",
       "vi": "Mặt đá ở cổng nam Angkor Thom."
@@ -552,29 +12,15 @@
     "credit": "Olaf Tausch",
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Angkor_Thom_Südtor_13.jpg"
-  },
-  "taprohm": {
-    "id": "taprohm",
-    "src": "/images/taprohm-800.webp",
-    "srcSet": "/images/taprohm-480.webp 480w, /images/taprohm-800.webp 800w, /images/taprohm-1200.webp 1200w",
-    "width": 1200,
-    "height": 1600,
-    "alt": {
-      "en": "Tree roots over the stone at Ta Prohm.",
-      "vi": "Rễ cây trên đá ở Ta Prohm."
-    },
-    "credit": "David Sim",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Tree_roots_and_temple,_Ta_Prohm,_Angkor,_Cambodia.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Angkor_Thom_Südtor_13.jpg",
+    "cropped": false
   },
   "banteay": {
     "id": "banteay",
-    "src": "/images/banteay-800.webp",
-    "srcSet": "/images/banteay-480.webp 480w, /images/banteay-800.webp 800w, /images/banteay-1200.webp 1200w",
-    "width": 1200,
-    "height": 803,
+    "src": "/images/banteay-960.webp",
+    "srcSet": "/images/banteay-640.webp 640w, /images/banteay-960.webp 960w",
+    "width": 960,
+    "height": 643,
     "alt": {
       "en": "Carved stone at Banteay Srei.",
       "vi": "Đá chạm ở Banteay Srei."
@@ -582,29 +28,329 @@
     "credit": "JJ Ying jjying",
     "license": "CC0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Banteay_Srei_temple_(Unsplash).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Banteay_Srei_temple_(Unsplash).jpg",
+    "cropped": false
   },
-  "muine": {
-    "id": "muine",
-    "src": "/images/muine-800.webp",
-    "srcSet": "/images/muine-480.webp 480w, /images/muine-800.webp 800w, /images/muine-1200.webp 1200w",
-    "width": 1200,
-    "height": 829,
+  "bayon": {
+    "id": "bayon",
+    "src": "/images/bayon-960.webp",
+    "srcSet": "/images/bayon-640.webp 640w, /images/bayon-960.webp 960w",
+    "width": 960,
+    "height": 1200,
     "alt": {
-      "en": "A sand dune at Mui Ne.",
-      "vi": "Đồi cát ở Mũi Né."
+      "en": "Stone faces at Bayon.",
+      "vi": "Mặt đá ở Bayon."
     },
-    "credit": "Benoît Prieur",
+    "credit": "Photo Dharma from Penang, Malaysia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Angkor_-_Bayon_-_002_Tower_Faces_(8580720101).jpg",
+    "cropped": true,
+    "focus": "50% 55%",
+    "heroLayout": "portrait"
+  },
+  "ben-thanh": {
+    "id": "ben-thanh",
+    "src": "/images/ben-thanh-960.webp",
+    "srcSet": "/images/ben-thanh-640.webp 640w, /images/ben-thanh-960.webp 960w",
+    "width": 960,
+    "height": 867,
+    "alt": {
+      "en": "Ben Thanh Market in Ho Chi Minh City.",
+      "vi": "Chợ Bến Thành ở Thành phố Hồ Chí Minh."
+    },
+    "credit": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:B%E1%BA%BFn_Th%C3%A0nh_market,_Ph%C6%B0%E1%BB%9Dng_B%E1%BA%BFn_Th%C3%A0nh,_Qu%E1%BA%ADn_1,_TPHCM,_Vi%E1%BB%87t_Nam_Ch%E1%BB%A3_B%E1%BA%BFn_Th%C3%A0nh_-_panoramio.jpg",
+    "cropped": false
+  },
+  "bentre": {
+    "id": "bentre",
+    "src": "/images/bentre-960.webp",
+    "srcSet": "/images/bentre-640.webp 640w, /images/bentre-960.webp 960w",
+    "width": 960,
+    "height": 1200,
+    "alt": {
+      "en": "A barge on the river at Ben Tre.",
+      "vi": "Ghe trên sông ở Bến Tre."
+    },
+    "credit": "Balon Greyjoy",
     "license": "CC0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Sand_dune_Mui_Né_2003.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:20190924_Ben_Tre_river_barge-11.jpg",
+    "cropped": true,
+    "focus": "50% 42%",
+    "heroLayout": "portrait"
+  },
+  "cairang": {
+    "id": "cairang",
+    "src": "/images/cairang-960.webp",
+    "srcSet": "/images/cairang-640.webp 640w, /images/cairang-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Boats at the floating market near Can Tho.",
+      "vi": "Ghe ở chợ nổi gần Cần Thơ."
+    },
+    "credit": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Can_Tho%2C_Vietnam%2C_Floating_Market.jpg",
+    "cropped": false
+  },
+  "cathedral": {
+    "id": "cathedral",
+    "src": "/images/cathedral-960.webp",
+    "srcSet": "/images/cathedral-640.webp 640w, /images/cathedral-960.webp 960w",
+    "width": 960,
+    "height": 717,
+    "alt": {
+      "en": "The stone towers of St Joseph's Cathedral in Hanoi.",
+      "vi": "Hai tháp đá của Nhà thờ Lớn Hà Nội."
+    },
+    "credit": "Rudolph.A.Furtado",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:St_Josephs_Cathedral_of_Hanoi.jpg",
+    "cropped": false
+  },
+  "cattien": {
+    "id": "cattien",
+    "src": "/images/cattien-960.webp",
+    "srcSet": "/images/cattien-640.webp 640w, /images/cattien-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Forest in Cat Tien National Park.",
+      "vi": "Rừng ở Vườn quốc gia Cát Tiên."
+    },
+    "credit": "Vyacheslav Argenberg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Cat_Tien_National_Park,_Vietnam.jpg",
+    "cropped": false
+  },
+  "chaudoc": {
+    "id": "chaudoc",
+    "src": "/images/chaudoc-960.webp",
+    "srcSet": "/images/chaudoc-640.webp 640w, /images/chaudoc-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "The delta seen from Sam Mountain, Chau Doc.",
+      "vi": "Đồng bằng nhìn từ núi Sam, Châu Đốc."
+    },
+    "credit": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Vietnam%2C_Chau_Doc%2C_View_from_Sam_Mountain.jpg",
+    "cropped": false
+  },
+  "cuchi": {
+    "id": "cuchi",
+    "src": "/images/cuchi-960.webp",
+    "srcSet": "/images/cuchi-640.webp 640w, /images/cuchi-960.webp 960w",
+    "width": 960,
+    "height": 720,
+    "alt": {
+      "en": "A display at the Cu Chi tunnels.",
+      "vi": "Một hiện vật ở địa đạo Củ Chi."
+    },
+    "credit": "Jorge Láscar from Australia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Lascar_Another_type_of_booby-trap_-_Cu_Chi_tunnels_(4607995074).jpg",
+    "cropped": false
+  },
+  "dalat-falls": {
+    "id": "dalat-falls",
+    "src": "/images/dalat-falls-960.webp",
+    "srcSet": "/images/dalat-falls-640.webp 640w, /images/dalat-falls-960.webp 960w",
+    "width": 960,
+    "height": 720,
+    "alt": {
+      "en": "Pongour Falls, near Dalat.",
+      "vi": "Thác Pongour, gần Đà Lạt."
+    },
+    "credit": "Arian Zwegers",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Pongour_Falls_(6226122698).jpg",
+    "cropped": false
+  },
+  "danang": {
+    "id": "danang",
+    "src": "/images/danang-960.webp",
+    "srcSet": "/images/danang-640.webp 640w, /images/danang-960.webp 960w",
+    "width": 960,
+    "height": 1707,
+    "alt": {
+      "en": "Marble Mountains near Danang.",
+      "vi": "Ngũ Hành Sơn gần Đà Nẵng."
+    },
+    "credit": "Andre Hospers",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Marble_Mountain_Hoi_An,_Da_Nang_(38427).jpg",
+    "cropped": false
+  },
+  "egg-coffee": {
+    "id": "egg-coffee",
+    "src": "/images/egg-coffee-960.webp",
+    "srcSet": "/images/egg-coffee-640.webp 640w, /images/egg-coffee-960.webp 960w",
+    "width": 960,
+    "height": 1125,
+    "alt": {
+      "en": "A glass of egg coffee beside a croissant.",
+      "vi": "Ly cà phê trứng cạnh một chiếc bánh sừng bò."
+    },
+    "credit": "Souradeep.Dasgupta",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:C%C3%80_PH%C3%8A_KEM_TR%E1%BB%A8NG_(Egg_cream_coffee).jpg",
+    "cropped": false
+  },
+  "flag-tower": {
+    "id": "flag-tower",
+    "src": "/images/flag-tower-960.webp",
+    "srcSet": "/images/flag-tower-640.webp 640w, /images/flag-tower-960.webp 960w",
+    "width": 960,
+    "height": 1440,
+    "alt": {
+      "en": "The Flag Tower of Hanoi with the national flag.",
+      "vi": "Cột cờ Hà Nội và cờ Tổ quốc."
+    },
+    "credit": "Gary Todd",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_(9735319302).jpg",
+    "cropped": false
+  },
+  "french": {
+    "id": "french",
+    "src": "/images/french-960.webp",
+    "srcSet": "/images/french-640.webp 640w, /images/french-960.webp 960w",
+    "width": 960,
+    "height": 720,
+    "alt": {
+      "en": "A wide Hanoi junction lined with older buildings.",
+      "vi": "Ngã tư rộng ở Hà Nội, nhà cũ hai bên."
+    },
+    "credit": "thalling55",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:French_Quarter,_Hanoi_(1346056681).jpg",
+    "cropped": false
+  },
+  "hagiang": {
+    "id": "hagiang",
+    "src": "/images/hagiang-960.webp",
+    "srcSet": "/images/hagiang-640.webp 640w, /images/hagiang-960.webp 960w",
+    "width": 960,
+    "height": 645,
+    "alt": {
+      "en": "The road over Ma Pi Leng pass, Ha Giang.",
+      "vi": "Đường qua đèo Mã Pí Lèng, Hà Giang."
+    },
+    "credit": "Khánh Hmoong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Mountain_road_at_Mã_Pí_Lèng_Pass,_Hà_Giang_Province,_Vietnam.jpg",
+    "cropped": false
+  },
+  "haivan": {
+    "id": "haivan",
+    "src": "/images/haivan-960.webp",
+    "srcSet": "/images/haivan-640.webp 640w, /images/haivan-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "The coast seen from Hai Van pass.",
+      "vi": "Bờ biển nhìn từ đèo Hải Vân."
+    },
+    "credit": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Hai_Van_Pass%2C_Vietnam%2C_View_southwards.jpg",
+    "cropped": false
+  },
+  "halong": {
+    "id": "halong",
+    "src": "/images/halong-960.webp",
+    "srcSet": "/images/halong-640.webp 640w, /images/halong-960.webp 960w, /images/halong-1280.webp 1280w",
+    "width": 1280,
+    "height": 1600,
+    "alt": {
+      "en": "A boat under limestone towers in Ha Long Bay.",
+      "vi": "Thuyền dưới tháp đá vôi ở vịnh Hạ Long."
+    },
+    "credit": "Alex Vo",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/scenic-boat-ride-in-halong-bay-vietnam-36762641/",
+    "cropped": true,
+    "focus": "50% 55%",
+    "heroLayout": "portrait"
+  },
+  "halong-air": {
+    "id": "halong-air",
+    "src": "/images/halong-air-960.webp",
+    "srcSet": "/images/halong-air-640.webp 640w, /images/halong-air-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Ha Long Bay from above.",
+      "vi": "Vịnh Hạ Long nhìn từ trên cao."
+    },
+    "credit": "Karolina",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/stunning-aerial-view-of-ha-long-bay-islands-in-vietnam-30738862/",
+    "cropped": false
+  },
+  "hoan-kiem": {
+    "id": "hoan-kiem",
+    "src": "/images/hoan-kiem-960.webp",
+    "srcSet": "/images/hoan-kiem-640.webp 640w, /images/hoan-kiem-960.webp 960w",
+    "width": 960,
+    "height": 720,
+    "alt": {
+      "en": "A shaded path beside Hoan Kiem Lake in Hanoi.",
+      "vi": "Lối đi rợp bóng bên Hồ Hoàn Kiếm, Hà Nội."
+    },
+    "credit": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake_-_Hanoi,_Vietnam_-_DSC03687.JPG",
+    "cropped": true,
+    "focus": "36% 50%",
+    "heroLayout": "landscape"
+  },
+  "hoian": {
+    "id": "hoian",
+    "src": "/images/hoian-960.webp",
+    "srcSet": "/images/hoian-640.webp 640w, /images/hoian-960.webp 960w",
+    "width": 960,
+    "height": 1200,
+    "alt": {
+      "en": "The river through Hoi An old town.",
+      "vi": "Sông chảy qua phố cổ Hội An."
+    },
+    "credit": "Edgardo W. Olivera from Montevideo, Uruguay",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Río_Thu_Bon,_Hoi_An,_Vietnam_(28292832687).jpg",
+    "cropped": true,
+    "focus": "50% 46%",
+    "heroLayout": "portrait"
   },
   "hon-chong": {
     "id": "hon-chong",
-    "src": "/images/hon-chong-800.webp",
-    "srcSet": "/images/hon-chong-480.webp 480w, /images/hon-chong-800.webp 800w, /images/hon-chong-1200.webp 1200w",
-    "width": 1200,
-    "height": 534,
+    "src": "/images/hon-chong-960.webp",
+    "srcSet": "/images/hon-chong-640.webp 640w, /images/hon-chong-960.webp 960w",
+    "width": 960,
+    "height": 428,
     "alt": {
       "en": "Rocks at Hon Chong, Nha Trang.",
       "vi": "Đá Hòn Chồng, Nha Trang."
@@ -612,14 +358,193 @@
     "credit": "Can't stop shooting film from Nha Trang, Vietnam",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Hon_Chong_rocks_2011.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Hon_Chong_rocks_2011.jpg",
+    "cropped": false
+  },
+  "jade": {
+    "id": "jade",
+    "src": "/images/jade-960.webp",
+    "srcSet": "/images/jade-640.webp 640w, /images/jade-960.webp 960w",
+    "width": 960,
+    "height": 720,
+    "alt": {
+      "en": "The gate of the Jade Emperor Pagoda.",
+      "vi": "Cổng chùa Ngọc Hoàng."
+    },
+    "credit": "Dhushara",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Jade_emperor_pagoda-1.jpg",
+    "cropped": false
+  },
+  "japan-bridge": {
+    "id": "japan-bridge",
+    "src": "/images/japan-bridge-960.webp",
+    "srcSet": "/images/japan-bridge-640.webp 640w, /images/japan-bridge-960.webp 960w",
+    "width": 960,
+    "height": 539,
+    "alt": {
+      "en": "The Japanese Covered Bridge in Hoi An.",
+      "vi": "Chùa Cầu ở Hội An."
+    },
+    "credit": "David McKelvey from Brisbane, Australia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_Covered_Bridge,_Hoi_An,_Vietnam_(7090633807).jpg",
+    "cropped": false
+  },
+  "khai-dinh": {
+    "id": "khai-dinh",
+    "src": "/images/khai-dinh-960.webp",
+    "srcSet": "/images/khai-dinh-640.webp 640w, /images/khai-dinh-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Mandarin statues at Khai Dinh's tomb.",
+      "vi": "Tượng quan ở lăng Khải Định."
+    },
+    "credit": "dronepicr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Mandarin_soldiers_Khai_Dinh_tomb_Hue_(38647378655).jpg",
+    "cropped": false
+  },
+  "kontum": {
+    "id": "kontum",
+    "src": "/images/kontum-960.webp",
+    "srcSet": "/images/kontum-640.webp 640w, /images/kontum-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "alt": {
+      "en": "The wooden church in Kon Tum.",
+      "vi": "Nhà thờ gỗ ở Kon Tum."
+    },
+    "credit": "Phó Nháy",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Wooden_catholic_church_Kon_Tum_2.JPG",
+    "cropped": false
+  },
+  "long-bien": {
+    "id": "long-bien",
+    "src": "/images/long-bien-960.webp",
+    "srcSet": "/images/long-bien-640.webp 640w, /images/long-bien-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Rusted steel of Long Bien Bridge above the tracks.",
+      "vi": "Thép gỉ của cầu Long Biên trên đường ray."
+    },
+    "credit": "Quangpraha",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Long-bien-bridge-3371617.jpg",
+    "cropped": false
+  },
+  "muine": {
+    "id": "muine",
+    "src": "/images/muine-960.webp",
+    "srcSet": "/images/muine-640.webp 640w, /images/muine-960.webp 960w",
+    "width": 960,
+    "height": 1200,
+    "alt": {
+      "en": "A sand dune at Mui Ne.",
+      "vi": "Đồi cát ở Mũi Né."
+    },
+    "credit": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Sand_dune_Mui_Né_2003.jpg",
+    "cropped": true,
+    "focus": "50% 62%",
+    "heroLayout": "portrait"
+  },
+  "ninhbinh": {
+    "id": "ninhbinh",
+    "src": "/images/ninhbinh-960.webp",
+    "srcSet": "/images/ninhbinh-640.webp 640w, /images/ninhbinh-960.webp 960w",
+    "width": 960,
+    "height": 641,
+    "alt": {
+      "en": "Boats among the karst at Ninh Binh.",
+      "vi": "Thuyền giữa núi đá ở Ninh Bình."
+    },
+    "credit": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Trang_An_Landscape_Complex,_Ninh_Binh_Province,_Vietnam,_20240202_1447_5310.jpg",
+    "cropped": false
+  },
+  "one-pillar": {
+    "id": "one-pillar",
+    "src": "/images/one-pillar-960.webp",
+    "srcSet": "/images/one-pillar-640.webp 640w, /images/one-pillar-960.webp 960w",
+    "width": 960,
+    "height": 726,
+    "alt": {
+      "en": "One Pillar Pagoda standing over a small pool.",
+      "vi": "Chùa Một Cột trên hồ nước nhỏ."
+    },
+    "credit": "Staffan Scherz",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:One_Pillar_Pagoda_Hanoi.jpg",
+    "cropped": false
+  },
+  "opera": {
+    "id": "opera",
+    "src": "/images/opera-960.webp",
+    "srcSet": "/images/opera-640.webp 640w, /images/opera-960.webp 960w",
+    "width": 960,
+    "height": 642,
+    "alt": {
+      "en": "Hanoi Opera House, a pale French-era theatre.",
+      "vi": "Nhà hát Lớn Hà Nội, nhà hát thời Pháp màu nhạt."
+    },
+    "credit": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_24_December_2016.jpg",
+    "cropped": false
+  },
+  "phongnha": {
+    "id": "phongnha",
+    "src": "/images/phongnha-960.webp",
+    "srcSet": "/images/phongnha-640.webp 640w, /images/phongnha-960.webp 960w",
+    "width": 960,
+    "height": 720,
+    "alt": {
+      "en": "Boats outside the mouth of Phong Nha cave.",
+      "vi": "Thuyền trước cửa hang Phong Nha."
+    },
+    "credit": "Genghiskhanviet",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Phongnhakebang2.jpg",
+    "cropped": false
+  },
+  "phuquoc": {
+    "id": "phuquoc",
+    "src": "/images/phuquoc-960.webp",
+    "srcSet": "/images/phuquoc-640.webp 640w, /images/phuquoc-960.webp 960w",
+    "width": 960,
+    "height": 723,
+    "alt": {
+      "en": "A beach on Phu Quoc.",
+      "vi": "Một bãi biển ở Phú Quốc."
+    },
+    "credit": "Elmschrat",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:1_Phu_Quoc_beach_Saigon_Phu_Quoc_Resort_and_Spa.jpg",
+    "cropped": false
   },
   "ponagar": {
     "id": "ponagar",
-    "src": "/images/ponagar-800.webp",
-    "srcSet": "/images/ponagar-480.webp 480w, /images/ponagar-800.webp 800w, /images/ponagar-1200.webp 1200w",
-    "width": 1200,
-    "height": 900,
+    "src": "/images/ponagar-960.webp",
+    "srcSet": "/images/ponagar-640.webp 640w, /images/ponagar-960.webp 960w",
+    "width": 960,
+    "height": 720,
     "alt": {
       "en": "The north tower at Po Nagar, Nha Trang.",
       "vi": "Tháp bắc ở Po Nagar, Nha Trang."
@@ -627,14 +552,49 @@
     "credit": "Arian Zwegers",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Nha_Trang,_Po_Nagar_Cham,_North_Tower_(6223880651).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Nha_Trang,_Po_Nagar_Cham,_North_Tower_(6223880651).jpg",
+    "cropped": false
+  },
+  "saigon-post": {
+    "id": "saigon-post",
+    "src": "/images/saigon-post-960.webp",
+    "srcSet": "/images/saigon-post-640.webp 640w, /images/saigon-post-960.webp 960w",
+    "width": 960,
+    "height": 1200,
+    "alt": {
+      "en": "The Central Post Office in Ho Chi Minh City.",
+      "vi": "Bưu điện Thành phố ở Thành phố Hồ Chí Minh."
+    },
+    "credit": "Keith Yahl",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Saigon_Central_Post_Office_(16718198712).jpg",
+    "cropped": true,
+    "focus": "50% 40%",
+    "heroLayout": "portrait"
+  },
+  "sapa": {
+    "id": "sapa",
+    "src": "/images/sapa-960.webp",
+    "srcSet": "/images/sapa-640.webp 640w, /images/sapa-960.webp 960w",
+    "width": 960,
+    "height": 652,
+    "alt": {
+      "en": "Rice terraces and houses near Sapa.",
+      "vi": "Ruộng bậc thang và nhà gần Sa Pa."
+    },
+    "credit": "sephylmism",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/scenic-view-of-sapa-rice-terraces-in-vietnam-34782073/",
+    "cropped": true
   },
   "sonmy": {
     "id": "sonmy",
-    "src": "/images/sonmy-800.webp",
-    "srcSet": "/images/sonmy-480.webp 480w, /images/sonmy-800.webp 800w, /images/sonmy-1200.webp 1200w",
-    "width": 1200,
-    "height": 674,
+    "src": "/images/sonmy-960.webp",
+    "srcSet": "/images/sonmy-640.webp 640w, /images/sonmy-960.webp 960w",
+    "width": 960,
+    "height": 540,
     "alt": {
       "en": "The memorial at Son My.",
       "vi": "Đài tưởng niệm Sơn Mỹ."
@@ -642,14 +602,79 @@
     "credit": "-JvL- from Netherlands",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Monument_of_the_My_Lai_Massacre_(2).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Monument_of_the_My_Lai_Massacre_(2).jpg",
+    "cropped": false
+  },
+  "taprohm": {
+    "id": "taprohm",
+    "src": "/images/taprohm-960.webp",
+    "srcSet": "/images/taprohm-640.webp 640w, /images/taprohm-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "alt": {
+      "en": "Tree roots over the stone at Ta Prohm.",
+      "vi": "Rễ cây trên đá ở Ta Prohm."
+    },
+    "credit": "David Sim",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Tree_roots_and_temple,_Ta_Prohm,_Angkor,_Cambodia.jpg",
+    "cropped": false
+  },
+  "temple": {
+    "id": "temple",
+    "src": "/images/temple-960.webp",
+    "srcSet": "/images/temple-640.webp 640w, /images/temple-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "The main gate of the Temple of Literature in Hanoi.",
+      "vi": "Cổng chính Văn Miếu ở Hà Nội."
+    },
+    "credit": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Main_gate_-_Temple_of_Literature,_Hanoi_-_DSC04519.JPG",
+    "cropped": false
+  },
+  "thienmu": {
+    "id": "thienmu",
+    "src": "/images/thienmu-960.webp",
+    "srcSet": "/images/thienmu-640.webp 640w, /images/thienmu-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Thien Mu Pagoda above the river in Hue.",
+      "vi": "Chùa Thiên Mụ trên sông ở Huế."
+    },
+    "credit": "Dominik Tefert",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Hue_Thien_Mu-Pagoda.JPG",
+    "cropped": false
+  },
+  "tran-quoc": {
+    "id": "tran-quoc",
+    "src": "/images/tran-quoc-960.webp",
+    "srcSet": "/images/tran-quoc-640.webp 640w, /images/tran-quoc-960.webp 960w",
+    "width": 960,
+    "height": 642,
+    "alt": {
+      "en": "Tran Quoc Pagoda and its tower beside the water.",
+      "vi": "Chùa Trấn Quốc và tháp bên mặt nước."
+    },
+    "credit": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Tran_Quoc_Pagoda,_Hanoi,_Vietnam,_20240123_1212_3307.jpg",
+    "cropped": false
   },
   "vungtau": {
     "id": "vungtau",
-    "src": "/images/vungtau-800.webp",
-    "srcSet": "/images/vungtau-480.webp 480w, /images/vungtau-800.webp 800w, /images/vungtau-1200.webp 1200w",
-    "width": 1200,
-    "height": 800,
+    "src": "/images/vungtau-960.webp",
+    "srcSet": "/images/vungtau-640.webp 640w, /images/vungtau-960.webp 960w",
+    "width": 960,
+    "height": 640,
     "alt": {
       "en": "The beach at Vung Tau.",
       "vi": "Bãi biển Vũng Tàu."
@@ -657,6 +682,41 @@
     "credit": "ZAC",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Couples_in_Vung_Tau_Beach_(Vietnam).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Couples_in_Vung_Tau_Beach_(Vietnam).jpg",
+    "cropped": false
+  },
+  "war-remnants": {
+    "id": "war-remnants",
+    "src": "/images/war-remnants-960.webp",
+    "srcSet": "/images/war-remnants-640.webp 640w, /images/war-remnants-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "alt": {
+      "en": "War Remnants Museum",
+      "vi": "Bảo tàng Chứng tích Chiến tranh"
+    },
+    "credit": "Jorge Láscar from Australia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Lascar_Jail_for_war_prisoners_-_War_Remnants_Museum_(4608007916).jpg",
+    "cropped": false
+  },
+  "xuanhuong": {
+    "id": "xuanhuong",
+    "src": "/images/xuanhuong-960.webp",
+    "srcSet": "/images/xuanhuong-640.webp 640w, /images/xuanhuong-960.webp 960w",
+    "width": 960,
+    "height": 1200,
+    "alt": {
+      "en": "Xuan Huong Lake in Dalat.",
+      "vi": "Hồ Xuân Hương ở Đà Lạt."
+    },
+    "credit": "Diane Selwyn",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Xuan_Huong_Lake_05.jpg",
+    "cropped": true,
+    "focus": "47% 50%",
+    "heroLayout": "portrait"
   }
 }

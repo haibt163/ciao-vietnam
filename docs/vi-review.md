@@ -46,6 +46,7 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 - `sourceLink` — Nguồn
 - `licenseLink` — Giấy phép
 - `resized` — Đã thu nhỏ và chuyển sang WebP.
+- `croppedNote` — Đã cắt và thu nhỏ sang WebP.
 - `photoGap` — Còn thiếu ảnh.
 - `essentialsLink` — Trang nguồn ảnh đã có.
 
@@ -686,47 +687,47 @@ The name "Duyên hải Nam Trung Bộ" is UNVERIFIED.
 
 ## Photo alt text
 
-- `halong` — Đảo đá vôi trong sương ở vịnh Hạ Long.
-- `hoan-kiem` — Lối đi rợp bóng bên Hồ Hoàn Kiếm, Hà Nội.
-- `temple` — Cổng chính Văn Miếu ở Hà Nội.
-- `one-pillar` — Chùa Một Cột trên hồ nước nhỏ.
-- `opera` — Nhà hát Lớn Hà Nội, nhà hát thời Pháp màu nhạt.
-- `tran-quoc` — Chùa Trấn Quốc và tháp bên mặt nước.
-- `cathedral` — Hai tháp đá của Nhà thờ Lớn Hà Nội.
-- `flag-tower` — Cột cờ Hà Nội và cờ Tổ quốc.
-- `long-bien` — Thép gỉ của cầu Long Biên trên đường ray.
-- `french` — Ngã tư rộng ở Hà Nội, nhà cũ hai bên.
-- `egg-coffee` — Ly cà phê trứng cạnh một chiếc bánh sừng bò.
-- `xuanhuong` — Hồ Xuân Hương ở Đà Lạt.
-- `dalat-falls` — Thác Pongour, gần Đà Lạt.
-- `kontum` — Nhà thờ gỗ ở Kon Tum.
-- `cattien` — Rừng ở Vườn quốc gia Cát Tiên.
-- `hoian` — Sông chảy qua phố cổ Hội An.
-- `thienmu` — Chùa Thiên Mụ trên sông ở Huế.
-- `khai-dinh` — Tượng quan ở lăng Khải Định.
-- `japan-bridge` — Chùa Cầu ở Hội An.
-- `phongnha` — Thuyền trước cửa hang Phong Nha.
-- `danang` — Ngũ Hành Sơn gần Đà Nẵng.
-- `haivan` — Bờ biển nhìn từ đèo Hải Vân.
-- `saigon-cathedral` — Nhà thờ Đức Bà ở Thành phố Hồ Chí Minh.
-- `saigon-post` — Bên trong Bưu điện Thành phố.
+- `angkor-gate` — Mặt đá ở cổng nam Angkor Thom.
+- `banteay` — Đá chạm ở Banteay Srei.
+- `bayon` — Mặt đá ở Bayon.
 - `ben-thanh` — Chợ Bến Thành ở Thành phố Hồ Chí Minh.
-- `jade` — Cổng chùa Ngọc Hoàng.
-- `war-remnants` — Bảo tàng Chứng tích Chiến tranh
-- `cuchi` — Một hiện vật ở địa đạo Củ Chi.
 - `bentre` — Ghe trên sông ở Bến Tre.
 - `cairang` — Ghe ở chợ nổi gần Cần Thơ.
+- `cathedral` — Hai tháp đá của Nhà thờ Lớn Hà Nội.
+- `cattien` — Rừng ở Vườn quốc gia Cát Tiên.
 - `chaudoc` — Đồng bằng nhìn từ núi Sam, Châu Đốc.
-- `phuquoc` — Một bãi biển ở Phú Quốc.
-- `condao` — Tường nhà tù cũ ở Côn Đảo.
-- `sapa` — Ruộng bậc thang và nhà gần Sa Pa.
+- `cuchi` — Một hiện vật ở địa đạo Củ Chi.
+- `dalat-falls` — Thác Pongour, gần Đà Lạt.
+- `danang` — Ngũ Hành Sơn gần Đà Nẵng.
+- `egg-coffee` — Ly cà phê trứng cạnh một chiếc bánh sừng bò.
+- `flag-tower` — Cột cờ Hà Nội và cờ Tổ quốc.
+- `french` — Ngã tư rộng ở Hà Nội, nhà cũ hai bên.
 - `hagiang` — Đường qua đèo Mã Pí Lèng, Hà Giang.
-- `bayon` — Mặt đá ở Bayon.
-- `angkor-gate` — Mặt đá ở cổng nam Angkor Thom.
-- `taprohm` — Rễ cây trên đá ở Ta Prohm.
-- `banteay` — Đá chạm ở Banteay Srei.
-- `muine` — Đồi cát ở Mũi Né.
+- `haivan` — Bờ biển nhìn từ đèo Hải Vân.
+- `halong` — Thuyền dưới tháp đá vôi ở vịnh Hạ Long.
+- `halong-air` — Vịnh Hạ Long nhìn từ trên cao.
+- `hoan-kiem` — Lối đi rợp bóng bên Hồ Hoàn Kiếm, Hà Nội.
+- `hoian` — Sông chảy qua phố cổ Hội An.
 - `hon-chong` — Đá Hòn Chồng, Nha Trang.
+- `jade` — Cổng chùa Ngọc Hoàng.
+- `japan-bridge` — Chùa Cầu ở Hội An.
+- `khai-dinh` — Tượng quan ở lăng Khải Định.
+- `kontum` — Nhà thờ gỗ ở Kon Tum.
+- `long-bien` — Thép gỉ của cầu Long Biên trên đường ray.
+- `muine` — Đồi cát ở Mũi Né.
+- `ninhbinh` — Thuyền giữa núi đá ở Ninh Bình.
+- `one-pillar` — Chùa Một Cột trên hồ nước nhỏ.
+- `opera` — Nhà hát Lớn Hà Nội, nhà hát thời Pháp màu nhạt.
+- `phongnha` — Thuyền trước cửa hang Phong Nha.
+- `phuquoc` — Một bãi biển ở Phú Quốc.
 - `ponagar` — Tháp bắc ở Po Nagar, Nha Trang.
+- `saigon-post` — Bưu điện Thành phố ở Thành phố Hồ Chí Minh.
+- `sapa` — Ruộng bậc thang và nhà gần Sa Pa.
 - `sonmy` — Đài tưởng niệm Sơn Mỹ.
+- `taprohm` — Rễ cây trên đá ở Ta Prohm.
+- `temple` — Cổng chính Văn Miếu ở Hà Nội.
+- `thienmu` — Chùa Thiên Mụ trên sông ở Huế.
+- `tran-quoc` — Chùa Trấn Quốc và tháp bên mặt nước.
 - `vungtau` — Bãi biển Vũng Tàu.
+- `war-remnants` — Bảo tàng Chứng tích Chiến tranh
+- `xuanhuong` — Hồ Xuân Hương ở Đà Lạt.

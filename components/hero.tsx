@@ -16,11 +16,14 @@ export function ParallaxHero({
   const reduce = useReducedMotion();
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 420], [0, 64]);
+  const landscape = photo.heroLayout === "landscape";
 
   return (
-    <section className="relative -mx-4 mb-6 h-[70vh] min-h-[420px] overflow-hidden">
+    <section
+      className={`relative -mx-4 mb-6 overflow-hidden ${landscape ? "aspect-[4/3]" : "h-[70vh] min-h-[420px]"}`}
+    >
       <motion.div className="absolute -inset-y-10 inset-x-0" style={reduce ? undefined : { y }}>
-        {/* Plain img: files are already 480/800/1200 WebP. next/image would hit the optimizer this app turns off. */}
+        {/* Plain img: WebP is already cropped. next/image would hit the optimizer this app turns off. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={photo.src}
@@ -29,9 +32,11 @@ export function ParallaxHero({
           alt={lang === "vi" ? photo.alt.vi : photo.alt.en}
           width={photo.width}
           height={photo.height}
+          loading="eager"
           fetchPriority="high"
           decoding="async"
           className="absolute inset-0 h-full w-full object-cover"
+          style={{ objectPosition: photo.focus || "50% 50%" }}
         />
       </motion.div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-black/25" />

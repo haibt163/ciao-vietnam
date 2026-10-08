@@ -41,7 +41,7 @@ export default function CreditsPage() {
                 <T text={ui.sourceLink} />
               </a>
               <p className="m-0 text-muted">
-                <T text={ui.resized} />
+                <T text={image.cropped ? ui.croppedNote : ui.resized} />
               </p>
             </div>
           </li>

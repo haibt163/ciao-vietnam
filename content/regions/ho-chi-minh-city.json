@@ -14,7 +14,7 @@
     "en": "A loud southern city. Walk one old grid, then eat. The war sites are their own hour.",
     "vi": "Một thành phố phía nam ồn ào. Đi bộ một khu cũ, rồi ăn. Chỗ về chiến tranh là một giờ riêng."
   },
-  "hero": "saigon-cathedral",
+  "hero": "saigon-post",
   "chips": [
     {
       "en": "Dong Khoi",
@@ -54,7 +54,7 @@
         "en": "The brick cathedral and the French post office, one square apart.",
         "vi": "Nhà thờ gạch và bưu điện Pháp, cách nhau một quảng trường."
       },
-      "image": "saigon-cathedral",
+      "gap": true,
       "facts": [
         {
           "label": {
