@@ -12,7 +12,7 @@ jobs:
     if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    # Re-run after deterministic smoke test
+    # Final status-code smoke test
     steps:
       - uses: actions/checkout@v4
 
