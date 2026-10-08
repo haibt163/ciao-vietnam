@@ -205,8 +205,7 @@
             "vi": "Phố Siem Reap, sau khi về từ đền"
           }
         }
-      ],
-      "image": "hoi-an-market"
+      ]
     },
     {
       "id": "fish-amok",
@@ -218,7 +217,6 @@
         "en": "A Cambodian classic worth ordering once. Mild, aromatic, and different from Vietnamese bowls.",
         "vi": "Một món kinh điển Campuchia đáng thử một lần. Dịu, thơm, và khác các bát mì Việt."
       },
-      "image": "night-market-vietnam",
       "facts": [
         {
           "label": {
@@ -242,7 +240,6 @@
         "en": "The town is built around evening wandering. Sample small plates instead of one large dinner.",
         "vi": "Phố được làm cho việc đi bộ buổi tối. Thử nhiều món nhỏ thay vì một bữa lớn."
       },
-      "image": "night-market-vietnam",
       "facts": [
         {
           "label": {
@@ -265,12 +262,12 @@
     {
       "id": "stay-siemreap",
       "title": {
-        "en": "Siem Reap",
-        "vi": "Siem Reap"
+        "en": "Stay for early temple starts",
+        "vi": "Ở để đi đền từ sáng sớm"
       },
       "summary": {
-        "en": "The visitor town. Stay where you can find breakfast before the temples open.",
-        "vi": "Phố của khách. Ở chỗ còn tìm được bữa sáng trước giờ đền mở."
+        "en": "Choose a place with an easy first ride and breakfast available before the temple gates get busy.",
+        "vi": "Chọn chỗ ở dễ đi chuyến đầu và có bữa sáng sớm trước khi khu đền đông."
       },
       "facts": [
         {
@@ -283,8 +280,7 @@
             "vi": "Tính tiền xe ra đền, mỗi ngày"
           }
         }
-      ],
-      "image": "bayon"
+      ]
     },
     {
       "id": "stay-old-town",
@@ -333,8 +329,7 @@
             "vi": "Quy định hay đổi. Hỏi lại trước khi đi."
           }
         }
-      ],
-      "image": "angkor-gate"
+      ]
     },
     {
       "id": "temple-ride",
@@ -357,8 +352,7 @@
             "vi": "Xe đạp, tuk-tuk, hoặc ô tô. Chốt từ tối hôm trước."
           }
         }
-      ],
-      "image": "angkorwat"
+      ]
     }
   ]
 }

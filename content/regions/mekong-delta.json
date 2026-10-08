@@ -264,7 +264,6 @@
         "en": "A southern noodle bowl with a lighter, sweeter profile. Look for it in river towns.",
         "vi": "Một bát mì miền Nam, vị nhẹ và ngọt hơn. Tìm ở các phố sông."
       },
-      "image": "cairang",
       "facts": [
         {
           "label": {
@@ -311,12 +310,12 @@
     {
       "id": "stay-cantho",
       "title": {
-        "en": "Can Tho",
-        "vi": "Cần Thơ"
+        "en": "Choose the city for dawn access",
+        "vi": "Chọn thành phố để tiện đi chợ sớm"
       },
       "summary": {
-        "en": "City hotels, or a homestay on a smaller channel.",
-        "vi": "Khách sạn trong phố, hoặc nhà dân trên kênh nhỏ."
+        "en": "Can Tho is practical when the floating market and transport links matter more than a rural overnight.",
+        "vi": "Cần Thơ hợp khi bạn ưu tiên chợ nổi và đầu mối di chuyển hơn là ngủ giữa vùng quê."
       },
       "facts": [
         {
@@ -329,18 +328,17 @@
             "vi": "Chợ nổi lúc bình minh"
           }
         }
-      ],
-      "image": "cai-rang-aerial"
+      ]
     },
     {
       "id": "stay-islands",
       "title": {
-        "en": "The islands",
-        "vi": "Hai đảo"
+        "en": "Pick island pace, not just a beach",
+        "vi": "Chọn nhịp đảo, không chỉ chọn bãi biển"
       },
       "summary": {
-        "en": "Phu Quoc has the rooms. Con Dao has fewer. Book the flight and the bed together.",
-        "vi": "Phú Quốc thì nhiều phòng. Côn Đảo thì ít. Đặt vé bay và giường cùng lúc."
+        "en": "Phu Quoc offers more accommodation choice; Con Dao is quieter and takes more planning.",
+        "vi": "Phú Quốc có nhiều lựa chọn chỗ ở hơn; Côn Đảo yên hơn và cần chuẩn bị kỹ hơn."
       },
       "facts": [
         {
@@ -353,20 +351,18 @@
             "vi": "Hỏi lịch tại chỗ"
           }
         }
-      ],
-      "image": "phuquoc"
+      ]
     },
     {
       "id": "stay-bentre",
       "title": {
-        "en": "Ben Tre",
-        "vi": "Bến Tre"
+        "en": "Sleep near channels and orchards",
+        "vi": "Ngủ gần kênh rạch và vườn cây"
       },
       "summary": {
-        "en": "Stay close to small channels and orchards when the river landscape is the reason to come.",
-        "vi": "Ở gần kênh nhỏ và vườn cây khi chính cảnh sông nước là lý do bạn đến."
+        "en": "A smaller-channel stay makes the delta landscape part of the morning instead of a day trip from town.",
+        "vi": "Ở gần kênh nhỏ để cảnh quan đồng bằng trở thành một phần của buổi sáng, thay vì chỉ là chuyến đi trong ngày."
       },
-      "image": "bentre",
       "facts": [
         {
           "label": {
@@ -403,8 +399,7 @@
             "vi": "Đường bộ cho đồng bằng. Máy bay cho Phú Quốc và Côn Đảo."
           }
         }
-      ],
-      "image": "mekong-boat"
+      ]
     },
     {
       "id": "delta-ferries",
@@ -416,7 +411,6 @@
         "en": "River travel is part of the delta experience. Routes change; ask the operator before setting out.",
         "vi": "Đi sông là một phần trải nghiệm đồng bằng. Tuyến có thể đổi; hỏi nhà vận hành trước khi đi."
       },
-      "image": "mekong-boat-2",
       "facts": [
         {
           "label": {

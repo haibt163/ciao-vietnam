@@ -243,8 +243,7 @@
             "vi": "Đêm đầu tiên nhẹ trên đồi"
           }
         }
-      ],
-      "image": "maichau"
+      ]
     }
   ],
   "eatIntro": {
@@ -273,8 +272,7 @@
             "vi": "Hà Nội, và phố bạn ngủ"
           }
         }
-      ],
-      "image": "pho-hanoi"
+      ]
     },
     {
       "id": "hill-grill",
@@ -333,12 +331,12 @@
     {
       "id": "stay-sapa",
       "title": {
-        "en": "Sapa town or a village",
-        "vi": "Phố Sa Pa hoặc một bản"
+        "en": "Town or village?",
+        "vi": "Ở phố hay ở bản?"
       },
       "summary": {
-        "en": "Town is easier. A village is quieter and means a walk home.",
-        "vi": "Ở phố thì dễ. Ở bản thì yên, và phải đi bộ về."
+        "en": "Town is easier for transport and cafés; a village trades convenience for quiet and a walk home.",
+        "vi": "Ở phố thuận tiện xe cộ và quán xá; ở bản yên hơn nhưng đổi lại phải đi bộ về."
       },
       "facts": [
         {
@@ -351,18 +349,17 @@
             "vi": "Đêm lạnh. Xin thêm chăn."
           }
         }
-      ],
-      "image": "sapa"
+      ]
     },
     {
       "id": "stay-bay",
       "title": {
-        "en": "The bay",
-        "vi": "Trên vịnh"
+        "en": "Boat night or island room?",
+        "vi": "Ngủ trên thuyền hay ở đảo?"
       },
       "summary": {
-        "en": "A night on a boat, or a room on Cat Ba. Not the same trip.",
-        "vi": "Một đêm trên thuyền, hoặc phòng ở Cát Bà. Không phải cùng một chuyến."
+        "en": "A boat makes the landscape the trip; Cat Ba gives you a more settled base and easier independence.",
+        "vi": "Thuyền biến cảnh quan thành chính chuyến đi; Cát Bà cho bạn một chỗ ở ổn định và dễ tự do hơn."
       },
       "facts": [
         {
@@ -375,20 +372,18 @@
             "vi": "Hỏi vé gồm những gì"
           }
         }
-      ],
-      "image": "halong"
+      ]
     },
     {
       "id": "stay-ha-giang",
       "title": {
-        "en": "Ha Giang town",
-        "vi": "Thị trấn Hà Giang"
+        "en": "Base before the mountain loop",
+        "vi": "Điểm nghỉ trước vòng núi"
       },
       "summary": {
-        "en": "A practical base before the mountain roads. Start early and ask locally about the route.",
-        "vi": "Chỗ nghỉ thực tế trước đường núi. Đi sớm và hỏi đường tại chỗ."
+        "en": "Use town as the practical reset before an early start into the passes, especially when weather changes.",
+        "vi": "Dùng thị trấn làm chỗ nghỉ thực tế trước khi đi sớm vào các cung đèo, nhất là khi thời tiết đổi."
       },
-      "image": "hagian-road",
       "facts": [
         {
           "label": {
@@ -425,8 +420,7 @@
             "vi": "Ninh Bình thì gần. Hà Giang thì không."
           }
         }
-      ],
-      "image": "hanoi-old-quarter"
+      ]
     },
     {
       "id": "lao-cai",
@@ -449,8 +443,7 @@
             "vi": "Tàu đến Lào Cai, rồi đi xe"
           }
         }
-      ],
-      "image": "hanoi-train"
+      ]
     }
   ]
 }

@@ -263,8 +263,7 @@
             "vi": "Cuối sáng đến chiều"
           }
         }
-      ],
-      "image": "vietnamese-food-stall"
+      ]
     },
     {
       "id": "ca-phe-sua",
@@ -288,7 +287,7 @@
           }
         }
       ],
-      "image": "phin-coffee"
+      "image": "vietnam-coffee"
     },
     {
       "id": "banh-mi-saigon",
@@ -347,12 +346,12 @@
     {
       "id": "stay-d1",
       "title": {
-        "en": "District 1",
-        "vi": "Quận 1"
+        "en": "Stay central for short hops",
+        "vi": "Ở trung tâm để đi quãng ngắn"
       },
       "summary": {
-        "en": "Dong Khoi and the blocks around Ben Thanh. Central, and not quiet.",
-        "vi": "Đồng Khởi và các khối phố quanh Bến Thành. Ở giữa, và không yên."
+        "en": "District 1 keeps major sights, food and the river within easy reach, but evenings can be busy.",
+        "vi": "Quận 1 đưa nhiều điểm tham quan, đồ ăn và bờ sông vào tầm gần, nhưng buổi tối khá đông."
       },
       "facts": [
         {
@@ -365,18 +364,17 @@
             "vi": "Xin phòng không nhìn mặt đường chính"
           }
         }
-      ],
-      "image": "hcm-night"
+      ]
     },
     {
       "id": "stay-cholon",
       "title": {
-        "en": "Cholon",
-        "vi": "Chợ Lớn"
+        "en": "Choose Cholon for local pace",
+        "vi": "Chọn Chợ Lớn cho nhịp địa phương"
       },
       "summary": {
-        "en": "Cheaper and more local. Every trip back to the centre is a ride.",
-        "vi": "Rẻ hơn và địa phương hơn. Mỗi lần về trung tâm là một chuyến xe."
+        "en": "Stay here for market mornings, temples and a different city rhythm; expect rides to central sights.",
+        "vi": "Ở đây để gần chợ sáng, chùa và một nhịp thành phố khác; các điểm trung tâm sẽ cần đi xe."
       },
       "facts": [
         {
@@ -389,8 +387,7 @@
             "vi": "Lần ở thứ hai, không phải đêm đầu"
           }
         }
-      ],
-      "image": "cholon"
+      ]
     }
   ],
   "gettingThere": [
@@ -416,7 +413,7 @@
           }
         }
       ],
-      "image": "saigon-post"
+      "image": "airport-hcm"
     },
     {
       "id": "saigon-station",

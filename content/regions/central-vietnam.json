@@ -310,7 +310,6 @@
         "en": "Turmeric noodles, herbs and a little broth. A Central bowl with a different rhythm.",
         "vi": "Mì vàng nghệ, rau thơm và ít nước. Một bát miền Trung có nhịp vị khác."
       },
-      "image": "hoi-an-market",
       "facts": [
         {
           "label": {
@@ -333,12 +332,12 @@
     {
       "id": "stay-hue",
       "title": {
-        "en": "Hue",
-        "vi": "Huế"
+        "en": "Sleep by the river or walls",
+        "vi": "Ngủ gần sông hoặc gần thành"
       },
       "summary": {
-        "en": "Inside or just outside the citadel walls. The river side is calmer.",
-        "vi": "Trong hoặc sát tường thành. Phía sông thì yên hơn."
+        "en": "Choose the river side for quieter evenings, or stay closer to the citadel for shorter morning walks.",
+        "vi": "Chọn phía sông cho buổi tối yên hơn, hoặc gần kinh thành để sáng đi bộ ngắn hơn."
       },
       "facts": [
         {
@@ -351,18 +350,17 @@
             "vi": "Lăng và Đại Nội"
           }
         }
-      ],
-      "image": "hue-imperial"
+      ]
     },
     {
       "id": "stay-hoian",
       "title": {
-        "en": "Hoi An",
-        "vi": "Hội An"
+        "en": "Stay outside the busiest lanes",
+        "vi": "Ở ngoài những tuyến đông nhất"
       },
       "summary": {
-        "en": "Inside the old streets is pretty and loud. One street out is kinder at night.",
-        "vi": "Trong phố cổ thì đẹp và ồn. Ra một phố thì đêm dễ chịu hơn."
+        "en": "A street or two away from the old-town core usually gives you quieter nights without losing the walk.",
+        "vi": "Ra cách lõi phố cổ một hai con phố thường yên hơn mà vẫn đủ gần để đi bộ."
       },
       "facts": [
         {
@@ -375,8 +373,7 @@
             "vi": "Sân bay Đà Nẵng phải đi xe, không đi bộ"
           }
         }
-      ],
-      "image": "hoi-an-night"
+      ]
     }
   ],
   "gettingThere": [
@@ -401,8 +398,7 @@
             "vi": "Tàu, rồi xe vào Hội An"
           }
         }
-      ],
-      "image": "hanoi-train"
+      ]
     },
     {
       "id": "hai-van",
@@ -438,7 +434,6 @@
         "en": "The coast works as a chain of short stops. Pick two bases rather than every city.",
         "vi": "Bờ biển hợp với các chặng ngắn. Chọn hai điểm nghỉ thay vì gom mọi thành phố."
       },
-      "image": "quynhon-village",
       "facts": [
         {
           "label": {

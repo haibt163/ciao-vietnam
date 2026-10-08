@@ -276,7 +276,6 @@
         "en": "Hot coastal days call for fruit, ice and a shaded plastic chair.",
         "vi": "Ngày biển nóng hợp với trái cây, đá và chiếc ghế nhựa có bóng râm."
       },
-      "image": "quynhon-beach",
       "facts": [
         {
           "label": {
@@ -299,12 +298,12 @@
     {
       "id": "stay-nhatrang",
       "title": {
-        "en": "Nha Trang beach",
-        "vi": "Biển Nha Trang"
+        "en": "Central strip or quieter edge?",
+        "vi": "Ở dải trung tâm hay rìa yên hơn?"
       },
       "summary": {
-        "en": "The central strip is walkable and loud. North and south are quieter.",
-        "vi": "Dải giữa thì đi bộ được và ồn. Bắc và nam thì yên hơn."
+        "en": "The central strip trades quiet for convenience; edges are calmer but require more rides.",
+        "vi": "Dải trung tâm tiện hơn nhưng ồn hơn; rìa biển yên hơn nhưng cần đi xe nhiều hơn."
       },
       "facts": [
         {
@@ -317,18 +316,17 @@
             "vi": "Sân bay ở Cam Ranh, không ở trong phố"
           }
         }
-      ],
-      "image": "nha-trang-beach"
+      ]
     },
     {
       "id": "stay-muine",
       "title": {
-        "en": "Mui Ne strip",
-        "vi": "Dải Mũi Né"
+        "en": "Pick your place along the strip",
+        "vi": "Chọn chỗ dọc theo dải biển"
       },
       "summary": {
-        "en": "Resorts line one road. You will want a bike or a ride.",
-        "vi": "Khu nghỉ nằm dọc một đường. Bạn sẽ cần xe."
+        "en": "Most choices line one long road, so choose based on where you want to spend your evenings and mornings.",
+        "vi": "Phần lớn chỗ ở nằm dọc một con đường dài; chọn theo nơi bạn muốn dành buổi sáng và tối."
       },
       "facts": [
         {
@@ -341,20 +339,18 @@
             "vi": "Đồi cát buổi sáng"
           }
         }
-      ],
-      "image": "muine"
+      ]
     },
     {
       "id": "stay-quynhon",
       "title": {
-        "en": "Quy Nhon",
-        "vi": "Quy Nhơn"
+        "en": "Use Quy Nhon as the calmer base",
+        "vi": "Dùng Quy Nhơn làm căn cứ yên hơn"
       },
       "summary": {
-        "en": "A calmer beach base for a few days. Choose by the part of the coast you plan to explore.",
-        "vi": "Điểm nghỉ biển yên hơn cho vài ngày. Chọn theo đoạn bờ bạn muốn khám phá."
+        "en": "Stay near the part of the coast you plan to explore rather than treating the whole shoreline as one walkable area.",
+        "vi": "Ở gần phần bờ biển bạn định khám phá thay vì coi cả dải bờ là một khu có thể đi bộ."
       },
-      "image": "quynhon-village",
       "facts": [
         {
           "label": {
@@ -391,8 +387,7 @@
             "vi": "Hỏi xe trước khi hạ cánh"
           }
         }
-      ],
-      "image": "nha-trang-beach"
+      ]
     },
     {
       "id": "coast-road",
@@ -404,7 +399,6 @@
         "en": "Bus and car links connect the coastal towns. Check the next departure before leaving.",
         "vi": "Xe khách và ô tô nối các phố biển. Xem chuyến tiếp theo trước khi rời chỗ ở."
       },
-      "image": "quynhon-village",
       "facts": [
         {
           "label": {

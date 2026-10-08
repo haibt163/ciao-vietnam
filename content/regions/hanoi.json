@@ -138,7 +138,7 @@
           }
         }
       ],
-      "image": "hoan-kiem"
+      "image": "hanoi-old-quarter"
     },
     {
       "id": "temple",
@@ -269,8 +269,7 @@
             "vi": "Cùng khu với Chùa Một Cột"
           }
         }
-      ],
-      "image": "one-pillar"
+      ]
     },
     {
       "id": "opera",
@@ -489,8 +488,7 @@
             "vi": "Đi xe. Đừng đi bộ hết một vòng hồ."
           }
         }
-      ],
-      "image": "tran-quoc"
+      ]
     },
     {
       "id": "flag-tower",
@@ -731,12 +729,12 @@
     {
       "id": "stay-old",
       "title": {
-        "en": "Old Quarter",
-        "vi": "Phố cổ"
+        "en": "Best for a first Hanoi stay",
+        "vi": "Hợp với lần đầu ở Hà Nội"
       },
       "summary": {
-        "en": "Steps from everything. Nights are loud.",
-        "vi": "Gần mọi thứ. Đêm thì ồn."
+        "en": "Stay here for the shortest walks to food, the lake and the older streets; expect noise at night.",
+        "vi": "Ở đây bạn đi bộ ngắn đến hàng ăn, hồ và phố cũ; đổi lại ban đêm sẽ ồn hơn."
       },
       "facts": [
         {
@@ -759,20 +757,18 @@
             "vi": "Xin phòng không nhìn ra mặt phố"
           }
         }
-      ],
-      "image": "hanoi-old-quarter"
+      ]
     },
     {
       "id": "stay-french",
       "title": {
-        "en": "French Quarter",
-        "vi": "Khu phố Pháp"
+        "en": "A quieter central base",
+        "vi": "Chỗ ở trung tâm nhưng yên hơn"
       },
       "summary": {
-        "en": "Quieter blocks. A short walk back to the lake.",
-        "vi": "Phố yên hơn. Đi bộ một quãng là về hồ."
+        "en": "Wider streets and a calmer evening mood, while the lake and old centre remain a short walk away.",
+        "vi": "Phố rộng và buổi tối yên hơn, trong khi hồ và trung tâm cũ vẫn cách một quãng đi bộ."
       },
-      "image": "french",
       "facts": [
         {
           "label": {
@@ -799,12 +795,12 @@
     {
       "id": "stay-west",
       "title": {
-        "en": "West Lake",
-        "vi": "Hồ Tây"
+        "en": "More space, more rides",
+        "vi": "Rộng hơn, đi xe nhiều hơn"
       },
       "summary": {
-        "en": "Space and cafes. You will ride back to the centre.",
-        "vi": "Rộng và nhiều quán. Về trung tâm thì đi xe."
+        "en": "Choose West Lake for room, cafés and longer stays; plan on rides back to the historic centre.",
+        "vi": "Chọn Hồ Tây nếu muốn rộng rãi, nhiều quán cà phê và ở lâu hơn; tính đến việc đi xe về trung tâm cũ."
       },
       "facts": [
         {
@@ -827,8 +823,7 @@
             "vi": "Tính tiền xe vào kế hoạch"
           }
         }
-      ],
-      "image": "tran-quoc"
+      ]
     }
   ],
   "gettingThere": [
@@ -931,8 +926,7 @@
             "vi": "Chốt giá, hoặc bật đồng hồ"
           }
         }
-      ],
-      "image": "hanoi-street-food"
+      ]
     }
   ]
 }

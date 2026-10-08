@@ -7,12 +7,13 @@
   },
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/build-search.mjs && npm run validate:images",
+    "prebuild": "node scripts/build-search.mjs && npm run validate:content && npm run validate:images",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "validate:images": "node scripts/check-images.mjs"
+    "validate:images": "node scripts/check-images.mjs",
+    "validate:content": "node scripts/check-content-repetition.mjs"
   },
   "dependencies": {
     "lucide-react": "1.52.0",
