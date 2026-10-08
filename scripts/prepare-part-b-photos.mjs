@@ -30,7 +30,7 @@ const headers = { "user-agent":"ciao-vietnam-photo-prep/1.0" };
 
 async function fetchBuffer(url) {
   const res = await fetch(url, { headers, redirect:"follow" });
-  if (!res.ok) throw new Error(\`HTTP \${res.status} for \${url}\`);
+  if (!res.ok) throw new Error("HTTP " + res.status + " for " + url);
   return Buffer.from(await res.arrayBuffer());
 }
 
@@ -40,8 +40,8 @@ function ogImage(html) {
     /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i
   ];
   for (const re of patterns) {
-    const m = html.match(re);
-    if (m?.[1]) return m[1].replaceAll("&amp;", "&");
+    const match = html.match(re);
+    if (match && match[1]) return match[1].replaceAll("&amp;", "&");
   }
   throw new Error("Pexels page did not expose an og:image URL");
 }
@@ -50,31 +50,33 @@ const images = JSON.parse(await fs.readFile(imagesPath, "utf8"));
 const generated = [];
 
 for (const source of sources) {
-  const original = source.kind === "pexels"
-    ? await (async () => {
-        const pageRes = await fetch(source.url, {headers, redirect:"follow"});
-        if (!pageRes.ok) throw new Error(\`Pexels page HTTP \${pageRes.status}: \${source.url}\`);
-        return fetchBuffer(ogImage(await pageRes.text()));
-      })()
-    : await fetchBuffer(source.url);
+  let original;
+  if (source.kind === "pexels") {
+    const pageRes = await fetch(source.url, { headers, redirect:"follow" });
+    if (!pageRes.ok) throw new Error("Pexels page HTTP " + pageRes.status + ": " + source.url);
+    original = await fetchBuffer(ogImage(await pageRes.text()));
+  } else {
+    original = await fetchBuffer(source.url);
+  }
 
   const meta = await sharp(original).metadata();
-  const width = meta.width ?? 0;
-  const height = meta.height ?? 0;
+  const width = meta.width || 0;
+  const height = meta.height || 0;
   const longEdge = Math.max(width, height);
-  if (longEdge < 3000) throw new Error(\`\${source.id}: source is only \${width}x\${height}; minimum 3000 px long edge\`);
+  if (longEdge < 3000) {
+    throw new Error(source.id + ": source is only " + width + "x" + height + "; minimum 3000 px long edge");
+  }
 
-  const out640 = path.join(root, "public", "images", \`\${source.id}-640.webp\`);
-  const out960 = path.join(root, "public", "images", \`\${source.id}-960.webp\`);
+  const out640 = path.join(root, "public", "images", source.id + "-640.webp");
+  const out960 = path.join(root, "public", "images", source.id + "-960.webp");
   await sharp(original).resize({ width:640, withoutEnlargement:true }).webp({ quality:82 }).toFile(out640);
   await sharp(original).resize({ width:960, withoutEnlargement:true }).webp({ quality:82 }).toFile(out960);
 
   const finalMeta = await sharp(out960).metadata();
   images[source.id].width = finalMeta.width;
   images[source.id].height = finalMeta.height;
-  images[source.id].src = \`/images/\${source.id}-960.webp\`;
-  images[source.id].srcSet = \`/images/\${source.id}-640.webp 640w, /images/\${source.id}-960.webp 960w\`;
-
+  images[source.id].src = "/images/" + source.id + "-960.webp";
+  images[source.id].srcSet = "/images/" + source.id + "-640.webp 640w, /images/" + source.id + "-960.webp 960w";
   generated.push({ id:source.id, width, height, longEdge });
 }
 
@@ -83,9 +85,14 @@ await fs.writeFile(imagesPath, JSON.stringify(images, null, 2) + "\n");
 const imageDir = path.join(root, "public", "images");
 const all = await fs.readdir(imageDir);
 let total = 0;
-for (const name of all.filter((n) => n.endsWith(".webp"))) {
+for (const name of all.filter(function (n) { return n.endsWith(".webp"); })) {
   total += (await fs.stat(path.join(imageDir, name))).size;
 }
-if (total >= 40 * 1024 * 1024) throw new Error(\`image budget exceeded: \${(total/1024/1024).toFixed(1)} MB\`);
+if (total >= 40 * 1024 * 1024) {
+  throw new Error("image budget exceeded: " + (total / 1024 / 1024).toFixed(1) + " MB");
+}
 
-console.log(JSON.stringify({ generated, webpBudgetMB:Number((total/1024/1024).toFixed(1)) }, null, 2));
+console.log(JSON.stringify({
+  generated,
+  webpBudgetMB:Number((total / 1024 / 1024).toFixed(1))
+}, null, 2));
