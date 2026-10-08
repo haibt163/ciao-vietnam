@@ -274,7 +274,7 @@
           }
         }
       ],
-      "image": "pho-bowl"
+      "image": "bun-bo-context"
     },
     {
       "id": "cao-lau",
@@ -298,7 +298,7 @@
           }
         }
       ],
-      "image": "hoian-food"
+      "image": "hoi-an-food-stall"
     },
     {
       "id": "mi-quang",
@@ -310,7 +310,7 @@
         "en": "Turmeric noodles, herbs and a little broth. A Central bowl with a different rhythm.",
         "vi": "Mì vàng nghệ, rau thơm và ít nước. Một bát miền Trung có nhịp vị khác."
       },
-      "image": "hoian-food",
+      "image": "hoi-an-market",
       "facts": [
         {
           "label": {
@@ -352,7 +352,7 @@
           }
         }
       ],
-      "image": "hue"
+      "image": "hue-imperial"
     },
     {
       "id": "stay-hoian",
@@ -376,7 +376,7 @@
           }
         }
       ],
-      "image": "japan-bridge"
+      "image": "hoian-night"
     }
   ],
   "gettingThere": [
@@ -402,7 +402,7 @@
           }
         }
       ],
-      "image": "haivan"
+      "image": "hanoi-train"
     },
     {
       "id": "hai-van",
@@ -438,7 +438,7 @@
         "en": "The coast works as a chain of short stops. Pick two bases rather than every city.",
         "vi": "Bờ biển hợp với các chặng ngắn. Chọn hai điểm nghỉ thay vì gom mọi thành phố."
       },
-      "image": "haivan",
+      "image": "quynhon-village",
       "facts": [
         {
           "label": {
