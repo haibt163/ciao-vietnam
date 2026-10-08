@@ -4,8 +4,8 @@
     "vi": "Lịch sử ngắn"
   },
   "lede": {
-    "en": "A keyword timeline. The guide keeps the story broad and points you to places that carry it.",
-    "vi": "Dòng thời gian bằng từ khóa. Cẩm nang kể rộng và chỉ vào những nơi còn giữ câu chuyện."
+    "en": "A compact timeline with places attached to the story.",
+    "vi": "Một dòng thời gian ngắn, gắn câu chuyện với địa điểm cụ thể."
   },
   "sections": [
     {
@@ -25,7 +25,7 @@
             "en": "Dong Son · Champa · Khmer worlds",
             "vi": "Đông Sơn · Chăm · thế giới Khmer"
           },
-          "image": "thienmu",
+          "image": "temple",
           "facts": []
         },
         {
@@ -126,7 +126,7 @@
             "en": "Hoi An · river trade · coastal exchange",
             "vi": "Hội An · thương mại sông · trao đổi ven biển"
           },
-          "image": "hoian-food",
+          "image": "hoian-night",
           "facts": [],
           "links": [
             {
@@ -170,7 +170,7 @@
             "en": "Canals · orchards · floating markets · migration",
             "vi": "Kênh · vườn · chợ nổi · di cư"
           },
-          "image": "cantho",
+          "image": "cairang",
           "facts": [],
           "links": [
             {
