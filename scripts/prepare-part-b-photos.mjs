@@ -6,24 +6,24 @@ const root = process.cwd();
 const imagesPath = path.join(root, "content", "images.json");
 
 const sources = [
-  { id:"catba", url:"https://images.pexels.com/photos/24701013/pexels-photo-24701013.jpeg", kind:"pexels" },
-  { id:"maichau", url:"https://images.pexels.com/photos/39998012/pexels-photo-39998012.jpeg", kind:"pexels" },
-  { id:"hue", url:"https://images.pexels.com/photos/33551604/pexels-photo-33551604.jpeg", kind:"pexels" },
-  { id:"quynhon", url:"https://images.pexels.com/photos/37920556/pexels-photo-37920556.jpeg", kind:"pexels" },
-  { id:"bmt-coffee", url:"https://images.pexels.com/photos/27777798/pexels-photo-27777798.jpeg", kind:"pexels" },
+  { id:"catba", url:"https://images.pexels.com/photos/24701013/pexels-photo-24701013.png", kind:"pexels" },
+  { id:"maichau", url:"https://images.pexels.com/photos/39998012/pexels-photo-39998012.png", kind:"pexels" },
+  { id:"hue", url:"https://images.pexels.com/photos/33551604/pexels-photo-33551604.png", kind:"pexels" },
+  { id:"quynhon", url:"https://images.pexels.com/photos/37920556/pexels-photo-37920556.png", kind:"pexels" },
+  { id:"bmt-coffee", url:"https://images.pexels.com/photos/27777798/pexels-photo-27777798.png", kind:"pexels" },
   { id:"saigon-cathedral", url:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Saigon_Notre-Dame_Cathedral.jpg", kind:"commons" },
-  { id:"palace", url:"https://images.pexels.com/photos/37336177/pexels-photo-37336177.jpeg", kind:"pexels" },
+  { id:"palace", url:"https://images.pexels.com/photos/37336177/pexels-photo-37336177.png", kind:"pexels" },
   { id:"cholon", url:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Cholon%2C_Ho_Chi_Minh_City_%2849057490021%29.png", kind:"commons" },
-  { id:"cantho", url:"https://images.pexels.com/photos/32607908/pexels-photo-32607908.jpeg", kind:"pexels" },
-  { id:"hatien", url:"https://images.pexels.com/photos/38960936/pexels-photo-38960936.jpeg", kind:"pexels" },
-  { id:"condao", url:"https://images.pexels.com/photos/17581863/pexels-photo-17581863.jpeg", kind:"pexels" },
-  { id:"angkorwat", url:"https://images.pexels.com/photos/37251675/pexels-photo-37251675.jpeg", kind:"pexels" },
-  { id:"pho-bowl", url:"https://images.pexels.com/photos/6646022/pexels-photo-6646022.jpeg", kind:"pexels" },
-  { id:"vietnam-coffee", url:"https://images.pexels.com/photos/16496241/pexels-photo-16496241.jpeg", kind:"pexels" },
-  { id:"banhmi", url:"https://images.pexels.com/photos/32961649/pexels-photo-32961649.jpeg", kind:"pexels" },
-  { id:"hoian-food", url:"https://images.pexels.com/photos/29374692/pexels-photo-29374692.jpeg", kind:"pexels" },
-  { id:"bun-bo", url:"https://images.pexels.com/photos/2591594/pexels-photo-2591594.jpeg", kind:"pexels" },
-  { id:"seafood-nhatrang", url:"https://images.pexels.com/photos/31302693/pexels-photo-31302693.jpeg", kind:"pexels" }
+  { id:"cantho", url:"https://images.pexels.com/photos/32607908/pexels-photo-32607908.png", kind:"pexels" },
+  { id:"hatien", url:"https://images.pexels.com/photos/38960936/pexels-photo-38960936.png", kind:"pexels" },
+  { id:"condao", url:"https://images.pexels.com/photos/17581863/pexels-photo-17581863.png", kind:"pexels" },
+  { id:"angkorwat", url:"https://images.pexels.com/photos/37251675/pexels-photo-37251675.png", kind:"pexels" },
+  { id:"pho-bowl", url:"https://images.pexels.com/photos/6646022/pexels-photo-6646022.png", kind:"pexels" },
+  { id:"vietnam-coffee", url:"https://images.pexels.com/photos/16496241/pexels-photo-16496241.png", kind:"pexels" },
+  { id:"banhmi", url:"https://images.pexels.com/photos/32961649/pexels-photo-32961649.png", kind:"pexels" },
+  { id:"hoian-food", url:"https://images.pexels.com/photos/29374692/pexels-photo-29374692.png", kind:"pexels" },
+  { id:"bun-bo", url:"https://images.pexels.com/photos/2591594/pexels-photo-2591594.png", kind:"pexels" },
+  { id:"seafood-nhatrang", url:"https://images.pexels.com/photos/31302693/pexels-photo-31302693.png", kind:"pexels" }
 ];
 
 const headers = { "user-agent":"ciao-vietnam-photo-prep/1.0" };
