@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Chips } from "@/components/cards";
 import { T } from "@/components/text";
-import { regions, ui } from "@/lib/content";
+import { regionStubs } from "@/lib/regions";
+import { ui } from "@/lib/content";
 
 export const metadata: Metadata = { title: "Regions" };
 
@@ -17,7 +18,7 @@ export default function RegionsPage() {
         <T text={ui.regionsIntro} />
       </p>
       <ul className="m-0 grid list-none gap-3 p-0">
-        {regions.map((region) => (
+        {regionStubs().map((region) => (
           <li key={region.slug}>
             <Link href={`/regions/${region.slug}`} className="card tap grid gap-2 p-3 no-underline">
               <span className="font-display text-2xl leading-tight">

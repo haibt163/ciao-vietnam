@@ -42,8 +42,8 @@
   "prompt": { "en": "ciao vietnam", "vi": "ciao vietnam" },
   "pocket": { "en": "A pocket guide", "vi": "Cẩm nang bỏ túi" },
   "regionsIntro": {
-    "en": "Eight chapters. One is ready.",
-    "vi": "Tám chương. Một chương đã xong."
+    "en": "Eight chapters. Open one.",
+    "vi": "Tám chương. Mở một chương."
   },
   "also": { "en": "Also on this page", "vi": "Cũng ở trang này" },
   "cambodia": { "en": "This stop is in Cambodia.", "vi": "Điểm này ở Campuchia." },
@@ -53,6 +53,19 @@
     "vi": "Mọi ảnh đều có giấy phép. Không ảnh nào lấy từ sách hướng dẫn."
   },
   "sourceLink": { "en": "Source", "vi": "Nguồn" },
+  "licenseLink": { "en": "License", "vi": "Giấy phép" },
+  "resized": {
+    "en": "Resized and converted to WebP.",
+    "vi": "Đã thu nhỏ và chuyển sang WebP."
+  },
+  "croppedNote": {
+    "en": "Cropped and resized to WebP.",
+    "vi": "Đã cắt và thu nhỏ sang WebP."
+  },
+  "photoGap": {
+    "en": "Photograph still needed.",
+    "vi": "Còn thiếu ảnh."
+  },
   "essentialsLink": {
     "en": "Photo credits are ready now.",
     "vi": "Trang nguồn ảnh đã có."

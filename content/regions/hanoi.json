@@ -1,0 +1,927 @@
+{
+  "order": 1,
+  "slug": "hanoi",
+  "blurb": {
+    "en": "Lakes, the Old Quarter, egg coffee.",
+    "vi": "Hồ, phố cổ, cà phê trứng."
+  },
+  "keywords": "hanoi ha noi hoan kiem old quarter egg coffee temple one pillar west lake",
+  "name": {
+    "en": "Hanoi",
+    "vi": "Hà Nội"
+  },
+  "lede": {
+    "en": "Lakes, a 36-street quarter, and egg coffee. Walk first.",
+    "vi": "Hồ, phố cổ 36 phố, và cà phê trứng. Đi bộ trước."
+  },
+  "hero": "hoan-kiem",
+  "chips": [
+    {
+      "en": "Old Quarter",
+      "vi": "Phố cổ"
+    },
+    {
+      "en": "Hoan Kiem",
+      "vi": "Hoàn Kiếm"
+    },
+    {
+      "en": "French Quarter",
+      "vi": "Khu phố Pháp"
+    },
+    {
+      "en": "West Lake",
+      "vi": "Hồ Tây"
+    },
+    {
+      "en": "Street food",
+      "vi": "Ăn vỉa hè"
+    },
+    {
+      "en": "Oct–Apr",
+      "vi": "Tháng 10–4"
+    }
+  ],
+  "dontMiss": [
+    "hoan-kiem",
+    "temple",
+    "egg-coffee",
+    "one-pillar"
+  ],
+  "sightsIntro": {
+    "en": "Tap a card. Hours change. Ask on the day.",
+    "vi": "Chạm một thẻ. Giờ mở cửa hay đổi. Hỏi trong ngày."
+  },
+  "sights": [
+    {
+      "id": "hoan-kiem",
+      "title": {
+        "en": "Hoan Kiem Lake",
+        "vi": "Hồ Hoàn Kiếm"
+      },
+      "summary": {
+        "en": "The city's living room. A shaded loop around the water.",
+        "vi": "Phòng khách của phố. Một vòng rợp bóng quanh hồ."
+      },
+      "image": "hoan-kiem",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A first morning",
+            "vi": "Buổi sáng đầu tiên"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Sunrise, before the horns",
+            "vi": "Bình minh, trước còi xe"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Walk. It is the centre.",
+            "vi": "Đi bộ. Hồ ở giữa phố."
+          }
+        }
+      ]
+    },
+    {
+      "id": "old-quarter",
+      "title": {
+        "en": "Old Quarter",
+        "vi": "Phố cổ"
+      },
+      "summary": {
+        "en": "Narrow streets, each once a trade. Easy to get lost. That is the point.",
+        "vi": "Phố hẹp, xưa mỗi phố một nghề. Lạc là đúng."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Wandering and snacking",
+            "vi": "Đi lang thang và ăn vặt"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Late afternoon into evening",
+            "vi": "Cuối chiều sang tối"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "North of the lake, on foot",
+            "vi": "Phía bắc hồ, đi bộ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "temple",
+      "title": {
+        "en": "Temple of Literature",
+        "vi": "Văn Miếu"
+      },
+      "summary": {
+        "en": "Confucian courtyards. Vietnam's first university, still standing.",
+        "vi": "Khu sân Khổng học. Trường đại học đầu tiên, còn đó."
+      },
+      "image": "temple",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Shade and quiet stone",
+            "vi": "Bóng mát và đá yên"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Morning. Verify the ticket locally.",
+            "vi": "Buổi sáng. Hỏi vé tại chỗ."
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Short ride west of the lake",
+            "vi": "Đi xe ngắn về phía tây hồ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-pillar",
+      "title": {
+        "en": "One Pillar Pagoda",
+        "vi": "Chùa Một Cột"
+      },
+      "summary": {
+        "en": "A wooden lotus on a single stone pillar.",
+        "vi": "Đài sen gỗ trên một cột đá."
+      },
+      "image": "one-pillar",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A short, photogenic stop",
+            "vi": "Một điểm ngắn, dễ chụp"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "With the mausoleum complex",
+            "vi": "Đi cùng khu lăng"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Ba Dinh, west of the centre",
+            "vi": "Ba Đình, phía tây trung tâm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mausoleum",
+      "title": {
+        "en": "Ho Chi Minh Mausoleum",
+        "vi": "Lăng Chủ tịch Hồ Chí Minh"
+      },
+      "summary": {
+        "en": "A vast square and a strict dress code. Often closed.",
+        "vi": "Quảng trường rộng, y phục nghiêm. Hay đóng cửa."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "History, not a long visit",
+            "vi": "Lịch sử, không phải chuyến dài"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Mornings. Verify the closed days locally.",
+            "vi": "Buổi sáng. Hỏi ngày đóng cửa tại chỗ."
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Same area as One Pillar",
+            "vi": "Cùng khu với Chùa Một Cột"
+          }
+        }
+      ]
+    },
+    {
+      "id": "opera",
+      "title": {
+        "en": "Opera House",
+        "vi": "Nhà hát Lớn"
+      },
+      "summary": {
+        "en": "Pale French theatre on a wide junction.",
+        "vi": "Nhà hát Pháp màu nhạt, ngã tư rộng."
+      },
+      "image": "opera",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The French Quarter walk",
+            "vi": "Đi bộ khu phố Pháp"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Outside anytime. Shows: verify locally.",
+            "vi": "Bên ngoài lúc nào cũng được. Suất diễn: hỏi tại chỗ."
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "East and south of the lake",
+            "vi": "Phía đông nam hồ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cathedral",
+      "title": {
+        "en": "St Joseph's Cathedral",
+        "vi": "Nhà thờ Lớn"
+      },
+      "summary": {
+        "en": "Stone neo-gothic towers. A small square of cafes.",
+        "vi": "Tháp đá. Quảng trường nhỏ toàn quán."
+      },
+      "image": "cathedral",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A coffee stop between walks",
+            "vi": "Dừng cà phê giữa hai quãng đi"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Late afternoon light",
+            "vi": "Ánh cuối chiều"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "A few blocks west of the lake",
+            "vi": "Vài khối phố phía tây hồ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "french",
+      "title": {
+        "en": "French Quarter",
+        "vi": "Khu phố Pháp"
+      },
+      "summary": {
+        "en": "Wider streets, trees, old villas.",
+        "vi": "Phố rộng hơn, cây, biệt thự cũ."
+      },
+      "image": "french",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A calmer hour",
+            "vi": "Một giờ yên hơn"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Morning shade",
+            "vi": "Bóng mát buổi sáng"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "South of Hoan Kiem, on foot",
+            "vi": "Phía nam Hoàn Kiếm, đi bộ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tran-quoc",
+      "title": {
+        "en": "Tran Quoc Pagoda",
+        "vi": "Chùa Trấn Quốc"
+      },
+      "summary": {
+        "en": "A lakeside pagoda on a small causeway.",
+        "vi": "Chùa bên hồ, trên con đường đắp ngắn."
+      },
+      "image": "tran-quoc",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Leaving the old centre",
+            "vi": "Rời trung tâm cũ"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Late day, when the water goes gold",
+            "vi": "Cuối ngày, khi nước chuyển vàng"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Taxi or ride to West Lake",
+            "vi": "Taxi hoặc xe ôm ra Hồ Tây"
+          }
+        }
+      ]
+    },
+    {
+      "id": "west-lake",
+      "title": {
+        "en": "West Lake",
+        "vi": "Hồ Tây"
+      },
+      "summary": {
+        "en": "The big water. Cafes on the east shore. Space to breathe.",
+        "vi": "Mặt nước lớn. Quán cà phê bờ đông. Có chỗ thở."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "An unhurried afternoon",
+            "vi": "Một buổi chiều không vội"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "After the centre feels full",
+            "vi": "Khi trung tâm đã đông"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Ride. Do not walk the whole shore.",
+            "vi": "Đi xe. Đừng đi bộ hết một vòng hồ."
+          }
+        }
+      ]
+    },
+    {
+      "id": "flag-tower",
+      "title": {
+        "en": "Flag Tower",
+        "vi": "Cột cờ"
+      },
+      "summary": {
+        "en": "A citadel tower and a long flag.",
+        "vi": "Tháp thành và lá cờ dài."
+      },
+      "image": "flag-tower",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Pairing with the mausoleum",
+            "vi": "Đi cùng lăng"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Daytime. Grounds: verify locally.",
+            "vi": "Ban ngày. Khuôn viên: hỏi tại chỗ."
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Ba Dinh, a short walk from One Pillar",
+            "vi": "Ba Đình, đi bộ ngắn từ Chùa Một Cột"
+          }
+        }
+      ]
+    },
+    {
+      "id": "long-bien",
+      "title": {
+        "en": "Long Bien Bridge",
+        "vi": "Cầu Long Biên"
+      },
+      "summary": {
+        "en": "The old river bridge. Rust, rivets, bikes.",
+        "vi": "Cầu sông cũ. Gỉ, đinh tán, xe đạp."
+      },
+      "image": "long-bien",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A look at the Red River",
+            "vi": "Nhìn sông Hồng"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Daylight. Watch for trains.",
+            "vi": "Ban ngày. Để ý tàu."
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "East end of the Old Quarter",
+            "vi": "Đầu đông Phố cổ"
+          }
+        }
+      ]
+    }
+  ],
+  "eatIntro": {
+    "en": "Eat where the stools are low. Skip the photo menu.",
+    "vi": "Ăn chỗ ghế thấp. Bỏ qua menu ảnh."
+  },
+  "eat": [
+    {
+      "id": "pho",
+      "title": {
+        "en": "Pho",
+        "vi": "Phở"
+      },
+      "summary": {
+        "en": "Breakfast bowl. Clear broth. Herbs on the side.",
+        "vi": "Bát sáng. Nước trong. Rau thơm để riêng."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The first meal",
+            "vi": "Bữa đầu tiên"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Early. Many pots are gone by ten.",
+            "vi": "Sớm. Nhiều nồi hết trước mười giờ."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bun-cha",
+      "title": {
+        "en": "Bun cha",
+        "vi": "Bún chả"
+      },
+      "summary": {
+        "en": "Grilled pork, noodles, a bowl of sharp sauce.",
+        "vi": "Thịt nướng, bún, bát nước chấm chua ngọt."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Lunch in the Old Quarter",
+            "vi": "Bữa trưa ở Phố cổ"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Late morning to mid-afternoon",
+            "vi": "Cuối sáng đến giữa chiều"
+          }
+        }
+      ]
+    },
+    {
+      "id": "egg-coffee",
+      "title": {
+        "en": "Egg coffee",
+        "vi": "Cà phê trứng"
+      },
+      "summary": {
+        "en": "Coffee under a warm yolk foam. Dessert, really.",
+        "vi": "Cà phê dưới lớp kem trứng ấm. Gần như món tráng miệng."
+      },
+      "image": "egg-coffee",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A sit-down pause",
+            "vi": "Một quãng ngồi lại"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Afternoon, out of the sun",
+            "vi": "Buổi chiều, tránh nắng"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bia-hoi",
+      "title": {
+        "en": "Bia hoi",
+        "vi": "Bia hơi"
+      },
+      "summary": {
+        "en": "Fresh light beer on the pavement. Peanuts, not a cocktail list.",
+        "vi": "Bia tươi nhẹ trên vỉa hè. Đậu phộng, không phải menu cocktail."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "An easy evening",
+            "vi": "Một buổi tối dễ"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "After five, when the stools come out",
+            "vi": "Sau năm giờ, khi ghế được bày ra"
+          }
+        }
+      ]
+    }
+  ],
+  "stayIntro": {
+    "en": "Pick a neighbourhood, not a star rating.",
+    "vi": "Chọn khu phố, đừng chọn số sao."
+  },
+  "stay": [
+    {
+      "id": "stay-old",
+      "title": {
+        "en": "Old Quarter",
+        "vi": "Phố cổ"
+      },
+      "summary": {
+        "en": "Steps from everything. Nights are loud.",
+        "vi": "Gần mọi thứ. Đêm thì ồn."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "First-timers who want to walk",
+            "vi": "Người đi lần đầu, muốn đi bộ"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Ask for a room off the street",
+            "vi": "Xin phòng không nhìn ra mặt phố"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stay-french",
+      "title": {
+        "en": "French Quarter",
+        "vi": "Khu phố Pháp"
+      },
+      "summary": {
+        "en": "Quieter blocks. A short walk back to the lake.",
+        "vi": "Phố yên hơn. Đi bộ một quãng là về hồ."
+      },
+      "image": "french",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Sleep and tree shade",
+            "vi": "Ngủ và bóng cây"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Evenings are calmer. Food is a walk away.",
+            "vi": "Tối yên hơn. Đồ ăn phải đi bộ một đoạn."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stay-west",
+      "title": {
+        "en": "West Lake",
+        "vi": "Hồ Tây"
+      },
+      "summary": {
+        "en": "Space and cafes. You will ride back to the centre.",
+        "vi": "Rộng và nhiều quán. Về trung tâm thì đi xe."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A second stay, or a longer one",
+            "vi": "Lần ở thứ hai, hoặc ở lâu hơn"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Budget the rides",
+            "vi": "Tính tiền xe vào kế hoạch"
+          }
+        }
+      ]
+    }
+  ],
+  "gettingThere": [
+    {
+      "id": "airport",
+      "title": {
+        "en": "Noi Bai airport",
+        "vi": "Sân bay Nội Bài"
+      },
+      "summary": {
+        "en": "North of town. Allow the better part of an hour.",
+        "vi": "Phía bắc thành phố. Dành gần một giờ."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Taxi, ride app, or the airport bus",
+            "vi": "Taxi, ứng dụng, hoặc xe buýt sân bay"
+          }
+        },
+        {
+          "label": {
+            "en": "Cost",
+            "vi": "Chi phí"
+          },
+          "value": {
+            "en": "Verify the fare locally before you ride",
+            "vi": "Hỏi giá tại chỗ trước khi đi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "train",
+      "title": {
+        "en": "The train",
+        "vi": "Tàu hoả"
+      },
+      "summary": {
+        "en": "Long-distance trains use the main station, south of the old centre.",
+        "vi": "Tàu đường dài vào ga chính, phía nam trung tâm cũ."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "A short taxi from the station to Hoan Kiem",
+            "vi": "Taxi ngắn từ ga ra Hoàn Kiếm"
+          }
+        },
+        {
+          "label": {
+            "en": "When",
+            "vi": "Khi nào"
+          },
+          "value": {
+            "en": "Overnight from Hue or the south",
+            "vi": "Tàu đêm từ Huế hoặc miền Nam"
+          }
+        }
+      ]
+    },
+    {
+      "id": "in-town",
+      "title": {
+        "en": "In town",
+        "vi": "Trong phố"
+      },
+      "summary": {
+        "en": "Walk the quarter. Ride when the heat or the distance wins.",
+        "vi": "Đi bộ trong phố cổ. Đi xe khi nóng hoặc khi xa."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Walking, metered taxi, ride app, city metro",
+            "vi": "Đi bộ, taxi đồng hồ, ứng dụng, tàu điện"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Agree the ride, or use the meter",
+            "vi": "Chốt giá, hoặc bật đồng hồ"
+          }
+        }
+      ]
+    }
+  ]
+}

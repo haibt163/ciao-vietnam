@@ -1,0 +1,261 @@
+{
+  "order": 5,
+  "slug": "central-highlands",
+  "name": {
+    "en": "Central Highlands",
+    "vi": "Tây Nguyên"
+  },
+  "blurb": {
+    "en": "Cool hills, coffee country, pine air.",
+    "vi": "Đồi mát, xứ cà phê, không khí thông."
+  },
+  "keywords": "central highlands tay nguyen dalat da lat buon ma thuot kon tum cat tien xuan huong coffee pine",
+  "lede": {
+    "en": "Cooler air and coffee. Dalat is the easy gate. The rest of the plateau is a bus ride.",
+    "vi": "Không khí mát và cà phê. Đà Lạt là cửa dễ. Phần còn lại của cao nguyên là một chuyến xe."
+  },
+  "hero": "xuanhuong",
+  "chips": [
+    {
+      "en": "Dalat",
+      "vi": "Đà Lạt"
+    },
+    {
+      "en": "Coffee",
+      "vi": "Cà phê"
+    },
+    {
+      "en": "Kon Tum",
+      "vi": "Kon Tum"
+    },
+    {
+      "en": "Cat Tien",
+      "vi": "Cát Tiên"
+    }
+  ],
+  "dontMiss": [
+    "dalat",
+    "xuanhuong",
+    "buonmathuot",
+    "kontum"
+  ],
+  "sightsIntro": {
+    "en": "Pine hills, a lake in town, and coffee further north.",
+    "vi": "Đồi thông, một hồ trong phố, và cà phê xa hơn về phía bắc."
+  },
+  "sights": [
+    {
+      "id": "dalat",
+      "title": {
+        "en": "Dalat",
+        "vi": "Đà Lạt"
+      },
+      "summary": {
+        "en": "The hill station. Cool, walkable, and full of short rides to waterfalls and farms.",
+        "vi": "Thị trấn cao. Mát, đi bộ được, và nhiều chuyến xe ngắn ra thác và vườn."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A break from the coast heat",
+            "vi": "Nghỉ giữa cái nóng ven biển"
+          }
+        }
+      ],
+      "image": "dalat-falls"
+    },
+    {
+      "id": "xuanhuong",
+      "title": {
+        "en": "Xuan Huong Lake",
+        "vi": "Hồ Xuân Hương"
+      },
+      "summary": {
+        "en": "The lake in the middle of Dalat. Walk the shore before you hire a ride.",
+        "vi": "Hồ giữa Đà Lạt. Đi bộ quanh bờ trước khi thuê xe."
+      },
+      "image": "xuanhuong",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "The first hour in town",
+            "vi": "Giờ đầu tiên trong phố"
+          }
+        }
+      ]
+    },
+    {
+      "id": "buonmathuot",
+      "title": {
+        "en": "Buon Ma Thuot",
+        "vi": "Buôn Ma Thuột"
+      },
+      "summary": {
+        "en": "Coffee country. The city is a base for the plantations, not a beauty spot.",
+        "vi": "Xứ cà phê. Thành phố là chỗ nghỉ để ra rẫy, không phải điểm ngắm."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Seeing where the cup starts",
+            "vi": "Thấy chỗ ly cà phê bắt đầu"
+          }
+        }
+      ],
+      "gap": true
+    },
+    {
+      "id": "kontum",
+      "title": {
+        "en": "Kon Tum",
+        "vi": "Kon Tum"
+      },
+      "summary": {
+        "en": "A quieter highland town. Wooden churches and villages on the edge.",
+        "vi": "Phố cao nguyên yên hơn. Nhà thờ gỗ và làng ở rìa."
+      },
+      "image": "kontum",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A slower stop than Dalat",
+            "vi": "Một điểm chậm hơn Đà Lạt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cattien",
+      "title": {
+        "en": "Cat Tien",
+        "vi": "Cát Tiên"
+      },
+      "summary": {
+        "en": "A national park on the way down toward the south. Forest, not a town.",
+        "vi": "Vườn quốc gia trên đường xuống phía nam. Rừng, không phải phố."
+      },
+      "image": "cattien",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A night in the forest",
+            "vi": "Một đêm trong rừng"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "UNVERIFIED which book chapter files the park. Search finds it here.",
+            "vi": "CHƯA KIỂM sách xếp vườn vào chương nào. Tìm thì ra trang này."
+          }
+        }
+      ]
+    }
+  ],
+  "eatIntro": {
+    "en": "Coffee is the meal people remember. The market sells the vegetables the coast does not grow.",
+    "vi": "Cà phê là thứ người ta nhớ. Chợ bán rau mà miền biển không trồng."
+  },
+  "eat": [
+    {
+      "id": "dalat-coffee",
+      "title": {
+        "en": "Highland coffee",
+        "vi": "Cà phê cao nguyên"
+      },
+      "summary": {
+        "en": "Drink it where it is grown. Dalat also does artichoke tea.",
+        "vi": "Uống ở nơi nó được trồng. Đà Lạt còn có trà atiso."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "Dalat cafes, Buon Ma Thuot farms",
+            "vi": "Quán Đà Lạt, rẫy Buôn Ma Thuột"
+          }
+        }
+      ]
+    }
+  ],
+  "stayIntro": {
+    "en": "Dalat centre if you want to walk. A pine edge if you do not mind the ride.",
+    "vi": "Trung tâm Đà Lạt nếu muốn đi bộ. Rìa rừng thông nếu không ngại đi xe."
+  },
+  "stay": [
+    {
+      "id": "stay-dalat",
+      "title": {
+        "en": "Dalat",
+        "vi": "Đà Lạt"
+      },
+      "summary": {
+        "en": "The practical base for the highlands. Nights are cool.",
+        "vi": "Chỗ ở thực tế cho cao nguyên. Đêm thì mát."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Bring a layer. The coast clothes are not enough.",
+            "vi": "Mang thêm một lớp áo. Quần áo biển thì không đủ."
+          }
+        }
+      ]
+    }
+  ],
+  "gettingThere": [
+    {
+      "id": "dalat-road",
+      "title": {
+        "en": "Reaching Dalat",
+        "vi": "Đến Đà Lạt"
+      },
+      "summary": {
+        "en": "Flights and buses from Ho Chi Minh City and the coast. The road climbs.",
+        "vi": "Bay và xe khách từ Thành phố Hồ Chí Minh và ven biển. Đường thì leo."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Verify the ride from the airport locally",
+            "vi": "Hỏi xe từ sân bay tại chỗ"
+          }
+        }
+      ]
+    }
+  ]
+}

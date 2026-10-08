@@ -1,0 +1,402 @@
+{
+  "order": 2,
+  "slug": "north-vietnam",
+  "name": {
+    "en": "North Vietnam",
+    "vi": "Miền Bắc"
+  },
+  "blurb": {
+    "en": "Bays, high valleys, market towns.",
+    "vi": "Vịnh, thung lũng cao, chợ phiên."
+  },
+  "keywords": "north vietnam mien bac sapa sa pa ha giang cat ba lan ha bay mai chau bac ha ba be dien bien phu mu cang chai ninh binh tam coc trang an fansipan ma pi leng",
+  "lede": {
+    "en": "Limestone water first, then the high road. The north wants more days than the map suggests.",
+    "vi": "Nước đá vôi trước, rồi đường cao. Miền Bắc cần nhiều ngày hơn bản đồ gợi ý."
+  },
+  "hero": "halong",
+  "chips": [
+    {
+      "en": "Ha Long",
+      "vi": "Hạ Long"
+    },
+    {
+      "en": "Sapa",
+      "vi": "Sa Pa"
+    },
+    {
+      "en": "Ha Giang",
+      "vi": "Hà Giang"
+    },
+    {
+      "en": "Ninh Binh",
+      "vi": "Ninh Bình"
+    },
+    {
+      "en": "Cat Ba",
+      "vi": "Cát Bà"
+    },
+    {
+      "en": "Oct–Apr",
+      "vi": "Tháng 10–4"
+    }
+  ],
+  "dontMiss": [
+    "halong-bay",
+    "sapa",
+    "hagiang",
+    "ninhbinh"
+  ],
+  "sightsIntro": {
+    "en": "Boats on the bay. Walks in the hills. Ask about the road on the day.",
+    "vi": "Thuyền trên vịnh. Đi bộ trên đồi. Hỏi đường trong ngày."
+  },
+  "sights": [
+    {
+      "id": "halong-bay",
+      "title": {
+        "en": "Ha Long Bay",
+        "vi": "Vịnh Hạ Long"
+      },
+      "summary": {
+        "en": "Limestone towers in green water. Most visits are by boat.",
+        "vi": "Tháp đá vôi trên nước xanh. Phần lớn đi bằng thuyền."
+      },
+      "image": "halong-air",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A first look at the north",
+            "vi": "Cái nhìn đầu tiên về miền Bắc"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Boat from the mainland. Verify the pier locally.",
+            "vi": "Thuyền từ đất liền. Hỏi bến tại chỗ."
+          }
+        }
+      ]
+    },
+    {
+      "id": "catba",
+      "title": {
+        "en": "Cat Ba and Lan Ha",
+        "vi": "Cát Bà và Lan Hạ"
+      },
+      "summary": {
+        "en": "The island side of the same water. Quieter than the main cruise route.",
+        "vi": "Phía đảo của cùng một vùng nước. Yên hơn tuyến du thuyền chính."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Staying, not only sailing past",
+            "vi": "Ở lại, không chỉ lướt qua"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Ferry, then a ride on the island",
+            "vi": "Phà, rồi đi xe trên đảo"
+          }
+        }
+      ],
+      "gap": true
+    },
+    {
+      "id": "sapa",
+      "title": {
+        "en": "Sapa",
+        "vi": "Sa Pa"
+      },
+      "summary": {
+        "en": "A hill town above the terraces. The walks start at the edge of town.",
+        "vi": "Thị trấn đồi trên ruộng bậc thang. Đường đi bộ bắt đầu từ rìa phố."
+      },
+      "image": "sapa",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Villages and valley views",
+            "vi": "Bản và nhìn xuống thung lũng"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Night train toward Lao Cai, then a ride up",
+            "vi": "Tàu đêm hướng Lào Cai, rồi xe lên"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hagiang",
+      "title": {
+        "en": "Ha Giang",
+        "vi": "Hà Giang"
+      },
+      "summary": {
+        "en": "The far-north loop. Passes, markets, slow roads. Not a day from Hanoi.",
+        "vi": "Vòng cực bắc. Đèo, chợ, đường chậm. Không phải một ngày từ Hà Nội."
+      },
+      "image": "hagiang",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A journey, not a checklist",
+            "vi": "Một hành trình, không phải danh sách"
+          }
+        },
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Ask locally about the road and the permit",
+            "vi": "Hỏi tại chỗ về đường và giấy đi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ninhbinh",
+      "title": {
+        "en": "Ninh Binh",
+        "vi": "Ninh Bình"
+      },
+      "summary": {
+        "en": "Karst south of Hanoi. Tam Coc and Trang An are boat country.",
+        "vi": "Núi đá phía nam Hà Nội. Tam Cốc và Tràng An là xứ thuyền."
+      },
+      "image": "ninhbinh",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A limestone day without the open bay",
+            "vi": "Một ngày đá vôi, không ra vịnh lớn"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "An easy ride from Hanoi",
+            "vi": "Đi xe dễ từ Hà Nội"
+          }
+        }
+      ]
+    },
+    {
+      "id": "maichau",
+      "title": {
+        "en": "Mai Chau",
+        "vi": "Mai Châu"
+      },
+      "summary": {
+        "en": "A gentler valley. Rice, stilt houses, a shorter hop from the capital.",
+        "vi": "Thung lũng hiền hơn. Lúa, nhà sàn, gần thủ đô hơn."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A soft first night in the hills",
+            "vi": "Đêm đầu tiên nhẹ trên đồi"
+          }
+        }
+      ],
+      "gap": true
+    }
+  ],
+  "eatIntro": {
+    "en": "Eat what the valley grows. On the boat, ask what is included.",
+    "vi": "Ăn thứ thung lũng trồng. Trên thuyền, hỏi phần nào đã gồm."
+  },
+  "eat": [
+    {
+      "id": "north-pho",
+      "title": {
+        "en": "Northern pho",
+        "vi": "Phở miền Bắc"
+      },
+      "summary": {
+        "en": "Clearer broth than the south. Morning food, in town.",
+        "vi": "Nước trong hơn miền Nam. Đồ ăn buổi sáng, trong phố."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "Hanoi, and the towns you sleep in",
+            "vi": "Hà Nội, và phố bạn ngủ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hill-grill",
+      "title": {
+        "en": "Hill markets",
+        "vi": "Chợ vùng cao"
+      },
+      "summary": {
+        "en": "Grilled meat, rice, and whatever the market cooked that morning.",
+        "vi": "Thịt nướng, cơm, và món chợ nấu sáng hôm đó."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Where",
+            "vi": "Ở đâu"
+          },
+          "value": {
+            "en": "Sapa, Bac Ha, Ha Giang",
+            "vi": "Sa Pa, Bắc Hà, Hà Giang"
+          }
+        }
+      ]
+    }
+  ],
+  "stayIntro": {
+    "en": "Sleep near the thing you came for. The distances are real.",
+    "vi": "Ngủ gần thứ bạn đến để thấy. Khoảng cách là thật."
+  },
+  "stay": [
+    {
+      "id": "stay-sapa",
+      "title": {
+        "en": "Sapa town or a village",
+        "vi": "Phố Sa Pa hoặc một bản"
+      },
+      "summary": {
+        "en": "Town is easier. A village is quieter and means a walk home.",
+        "vi": "Ở phố thì dễ. Ở bản thì yên, và phải đi bộ về."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Nights are cold. Ask for a blanket.",
+            "vi": "Đêm lạnh. Xin thêm chăn."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stay-bay",
+      "title": {
+        "en": "The bay",
+        "vi": "Trên vịnh"
+      },
+      "summary": {
+        "en": "A night on a boat, or a room on Cat Ba. Not the same trip.",
+        "vi": "Một đêm trên thuyền, hoặc phòng ở Cát Bà. Không phải cùng một chuyến."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Verify what the ticket covers",
+            "vi": "Hỏi vé gồm những gì"
+          }
+        }
+      ]
+    }
+  ],
+  "gettingThere": [
+    {
+      "id": "from-hanoi",
+      "title": {
+        "en": "From Hanoi",
+        "vi": "Từ Hà Nội"
+      },
+      "summary": {
+        "en": "Almost every northern trip starts here. Bus, train, or a car.",
+        "vi": "Hầu hết chuyến miền Bắc bắt đầu ở đây. Xe khách, tàu, hoặc ô tô."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Ninh Binh is close. Ha Giang is not.",
+            "vi": "Ninh Bình thì gần. Hà Giang thì không."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lao-cai",
+      "title": {
+        "en": "Toward Sapa",
+        "vi": "Hướng Sa Pa"
+      },
+      "summary": {
+        "en": "The railway ends in the lowland. The town is up the hill.",
+        "vi": "Đường sắt dừng ở đất thấp. Thị trấn ở trên đồi."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Train to Lao Cai, then a ride",
+            "vi": "Tàu đến Lào Cai, rồi đi xe"
+          }
+        }
+      ]
+    }
+  ]
+}

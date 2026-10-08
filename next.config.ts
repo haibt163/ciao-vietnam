@@ -7,8 +7,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // This sandbox has a lockfile in the parent folder. Pin the app root so
-  // Turbopack does not treat that parent as the project.
+  // Pin the app folder as the Turbopack root. Do not change this until a
+  // Vercel build log shows the project root is correct. A folder above this
+  // one also contains a package-lock.json. Without the pin, Next.js can treat
+  // that parent folder as the app. The pin keeps the root here.
   turbopack: {
     root: path.resolve(__dirname),
     rules: {

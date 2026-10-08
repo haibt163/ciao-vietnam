@@ -1,0 +1,322 @@
+{
+  "order": 4,
+  "slug": "southeast-coast",
+  "name": {
+    "en": "Southeast Coast",
+    "vi": "Duyên hải Nam Trung Bộ"
+  },
+  "blurb": {
+    "en": "Beaches after the Hai Van pass.",
+    "vi": "Biển sau đèo Hải Vân."
+  },
+  "keywords": "southeast coast south central vietnam south-central nam trung bo duyen hai nha trang mui ne quy nhon vung tau quang ngai son my po nagar cam ranh bai xep",
+  "note": {
+    "en": "Also called South Central Vietnam.",
+    "vi": "DK gọi vùng này là Nam Trung Bộ."
+  },
+  "lede": {
+    "en": "A long beach coast. Pick one town and stay. The whole shore will not fit in a weekend.",
+    "vi": "Bờ biển dài. Chọn một phố và ở lại. Cả bờ không nhét vừa một cuối tuần."
+  },
+  "hero": "muine",
+  "chips": [
+    {
+      "en": "Nha Trang",
+      "vi": "Nha Trang"
+    },
+    {
+      "en": "Mui Ne",
+      "vi": "Mũi Né"
+    },
+    {
+      "en": "Quy Nhon",
+      "vi": "Quy Nhơn"
+    },
+    {
+      "en": "South Central",
+      "vi": "Nam Trung Bộ"
+    }
+  ],
+  "dontMiss": [
+    "nhatrang",
+    "muine",
+    "quynhon",
+    "ponagar"
+  ],
+  "sightsIntro": {
+    "en": "Sand, a Cham tower, and one sober memorial. Swim where the flags say you can.",
+    "vi": "Cát, một tháp Chăm, và một đài tưởng niệm nghiêm. Bơi chỗ cờ cho phép."
+  },
+  "sights": [
+    {
+      "id": "nhatrang",
+      "title": {
+        "en": "Nha Trang",
+        "vi": "Nha Trang"
+      },
+      "summary": {
+        "en": "The busy beach city. Islands offshore if you want a boat day.",
+        "vi": "Thành phố biển đông. Đảo ngoài khơi nếu muốn một ngày thuyền."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A beach with a city behind it",
+            "vi": "Biển có phố phía sau"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "Fly into Cam Ranh, then a ride in",
+            "vi": "Bay vào Cam Ranh, rồi xe vào phố"
+          }
+        }
+      ],
+      "image": "hon-chong"
+    },
+    {
+      "id": "ponagar",
+      "title": {
+        "en": "Po Nagar",
+        "vi": "Tháp Po Nagar"
+      },
+      "summary": {
+        "en": "Cham towers on the north bank, still a place of worship.",
+        "vi": "Tháp Chăm bờ bắc, vẫn là nơi thờ."
+      },
+      "image": "ponagar",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "A short stop off the beach",
+            "vi": "Một điểm ngắn, rời bãi biển"
+          }
+        }
+      ]
+    },
+    {
+      "id": "muine",
+      "title": {
+        "en": "Mui Ne",
+        "vi": "Mũi Né"
+      },
+      "summary": {
+        "en": "Red and white dunes behind a fishing beach. The town is a long strip.",
+        "vi": "Đồi cát đỏ và trắng sau bãi cá. Phố là một dải dài."
+      },
+      "image": "muine",
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Dunes at the edge of the day",
+            "vi": "Đồi cát lúc sớm hoặc chiều"
+          }
+        },
+        {
+          "label": {
+            "en": "How",
+            "vi": "Cách đến"
+          },
+          "value": {
+            "en": "A ride from Phan Thiet",
+            "vi": "Đi xe từ Phan Thiết"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quynhon",
+      "title": {
+        "en": "Quy Nhon",
+        "vi": "Quy Nhơn"
+      },
+      "summary": {
+        "en": "A quieter city beach between the big resorts. Bai Xep is the small bay south.",
+        "vi": "Biển phố yên hơn các khu nghỉ lớn. Bãi Xép là vịnh nhỏ phía nam."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Swimming without the Nha Trang strip",
+            "vi": "Bơi mà không cần dải Nha Trang"
+          }
+        }
+      ],
+      "gap": true
+    },
+    {
+      "id": "sonmy",
+      "title": {
+        "en": "Son My",
+        "vi": "Sơn Mỹ"
+      },
+      "summary": {
+        "en": "A memorial near Quang Ngai. Go quietly. It is not a photo stop.",
+        "vi": "Đài tưởng niệm gần Quảng Ngãi. Đi nhẹ. Không phải chỗ chụp ảnh."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Remembering, if you want that hour",
+            "vi": "Tưởng niệm, nếu bạn muốn giờ đó"
+          }
+        }
+      ],
+      "image": "sonmy"
+    },
+    {
+      "id": "vungtau",
+      "title": {
+        "en": "Vung Tau",
+        "vi": "Vũng Tàu"
+      },
+      "summary": {
+        "en": "The beach city at the southern end of this coast, close to Ho Chi Minh City.",
+        "vi": "Thành phố biển cuối dải này, gần Thành phố Hồ Chí Minh."
+      },
+      "image": "vungtau",
+      "facts": [
+        {
+          "label": {
+            "en": "Chapter",
+            "vi": "Chương"
+          },
+          "value": {
+            "en": "UNVERIFIED: some guides file it with the south. Search still lands here.",
+            "vi": "CHƯA KIỂM: có sách xếp vào miền Nam. Tìm vẫn ra trang này."
+          }
+        }
+      ]
+    }
+  ],
+  "eatIntro": {
+    "en": "Seafood, cooked to order. Ask the price before it hits the grill.",
+    "vi": "Hải sản, gọi rồi mới nấu. Hỏi giá trước khi lên bếp."
+  },
+  "eat": [
+    {
+      "id": "coast-seafood",
+      "title": {
+        "en": "Beach seafood",
+        "vi": "Hải sản bờ biển"
+      },
+      "summary": {
+        "en": "Fish and shellfish along the strip. The menu is the tank.",
+        "vi": "Cá và tôm cua dọc bờ. Thực đơn là bể kính."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Verify the price per kilo locally",
+            "vi": "Hỏi giá một ký tại chỗ"
+          }
+        }
+      ]
+    }
+  ],
+  "stayIntro": {
+    "en": "The beach road is long. Stay near the part you will walk.",
+    "vi": "Đường biển thì dài. Ở gần đoạn bạn sẽ đi bộ."
+  },
+  "stay": [
+    {
+      "id": "stay-nhatrang",
+      "title": {
+        "en": "Nha Trang beach",
+        "vi": "Biển Nha Trang"
+      },
+      "summary": {
+        "en": "The central strip is walkable and loud. North and south are quieter.",
+        "vi": "Dải giữa thì đi bộ được và ồn. Bắc và nam thì yên hơn."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "The airport is in Cam Ranh, not in town",
+            "vi": "Sân bay ở Cam Ranh, không ở trong phố"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stay-muine",
+      "title": {
+        "en": "Mui Ne strip",
+        "vi": "Dải Mũi Né"
+      },
+      "summary": {
+        "en": "Resorts line one road. You will want a bike or a ride.",
+        "vi": "Khu nghỉ nằm dọc một đường. Bạn sẽ cần xe."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Best for",
+            "vi": "Hợp với"
+          },
+          "value": {
+            "en": "Dunes in the morning",
+            "vi": "Đồi cát buổi sáng"
+          }
+        }
+      ]
+    }
+  ],
+  "gettingThere": [
+    {
+      "id": "coast-air",
+      "title": {
+        "en": "Flying in",
+        "vi": "Bay vào"
+      },
+      "summary": {
+        "en": "Cam Ranh serves Nha Trang. The other towns are a bus or a ride along the coast.",
+        "vi": "Cam Ranh phục vụ Nha Trang. Phố khác thì xe khách hoặc xe dọc biển."
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Watch",
+            "vi": "Lưu ý"
+          },
+          "value": {
+            "en": "Verify the transfer before you land",
+            "vi": "Hỏi xe trước khi hạ cánh"
+          }
+        }
+      ]
+    }
+  ]
+}
