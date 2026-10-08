@@ -95,8 +95,10 @@ Decisions already made:
 
 - Git-confirmed on `phase-2-photos`: `scripts/images.mjs` accepts `--originals <folder>`, then `CIAO_PHOTO_ORIGINALS`, then repository-root `owner-photos`.
 - Git-confirmed: `docs/photo-selection.md` documents the lookup order and PowerShell usage.
-- Web-confirmed: compliant public candidates have been found for several weak images, including Hoan Kiem, Ben Tre, Mui Ne and multiple weak cards. Candidate pages and available dimensions are being recorded before any wiring.
-- Needs verification: original binary files, final visual selection, image preparation output, typecheck/lint/build, and browser screenshots.
+- Git-confirmed: selected originals were fetched on a GitHub Actions runner and 11 source files passed the 3000 px long-edge rule; generated image output was 12.0 MB.
+- Git-confirmed: the same runner passed `npm run typecheck`, `npm run lint`, and `npm run build` (20 static pages generated).
+- Git-confirmed: generated photo commit is `78382e443c6ec343bbe652e35def096a1bc14082`; the temporary preparation workflow removed itself after generation.
+- Needs verification: live rendered appearance and 390 px light/dark EN/VI screenshots.
 
 ## 7. Photo follow-up — autonomous selection
 
