@@ -298,7 +298,7 @@
           }
         }
       ],
-      "image": "night-food-market"
+      "gap": true
     },
     {
       "id": "sticky-rice",
@@ -310,7 +310,6 @@
         "en": "Simple mountain food: sticky rice, grilled meat and herbs. Order what the market is making.",
         "vi": "Đồ ăn vùng cao giản dị: xôi, thịt nướng và rau thơm. Chợ làm gì thì gọi đó."
       },
-      "image": "night-food-market",
       "facts": [
         {
           "label": {
@@ -322,7 +321,8 @@
             "vi": "Bữa trưa ở chợ"
           }
         }
-      ]
+      ],
+      "gap": true
     }
   ],
   "stayIntro": {

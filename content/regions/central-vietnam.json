@@ -274,7 +274,7 @@
           }
         }
       ],
-      "image": "bun-bo-context"
+      "gap": true
     },
     {
       "id": "cao-lau",
@@ -376,7 +376,7 @@
           }
         }
       ],
-      "image": "hoian-night"
+      "image": "hoi-an-night"
     }
   ],
   "gettingThere": [

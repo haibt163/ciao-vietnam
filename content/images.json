@@ -973,5 +973,581 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/delicious-vietnamese-seafood-dish-on-ice-31302693/"
+  },
+  "bun-cha-food": {
+    "id": "bun-cha-food",
+    "src": "/images/bun-cha-food-960.webp",
+    "srcSet": "/images/bun-cha-food-640.webp 640w, /images/bun-cha-food-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Grilled pork with rice noodles and fresh herbs in Vietnam.",
+      "vi": "Thịt nướng với bún và rau tươi ở Việt Nam."
+    },
+    "credit": "UNDO KIM",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/34888273/",
+    "cropped": false
+  },
+  "pho-hanoi": {
+    "id": "pho-hanoi",
+    "src": "/images/pho-hanoi-960.webp",
+    "srcSet": "/images/pho-hanoi-640.webp 640w, /images/pho-hanoi-960.webp 960w",
+    "width": 960,
+    "height": 620,
+    "alt": {
+      "en": "A bowl of pho at a street-side table in Hanoi.",
+      "vi": "Bát phở bên bàn ăn ven phố ở Hà Nội."
+    },
+    "credit": "Trammese",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/street-food-scene-in-hanoi-vietnam-with-pho-34312520/",
+    "cropped": false
+  },
+  "banh-mi-food": {
+    "id": "banh-mi-food",
+    "src": "/images/banh-mi-food-960.webp",
+    "srcSet": "/images/banh-mi-food-640.webp 640w, /images/banh-mi-food-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A Vietnamese bánh mì with fresh fillings.",
+      "vi": "Bánh mì Việt Nam với nhân tươi."
+    },
+    "credit": "Hậu Mai",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/vietnamese-banh-mi-sandwich-on-newspaper-32961649/",
+    "cropped": false
+  },
+  "vietnamese-food-stall": {
+    "id": "vietnamese-food-stall",
+    "src": "/images/vietnamese-food-stall-960.webp",
+    "srcSet": "/images/vietnamese-food-stall-640.webp 640w, /images/vietnamese-food-stall-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A Vietnamese street-food vendor serving a dish at a night market.",
+      "vi": "Người bán hàng phục vụ món ăn tại chợ đêm Việt Nam."
+    },
+    "credit": "Sóc Năng Động",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/vietnamese-street-food-vendor-at-night-market-37172281/",
+    "cropped": false
+  },
+  "banh-can-food": {
+    "id": "banh-can-food",
+    "src": "/images/banh-can-food-960.webp",
+    "srcSet": "/images/banh-can-food-640.webp 640w, /images/banh-can-food-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Vietnamese bánh căn rice pancakes with scallions.",
+      "vi": "Bánh căn Việt Nam với hành lá."
+    },
+    "credit": "Theodore Nguyen",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/authentic-vietnamese-banh-can-with-scallions-31563462/",
+    "cropped": false
+  },
+  "hoi-an-food-stall": {
+    "id": "hoi-an-food-stall",
+    "src": "/images/hoi-an-food-stall-960.webp",
+    "srcSet": "/images/hoi-an-food-stall-640.webp 640w, /images/hoi-an-food-stall-960.webp 960w",
+    "width": 960,
+    "height": 1440,
+    "alt": {
+      "en": "A warm-lit street-food stall in Hoi An at night.",
+      "vi": "Quầy hàng ăn đường phố Hội An dưới ánh đèn đêm."
+    },
+    "credit": "Tom Chesseron",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/traditional-vietnamese-food-stall-at-night-35708759/",
+    "cropped": false
+  },
+  "hoi-an-market": {
+    "id": "hoi-an-market",
+    "src": "/images/hoi-an-market-960.webp",
+    "srcSet": "/images/hoi-an-market-640.webp 640w, /images/hoi-an-market-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A lantern-lit market scene in Hoi An.",
+      "vi": "Cảnh chợ đêm dưới đèn lồng ở Hội An."
+    },
+    "credit": "Nhà văn",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/traditional-vietnamese-night-market-scene-34292106/",
+    "cropped": false
+  },
+  "night-market-vietnam": {
+    "id": "night-market-vietnam",
+    "src": "/images/night-market-vietnam-960.webp",
+    "srcSet": "/images/night-market-vietnam-640.webp 640w, /images/night-market-vietnam-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Colourful food stalls at a Vietnamese night market.",
+      "vi": "Quầy hàng nhiều màu sắc tại chợ đêm Việt Nam."
+    },
+    "credit": "Tuan Vy",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/vibrant-vietnamese-night-market-food-stalls-30883976/",
+    "cropped": false
+  },
+  "bia-hanoi": {
+    "id": "bia-hanoi",
+    "src": "/images/bia-hanoi-960.webp",
+    "srcSet": "/images/bia-hanoi-640.webp 640w, /images/bia-hanoi-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Cold beer being poured in a bar.",
+      "vi": "Bia lạnh được rót trong quán."
+    },
+    "credit": "cottonbro studio",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/5537951/",
+    "cropped": false
+  },
+  "phin-coffee": {
+    "id": "phin-coffee",
+    "src": "/images/phin-coffee-960.webp",
+    "srcSet": "/images/phin-coffee-640.webp 640w, /images/phin-coffee-960.webp 960w",
+    "width": 960,
+    "height": 720,
+    "alt": {
+      "en": "Vietnamese coffee with a phin filter on a café table.",
+      "vi": "Cà phê Việt Nam với phin trên bàn quán."
+    },
+    "credit": "J-Steve Pham",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/vietnamese-coffee-with-phin-filter-on-a-cafe-table-29181080/",
+    "cropped": false
+  },
+  "coffee-setup-hanoi": {
+    "id": "coffee-setup-hanoi",
+    "src": "/images/coffee-setup-hanoi-960.webp",
+    "srcSet": "/images/coffee-setup-hanoi-640.webp 640w, /images/coffee-setup-hanoi-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "alt": {
+      "en": "A Vietnamese coffee setup on a wooden table in Hanoi.",
+      "vi": "Bộ cà phê Việt Nam trên bàn gỗ ở Hà Nội."
+    },
+    "credit": "Quang",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/traditional-vietnamese-coffee-setup-in-hanoi-37268969/",
+    "cropped": false
+  },
+  "coffee-farm": {
+    "id": "coffee-farm",
+    "src": "/images/coffee-farm-960.webp",
+    "srcSet": "/images/coffee-farm-640.webp 640w, /images/coffee-farm-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A Vietnamese coffee farmer picking ripe berries in Lam Dong.",
+      "vi": "Nông dân hái quả cà phê chín tại Lâm Đồng."
+    },
+    "credit": "1500m Coffee",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/vietnamese-farmer-harvesting-coffee-in-lam-d-ng-30658807/",
+    "cropped": false
+  },
+  "banana-boat": {
+    "id": "banana-boat",
+    "src": "/images/banana-boat-960.webp",
+    "srcSet": "/images/banana-boat-640.webp 640w, /images/banana-boat-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A boat piled with bananas at a Vietnamese floating market.",
+      "vi": "Thuyền chở đầy chuối tại chợ nổi Việt Nam."
+    },
+    "credit": "Quang Nguyen Vinh",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/banana-fruits-on-boat-2134272/",
+    "cropped": false
+  },
+  "coconut-market": {
+    "id": "coconut-market",
+    "src": "/images/coconut-market-960.webp",
+    "srcSet": "/images/coconut-market-640.webp 640w, /images/coconut-market-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "Fresh coconuts stacked at a Vietnamese market.",
+      "vi": "Dừa tươi xếp tại một khu chợ Việt Nam."
+    },
+    "credit": "Hoàng Phương Nguyễn",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/pile-of-fresh-coconuts-at-vietnamese-market-34986625/",
+    "cropped": false
+  },
+  "mekong-boat": {
+    "id": "mekong-boat",
+    "src": "/images/mekong-boat-960.webp",
+    "srcSet": "/images/mekong-boat-640.webp 640w, /images/mekong-boat-960.webp 960w",
+    "width": 960,
+    "height": 1200,
+    "alt": {
+      "en": "A quiet boat ride through lush waterways in the Mekong Delta.",
+      "vi": "Chuyến thuyền yên bình qua rừng cây xanh ở Đồng bằng sông Cửu Long."
+    },
+    "credit": "Rushikesh Patil",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/peaceful-boat-ride-in-mekong-delta-vietnam-31344203/",
+    "cropped": false
+  },
+  "mekong-boat-2": {
+    "id": "mekong-boat-2",
+    "src": "/images/mekong-boat-2-960.webp",
+    "srcSet": "/images/mekong-boat-2-640.webp 640w, /images/mekong-boat-2-960.webp 960w",
+    "width": 960,
+    "height": 1440,
+    "alt": {
+      "en": "A boat journey on the Mekong Delta in Can Tho.",
+      "vi": "Chuyến thuyền trên Đồng bằng sông Cửu Long ở Cần Thơ."
+    },
+    "credit": "maxed. RAW",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/old-lady-floating-market-27246652/",
+    "cropped": false
+  },
+  "cai-rang-aerial": {
+    "id": "cai-rang-aerial",
+    "src": "/images/cai-rang-aerial-960.webp",
+    "srcSet": "/images/cai-rang-aerial-640.webp 640w, /images/cai-rang-aerial-960.webp 960w",
+    "width": 960,
+    "height": 540,
+    "alt": {
+      "en": "An aerial view of Cai Rang floating market in Can Tho.",
+      "vi": "Chợ nổi Cái Răng ở Cần Thơ nhìn từ trên cao."
+    },
+    "credit": "Duy Nguyen",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/cai-rang-floating-market-aerial-view-in-c-n-th-32607908/",
+    "cropped": false
+  },
+  "long-bien-sunset": {
+    "id": "long-bien-sunset",
+    "src": "/images/long-bien-sunset-960.webp",
+    "srcSet": "/images/long-bien-sunset-640.webp 640w, /images/long-bien-sunset-960.webp 960w",
+    "width": 960,
+    "height": 639,
+    "alt": {
+      "en": "Long Bien Bridge over the Red River near sunset.",
+      "vi": "Cầu Long Biên trên sông Hồng lúc gần hoàng hôn."
+    },
+    "credit": "Nguyen Ngoc Tien",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/sunset-over-long-bien-bridge-and-mustard-fields-30262556/",
+    "cropped": false
+  },
+  "hanoi-train": {
+    "id": "hanoi-train",
+    "src": "/images/hanoi-train-960.webp",
+    "srcSet": "/images/hanoi-train-640.webp 640w, /images/hanoi-train-960.webp 960w",
+    "width": 960,
+    "height": 649,
+    "alt": {
+      "en": "A train passing through Hanoi's Old Quarter.",
+      "vi": "Tàu chạy qua khu phố cổ Hà Nội."
+    },
+    "credit": "Trammese",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/hanoi-train-passing-through-old-quarter-street-34621341/",
+    "cropped": false
+  },
+  "hanoi-old-quarter": {
+    "id": "hanoi-old-quarter",
+    "src": "/images/hanoi-old-quarter-960.webp",
+    "srcSet": "/images/hanoi-old-quarter-640.webp 640w, /images/hanoi-old-quarter-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "alt": {
+      "en": "A lively street in Hanoi's Old Quarter.",
+      "vi": "Một con phố nhộn nhịp ở Phố Cổ Hà Nội."
+    },
+    "credit": "Dilara Baran",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/street-view-of-hanoi-s-historic-old-quarter-38782292/",
+    "cropped": false
+  },
+  "hanoi-street-food": {
+    "id": "hanoi-street-food",
+    "src": "/images/hanoi-street-food-960.webp",
+    "srcSet": "/images/hanoi-street-food-640.webp 640w, /images/hanoi-street-food-960.webp 960w",
+    "width": 960,
+    "height": 1443,
+    "alt": {
+      "en": "A busy Hanoi street-food shop with cooks preparing meals.",
+      "vi": "Quán ăn đường phố Hà Nội với người đang chuẩn bị món ăn."
+    },
+    "credit": "Nguyen Ngoc Tien",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/street-food-stall-with-people-cooking-in-hanoi-35178632/",
+    "cropped": false
+  },
+  "airport-hanoi": {
+    "id": "airport-hanoi",
+    "src": "/images/airport-hanoi-960.webp",
+    "srcSet": "/images/airport-hanoi-640.webp 640w, /images/airport-hanoi-960.webp 960w",
+    "width": 960,
+    "height": 645,
+    "alt": {
+      "en": "Aircraft at Hanoi airport.",
+      "vi": "Máy bay tại sân bay Hà Nội."
+    },
+    "credit": "Pexels contributor",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/airplanes-at-airport-in-hanoi-in-vietnam-20988488/",
+    "cropped": false
+  },
+  "airport-hcm": {
+    "id": "airport-hcm",
+    "src": "/images/airport-hcm-960.webp",
+    "srcSet": "/images/airport-hcm-640.webp 640w, /images/airport-hcm-960.webp 960w",
+    "width": 960,
+    "height": 1708,
+    "alt": {
+      "en": "A modern check-in area at Tan Son Nhat airport.",
+      "vi": "Khu vực làm thủ tục hiện đại tại sân bay Tân Sơn Nhất."
+    },
+    "credit": "QUI NGUYEN",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/34012658/",
+    "cropped": false
+  },
+  "hcm-night": {
+    "id": "hcm-night",
+    "src": "/images/hcm-night-960.webp",
+    "srcSet": "/images/hcm-night-640.webp 640w, /images/hcm-night-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A colourful night street scene in Ho Chi Minh City.",
+      "vi": "Cảnh phố đêm nhiều màu sắc ở Thành phố Hồ Chí Minh."
+    },
+    "credit": "Flint Huynh",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/vibrant-night-street-scene-in-ho-chi-minh-city-38815930/",
+    "cropped": false
+  },
+  "hcm-night-street": {
+    "id": "hcm-night-street",
+    "src": "/images/hcm-night-street-960.webp",
+    "srcSet": "/images/hcm-night-street-640.webp 640w, /images/hcm-night-street-960.webp 960w",
+    "width": 960,
+    "height": 1443,
+    "alt": {
+      "en": "A busy Ho Chi Minh City street at night.",
+      "vi": "Một con phố đông đúc ở Thành phố Hồ Chí Minh về đêm."
+    },
+    "credit": "Hoàng Phương Nguyễn",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/night-street-scene-in-ho-chi-minh-city-vietnam-35113231/",
+    "cropped": false
+  },
+  "hcm-station": {
+    "id": "hcm-station",
+    "src": "/images/hcm-station-960.webp",
+    "srcSet": "/images/hcm-station-640.webp 640w, /images/hcm-station-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A modern train-station interior in Ho Chi Minh City.",
+      "vi": "Không gian ga tàu hiện đại ở Thành phố Hồ Chí Minh."
+    },
+    "credit": "Andy Lee",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/man-ascending-escalator-in-modern-train-station-31671457/",
+    "cropped": false
+  },
+  "hue-imperial": {
+    "id": "hue-imperial",
+    "src": "/images/hue-imperial-960.webp",
+    "srcSet": "/images/hue-imperial-640.webp 640w, /images/hue-imperial-960.webp 960w",
+    "width": 960,
+    "height": 638,
+    "alt": {
+      "en": "The historic Imperial City of Hue under a clear sky.",
+      "vi": "Kinh thành Huế dưới bầu trời quang."
+    },
+    "credit": "Valeria Drozdova",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/imperial-city-of-hue-in-vietnam-on-a-sunny-day-37855989/",
+    "cropped": false
+  },
+  "nha-trang-beach": {
+    "id": "nha-trang-beach",
+    "src": "/images/nha-trang-beach-960.webp",
+    "srcSet": "/images/nha-trang-beach-640.webp 640w, /images/nha-trang-beach-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "alt": {
+      "en": "People enjoying Nha Trang beach on a sunny day.",
+      "vi": "Mọi người tận hưởng bãi biển Nha Trang trong ngày nắng."
+    },
+    "credit": "Thang Nguyen",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/sunny-day-at-nha-trang-beach-vietnam-37797688/",
+    "cropped": false
+  },
+  "quynhon-beach": {
+    "id": "quynhon-beach",
+    "src": "/images/quynhon-beach-960.webp",
+    "srcSet": "/images/quynhon-beach-640.webp 640w, /images/quynhon-beach-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A quiet beach with mountains at Quy Nhon.",
+      "vi": "Bãi biển yên tĩnh với núi ở Quy Nhơn."
+    },
+    "credit": "Flint Huynh",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/serene-beach-view-at-quy-nhon-vietnam-37920556/",
+    "cropped": false
+  },
+  "quynhon-village": {
+    "id": "quynhon-village",
+    "src": "/images/quynhon-village-960.webp",
+    "srcSet": "/images/quynhon-village-640.webp 640w, /images/quynhon-village-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A beach and fishing village near Quy Nhon.",
+      "vi": "Bãi biển và làng chài gần Quy Nhơn."
+    },
+    "credit": "Anh Tuan",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/picturesque-beachfront-village-in-quy-nhon-vietnam-29162860/",
+    "cropped": false
+  },
+  "hoi-an-night": {
+    "id": "hoi-an-night",
+    "src": "/images/hoi-an-night-960.webp",
+    "srcSet": "/images/hoi-an-night-640.webp 640w, /images/hoi-an-night-960.webp 960w",
+    "width": 960,
+    "height": 1706,
+    "alt": {
+      "en": "Hoi An street glowing with lanterns at night.",
+      "vi": "Phố Hội An rực sáng đèn lồng về đêm."
+    },
+    "credit": "Thuong Nguyen",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/hoi-an-at-night-28146565/",
+    "cropped": false
+  },
+  "catba-fishing-village": {
+    "id": "catba-fishing-village",
+    "src": "/images/catba-fishing-village-960.webp",
+    "srcSet": "/images/catba-fishing-village-640.webp 640w, /images/catba-fishing-village-960.webp 960w",
+    "width": 960,
+    "height": 645,
+    "alt": {
+      "en": "A floating fishing village beneath limestone hills at Cat Ba.",
+      "vi": "Làng chài nổi dưới núi đá vôi ở Cát Bà."
+    },
+    "credit": "Ama Journey",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/scenic-view-of-cat-ba-floating-fishing-village-34635623/",
+    "cropped": false
+  },
+  "catba-cruise": {
+    "id": "catba-cruise",
+    "src": "/images/catba-cruise-960.webp",
+    "srcSet": "/images/catba-cruise-640.webp 640w, /images/catba-cruise-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "alt": {
+      "en": "A scenic boat cruise around Cat Ba's karst landscape.",
+      "vi": "Chuyến thuyền ngắm cảnh giữa núi đá vôi Cát Bà."
+    },
+    "credit": "Vietnam Hidden Light",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/scenic-cruise-on-cat-ba-island-s-green-trail-35136962/",
+    "cropped": false
+  },
+  "condao-prison": {
+    "id": "condao-prison",
+    "src": "/images/condao-prison-960.webp",
+    "srcSet": "/images/condao-prison-640.webp 640w, /images/condao-prison-960.webp 960w",
+    "width": 960,
+    "height": 645,
+    "alt": {
+      "en": "The historic courtyard of Con Dao Prison.",
+      "vi": "Sân trong di tích nhà tù Côn Đảo."
+    },
+    "credit": "sephylmism",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/historic-con-dao-prison-courtyard-in-vietnam-33099951/",
+    "cropped": false
+  },
+  "hagian-road": {
+    "id": "hagian-road",
+    "src": "/images/hagian-road-960.webp",
+    "srcSet": "/images/hagian-road-640.webp 640w, /images/hagian-road-960.webp 960w",
+    "width": 960,
+    "height": 1440,
+    "alt": {
+      "en": "A winding road through the mountains of Ha Giang.",
+      "vi": "Con đường uốn lượn giữa núi Hà Giang."
+    },
+    "credit": "Hòa Lê Đình",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/ha-giang-27568660/",
+    "cropped": false
+  },
+  "dalat-golden-hour": {
+    "id": "dalat-golden-hour",
+    "src": "/images/dalat-golden-hour-960.webp",
+    "srcSet": "/images/dalat-golden-hour-640.webp 640w, /images/dalat-golden-hour-960.webp 960w",
+    "width": 960,
+    "height": 640,
+    "alt": {
+      "en": "A lake and hillside at golden hour in Dalat.",
+      "vi": "Hồ và đồi Đà Lạt trong giờ vàng."
+    },
+    "credit": "Nhà văn",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/young-woman-capturing-golden-hour-in-dalat-36630524/",
+    "cropped": false
   }
 }

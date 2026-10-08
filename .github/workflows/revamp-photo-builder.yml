@@ -4,22 +4,18 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - revamp/part-b-visual-content-v2
-  pull_request:
-    types: [opened, synchronize, reopened]
-    branches: [main]
+      - repair/image-integrity-20261008
 
 permissions:
   contents: write
 
 jobs:
   photos:
-    if: github.event_name == 'pull_request' || github.event.head_commit.message != 'chore: generate curated revamp photos [skip ci]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
+          ref: ${{ github.ref_name }}
           fetch-depth: 1
 
       - uses: actions/setup-node@v4
@@ -29,6 +25,7 @@ jobs:
 
       - run: npm ci
       - run: node scripts/revamp-images.mjs
+      - run: node scripts/check-images.mjs
 
       - name: Commit generated WebP assets
         run: |
@@ -40,4 +37,4 @@ jobs:
             exit 0
           fi
           git commit -m "chore: generate curated revamp photos [skip ci]"
-          git push origin HEAD:${{ github.event.pull_request.head.ref || github.ref_name }}
+          git push origin HEAD:${{ github.ref_name }}

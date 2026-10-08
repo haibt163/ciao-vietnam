@@ -42,6 +42,7 @@ async function makeSize(buffer, width) {
 }
 
 for (const [id, item] of Object.entries(manifest)) {
+  if (!item || typeof item !== "object" || !Number.isInteger(item.photoId)) continue;
   try {
     const buffer = await fetchBuffer(item.url ?? `https://images.pexels.com/photos/${item.photoId}/pexels-photo-${item.photoId}.jpeg`);
     const meta = await sharp(buffer).metadata();
