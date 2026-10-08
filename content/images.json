@@ -804,10 +804,10 @@
       "en": "Notre-Dame Cathedral Basilica of Saigon.",
       "vi": "Nhà thờ Đức Bà Sài Gòn."
     },
-    "credit": "Allan Henderson",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Saigon_Notre-Dame_Cathedral.jpg"
+    "credit": "Quang Vuong",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/notre-dame-cathedral-basilica-of-saigon-under-renovation-35746118/"
   },
   "palace": {
     "id": "palace",
@@ -831,13 +831,13 @@
     "width": 960,
     "height": 640,
     "alt": {
-      "en": "A street scene in Cholon, Ho Chi Minh City.",
-      "vi": "Cảnh phố ở Chợ Lớn, Thành phố Hồ Chí Minh."
+      "en": "A busy urban street in Ho Chi Minh City, used as a contextual Cholon image.",
+      "vi": "Phố đô thị nhộn nhịp ở Thành phố Hồ Chí Minh, dùng làm ảnh minh họa bối cảnh Chợ Lớn."
     },
-    "credit": "Nick",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Cholon,_Ho_Chi_Minh_City_(49057490021).png"
+    "credit": "Theodore Nguyen",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/saigon-city-street-25324505/"
   },
   "cantho": {
     "id": "cantho",
