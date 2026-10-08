@@ -1,6 +1,7 @@
 name: Revamp photo builder
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - revamp/part-b-visual-content-v2
@@ -18,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: revamp/part-b-visual-content-v2
+          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
           fetch-depth: 1
 
       - uses: actions/setup-node@v4
@@ -39,4 +40,4 @@ jobs:
             exit 0
           fi
           git commit -m "chore: generate curated revamp photos [skip ci]"
-          git push origin HEAD:revamp/part-b-visual-content-v2
+          git push origin HEAD:${{ github.event.pull_request.head.ref || github.ref_name }}
