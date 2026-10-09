@@ -45,7 +45,8 @@
               },
               "href": "/regions/north-vietnam"
             }
-          ]
+          ],
+          "image": "out-boat-karst"
         },
         {
           "id": "out-high-mountains",
@@ -77,7 +78,8 @@
               },
               "href": "/regions/north-vietnam"
             }
-          ]
+          ],
+          "image": "out-sapa-terraces"
         },
         {
           "id": "out-central-caves",
@@ -109,7 +111,8 @@
               },
               "href": "/regions/central-vietnam"
             }
-          ]
+          ],
+          "image": "out-paradise-cave"
         },
         {
           "id": "out-coast",
@@ -148,7 +151,8 @@
               },
               "href": "/regions/southeast-coast"
             }
-          ]
+          ],
+          "image": "haivan"
         },
         {
           "id": "out-highlands",
@@ -180,7 +184,8 @@
               },
               "href": "/regions/central-highlands"
             }
-          ]
+          ],
+          "image": "out-dalat-pine-trail"
         },
         {
           "id": "out-mekong",
@@ -212,7 +217,8 @@
               },
               "href": "/regions/mekong-delta"
             }
-          ]
+          ],
+          "image": "mekong-boat"
         },
         {
           "id": "out-islands",
@@ -244,7 +250,8 @@
               },
               "href": "/regions/mekong-delta"
             }
-          ]
+          ],
+          "image": "catba"
         },
         {
           "id": "out-catba",
@@ -281,5 +288,6 @@
         }
       ]
     }
-  ]
+  ],
+  "banner": "banner-outdoors-mountain"
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { InfoCard, Section } from "@/components/cards";
+import { ParallaxHero } from "@/components/hero";
 import { T } from "@/components/text";
 import type { GuideContent, GuideLink } from "@/content/types";
 
@@ -20,11 +21,19 @@ function LinkChips({ items }: { items: GuideLink[] }) {
 export function GuideView({ content }: { content: GuideContent }) {
   return (
     <div className="grid gap-8 py-6">
-      <div className="grid gap-3">
-        <p className="prompt m-0 text-muted">{">"} guide</p>
-        <h1 className="m-0 font-display text-5xl leading-none"><T text={content.title} /></h1>
-        <p className="m-0 max-w-[30ch]"><T text={content.lede} /></p>
-      </div>
+      {content.banner ? (
+        <ParallaxHero image={content.banner}>
+          <p className="prompt m-0">{">"} guide</p>
+          <h1 className="m-0 font-display text-5xl leading-none"><T text={content.title} /></h1>
+          <p className="m-0 max-w-[30ch]"><T text={content.lede} /></p>
+        </ParallaxHero>
+      ) : (
+        <div className="grid gap-3">
+          <p className="prompt m-0 text-muted">{">"} guide</p>
+          <h1 className="m-0 font-display text-5xl leading-none"><T text={content.title} /></h1>
+          <p className="m-0 max-w-[30ch]"><T text={content.lede} /></p>
+        </div>
+      )}
       {content.sections.map((section) => (
         <Section key={section.id} kicker={section.title} intro={section.intro}>
           {section.links?.length ? <LinkChips items={section.links} /> : null}

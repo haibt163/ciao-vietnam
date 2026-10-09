@@ -145,3 +145,42 @@ All Pexels sources use the Pexels License. CC BY sources retain attribution and 
 The Bun Bo candidate was rejected after the automated source-quality check measured only 2397 px on its long edge. It was not upscaled; the existing qualified `pho-bowl` image is reused for that card.
 
 The original Wikimedia Commons Saigon Cathedral and Cholon candidates were replaced for this round because GitHub Actions was rate-limited by Wikimedia during automated download. The replacements are Pexels assets; the Cholon card uses a contextual Ho Chi Minh City street photograph and is labelled accordingly in `content/images.json`.
+
+## Round 5 — photo refresh candidates (9 October 2026)
+
+Prepared on `photo-refresh-20261009`; nothing is merged to `main`.
+The branch workflow generates four labelled review sheets in `docs/photo-review/`
+(`priority-1.jpg` through `priority-4.jpg`) and records downloaded source
+dimensions in `docs/photo-review/source-dimensions.json`. New sources are
+rejected if the original long edge is below 3000 px; no source is upscaled.
+All new photos use the allowed Pexels License.
+
+| slot | candidate | photographer | source | decision / reason |
+|---:|---|---|---|---|
+| 1 | Xuan Huong Lake | Markus Winkler | https://www.pexels.com/photo/landscape-photography-of-xuan-huong-lake-in-vietnam-5156620/ | Exact lake; inspect contrast in sheet. |
+| 3 | War Remnants Museum helicopter | XT7 Core | https://www.pexels.com/photo/us-army-helicopter-in-war-remnants-museum-in-ho-chi-minh-city-vietnam-19927497/ | Outdoor aircraft instead of blank wall. |
+| 4 | Notre-Dame Cathedral facade | Hom Nay Chup Gi | https://www.pexels.com/photo/nha-th-d-c-ba-sai-gon-sai-gon-vi-t-nam-2015-notre-dame-cathedral-of-saigon-saigon-vietnam-2015-28178556/ | Clear facade candidate. |
+| 6 | Ho Chi Minh City metro train | Theodore Nguyen | https://www.pexels.com/photo/modern-metro-train-in-ho-chi-minh-city-station-30653681/ | **Owner check required:** metro, not Saigon railway station. |
+| 12 | Angkor Thom South Gate | Julia Volk | https://www.pexels.com/photo/south-gate-of-angkor-thom-5769456/ | Gate/causeway; cyclist at a distance. |
+| 13 | Dragon Bridge, Da Nang | Nimit N | https://www.pexels.com/photo/dragon-bridge-over-han-river-in-da-nang-32015496/ | Clear landmark replacement. |
+| 14 | Cat Tien forest trees | Quang Nguyen Vinh | https://www.pexels.com/photo/tall-trees-with-big-roots-in-forest-5118547/ | No identifiable person; not a trail/wetland scene, inspect carefully. |
+| 15 | Da Lat green hills | Tường Chopper | https://www.pexels.com/vi-vn/anh/phong-c-nh-xuan-h-ng-phong-c-nh-nong-thon-da-l-t-39974123/ | Landscape replacing off-subject portrait. |
+| 20 | Tam Coc boat and karst | Yan Ho | https://www.pexels.com/photo/view-of-tam-coc-ninh-binh-vietnam-19757775/ | Pexels reports 4992×3328. |
+| 21 | Sa Pa terraces | Duong Nguyen | https://www.pexels.com/photo/aerial-view-of-rice-terraces-in-sa-pa-vietnam-37724187/ | Workflow verifies original size. |
+| 22 | Paradise Cave interior | Kishan Rahul Jose | https://www.pexels.com/photo/stairs-in-paradise-cave-in-vietnam-20748541/ | Workflow verifies original size. |
+| 24 | Da Lat pine trail | Pew Nguyen | https://www.pexels.com/photo/serene-woodland-pathway-through-pine-forest-37253115/ | Direct trail subject. |
+| 27 | Winding mountain road | chiến bá | https://www.pexels.com/photo/a-winding-road-in-the-mountains-with-a-car-driving-down-it-28315416/ | Plan banner. |
+| 28 | Vietnamese food spread | Thanh Long Bùi | https://www.pexels.com/photo/vietnamese-traditional-food-spread-on-outdoor-table-30018451/ | Eat banner; Pexels reports 3120×2082. |
+| 29 | Quiet lantern street | Markus Winkler | https://www.pexels.com/photo/empty-street-5167751/ | Essentials banner; no close-up faces. |
+| 30 | Mountain terraces | Đạt Nguyễn | https://www.pexels.com/photo/scenic-terraced-rice-fields-in-lush-vietnamese-landscape-36240106/ | Outdoors banner, distinct from Ha Long hero. |
+| 31 | Hue Imperial City gate | Cuong Nguyen Manh | https://www.pexels.com/photo/imperial-city-gate-at-hue-vietnam-under-clear-sky-34571815/ | History banner; Pexels reports 5184×3456. |
+
+### Held / rejected
+
+- **Slots 2, 5, 9, 10 and 11:** no better distinct, license-compatible source was verified. Current images remain; the Ha Tien alternative found was a dusk silhouette and failed the clear-light brief.
+- **Slots 7 and 8:** removed the off-subject/low-quality airport photos. A suitable terminal/departures scene was not verified.
+- **Slots 16–19:** placeholders remain. A Bac Ha result was rejected as a close portrait; generic stall imagery was not proof of bún bò Huế or xôi; no suitable Siem Reap old-town scene was verified.
+- **Slot 23:** reuses the credited Hai Van Pass photo for the same subject. Slot 25 uses a previously unplaced Mekong-waterway photo, separate from the floating-market photo. Slot 26 uses the previously unplaced Cat Ba cove photo.
+- Low-priority Po Nagar, Son My and the Hoi An hero were not changed.
+
+These are review candidates, not a claim of final visual approval. Inspect the sheets and local mobile rendering before approving merge.

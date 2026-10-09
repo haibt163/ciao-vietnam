@@ -27,7 +27,7 @@ export type GuideMonth = { label: LangText; links: GuideLink[] };
 
 export type GuideSection = { id: string; title: LangText; intro?: LangText; cards?: Card[]; links?: GuideLink[]; months?: GuideMonth[] };
 
-export type GuideContent = { title: LangText; lede: LangText; sections: GuideSection[] };
+export type GuideContent = { title: LangText; lede: LangText; banner?: string; sections: GuideSection[] };
 
 export type Card = {
   id: string;

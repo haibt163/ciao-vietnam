@@ -1,0 +1,234 @@
+[
+  {
+    "slot": 1,
+    "group": "priority-1",
+    "title": "Central Highlands hero — Xuan Huong Lake",
+    "id": "xuanhuong-lake-replacement",
+    "status": "candidate"
+  },
+  {
+    "slot": 2,
+    "group": "priority-1",
+    "title": "Cu Chi tunnels",
+    "id": "cuchi",
+    "status": "hold",
+    "note": "Current source retained: no distinct suitable licensed alternative verified."
+  },
+  {
+    "slot": 3,
+    "group": "priority-1",
+    "title": "War Remnants Museum",
+    "id": "war-remnants-aircraft",
+    "status": "candidate"
+  },
+  {
+    "slot": 4,
+    "group": "priority-1",
+    "title": "Notre-Dame and the Post Office",
+    "id": "saigon-cathedral-facade",
+    "status": "candidate"
+  },
+  {
+    "slot": 5,
+    "group": "priority-1",
+    "title": "Reunification Palace",
+    "id": "palace",
+    "status": "hold",
+    "note": "Current crop remains; no better verified wide source found."
+  },
+  {
+    "slot": 6,
+    "group": "priority-1",
+    "title": "Ho Chi Minh City station",
+    "id": "hcm-metro-train",
+    "status": "candidate",
+    "note": "Metro substitution; check this is acceptable."
+  },
+  {
+    "slot": 7,
+    "group": "priority-1",
+    "title": "Tan Son Nhat airport",
+    "id": null,
+    "status": "dropped",
+    "note": "Removed off-subject photo; no terminal alternative verified."
+  },
+  {
+    "slot": 8,
+    "group": "priority-1",
+    "title": "Noi Bai airport",
+    "id": null,
+    "status": "dropped",
+    "note": "Removed low-quality photo; no terminal alternative verified."
+  },
+  {
+    "slot": 9,
+    "group": "priority-1",
+    "title": "Hanoi train",
+    "id": "hanoi-train",
+    "status": "hold",
+    "note": "Current source retained; no distinct acceptable train/platform alternative verified."
+  },
+  {
+    "slot": 10,
+    "group": "priority-1",
+    "title": "Chau Doc",
+    "id": "chaudoc",
+    "status": "hold",
+    "note": "Current source retained; no distinct Sam Mountain/pagoda/floating-house candidate verified."
+  },
+  {
+    "slot": 11,
+    "group": "priority-1",
+    "title": "Ha Tien",
+    "id": "hatien",
+    "status": "hold",
+    "note": "Current source retained; alternative found was dusk silhouette."
+  },
+  {
+    "slot": 12,
+    "group": "priority-1",
+    "title": "Angkor Thom gate",
+    "id": "angkor-thom-south-gate",
+    "status": "candidate"
+  },
+  {
+    "slot": 13,
+    "group": "priority-1",
+    "title": "Da Nang",
+    "id": "danang-dragon-bridge",
+    "status": "candidate"
+  },
+  {
+    "slot": 14,
+    "group": "priority-1",
+    "title": "Cat Tien",
+    "id": "cattien-rainforest",
+    "status": "candidate"
+  },
+  {
+    "slot": 15,
+    "group": "priority-1",
+    "title": "Plan — Coast + highlands",
+    "id": "plan-coast-highlands",
+    "status": "candidate"
+  },
+  {
+    "slot": 16,
+    "group": "priority-2",
+    "title": "Bun bo Hue",
+    "id": null,
+    "status": "unresolved",
+    "note": "No suitable licensed photo of the actual dish verified; placeholder kept."
+  },
+  {
+    "slot": 17,
+    "group": "priority-2",
+    "title": "Hill markets",
+    "id": null,
+    "status": "unresolved",
+    "note": "Bac Ha candidate rejected as a close portrait."
+  },
+  {
+    "slot": 18,
+    "group": "priority-2",
+    "title": "Sticky rice and grilled bites",
+    "id": null,
+    "status": "unresolved",
+    "note": "Generic street-stall imagery did not establish the dish; placeholder kept."
+  },
+  {
+    "slot": 19,
+    "group": "priority-2",
+    "title": "Siem Reap old town",
+    "id": null,
+    "status": "unresolved",
+    "note": "No suitable licensed old-town/market scene verified; placeholder kept."
+  },
+  {
+    "slot": 20,
+    "group": "priority-3",
+    "title": "Boat through karst",
+    "id": "out-boat-karst",
+    "status": "candidate"
+  },
+  {
+    "slot": 21,
+    "group": "priority-3",
+    "title": "Long mountain days",
+    "id": "out-sapa-terraces",
+    "status": "candidate"
+  },
+  {
+    "slot": 22,
+    "group": "priority-3",
+    "title": "Cave days",
+    "id": "out-paradise-cave",
+    "status": "candidate"
+  },
+  {
+    "slot": 23,
+    "group": "priority-3",
+    "title": "Coastal road days",
+    "id": "haivan",
+    "status": "existing",
+    "note": "Credited Hai Van Pass photo for same subject."
+  },
+  {
+    "slot": 24,
+    "group": "priority-3",
+    "title": "Cooler highland walks",
+    "id": "out-dalat-pine-trail",
+    "status": "candidate"
+  },
+  {
+    "slot": 25,
+    "group": "priority-3",
+    "title": "Slow water days",
+    "id": "mekong-boat",
+    "status": "existing",
+    "note": "Previously unplaced Mekong-waterway photo, distinct from floating market."
+  },
+  {
+    "slot": 26,
+    "group": "priority-3",
+    "title": "Beach + forest days",
+    "id": "catba",
+    "status": "existing",
+    "note": "Previously unplaced Cat Ba cove photo."
+  },
+  {
+    "slot": 27,
+    "group": "priority-4",
+    "title": "Plan banner",
+    "id": "banner-plan-road",
+    "status": "candidate"
+  },
+  {
+    "slot": 28,
+    "group": "priority-4",
+    "title": "Eat banner",
+    "id": "banner-food-spread",
+    "status": "candidate"
+  },
+  {
+    "slot": 29,
+    "group": "priority-4",
+    "title": "Essentials banner",
+    "id": "banner-essentials-street",
+    "status": "candidate"
+  },
+  {
+    "slot": 30,
+    "group": "priority-4",
+    "title": "Outdoors banner",
+    "id": "banner-outdoors-mountain",
+    "status": "candidate"
+  },
+  {
+    "slot": 31,
+    "group": "priority-4",
+    "title": "History banner",
+    "id": "banner-history-hue-gate",
+    "status": "candidate"
+  }
+]

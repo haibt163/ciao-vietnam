@@ -14,7 +14,7 @@
     "en": "Cooler air and coffee. Dalat is the easy gate. The rest of the plateau is a bus ride.",
     "vi": "Không khí mát và cà phê. Đà Lạt là cửa dễ. Phần còn lại của cao nguyên là một chuyến xe."
   },
-  "hero": "xuanhuong",
+  "hero": "xuanhuong-lake-replacement",
   "chips": [
     {
       "en": "Dalat",
@@ -150,7 +150,7 @@
         "en": "A national park on the way down toward the south. Forest, not a town.",
         "vi": "Vườn quốc gia trên đường xuống phía nam. Rừng, không phải phố."
       },
-      "image": "cattien",
+      "image": "cattien-rainforest",
       "facts": [
         {
           "label": {

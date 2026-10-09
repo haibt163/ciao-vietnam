@@ -73,7 +73,7 @@
             "en": "Coast + highlands",
             "vi": "Biển + cao nguyên"
           },
-          "image": "dalat-golden-hour",
+          "image": "plan-coast-highlands",
           "summary": {
             "en": "Choose one coastal base and one cool highland base. Fewer transfers; more time outside the transport window.",
             "vi": "Chọn một điểm ven biển và một điểm cao nguyên mát. Ít đổi chỗ hơn, có nhiều thời gian tận hưởng hơn."
@@ -456,5 +456,6 @@
         }
       ]
     }
-  ]
+  ],
+  "banner": "banner-plan-road"
 }

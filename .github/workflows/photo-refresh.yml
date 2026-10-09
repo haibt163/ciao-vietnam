@@ -1,0 +1,44 @@
+name: Photo refresh review bundle
+on:
+  push:
+    branches:
+      - photo-refresh-20261009
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photo-refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Download, verify and prepare selected originals
+        run: node scripts/revamp-images.mjs
+      - name: Generate labelled contact sheets
+        run: node scripts/photo-review-sheets.mjs
+      - name: Check image references and generated files
+        run: node scripts/check-images.mjs
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Lint
+        run: npm run lint
+      - name: Production build
+        run: npm run build
+      - name: Commit generated images and review evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images content/images.json docs/photo-review docs/photo-selection.md
+          if git diff --cached --quiet; then
+            echo "No generated image or review changes."
+            exit 0
+          fi
+          git commit -m "chore: add verified photo assets and contact sheets [skip ci]"
+          git push origin HEAD:${{ github.ref_name }}
