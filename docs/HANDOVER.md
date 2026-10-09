@@ -173,3 +173,24 @@ GitHub Actions run 27 completed successfully:
 - Live deployment status is UNVERIFIED here.
 - The two HCMC replacement photos use Pexels; the Cholon image is explicitly marked as a contextual HCMC street image rather than a landmark-specific Cholon photograph.
 - The guide copy is original keyword-style writing and follows the existing guidebook chapter map in `docs/sources.md`; no guidebook sentences were copied.
+
+
+## Photo refresh follow-up — 9 October 2026
+
+**Status: open for Project Owner local review; not merged.** PR: https://github.com/haibt163/ciao-vietnam/pull/12. Feature branch: `photo-refresh-20261009`.
+
+### VERIFIED by GitHub Actions run 37921097687
+- New licensed photo originals were downloaded and checked. The round's 19 new source assets all meet the 3000 px long-edge minimum; exact dimensions, source URL, credit and threshold are recorded in `docs/photo-review/source-dimensions.json`.
+- 55 photos prepared in the image-processing run; new WebP assets total 11.3 MB and the entire `public/images` directory is 26.3 MB (under the 40 MB project limit).
+- Four labelled review sheets were generated: `docs/photo-review/priority-1.jpg` (15 slots), `priority-2.jpg` (4), `priority-3.jpg` (7), and `priority-4.jpg` (5).
+- `node scripts/check-images.mjs` passed: 84 referenced IDs, 115 registry entries, 640/960 assets present.
+- Content audit passed: 186 guide cards, zero duplicate titles, zero duplicate summaries, zero reused image IDs.
+- `npm run typecheck`, `npm run lint`, and `npm run build` passed. Build compiled successfully and generated 20 static pages.
+- Optional banner fields for Plan, Eat, Essentials, Outdoors and History use the existing `ParallaxHero`. No dependencies were added and no change has been merged to `main`.
+
+### Remaining / UNVERIFIED
+- No live phone rendering or 390 px EN/VI light/dark screenshots were captured by this lane. Project Owner should run the local preview and inspect all four contact sheets before approval.
+- Held photo slots: Cu Chi, Reunification Palace, Hanoi train, Chau Doc and Ha Tien. The two poor airport photos were removed because a better licensed terminal image was not verified.
+- The four explicit placeholders remain for Bun bo Hue, Hill markets, Sticky rice & grilled bites, and Siem Reap old town.
+- The proposed station replacement depicts a Ho Chi Minh City metro train, not the intercity railway; Owner judgment is needed.
+- `npm ci` reported six high-severity package audit findings in the existing dependency set. Dependencies were not changed because dependency cleanup is outside this photo task.

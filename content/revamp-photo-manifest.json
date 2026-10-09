@@ -331,5 +331,257 @@
     ],
     "quality": 82,
     "noUpscale": true
+  },
+  "xuanhuong-lake-replacement": {
+    "photoId": 5156620,
+    "credit": "Markus Winkler",
+    "alt": {
+      "en": "A view across Xuan Huong Lake in Da Lat.",
+      "vi": "Cảnh nhìn ngang hồ Xuân Hương ở Đà Lạt."
+    },
+    "source": "https://www.pexels.com/photo/landscape-photography-of-xuan-huong-lake-in-vietnam-5156620/",
+    "minLongEdge": 3000,
+    "slot": 1,
+    "group": "priority-1",
+    "displayName": "Xuan Huong Lake"
+  },
+  "war-remnants-aircraft": {
+    "photoId": 19927497,
+    "credit": "XT7 Core",
+    "alt": {
+      "en": "A military helicopter displayed outdoors at the War Remnants Museum in Ho Chi Minh City.",
+      "vi": "Trực thăng quân sự trưng bày ngoài trời tại Bảo tàng Chứng tích Chiến tranh ở Thành phố Hồ Chí Minh."
+    },
+    "source": "https://www.pexels.com/photo/us-army-helicopter-in-war-remnants-museum-in-ho-chi-minh-city-vietnam-19927497/",
+    "minLongEdge": 3000,
+    "slot": 3,
+    "group": "priority-1",
+    "displayName": "War Remnants Museum"
+  },
+  "saigon-cathedral-facade": {
+    "photoId": 27246475,
+    "credit": "Theodore Nguyen",
+    "alt": {
+      "en": "The facade and twin spires of Notre-Dame Cathedral in Ho Chi Minh City.",
+      "vi": "Mặt tiền và hai tháp của Nhà thờ Đức Bà ở Thành phố Hồ Chí Minh."
+    },
+    "source": "https://www.pexels.com/photo/a-church-with-a-large-window-and-a-clock-27246475/",
+    "minLongEdge": 3000,
+    "slot": 4,
+    "group": "priority-1",
+    "displayName": "Notre-Dame Cathedral"
+  },
+  "hcm-metro-train": {
+    "photoId": 30653681,
+    "credit": "Theodore Nguyen",
+    "alt": {
+      "en": "A metro train at a station in Ho Chi Minh City.",
+      "vi": "Tàu metro tại một nhà ga ở Thành phố Hồ Chí Minh."
+    },
+    "source": "https://www.pexels.com/photo/modern-metro-train-in-ho-chi-minh-city-station-30653681/",
+    "minLongEdge": 3000,
+    "slot": 6,
+    "group": "priority-1",
+    "displayName": "Ho Chi Minh City station — metro substitution"
+  },
+  "angkor-thom-south-gate": {
+    "photoId": 5769456,
+    "credit": "Julia Volk",
+    "alt": {
+      "en": "The South Gate of Angkor Thom with stone faces along the causeway.",
+      "vi": "Cổng Nam Angkor Thom với các gương mặt đá dọc đường dẫn."
+    },
+    "source": "https://www.pexels.com/photo/south-gate-of-angkor-thom-5769456/",
+    "minLongEdge": 3000,
+    "slot": 12,
+    "group": "priority-1",
+    "displayName": "Angkor Thom South Gate"
+  },
+  "danang-dragon-bridge": {
+    "photoId": 32015496,
+    "credit": "Nimit N",
+    "alt": {
+      "en": "Dragon Bridge crossing the Han River in Da Nang.",
+      "vi": "Cầu Rồng bắc qua sông Hàn ở Đà Nẵng."
+    },
+    "source": "https://www.pexels.com/photo/dragon-bridge-over-han-river-in-da-nang-32015496/",
+    "minLongEdge": 3000,
+    "slot": 13,
+    "group": "priority-1",
+    "displayName": "Da Nang / Dragon Bridge"
+  },
+  "cattien-rainforest": {
+    "photoId": 5118547,
+    "credit": "Quang Nguyen Vinh",
+    "alt": {
+      "en": "Tall trees and sprawling roots in Cat Tien National Park.",
+      "vi": "Cây cao và bộ rễ lớn trong Vườn quốc gia Cát Tiên."
+    },
+    "source": "https://www.pexels.com/photo/tall-trees-with-big-roots-in-forest-5118547/",
+    "minLongEdge": 3000,
+    "slot": 14,
+    "group": "priority-1",
+    "displayName": "Cat Tien rainforest"
+  },
+  "plan-coast-highlands": {
+    "photoId": 40061420,
+    "credit": "HONG SON",
+    "alt": {
+      "en": "A rural path winding through green rice fields in Vietnam.",
+      "vi": "Lối đi nông thôn uốn lượn giữa ruộng lúa xanh ở Việt Nam."
+    },
+    "source": "https://www.pexels.com/photo/scenic-landscape-of-rice-fields-in-vietnam-40061420/",
+    "minLongEdge": 3000,
+    "slot": 15,
+    "group": "priority-1",
+    "displayName": "Plan: Coast + highlands"
+  },
+  "out-boat-karst": {
+    "photoId": 19757775,
+    "credit": "Yan Ho",
+    "alt": {
+      "en": "A small rowboat on calm water beneath limestone cliffs in Tam Coc, Ninh Binh.",
+      "vi": "Thuyền nhỏ trên mặt nước yên dưới vách đá vôi ở Tam Cốc, Ninh Bình."
+    },
+    "source": "https://www.pexels.com/photo/view-of-tam-coc-ninh-binh-vietnam-19757775/",
+    "minLongEdge": 3000,
+    "slot": 20,
+    "group": "priority-3",
+    "displayName": "Boat through karst"
+  },
+  "out-sapa-terraces": {
+    "photoId": 37724187,
+    "credit": "Duong Nguyen",
+    "alt": {
+      "en": "Rice terraces and village houses across the hills of Sa Pa, Vietnam.",
+      "vi": "Ruộng bậc thang và nhà bản trên sườn đồi Sa Pa, Việt Nam."
+    },
+    "source": "https://www.pexels.com/photo/aerial-view-of-rice-terraces-in-sa-pa-vietnam-37724187/",
+    "minLongEdge": 3000,
+    "slot": 21,
+    "group": "priority-3",
+    "displayName": "Long mountain days"
+  },
+  "out-paradise-cave": {
+    "photoId": 20748541,
+    "credit": "Kishan Rahul Jose",
+    "alt": {
+      "en": "Illuminated pathways and rock formations inside Paradise Cave, Vietnam.",
+      "vi": "Lối đi có chiếu sáng và các khối đá trong Hang Thiên Đường, Việt Nam."
+    },
+    "source": "https://www.pexels.com/photo/stairs-in-paradise-cave-in-vietnam-20748541/",
+    "minLongEdge": 3000,
+    "slot": 22,
+    "group": "priority-3",
+    "displayName": "Cave days"
+  },
+  "out-dalat-pine-trail": {
+    "photoId": 37253115,
+    "credit": "Pew Nguyen",
+    "alt": {
+      "en": "A quiet dirt path through a pine forest in Da Lat.",
+      "vi": "Lối đất yên tĩnh xuyên rừng thông ở Đà Lạt."
+    },
+    "source": "https://www.pexels.com/photo/serene-woodland-pathway-through-pine-forest-37253115/",
+    "minLongEdge": 3000,
+    "slot": 24,
+    "group": "priority-3",
+    "displayName": "Cooler highland walks"
+  },
+  "banner-plan-road": {
+    "photoId": 28315416,
+    "credit": "chiến bá",
+    "alt": {
+      "en": "A winding road through green Vietnamese mountains.",
+      "vi": "Con đường uốn lượn giữa núi xanh Việt Nam."
+    },
+    "source": "https://www.pexels.com/photo/a-winding-road-in-the-mountains-with-a-car-driving-down-it-28315416/",
+    "minLongEdge": 3000,
+    "slot": 27,
+    "group": "priority-4",
+    "displayName": "Plan banner",
+    "heroLayout": "landscape"
+  },
+  "banner-food-spread": {
+    "photoId": 30018451,
+    "credit": "Thanh Long Bùi",
+    "alt": {
+      "en": "A spread of traditional Vietnamese dishes on an outdoor table.",
+      "vi": "Bữa ăn với nhiều món truyền thống Việt Nam trên bàn ngoài trời."
+    },
+    "source": "https://www.pexels.com/photo/vietnamese-traditional-food-spread-on-outdoor-table-30018451/",
+    "minLongEdge": 3000,
+    "slot": 28,
+    "group": "priority-4",
+    "displayName": "Eat banner",
+    "heroLayout": "landscape"
+  },
+  "banner-essentials-street": {
+    "photoId": 5167751,
+    "credit": "Markus Winkler",
+    "alt": {
+      "en": "A quiet street in Ho Chi Minh City with lanterns and leafy trees.",
+      "vi": "Con phố yên tĩnh ở Thành phố Hồ Chí Minh với đèn lồng và cây xanh."
+    },
+    "source": "https://www.pexels.com/photo/empty-street-5167751/",
+    "minLongEdge": 3000,
+    "slot": 29,
+    "group": "priority-4",
+    "displayName": "Essentials banner",
+    "heroLayout": "landscape"
+  },
+  "banner-outdoors-mountain": {
+    "photoId": 36240106,
+    "credit": "Đạt Nguyễn",
+    "alt": {
+      "en": "Terraced fields and layered green mountains in Vietnam.",
+      "vi": "Ruộng bậc thang và những lớp núi xanh ở Việt Nam."
+    },
+    "source": "https://www.pexels.com/photo/scenic-terraced-rice-fields-in-lush-vietnamese-landscape-36240106/",
+    "minLongEdge": 3000,
+    "slot": 30,
+    "group": "priority-4",
+    "displayName": "Outdoors banner",
+    "heroLayout": "landscape"
+  },
+  "banner-history-hue-gate": {
+    "photoId": 34571815,
+    "credit": "Cuong Nguyen Manh",
+    "alt": {
+      "en": "The Imperial City gate in Hue beneath a clear sky.",
+      "vi": "Cổng Kinh thành Huế dưới bầu trời quang."
+    },
+    "source": "https://www.pexels.com/photo/imperial-city-gate-at-hue-vietnam-under-clear-sky-34571815/",
+    "minLongEdge": 3000,
+    "slot": 31,
+    "group": "priority-4",
+    "displayName": "History banner",
+    "heroLayout": "landscape"
+  },
+  "out-coastal-road": {
+    "photoId": 36167727,
+    "credit": "Nguyễn Viết Minh Lâm",
+    "alt": {
+      "en": "A palm-lined coastal road in Da Nang with mountains beyond.",
+      "vi": "Đường ven biển rợp bóng cọ ở Đà Nẵng với núi phía xa."
+    },
+    "source": "https://www.pexels.com/photo/scenic-coastal-road-in-da-nang-vietnam-36167727/",
+    "minLongEdge": 3000,
+    "slot": 23,
+    "group": "priority-3",
+    "displayName": "Coastal road days"
+  },
+  "out-phuquoc-beach": {
+    "photoId": 14012627,
+    "credit": "Quang Nguyen Vinh",
+    "alt": {
+      "en": "A bright tropical beach on Phu Quoc fringed with palm trees.",
+      "vi": "Bãi biển nhiệt đới sáng nắng ở Phú Quốc với hàng dừa ven bờ."
+    },
+    "source": "https://www.pexels.com/photo/green-palm-trees-on-beach-shore-14012627/",
+    "minLongEdge": 3000,
+    "slot": 26,
+    "group": "priority-3",
+    "displayName": "Beach + forest days"
   }
 }

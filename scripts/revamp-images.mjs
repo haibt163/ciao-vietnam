@@ -12,6 +12,7 @@ const existing = JSON.parse(fs.readFileSync(imageFile, "utf8"));
 const failures = [];
 const written = new Set();
 const generated = {};
+const verifiedOriginals = {};
 
 async function fetchBuffer(url) {
   let lastError;
@@ -47,7 +48,9 @@ for (const [id, item] of Object.entries(manifest)) {
     const buffer = await fetchBuffer(item.url ?? `https://images.pexels.com/photos/${item.photoId}/pexels-photo-${item.photoId}.jpeg`);
     const meta = await sharp(buffer).metadata();
     const longEdge = Math.max(meta.width || 0, meta.height || 0);
-    if (longEdge < 2400) throw new Error(`source too small: ${meta.width}x${meta.height}`);
+    const requiredLongEdge = Number.isInteger(item.minLongEdge) ? item.minLongEdge : (manifest._buildPolicy?.minLongEdge ?? 2400);
+    if (longEdge < requiredLongEdge) throw new Error(`source too small: ${meta.width}x${meta.height}; requires ${requiredLongEdge}px long edge`);
+    verifiedOriginals[id] = { photoId: item.photoId, width: meta.width, height: meta.height, longEdge, requiredLongEdge, credit: item.credit, source: item.source, group: item.group ?? null, slot: item.slot ?? null };
     const sizes = [];
     for (const width of [640, 960]) {
       if ((meta.width || 0) < width) continue;
@@ -70,7 +73,9 @@ for (const [id, item] of Object.entries(manifest)) {
       license: "Pexels License",
       licenseUrl: "https://www.pexels.com/license/",
       source: item.source,
-      cropped: false
+      cropped: false,
+      ...(item.heroLayout ? { heroLayout: item.heroLayout } : {}),
+      ...(item.focus ? { focus: item.focus } : {})
     };
     console.log(`${id}: ${meta.width}x${meta.height} -> 640/960`);
   } catch (error) {
@@ -84,5 +89,11 @@ if (failures.length) {
 }
 
 fs.writeFileSync(imageFile, `${JSON.stringify({ ...existing, ...generated }, null, 2)}\n`);
+const reviewDir = path.join(root, "docs", "photo-review");
+fs.mkdirSync(reviewDir, { recursive: true });
+fs.writeFileSync(path.join(reviewDir, "source-dimensions.json"), `${JSON.stringify(verifiedOriginals, null, 2)}\n`);
 const bytes = Object.keys(generated).flatMap((id) => [`${id}-640.webp`, `${id}-960.webp`]).reduce((sum, name) => sum + fs.statSync(path.join(pub, name)).size, 0);
+const allBytes = fs.readdirSync(pub).reduce((sum, name) => sum + fs.statSync(path.join(pub, name)).size, 0);
 console.log(`Generated ${Object.keys(generated).length} photos; new bytes ${(bytes / 1024 / 1024).toFixed(1)} MB`);
+console.log(`public/images total ${(allBytes / 1024 / 1024).toFixed(1)} MB`);
+if (allBytes > 40 * 1024 * 1024) { console.error("public/images exceeds 40 MB"); process.exit(1); }

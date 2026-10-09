@@ -66,7 +66,7 @@
           }
         }
       ],
-      "image": "saigon-cathedral"
+      "image": "saigon-cathedral-facade"
     },
     {
       "id": "saigon-post",
@@ -210,7 +210,7 @@
           }
         }
       ],
-      "image": "war-remnants"
+      "image": "war-remnants-aircraft"
     },
     {
       "id": "cuchi",
@@ -412,8 +412,7 @@
             "vi": "Taxi hoặc ứng dụng. Hỏi giá tại chỗ."
           }
         }
-      ],
-      "image": "airport-hcm"
+      ]
     },
     {
       "id": "saigon-station",
@@ -437,7 +436,7 @@
           }
         }
       ],
-      "image": "hcm-station"
+      "image": "hcm-metro-train"
     }
   ]
 }
