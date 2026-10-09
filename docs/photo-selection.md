@@ -184,3 +184,12 @@ All new photos use the allowed Pexels License.
 - Low-priority Po Nagar, Son My and the Hoi An hero were not changed.
 
 These are review candidates, not a claim of final visual approval. Inspect the sheets and local mobile rendering before approving merge.
+
+### Runtime source corrections — 9 October 2026
+
+The first GitHub Actions preparation attempt rejected the initially listed Notre-Dame candidate because its downloaded original was 2923×1949, below the 3000 px minimum. It also returned HTTP 404 for the first Da Lat landscape source. Neither failed source was published to the registry or wired as a generated asset.
+
+- **Slot 4 replacement candidate:** Theodore Nguyen, [Notre-Dame Cathedral Basilica of Saigon](https://www.pexels.com/photo/a-church-with-a-large-window-and-a-clock-27246475/). Pexels reports 4000×6000. The next runner pass independently checks the downloaded file's actual dimensions.
+- **Slot 15 replacement candidate:** HONG SON, [Vietnam rice-field landscape](https://www.pexels.com/photo/scenic-landscape-of-rice-fields-in-vietnam-40061420/). This source is used as a broad highland route image; it is not described as Da Lat specifically.
+
+The original Round 5 candidate table is retained as the pre-build selection record; these runtime corrections supersede those two choices for the active manifest.

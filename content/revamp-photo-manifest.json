@@ -359,13 +359,13 @@
     "displayName": "War Remnants Museum"
   },
   "saigon-cathedral-facade": {
-    "photoId": 28178556,
-    "credit": "Hom Nay Chup Gi",
+    "photoId": 27246475,
+    "credit": "Theodore Nguyen",
     "alt": {
       "en": "The facade and twin spires of Notre-Dame Cathedral in Ho Chi Minh City.",
       "vi": "Mặt tiền và hai tháp của Nhà thờ Đức Bà ở Thành phố Hồ Chí Minh."
     },
-    "source": "https://www.pexels.com/photo/nha-th-d-c-ba-sai-gon-sai-gon-vi-t-nam-2015-notre-dame-cathedral-of-saigon-saigon-vietnam-2015-28178556/",
+    "source": "https://www.pexels.com/photo/a-church-with-a-large-window-and-a-clock-27246475/",
     "minLongEdge": 3000,
     "slot": 4,
     "group": "priority-1",
@@ -424,13 +424,13 @@
     "displayName": "Cat Tien rainforest"
   },
   "plan-coast-highlands": {
-    "photoId": 39974123,
-    "credit": "Tường Chopper",
+    "photoId": 40061420,
+    "credit": "HONG SON",
     "alt": {
-      "en": "Green hills and rural landscape near Da Lat, Vietnam.",
-      "vi": "Đồi xanh và cảnh nông thôn gần Đà Lạt, Việt Nam."
+      "en": "A rural path winding through green rice fields in Vietnam.",
+      "vi": "Lối đi nông thôn uốn lượn giữa ruộng lúa xanh ở Việt Nam."
     },
-    "source": "https://www.pexels.com/vi-vn/anh/phong-c-nh-xuan-h-ng-phong-c-nh-nong-thon-da-l-t-39974123/",
+    "source": "https://www.pexels.com/photo/scenic-landscape-of-rice-fields-in-vietnam-40061420/",
     "minLongEdge": 3000,
     "slot": 15,
     "group": "priority-1",
