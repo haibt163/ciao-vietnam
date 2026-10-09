@@ -180,7 +180,7 @@ GitHub Actions run 27 completed successfully:
 **Status: open for Project Owner local review; not merged.** PR: https://github.com/haibt163/ciao-vietnam/pull/12. Feature branch: `photo-refresh-20261009`.
 
 ### VERIFIED by GitHub Actions run 37921097687
-- New licensed photo originals were downloaded and checked. The round's 20 new source assets all meet the 3000 px long-edge minimum; exact dimensions, source URL, credit and threshold are recorded in `docs/photo-review/source-dimensions.json`.
+- New licensed photo originals were downloaded and checked. The round's 19 new source assets all meet the 3000 px long-edge minimum; exact dimensions, source URL, credit and threshold are recorded in `docs/photo-review/source-dimensions.json`.
 - 55 photos prepared in the image-processing run; new WebP assets total 11.3 MB and the entire `public/images` directory is 26.3 MB (under the 40 MB project limit).
 - Four labelled review sheets were generated: `docs/photo-review/priority-1.jpg` (15 slots), `priority-2.jpg` (4), `priority-3.jpg` (7), and `priority-4.jpg` (5).
 - `node scripts/check-images.mjs` passed: 84 referenced IDs, 115 registry entries, 640/960 assets present.
