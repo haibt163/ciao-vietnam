@@ -152,7 +152,7 @@
               "href": "/regions/southeast-coast"
             }
           ],
-          "image": "haivan"
+          "image": "out-coastal-road"
         },
         {
           "id": "out-highlands",
@@ -251,7 +251,7 @@
               "href": "/regions/mekong-delta"
             }
           ],
-          "image": "catba"
+          "image": "out-phuquoc-beach"
         },
         {
           "id": "out-catba",

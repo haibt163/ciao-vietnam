@@ -557,5 +557,31 @@
     "group": "priority-4",
     "displayName": "History banner",
     "heroLayout": "landscape"
+  },
+  "out-coastal-road": {
+    "photoId": 36167727,
+    "credit": "Nguyễn Viết Minh Lâm",
+    "alt": {
+      "en": "A palm-lined coastal road in Da Nang with mountains beyond.",
+      "vi": "Đường ven biển rợp bóng cọ ở Đà Nẵng với núi phía xa."
+    },
+    "source": "https://www.pexels.com/photo/scenic-coastal-road-in-da-nang-vietnam-36167727/",
+    "minLongEdge": 3000,
+    "slot": 23,
+    "group": "priority-3",
+    "displayName": "Coastal road days"
+  },
+  "out-phuquoc-beach": {
+    "photoId": 14012627,
+    "credit": "Quang Nguyen Vinh",
+    "alt": {
+      "en": "A bright tropical beach on Phu Quoc fringed with palm trees.",
+      "vi": "Bãi biển nhiệt đới sáng nắng ở Phú Quốc với hàng dừa ven bờ."
+    },
+    "source": "https://www.pexels.com/photo/green-palm-trees-on-beach-shore-14012627/",
+    "minLongEdge": 3000,
+    "slot": 26,
+    "group": "priority-3",
+    "displayName": "Beach + forest days"
   }
 }

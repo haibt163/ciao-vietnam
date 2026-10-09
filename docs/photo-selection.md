@@ -193,3 +193,12 @@ The first GitHub Actions preparation attempt rejected the initially listed Notre
 - **Slot 15 replacement candidate:** HONG SON, [Vietnam rice-field landscape](https://www.pexels.com/photo/scenic-landscape-of-rice-fields-in-vietnam-40061420/). This source is used as a broad highland route image; it is not described as Da Lat specifically.
 
 The original Round 5 candidate table is retained as the pre-build selection record; these runtime corrections supersede those two choices for the active manifest.
+
+### Duplicate-photo audit correction — 9 October 2026
+
+The first full build passed image integrity, typecheck and lint but the content audit correctly failed because the Outdoors road and island cards reused IDs already used on their regional cards. The two references are now separate source images:
+
+- **Slot 23 — coastal road days:** Nguyễn Viết Minh Lâm, [Da Nang coastal road](https://www.pexels.com/photo/scenic-coastal-road-in-da-nang-vietnam-36167727/) — Pexels reports 6000×4000.
+- **Slot 26 — beach + forest days:** Quang Nguyen Vinh, [Phu Quoc beach](https://www.pexels.com/photo/green-palm-trees-on-beach-shore-14012627/) — Pexels reports 7907×5274.
+
+The asset builder independently checks both downloaded originals against the 3000 px long-edge minimum. These distinct IDs are used to satisfy the existing no-reused-card-image audit, not to bypass it.

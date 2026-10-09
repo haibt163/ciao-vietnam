@@ -169,9 +169,9 @@
     "slot": 23,
     "group": "priority-3",
     "title": "Coastal road days",
-    "id": "haivan",
-    "status": "existing",
-    "note": "Credited Hai Van Pass photo for same subject."
+    "id": "out-coastal-road",
+    "status": "candidate",
+    "note": "New distinct licensed coastal-road image; avoids reusing the regional Hai Van image."
   },
   {
     "slot": 24,
@@ -192,9 +192,9 @@
     "slot": 26,
     "group": "priority-3",
     "title": "Beach + forest days",
-    "id": "catba",
-    "status": "existing",
-    "note": "Previously unplaced Cat Ba cove photo."
+    "id": "out-phuquoc-beach",
+    "status": "candidate",
+    "note": "New distinct Phu Quoc beach image; avoids reusing the Cat Ba card image."
   },
   {
     "slot": 27,
