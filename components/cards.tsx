@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Card, LangText } from "@/content/types";
 import { T } from "@/components/text";
 import { Photo } from "@/components/photo";
+import { ArtFigure, IconTile, iconName } from "@/components/visual";
 import { ui } from "@/lib/content";
 
 export function Chips({ items }: { items: LangText[] }) {
@@ -17,18 +18,24 @@ export function Chips({ items }: { items: LangText[] }) {
 }
 
 export function InfoCard({ card }: { card: Card }) {
+  const icon = iconName(card);
+  const visual = card.image ? (
+    <Photo id={card.image} cover />
+  ) : card.art && !icon && card.art !== "phrase" ? (
+    <ArtFigure id={card.art} />
+  ) : null;
   return (
     <article id={card.id} className="card">
-      {card.image ? <Photo id={card.image} /> : card.gap ? (
-        <div className="grid min-h-28 place-items-center bg-paper-2 px-3 py-6 text-center font-mono text-sm text-muted">
-          <T text={ui.photoGap} />
-        </div>
-      ) : null}
+      {visual}
       <details>
         <summary className="tap">
-          <span className="font-mono text-sm text-clay" aria-hidden>
-            {">"}
-          </span>
+          {icon ? (
+            <IconTile name={icon} seed={card.id} />
+          ) : (
+            <span className="font-mono text-sm text-clay" aria-hidden>
+              {">"}
+            </span>
+          )}
           <span className="grid">
             {card.kicker ? (
               <span className="font-mono text-[13px] font-normal text-muted">

@@ -1,20 +1,4 @@
 {
-  "angkor-gate": {
-    "id": "angkor-gate",
-    "src": "/images/angkor-gate-960.webp",
-    "srcSet": "/images/angkor-gate-640.webp 640w, /images/angkor-gate-960.webp 960w",
-    "width": 960,
-    "height": 1280,
-    "alt": {
-      "en": "Faces on the south gate of Angkor Thom.",
-      "vi": "Mặt đá ở cổng nam Angkor Thom."
-    },
-    "credit": "Olaf Tausch",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Angkor_Thom_Südtor_13.jpg",
-    "cropped": false
-  },
   "banteay": {
     "id": "banteay",
     "src": "/images/banteay-960.webp",
@@ -115,54 +99,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:St_Josephs_Cathedral_of_Hanoi.jpg",
     "cropped": false
   },
-  "cattien": {
-    "id": "cattien",
-    "src": "/images/cattien-960.webp",
-    "srcSet": "/images/cattien-640.webp 640w, /images/cattien-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "Forest in Cat Tien National Park.",
-      "vi": "Rừng ở Vườn quốc gia Cát Tiên."
-    },
-    "credit": "Thien Nhan",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/exploring-roots-in-nam-cat-tien-forest-37006081/",
-    "cropped": false
-  },
-  "chaudoc": {
-    "id": "chaudoc",
-    "src": "/images/chaudoc-960.webp",
-    "srcSet": "/images/chaudoc-640.webp 640w, /images/chaudoc-960.webp 960w",
-    "width": 960,
-    "height": 1280,
-    "alt": {
-      "en": "A historic gate surrounded by greenery in Chau Doc.",
-      "vi": "Cổng cổ giữa cây xanh ở Châu Đốc."
-    },
-    "credit": "HONG SON",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/ancient-city-gate-surrounded-by-lush-trees-39944748/",
-    "cropped": false
-  },
-  "cuchi": {
-    "id": "cuchi",
-    "src": "/images/cuchi-960.webp",
-    "srcSet": "/images/cuchi-640.webp 640w, /images/cuchi-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "The entrance to the Cu Chi tunnels near Ho Chi Minh City.",
-      "vi": "Lối vào địa đạo Củ Chi gần Thành phố Hồ Chí Minh."
-    },
-    "credit": "manvinder social",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/cu-chi-tunnels-entrance-in-ho-chi-minh-city-31832778/",
-    "cropped": false
-  },
   "dalat-falls": {
     "id": "dalat-falls",
     "src": "/images/dalat-falls-960.webp",
@@ -177,22 +113,6 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "source": "https://commons.wikimedia.org/wiki/File:Pongour_Falls_(6226122698).jpg",
-    "cropped": false
-  },
-  "danang": {
-    "id": "danang",
-    "src": "/images/danang-960.webp",
-    "srcSet": "/images/danang-640.webp 640w, /images/danang-960.webp 960w",
-    "width": 960,
-    "height": 1707,
-    "alt": {
-      "en": "Marble Mountains near Danang.",
-      "vi": "Ngũ Hành Sơn gần Đà Nẵng."
-    },
-    "credit": "Andre Hospers",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Marble_Mountain_Hoi_An,_Da_Nang_(38427).jpg",
     "cropped": false
   },
   "egg-coffee": {
@@ -685,22 +605,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:Couples_in_Vung_Tau_Beach_(Vietnam).jpg",
     "cropped": false
   },
-  "war-remnants": {
-    "id": "war-remnants",
-    "src": "/images/war-remnants-960.webp",
-    "srcSet": "/images/war-remnants-640.webp 640w, /images/war-remnants-960.webp 960w",
-    "width": 960,
-    "height": 1280,
-    "alt": {
-      "en": "War Remnants Museum",
-      "vi": "Bảo tàng Chứng tích Chiến tranh"
-    },
-    "credit": "Jorge Láscar from Australia",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Lascar_Jail_for_war_prisoners_-_War_Remnants_Museum_(4608007916).jpg",
-    "cropped": false
-  },
   "xuanhuong": {
     "id": "xuanhuong",
     "src": "/images/xuanhuong-960.webp",
@@ -733,21 +637,6 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/small-sandy-beach-with-people-in-narrow-rocky-tree-bay-in-cat-ba-in-vietnam-24701013/"
-  },
-  "maichau": {
-    "id": "maichau",
-    "src": "/images/maichau-960.webp",
-    "srcSet": "/images/maichau-640.webp 640w, /images/maichau-960.webp 960w",
-    "width": 960,
-    "height": 639,
-    "alt": {
-      "en": "Traditional Hmong embroidery in Mai Chau.",
-      "vi": "Thêu H'Mông truyền thống ở Mai Châu."
-    },
-    "credit": "TUAN PHAN",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/fr-fr/photo/broderie-traditionnelle-hmong-a-mai-chau-vietnam-39998012/"
   },
   "hue": {
     "id": "hue",
@@ -794,21 +683,6 @@
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/l-h-i-ca-phe-buon-ma-thu-t-2023-27777798/"
   },
-  "saigon-cathedral": {
-    "id": "saigon-cathedral",
-    "src": "/images/saigon-cathedral-960.webp",
-    "srcSet": "/images/saigon-cathedral-640.webp 640w, /images/saigon-cathedral-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "Notre-Dame Cathedral Basilica of Saigon.",
-      "vi": "Nhà thờ Đức Bà Sài Gòn."
-    },
-    "credit": "Quang Vuong",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/notre-dame-cathedral-basilica-of-saigon-under-renovation-35746118/"
-  },
   "palace": {
     "id": "palace",
     "src": "/images/palace-960.webp",
@@ -853,21 +727,6 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/c-i-r-ng-floating-market-aerial-view-in-c-n-th-32607908/"
-  },
-  "hatien": {
-    "id": "hatien",
-    "src": "/images/hatien-960.webp",
-    "srcSet": "/images/hatien-640.webp 640w, /images/hatien-960.webp 960w",
-    "width": 960,
-    "height": 720,
-    "alt": {
-      "en": "A fishing boat off Ha Tien.",
-      "vi": "Thuyền đánh cá ngoài khơi Hà Tiên."
-    },
-    "credit": "lhthoai",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/pt-br/foto/vista-panoramica-de-um-barco-de-pesca-no-oceano-com-uma-encosta-ao-fundo-38960936/"
   },
   "condao": {
     "id": "condao",
@@ -928,21 +787,6 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/vietnamese-coffee-with-condensed-milk-16496241/"
-  },
-  "hoian-food": {
-    "id": "hoian-food",
-    "src": "/images/hoian-food-960.webp",
-    "srcSet": "/images/hoian-food-640.webp 640w, /images/hoian-food-960.webp 960w",
-    "width": 960,
-    "height": 1491,
-    "alt": {
-      "en": "A street food stall in Hoi An.",
-      "vi": "Quầy thức ăn đường phố ở Hội An."
-    },
-    "credit": "Võ Văn Tiến",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/street-food-vendor-in-h-i-an-vietnam-29374692/"
   },
   "seafood-nhatrang": {
     "id": "seafood-nhatrang",
@@ -1007,22 +851,6 @@
     "source": "https://www.pexels.com/photo/vietnamese-banh-mi-sandwich-on-newspaper-32961649/",
     "cropped": false
   },
-  "vietnamese-food-stall": {
-    "id": "vietnamese-food-stall",
-    "src": "/images/vietnamese-food-stall-960.webp",
-    "srcSet": "/images/vietnamese-food-stall-640.webp 640w, /images/vietnamese-food-stall-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A Vietnamese street-food vendor serving a dish at a night market.",
-      "vi": "Người bán hàng phục vụ món ăn tại chợ đêm Việt Nam."
-    },
-    "credit": "Sóc Năng Động",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/vietnamese-street-food-vendor-at-night-market-37172281/",
-    "cropped": false
-  },
   "banh-can-food": {
     "id": "banh-can-food",
     "src": "/images/banh-can-food-960.webp",
@@ -1053,22 +881,6 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/traditional-vietnamese-food-stall-at-night-35708759/",
-    "cropped": false
-  },
-  "hoi-an-market": {
-    "id": "hoi-an-market",
-    "src": "/images/hoi-an-market-960.webp",
-    "srcSet": "/images/hoi-an-market-640.webp 640w, /images/hoi-an-market-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A lantern-lit market scene in Hoi An.",
-      "vi": "Cảnh chợ đêm dưới đèn lồng ở Hội An."
-    },
-    "credit": "Nhà văn",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/traditional-vietnamese-night-market-scene-34292106/",
     "cropped": false
   },
   "night-market-vietnam": {
@@ -1119,22 +931,6 @@
     "source": "https://www.pexels.com/photo/vietnamese-coffee-with-phin-filter-on-a-cafe-table-29181080/",
     "cropped": false
   },
-  "coffee-setup-hanoi": {
-    "id": "coffee-setup-hanoi",
-    "src": "/images/coffee-setup-hanoi-960.webp",
-    "srcSet": "/images/coffee-setup-hanoi-640.webp 640w, /images/coffee-setup-hanoi-960.webp 960w",
-    "width": 960,
-    "height": 1280,
-    "alt": {
-      "en": "A Vietnamese coffee setup on a wooden table in Hanoi.",
-      "vi": "Bộ cà phê Việt Nam trên bàn gỗ ở Hà Nội."
-    },
-    "credit": "Quang",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/traditional-vietnamese-coffee-setup-in-hanoi-37268969/",
-    "cropped": false
-  },
   "coffee-farm": {
     "id": "coffee-farm",
     "src": "/images/coffee-farm-960.webp",
@@ -1181,22 +977,6 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/pile-of-fresh-coconuts-at-vietnamese-market-34986625/",
-    "cropped": false
-  },
-  "mekong-boat": {
-    "id": "mekong-boat",
-    "src": "/images/mekong-boat-960.webp",
-    "srcSet": "/images/mekong-boat-640.webp 640w, /images/mekong-boat-960.webp 960w",
-    "width": 960,
-    "height": 1200,
-    "alt": {
-      "en": "A quiet boat ride through lush waterways in the Mekong Delta.",
-      "vi": "Chuyến thuyền yên bình qua rừng cây xanh ở Đồng bằng sông Cửu Long."
-    },
-    "credit": "Rushikesh Patil",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/peaceful-boat-ride-in-mekong-delta-vietnam-31344203/",
     "cropped": false
   },
   "mekong-boat-2": {
@@ -1247,22 +1027,6 @@
     "source": "https://www.pexels.com/photo/sunset-over-long-bien-bridge-and-mustard-fields-30262556/",
     "cropped": false
   },
-  "hanoi-train": {
-    "id": "hanoi-train",
-    "src": "/images/hanoi-train-960.webp",
-    "srcSet": "/images/hanoi-train-640.webp 640w, /images/hanoi-train-960.webp 960w",
-    "width": 960,
-    "height": 649,
-    "alt": {
-      "en": "A train passing through Hanoi's Old Quarter.",
-      "vi": "Tàu chạy qua khu phố cổ Hà Nội."
-    },
-    "credit": "Trammese",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/hanoi-train-passing-through-old-quarter-street-34621341/",
-    "cropped": false
-  },
   "hanoi-old-quarter": {
     "id": "hanoi-old-quarter",
     "src": "/images/hanoi-old-quarter-960.webp",
@@ -1295,38 +1059,6 @@
     "source": "https://www.pexels.com/photo/street-food-stall-with-people-cooking-in-hanoi-35178632/",
     "cropped": false
   },
-  "airport-hanoi": {
-    "id": "airport-hanoi",
-    "src": "/images/airport-hanoi-960.webp",
-    "srcSet": "/images/airport-hanoi-640.webp 640w, /images/airport-hanoi-960.webp 960w",
-    "width": 960,
-    "height": 645,
-    "alt": {
-      "en": "Aircraft at Hanoi airport.",
-      "vi": "Máy bay tại sân bay Hà Nội."
-    },
-    "credit": "Pexels contributor",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/airplanes-at-airport-in-hanoi-in-vietnam-20988488/",
-    "cropped": false
-  },
-  "airport-hcm": {
-    "id": "airport-hcm",
-    "src": "/images/airport-hcm-960.webp",
-    "srcSet": "/images/airport-hcm-640.webp 640w, /images/airport-hcm-960.webp 960w",
-    "width": 960,
-    "height": 1708,
-    "alt": {
-      "en": "A modern check-in area at Tan Son Nhat airport.",
-      "vi": "Khu vực làm thủ tục hiện đại tại sân bay Tân Sơn Nhất."
-    },
-    "credit": "QUI NGUYEN",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/34012658/",
-    "cropped": false
-  },
   "hcm-night": {
     "id": "hcm-night",
     "src": "/images/hcm-night-960.webp",
@@ -1357,22 +1089,6 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/night-street-scene-in-ho-chi-minh-city-vietnam-35113231/",
-    "cropped": false
-  },
-  "hcm-station": {
-    "id": "hcm-station",
-    "src": "/images/hcm-station-960.webp",
-    "srcSet": "/images/hcm-station-640.webp 640w, /images/hcm-station-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A modern train-station interior in Ho Chi Minh City.",
-      "vi": "Không gian ga tàu hiện đại ở Thành phố Hồ Chí Minh."
-    },
-    "credit": "Andy Lee",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/man-ascending-escalator-in-modern-train-station-31671457/",
     "cropped": false
   },
   "hue-imperial": {
@@ -1471,22 +1187,6 @@
     "source": "https://www.pexels.com/photo/scenic-cruise-on-cat-ba-island-s-green-trail-35136962/",
     "cropped": false
   },
-  "condao-prison": {
-    "id": "condao-prison",
-    "src": "/images/condao-prison-960.webp",
-    "srcSet": "/images/condao-prison-640.webp 640w, /images/condao-prison-960.webp 960w",
-    "width": 960,
-    "height": 645,
-    "alt": {
-      "en": "The historic courtyard of Con Dao Prison.",
-      "vi": "Sân trong di tích nhà tù Côn Đảo."
-    },
-    "credit": "sephylmism",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/historic-con-dao-prison-courtyard-in-vietnam-33099951/",
-    "cropped": false
-  },
   "hagian-road": {
     "id": "hagian-road",
     "src": "/images/hagian-road-960.webp",
@@ -1501,347 +1201,6 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "source": "https://www.pexels.com/photo/ha-giang-27568660/",
-    "cropped": false
-  },
-  "dalat-golden-hour": {
-    "id": "dalat-golden-hour",
-    "src": "/images/dalat-golden-hour-960.webp",
-    "srcSet": "/images/dalat-golden-hour-640.webp 640w, /images/dalat-golden-hour-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A lake and hillside at golden hour in Dalat.",
-      "vi": "Hồ và đồi Đà Lạt trong giờ vàng."
-    },
-    "credit": "Nhà văn",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/young-woman-capturing-golden-hour-in-dalat-36630524/",
-    "cropped": false
-  },
-  "quynhon-beach": {
-    "id": "quynhon-beach",
-    "src": "/images/quynhon-beach-960.webp",
-    "srcSet": "/images/quynhon-beach-640.webp 640w, /images/quynhon-beach-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A quiet beach with mountains at Quy Nhon.",
-      "vi": "Bãi biển yên tĩnh với núi ở Quy Nhơn."
-    },
-    "credit": "Flint Huynh",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/serene-beach-view-at-quy-nhon-vietnam-37920556/",
-    "cropped": false
-  },
-  "xuanhuong-lake-replacement": {
-    "id": "xuanhuong-lake-replacement",
-    "src": "/images/xuanhuong-lake-replacement-960.webp",
-    "srcSet": "/images/xuanhuong-lake-replacement-640.webp 640w, /images/xuanhuong-lake-replacement-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A view across Xuan Huong Lake in Da Lat.",
-      "vi": "Cảnh nhìn ngang hồ Xuân Hương ở Đà Lạt."
-    },
-    "credit": "Markus Winkler",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/landscape-photography-of-xuan-huong-lake-in-vietnam-5156620/",
-    "cropped": false
-  },
-  "war-remnants-aircraft": {
-    "id": "war-remnants-aircraft",
-    "src": "/images/war-remnants-aircraft-960.webp",
-    "srcSet": "/images/war-remnants-aircraft-640.webp 640w, /images/war-remnants-aircraft-960.webp 960w",
-    "width": 960,
-    "height": 540,
-    "alt": {
-      "en": "A military helicopter displayed outdoors at the War Remnants Museum in Ho Chi Minh City.",
-      "vi": "Trực thăng quân sự trưng bày ngoài trời tại Bảo tàng Chứng tích Chiến tranh ở Thành phố Hồ Chí Minh."
-    },
-    "credit": "XT7 Core",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/us-army-helicopter-in-war-remnants-museum-in-ho-chi-minh-city-vietnam-19927497/",
-    "cropped": false
-  },
-  "saigon-cathedral-facade": {
-    "id": "saigon-cathedral-facade",
-    "src": "/images/saigon-cathedral-facade-960.webp",
-    "srcSet": "/images/saigon-cathedral-facade-640.webp 640w, /images/saigon-cathedral-facade-960.webp 960w",
-    "width": 960,
-    "height": 1440,
-    "alt": {
-      "en": "The facade and twin spires of Notre-Dame Cathedral in Ho Chi Minh City.",
-      "vi": "Mặt tiền và hai tháp của Nhà thờ Đức Bà ở Thành phố Hồ Chí Minh."
-    },
-    "credit": "Theodore Nguyen",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/a-church-with-a-large-window-and-a-clock-27246475/",
-    "cropped": false
-  },
-  "hcm-metro-train": {
-    "id": "hcm-metro-train",
-    "src": "/images/hcm-metro-train-960.webp",
-    "srcSet": "/images/hcm-metro-train-640.webp 640w, /images/hcm-metro-train-960.webp 960w",
-    "width": 960,
-    "height": 1440,
-    "alt": {
-      "en": "A metro train at a station in Ho Chi Minh City.",
-      "vi": "Tàu metro tại một nhà ga ở Thành phố Hồ Chí Minh."
-    },
-    "credit": "Theodore Nguyen",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/modern-metro-train-in-ho-chi-minh-city-station-30653681/",
-    "cropped": false
-  },
-  "angkor-thom-south-gate": {
-    "id": "angkor-thom-south-gate",
-    "src": "/images/angkor-thom-south-gate-960.webp",
-    "srcSet": "/images/angkor-thom-south-gate-640.webp 640w, /images/angkor-thom-south-gate-960.webp 960w",
-    "width": 960,
-    "height": 1440,
-    "alt": {
-      "en": "The South Gate of Angkor Thom with stone faces along the causeway.",
-      "vi": "Cổng Nam Angkor Thom với các gương mặt đá dọc đường dẫn."
-    },
-    "credit": "Julia Volk",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/south-gate-of-angkor-thom-5769456/",
-    "cropped": false
-  },
-  "danang-dragon-bridge": {
-    "id": "danang-dragon-bridge",
-    "src": "/images/danang-dragon-bridge-960.webp",
-    "srcSet": "/images/danang-dragon-bridge-640.webp 640w, /images/danang-dragon-bridge-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "Dragon Bridge crossing the Han River in Da Nang.",
-      "vi": "Cầu Rồng bắc qua sông Hàn ở Đà Nẵng."
-    },
-    "credit": "Nimit N",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/dragon-bridge-over-han-river-in-da-nang-32015496/",
-    "cropped": false
-  },
-  "cattien-rainforest": {
-    "id": "cattien-rainforest",
-    "src": "/images/cattien-rainforest-960.webp",
-    "srcSet": "/images/cattien-rainforest-640.webp 640w, /images/cattien-rainforest-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "Tall trees and sprawling roots in Cat Tien National Park.",
-      "vi": "Cây cao và bộ rễ lớn trong Vườn quốc gia Cát Tiên."
-    },
-    "credit": "Quang Nguyen Vinh",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/tall-trees-with-big-roots-in-forest-5118547/",
-    "cropped": false
-  },
-  "plan-coast-highlands": {
-    "id": "plan-coast-highlands",
-    "src": "/images/plan-coast-highlands-960.webp",
-    "srcSet": "/images/plan-coast-highlands-640.webp 640w, /images/plan-coast-highlands-960.webp 960w",
-    "width": 960,
-    "height": 540,
-    "alt": {
-      "en": "A rural path winding through green rice fields in Vietnam.",
-      "vi": "Lối đi nông thôn uốn lượn giữa ruộng lúa xanh ở Việt Nam."
-    },
-    "credit": "HONG SON",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/scenic-landscape-of-rice-fields-in-vietnam-40061420/",
-    "cropped": false
-  },
-  "out-boat-karst": {
-    "id": "out-boat-karst",
-    "src": "/images/out-boat-karst-960.webp",
-    "srcSet": "/images/out-boat-karst-640.webp 640w, /images/out-boat-karst-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A small rowboat on calm water beneath limestone cliffs in Tam Coc, Ninh Binh.",
-      "vi": "Thuyền nhỏ trên mặt nước yên dưới vách đá vôi ở Tam Cốc, Ninh Bình."
-    },
-    "credit": "Yan Ho",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/view-of-tam-coc-ninh-binh-vietnam-19757775/",
-    "cropped": false
-  },
-  "out-sapa-terraces": {
-    "id": "out-sapa-terraces",
-    "src": "/images/out-sapa-terraces-960.webp",
-    "srcSet": "/images/out-sapa-terraces-640.webp 640w, /images/out-sapa-terraces-960.webp 960w",
-    "width": 960,
-    "height": 1706,
-    "alt": {
-      "en": "Rice terraces and village houses across the hills of Sa Pa, Vietnam.",
-      "vi": "Ruộng bậc thang và nhà bản trên sườn đồi Sa Pa, Việt Nam."
-    },
-    "credit": "Duong Nguyen",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/aerial-view-of-rice-terraces-in-sa-pa-vietnam-37724187/",
-    "cropped": false
-  },
-  "out-paradise-cave": {
-    "id": "out-paradise-cave",
-    "src": "/images/out-paradise-cave-960.webp",
-    "srcSet": "/images/out-paradise-cave-640.webp 640w, /images/out-paradise-cave-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "Illuminated pathways and rock formations inside Paradise Cave, Vietnam.",
-      "vi": "Lối đi có chiếu sáng và các khối đá trong Hang Thiên Đường, Việt Nam."
-    },
-    "credit": "Kishan Rahul Jose",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/stairs-in-paradise-cave-in-vietnam-20748541/",
-    "cropped": false
-  },
-  "out-dalat-pine-trail": {
-    "id": "out-dalat-pine-trail",
-    "src": "/images/out-dalat-pine-trail-960.webp",
-    "srcSet": "/images/out-dalat-pine-trail-640.webp 640w, /images/out-dalat-pine-trail-960.webp 960w",
-    "width": 960,
-    "height": 1440,
-    "alt": {
-      "en": "A quiet dirt path through a pine forest in Da Lat.",
-      "vi": "Lối đất yên tĩnh xuyên rừng thông ở Đà Lạt."
-    },
-    "credit": "Pew Nguyen",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/serene-woodland-pathway-through-pine-forest-37253115/",
-    "cropped": false
-  },
-  "banner-plan-road": {
-    "id": "banner-plan-road",
-    "src": "/images/banner-plan-road-960.webp",
-    "srcSet": "/images/banner-plan-road-640.webp 640w, /images/banner-plan-road-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A winding road through green Vietnamese mountains.",
-      "vi": "Con đường uốn lượn giữa núi xanh Việt Nam."
-    },
-    "credit": "chiến bá",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/a-winding-road-in-the-mountains-with-a-car-driving-down-it-28315416/",
-    "cropped": false,
-    "heroLayout": "landscape"
-  },
-  "banner-food-spread": {
-    "id": "banner-food-spread",
-    "src": "/images/banner-food-spread-960.webp",
-    "srcSet": "/images/banner-food-spread-640.webp 640w, /images/banner-food-spread-960.webp 960w",
-    "width": 960,
-    "height": 641,
-    "alt": {
-      "en": "A spread of traditional Vietnamese dishes on an outdoor table.",
-      "vi": "Bữa ăn với nhiều món truyền thống Việt Nam trên bàn ngoài trời."
-    },
-    "credit": "Thanh Long Bùi",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/vietnamese-traditional-food-spread-on-outdoor-table-30018451/",
-    "cropped": false,
-    "heroLayout": "landscape"
-  },
-  "banner-essentials-street": {
-    "id": "banner-essentials-street",
-    "src": "/images/banner-essentials-street-960.webp",
-    "srcSet": "/images/banner-essentials-street-640.webp 640w, /images/banner-essentials-street-960.webp 960w",
-    "width": 960,
-    "height": 1440,
-    "alt": {
-      "en": "A quiet street in Ho Chi Minh City with lanterns and leafy trees.",
-      "vi": "Con phố yên tĩnh ở Thành phố Hồ Chí Minh với đèn lồng và cây xanh."
-    },
-    "credit": "Markus Winkler",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/empty-street-5167751/",
-    "cropped": false,
-    "heroLayout": "landscape"
-  },
-  "banner-outdoors-mountain": {
-    "id": "banner-outdoors-mountain",
-    "src": "/images/banner-outdoors-mountain-960.webp",
-    "srcSet": "/images/banner-outdoors-mountain-640.webp 640w, /images/banner-outdoors-mountain-960.webp 960w",
-    "width": 960,
-    "height": 720,
-    "alt": {
-      "en": "Terraced fields and layered green mountains in Vietnam.",
-      "vi": "Ruộng bậc thang và những lớp núi xanh ở Việt Nam."
-    },
-    "credit": "Đạt Nguyễn",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/scenic-terraced-rice-fields-in-lush-vietnamese-landscape-36240106/",
-    "cropped": false,
-    "heroLayout": "landscape"
-  },
-  "banner-history-hue-gate": {
-    "id": "banner-history-hue-gate",
-    "src": "/images/banner-history-hue-gate-960.webp",
-    "srcSet": "/images/banner-history-hue-gate-640.webp 640w, /images/banner-history-hue-gate-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "The Imperial City gate in Hue beneath a clear sky.",
-      "vi": "Cổng Kinh thành Huế dưới bầu trời quang."
-    },
-    "credit": "Cuong Nguyen Manh",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/imperial-city-gate-at-hue-vietnam-under-clear-sky-34571815/",
-    "cropped": false,
-    "heroLayout": "landscape"
-  },
-  "out-coastal-road": {
-    "id": "out-coastal-road",
-    "src": "/images/out-coastal-road-960.webp",
-    "srcSet": "/images/out-coastal-road-640.webp 640w, /images/out-coastal-road-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A palm-lined coastal road in Da Nang with mountains beyond.",
-      "vi": "Đường ven biển rợp bóng cọ ở Đà Nẵng với núi phía xa."
-    },
-    "credit": "Nguyễn Viết Minh Lâm",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/scenic-coastal-road-in-da-nang-vietnam-36167727/",
-    "cropped": false
-  },
-  "out-phuquoc-beach": {
-    "id": "out-phuquoc-beach",
-    "src": "/images/out-phuquoc-beach-960.webp",
-    "srcSet": "/images/out-phuquoc-beach-640.webp 640w, /images/out-phuquoc-beach-960.webp 960w",
-    "width": 960,
-    "height": 640,
-    "alt": {
-      "en": "A bright tropical beach on Phu Quoc fringed with palm trees.",
-      "vi": "Bãi biển nhiệt đới sáng nắng ở Phú Quốc với hàng dừa ven bờ."
-    },
-    "credit": "Quang Nguyen Vinh",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "source": "https://www.pexels.com/photo/green-palm-trees-on-beach-shore-14012627/",
     "cropped": false
   }
 }

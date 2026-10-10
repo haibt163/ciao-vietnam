@@ -23,6 +23,7 @@ export function loadRegion(slug: string) {
 export function regionStubs(): RegionStub[] {
   return readAll().map((region) => ({
     slug: region.slug,
+    hero: region.hero,
     name: region.name,
     blurb: region.blurb,
     chips: region.chips.slice(0, 3),

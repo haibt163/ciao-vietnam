@@ -36,7 +36,8 @@
                 "vi": "Kiểm tra hướng dẫn sân bay hoặc cửa khẩu trong ngày"
               }
             }
-          ]
+          ],
+          "art": "icon:PlaneLanding"
         },
         {
           "id": "arrive-entry",
@@ -59,7 +60,8 @@
                 "vi": "Kiểm tra trước khi bay"
               }
             }
-          ]
+          ],
+          "art": "icon:IdCard"
         }
       ]
     },
@@ -91,7 +93,8 @@
                 "vi": "Chọn phương án ngắn và an toàn"
               }
             }
-          ]
+          ],
+          "art": "icon:Bike"
         },
         {
           "id": "move-between",
@@ -114,7 +117,8 @@
                 "vi": "Kiểm tra chuyến trong ngày"
               }
             }
-          ]
+          ],
+          "art": "icon:TrainFront"
         }
       ]
     },
@@ -146,7 +150,8 @@
                 "vi": "Hỏi tỷ giá và phí tại chỗ"
               }
             }
-          ]
+          ],
+          "art": "icon:Banknote"
         }
       ]
     },
@@ -178,7 +183,8 @@
                 "vi": "Xem vị trí, không chỉ ảnh phòng"
               }
             }
-          ]
+          ],
+          "art": "icon:BedDouble"
         }
       ]
     },
@@ -210,7 +216,8 @@
                 "vi": "Nhịp đi chậm"
               }
             }
-          ]
+          ],
+          "art": "icon:Baby"
         }
       ]
     },
@@ -242,7 +249,8 @@
                 "vi": "Nhu cầu y tế cá nhân cần tư vấn chuyên môn"
               }
             }
-          ]
+          ],
+          "art": "icon:HeartPulse"
         }
       ]
     },
@@ -274,7 +282,8 @@
                 "vi": "Theo yêu cầu tại chỗ"
               }
             }
-          ]
+          ],
+          "art": "icon:Leaf"
         }
       ]
     },
@@ -306,7 +315,8 @@
                 "vi": "Dùng thông tin địa phương hiện hành"
               }
             }
-          ]
+          ],
+          "art": "icon:Rainbow"
         }
       ]
     },
@@ -338,7 +348,8 @@
                 "vi": "Xác nhận khả năng tiếp cận trực tiếp"
               }
             }
-          ]
+          ],
+          "art": "icon:Accessibility"
         }
       ]
     },
@@ -349,8 +360,8 @@
         "vi": "Ngôn ngữ / câu bỏ túi"
       },
       "intro": {
-        "en": "Simple pronunciation only. Vietnamese wording needs native review in docs/vi-review.md.",
-        "vi": "Chỉ là cách đọc đơn giản. Từ tiếng Việt cần người bản ngữ xem trong docs/vi-review.md."
+        "en": "Say it slowly. Tone marks change the meaning, and the spelling guides are only approximate.",
+        "vi": "Hãy nói chậm. Dấu thanh làm đổi nghĩa, cách đọc ghi chỉ mang tính gợi ý."
       },
       "cards": [
         {
@@ -374,7 +385,8 @@
                 "vi": "Xin chào"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-thank-you",
@@ -397,7 +409,8 @@
                 "vi": "Cảm ơn"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-please",
@@ -420,7 +433,8 @@
                 "vi": "Làm ơn"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-yes",
@@ -443,7 +457,8 @@
                 "vi": "Vâng"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-no",
@@ -466,7 +481,8 @@
                 "vi": "Không"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-excuse-me",
@@ -489,7 +505,8 @@
                 "vi": "Xin lỗi"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-sorry",
@@ -512,7 +529,8 @@
                 "vi": "Xin lỗi"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-how-much-",
@@ -535,7 +553,8 @@
                 "vi": "Bao nhiêu?"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-too-expensive",
@@ -558,7 +577,8 @@
                 "vi": "Đắt quá"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-where-is-",
@@ -581,7 +601,8 @@
                 "vi": "Ở đâu?"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-toilet",
@@ -604,7 +625,8 @@
                 "vi": "Nhà vệ sinh"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-water",
@@ -627,7 +649,8 @@
                 "vi": "Nước"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-no-ice",
@@ -650,7 +673,8 @@
                 "vi": "Không đá"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-no-spicy",
@@ -673,7 +697,8 @@
                 "vi": "Không cay"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-vegetarian",
@@ -696,7 +721,8 @@
                 "vi": "Ăn chay"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-i-don-t-understand",
@@ -719,7 +745,8 @@
                 "vi": "Tôi không hiểu"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-help",
@@ -742,7 +769,8 @@
                 "vi": "Giúp tôi"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-one",
@@ -765,7 +793,8 @@
                 "vi": "Một"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-two",
@@ -788,7 +817,8 @@
                 "vi": "Hai"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         },
         {
           "id": "phrase-goodbye",
@@ -811,10 +841,11 @@
                 "vi": "Tạm biệt"
               }
             }
-          ]
+          ],
+          "art": "phrase"
         }
       ]
     }
   ],
-  "banner": "banner-essentials-street"
+  "banner": "lantern-night"
 }
