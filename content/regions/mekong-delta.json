@@ -106,7 +106,6 @@
         "en": "Orchards and small channels. Coconut country, closer to the city than Can Tho.",
         "vi": "Vườn và kênh nhỏ. Xứ dừa, gần thành phố hơn Cần Thơ."
       },
-      "image": "bentre",
       "facts": [
         {
           "label": {
@@ -118,7 +117,8 @@
             "vi": "Một ngày sông mà không cần xe dài"
           }
         }
-      ]
+      ],
+      "art": "mekong"
     },
     {
       "id": "chaudoc",
@@ -142,7 +142,7 @@
           }
         }
       ],
-      "image": "chaudoc"
+      "art": "floating-village"
     },
     {
       "id": "hatien",
@@ -166,7 +166,7 @@
           }
         }
       ],
-      "image": "hatien"
+      "art": "harbor-hill"
     },
     {
       "id": "phuquoc",
@@ -275,7 +275,8 @@
             "vi": "Bữa sáng hoặc bát muộn"
           }
         }
-      ]
+      ],
+      "art": "food-hu-tieu"
     },
     {
       "id": "coconut-sweets",
@@ -328,7 +329,8 @@
             "vi": "Chợ nổi lúc bình minh"
           }
         }
-      ]
+      ],
+      "art": "icon:Sailboat"
     },
     {
       "id": "stay-islands",
@@ -351,7 +353,8 @@
             "vi": "Hỏi lịch tại chỗ"
           }
         }
-      ]
+      ],
+      "art": "icon:TreePalm"
     },
     {
       "id": "stay-bentre",
@@ -374,7 +377,8 @@
             "vi": "Một đêm đồng bằng yên hơn"
           }
         }
-      ]
+      ],
+      "art": "icon:Sailboat"
     }
   ],
   "gettingThere": [
@@ -399,7 +403,8 @@
             "vi": "Đường bộ cho đồng bằng. Máy bay cho Phú Quốc và Côn Đảo."
           }
         }
-      ]
+      ],
+      "art": "icon:Bus"
     },
     {
       "id": "delta-ferries",
@@ -422,7 +427,8 @@
             "vi": "Kết hợp chặng đường bộ và đường sông"
           }
         }
-      ]
+      ],
+      "art": "icon:Ship"
     }
   ]
 }

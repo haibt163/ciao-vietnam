@@ -46,7 +46,7 @@
               "href": "/regions/north-vietnam"
             }
           ],
-          "image": "out-boat-karst"
+          "art": "karst-boat"
         },
         {
           "id": "out-high-mountains",
@@ -79,7 +79,7 @@
               "href": "/regions/north-vietnam"
             }
           ],
-          "image": "out-sapa-terraces"
+          "art": "terraces"
         },
         {
           "id": "out-central-caves",
@@ -112,7 +112,7 @@
               "href": "/regions/central-vietnam"
             }
           ],
-          "image": "out-paradise-cave"
+          "art": "cave"
         },
         {
           "id": "out-coast",
@@ -152,7 +152,7 @@
               "href": "/regions/southeast-coast"
             }
           ],
-          "image": "out-coastal-road"
+          "art": "coast-road"
         },
         {
           "id": "out-highlands",
@@ -185,7 +185,7 @@
               "href": "/regions/central-highlands"
             }
           ],
-          "image": "out-dalat-pine-trail"
+          "art": "pines"
         },
         {
           "id": "out-mekong",
@@ -218,7 +218,7 @@
               "href": "/regions/mekong-delta"
             }
           ],
-          "image": "mekong-boat"
+          "image": "cai-rang-aerial"
         },
         {
           "id": "out-islands",
@@ -251,7 +251,7 @@
               "href": "/regions/mekong-delta"
             }
           ],
-          "image": "out-phuquoc-beach"
+          "art": "island"
         },
         {
           "id": "out-catba",
@@ -289,5 +289,5 @@
       ]
     }
   ],
-  "banner": "banner-outdoors-mountain"
+  "banner": "karst-boat"
 }

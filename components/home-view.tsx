@@ -4,6 +4,7 @@ import { ParallaxHero } from "@/components/hero";
 import { Photo } from "@/components/photo";
 import { T } from "@/components/text";
 import { home, ui } from "@/lib/content";
+import { RegionTile } from "@/components/region-tile";
 import { regionStubs } from "@/lib/regions";
 
 const icons = {
@@ -38,7 +39,7 @@ export function HomeView() {
         <div className="grid gap-3">
           {home.picks.map((pick) => (
             <Link key={pick.href} href={pick.href} className="card tap no-underline">
-              <Photo id={pick.image} />
+              <Photo id={pick.image} cover />
               <div className="grid gap-1 px-3 py-3">
                 <h3 className="m-0 font-display text-2xl">
                   <T text={pick.title} />
@@ -97,18 +98,7 @@ export function HomeView() {
         </h2>
         <div className="grid grid-cols-2 gap-2">
           {regionStubs().map((region) => (
-            <Link
-              key={region.slug}
-              href={`/regions/${region.slug}`}
-              className="tap grid min-h-24 justify-between rounded-2xl border border-line bg-paper-2 p-3 no-underline"
-            >
-              <span className="font-display text-xl leading-tight">
-                <T text={region.name} />
-              </span>
-              <span className="text-sm text-muted">
-                <T text={region.blurb} />
-              </span>
-            </Link>
+            <RegionTile key={region.slug} region={region} compact />
           ))}
         </div>
       </section>

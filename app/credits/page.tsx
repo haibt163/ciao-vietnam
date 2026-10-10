@@ -15,6 +15,9 @@ export default function CreditsPage() {
       <p className="m-0 text-muted">
         <T text={ui.creditsIntro} />
       </p>
+      <p className="m-0 font-mono text-sm text-muted">
+        <T text={ui.illustrationNote} />
+      </p>
       <ul className="m-0 grid list-none gap-4 p-0">
         {Object.values(images).map((image) => (
           <li key={image.id} className="card pb-3">

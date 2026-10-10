@@ -243,7 +243,8 @@
             "vi": "Đêm đầu tiên nhẹ trên đồi"
           }
         }
-      ]
+      ],
+      "art": "mai-chau"
     }
   ],
   "eatIntro": {
@@ -272,7 +273,8 @@
             "vi": "Hà Nội, và phố bạn ngủ"
           }
         }
-      ]
+      ],
+      "art": "food-pho"
     },
     {
       "id": "hill-grill",
@@ -296,7 +298,7 @@
           }
         }
       ],
-      "gap": true
+      "art": "food-night-snacks"
     },
     {
       "id": "sticky-rice",
@@ -320,7 +322,7 @@
           }
         }
       ],
-      "gap": true
+      "art": "food-sticky-rice"
     }
   ],
   "stayIntro": {
@@ -349,7 +351,8 @@
             "vi": "Đêm lạnh. Xin thêm chăn."
           }
         }
-      ]
+      ],
+      "art": "icon:Mountain"
     },
     {
       "id": "stay-bay",
@@ -372,7 +375,8 @@
             "vi": "Hỏi vé gồm những gì"
           }
         }
-      ]
+      ],
+      "art": "icon:Ship"
     },
     {
       "id": "stay-ha-giang",
@@ -395,7 +399,8 @@
             "vi": "Vòng miền Bắc thong thả"
           }
         }
-      ]
+      ],
+      "image": "hagian-road"
     }
   ],
   "gettingThere": [
@@ -420,7 +425,8 @@
             "vi": "Ninh Bình thì gần. Hà Giang thì không."
           }
         }
-      ]
+      ],
+      "art": "icon:Bus"
     },
     {
       "id": "lao-cai",
@@ -443,7 +449,8 @@
             "vi": "Tàu đến Lào Cai, rồi đi xe"
           }
         }
-      ]
+      ],
+      "art": "icon:TrainFront"
     }
   ]
 }
