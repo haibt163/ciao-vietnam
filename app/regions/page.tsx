@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Chips } from "@/components/cards";
+import { RegionTile } from "@/components/region-tile";
 import { T } from "@/components/text";
 import { regionStubs } from "@/lib/regions";
 import { ui } from "@/lib/content";
@@ -20,20 +19,7 @@ export default function RegionsPage() {
       <ul className="m-0 grid list-none gap-3 p-0">
         {regionStubs().map((region) => (
           <li key={region.slug}>
-            <Link href={`/regions/${region.slug}`} className="card tap grid gap-2 p-3 no-underline">
-              <span className="font-display text-2xl leading-tight">
-                <T text={region.name} />
-              </span>
-              <span className="text-muted">
-                <T text={region.blurb} />
-              </span>
-              {region.note ? (
-                <span className="font-mono text-[13px] text-clay">
-                  <T text={region.note} />
-                </span>
-              ) : null}
-              <Chips items={region.chips} />
-            </Link>
+            <RegionTile region={region} />
           </li>
         ))}
       </ul>

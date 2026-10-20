@@ -1538,14 +1538,14 @@
   {
     "href": "/plan#route-north-centre",
     "title": {
-      "en": "North → lanterns",
-      "vi": "Bắc → đèn lồng"
+      "en": "North → centre",
+      "vi": "Bắc → miền Trung"
     },
     "hint": {
       "en": "Plan",
       "vi": "Lịch trình"
     },
-    "keywords": "North → lanterns Bắc → đèn lồng A first-timer spine: Hanoi, karst country, then the old towns of the centre. Một trục dễ đi lần đầu: Hà Nội, xứ đá vôi, rồi các phố cổ miền Trung."
+    "keywords": "North → centre Bắc → miền Trung Hanoi, limestone country, then the old cities. Give the north enough nights instead of racing south. Hà Nội, vùng núi đá vôi rồi các đô thị cổ. Hãy dành đủ đêm cho miền Bắc thay vì vội xuống phía Nam."
   },
   {
     "href": "/plan#route-heritage",
@@ -1557,7 +1557,7 @@
       "en": "Plan",
       "vi": "Lịch trình"
     },
-    "keywords": "Heritage spine Trục di sản Architecture and history from Hanoi to Hue and Hoi An, finishing in the big southern city. Kiến trúc và lịch sử từ Hà Nội đến Huế và Hội An, rồi kết ở thành phố lớn phía Nam."
+    "keywords": "Heritage spine Trục di sản Hanoi → Ninh Binh → Hue → Hoi An → Ho Chi Minh City. Built for architecture, food and history. Hà Nội → Ninh Bình → Huế → Hội An → Thành phố Hồ Chí Minh. Hợp với kiến trúc, ẩm thực và lịch sử."
   },
   {
     "href": "/plan#route-coast-highlands",
@@ -1569,7 +1569,7 @@
       "en": "Plan",
       "vi": "Lịch trình"
     },
-    "keywords": "Coast + highlands Biển + cao nguyên Pair beach days with cooler hills. Pick one coast base and one highland base. Ghép ngày biển với đồi mát. Chọn một điểm nghỉ biển và một điểm nghỉ cao nguyên."
+    "keywords": "Coast + highlands Biển + cao nguyên Choose one coastal base and one cool highland base. Fewer transfers; more time outside the transport window. Chọn một điểm ven biển và một điểm cao nguyên mát. Ít đổi chỗ hơn, có nhiều thời gian tận hưởng hơn."
   },
   {
     "href": "/plan#route-water",
@@ -1581,7 +1581,7 @@
       "en": "Plan",
       "vi": "Lịch trình"
     },
-    "keywords": "Water & islands Sông nước & đảo Start in the southern city, slow down in the delta, then finish by the sea. Bắt đầu ở thành phố phía Nam, chậm lại ở đồng bằng, rồi kết bên biển."
+    "keywords": "Water & islands Sông nước & đảo Ho Chi Minh City → Mekong Delta → Phu Quoc or Con Dao. Keep water days separate from beach days. Thành phố Hồ Chí Minh → Đồng bằng sông Cửu Long → Phú Quốc hoặc Côn Đảo. Tách ngày sông nước khỏi ngày biển."
   },
   {
     "href": "/eat#eat-pho",
@@ -1886,14 +1886,14 @@
   {
     "href": "/essentials#phrase-hello",
     "title": {
-      "en": "Hello",
+      "en": "Hello / greeting",
       "vi": "Xin chào"
     },
     "hint": {
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Hello Xin chào sin chow · native review flag. sin chow · cần người bản ngữ xem."
+    "keywords": "Hello / greeting Xin chào Use when greeting someone. Use when greeting someone."
   },
   {
     "href": "/essentials#phrase-thank-you",
@@ -1905,7 +1905,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Thank you Cảm ơn gahm uhn · native review flag. gahm uhn · cần người bản ngữ xem."
+    "keywords": "Thank you Cảm ơn Use after a meal, ride or favour. Use after a meal, ride or favour."
   },
   {
     "href": "/essentials#phrase-please",
@@ -1917,7 +1917,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Please Làm ơn lahm uhn · native review flag. lahm uhn · cần người bản ngữ xem."
+    "keywords": "Please Làm ơn Use for a polite request. Use for a polite request."
   },
   {
     "href": "/essentials#phrase-yes",
@@ -1929,7 +1929,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Yes Vâng vuhng · native review flag. vuhng · cần người bản ngữ xem."
+    "keywords": "Yes Vâng Polite affirmative. Polite affirmative."
   },
   {
     "href": "/essentials#phrase-no",
@@ -1941,7 +1941,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "No Không khong · native review flag. khong · cần người bản ngữ xem."
+    "keywords": "No Không Useful for declining something. Useful for declining something."
   },
   {
     "href": "/essentials#phrase-excuse-me",
@@ -1953,7 +1953,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Excuse me Xin lỗi sin loy · native review flag. sin loy · cần người bản ngữ xem."
+    "keywords": "Excuse me Xin lỗi Use before a question or to get attention. Use before a question or to get attention."
   },
   {
     "href": "/essentials#phrase-sorry",
@@ -1965,7 +1965,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Sorry Xin lỗi sin loy · native review flag. sin loy · cần người bản ngữ xem."
+    "keywords": "Sorry Xin lỗi Common apology. Common apology."
   },
   {
     "href": "/essentials#phrase-how-much-",
@@ -1977,7 +1977,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "How much? Bao nhiêu? bao nyew · native review flag. bao nyew · cần người bản ngữ xem."
+    "keywords": "How much? Bao nhiêu? Useful in shops and markets. Useful in shops and markets."
   },
   {
     "href": "/essentials#phrase-too-expensive",
@@ -1989,19 +1989,19 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Too expensive Đắt quá daht kwa · native review flag. daht kwa · cần người bản ngữ xem."
+    "keywords": "Too expensive Đắt quá Useful when negotiating at a market. Useful when negotiating at a market."
   },
   {
     "href": "/essentials#phrase-where-is-",
     "title": {
       "en": "Where is…?",
-      "vi": "… ở đâu?"
+      "vi": "Ở đâu?"
     },
     "hint": {
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Where is…? … ở đâu? uh dow · native review flag. uh dow · cần người bản ngữ xem."
+    "keywords": "Where is…? Ở đâu? Add the place you are looking for. Add the place you are looking for."
   },
   {
     "href": "/essentials#phrase-toilet",
@@ -2013,7 +2013,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Toilet Nhà vệ sinh nya veh sin · native review flag. nya veh sin · cần người bản ngữ xem."
+    "keywords": "Toilet Nhà vệ sinh Keep this ready on travel days. Keep this ready on travel days."
   },
   {
     "href": "/essentials#phrase-water",
@@ -2025,7 +2025,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Water Nước nook · native review flag. nook · cần người bản ngữ xem."
+    "keywords": "Water Nước A simple word to use when ordering. A simple word to use when ordering."
   },
   {
     "href": "/essentials#phrase-no-ice",
@@ -2037,19 +2037,19 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "No ice Không đá khong dah · native review flag. khong dah · cần người bản ngữ xem."
+    "keywords": "No ice Không đá Useful for drinks. Useful for drinks."
   },
   {
     "href": "/essentials#phrase-no-spicy",
     "title": {
-      "en": "No spicy",
+      "en": "Not spicy",
       "vi": "Không cay"
     },
     "hint": {
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "No spicy Không cay khong kai · native review flag. khong kai · cần người bản ngữ xem."
+    "keywords": "Not spicy Không cay Tell a vendor when you need mild food. Tell a vendor when you need mild food."
   },
   {
     "href": "/essentials#phrase-vegetarian",
@@ -2061,7 +2061,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Vegetarian Ăn chay an chai · native review flag. an chai · cần người bản ngữ xem."
+    "keywords": "Vegetarian Ăn chay Useful shorthand at meals. Useful shorthand at meals."
   },
   {
     "href": "/essentials#phrase-i-don-t-understand",
@@ -2073,19 +2073,19 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "I don't understand Tôi không hiểu toy khong hyew · native review flag. toy khong hyew · cần người bản ngữ xem."
+    "keywords": "I don't understand Tôi không hiểu Use when speech is moving too quickly. Use when speech is moving too quickly."
   },
   {
     "href": "/essentials#phrase-help",
     "title": {
-      "en": "Help",
+      "en": "Help me",
       "vi": "Giúp tôi"
     },
     "hint": {
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Help Giúp tôi zoop toy · native review flag. zoop toy · cần người bản ngữ xem."
+    "keywords": "Help me Giúp tôi Useful in an urgent situation. Useful in an urgent situation."
   },
   {
     "href": "/essentials#phrase-one",
@@ -2121,7 +2121,7 @@
       "en": "Essentials",
       "vi": "Cần biết"
     },
-    "keywords": "Goodbye Tạm biệt tahm byet · native review flag. tahm byet · cần người bản ngữ xem."
+    "keywords": "Goodbye Tạm biệt A simple farewell. A simple farewell."
   },
   {
     "href": "/outdoors",
@@ -2130,8 +2130,8 @@
       "vi": "Ngoài trời"
     },
     "hint": {
-      "en": "Keyword trails for choosing the landscape before you choose the route.",
-      "vi": "Từ khóa cảnh quan để chọn nơi trước khi chọn đường."
+      "en": "Choose the landscape first; the route comes second.",
+      "vi": "Chọn kiểu cảnh quan trước; tuyến đi tính sau."
     },
     "keywords": "Landscape map Bản đồ cảnh quan"
   },
@@ -2238,8 +2238,8 @@
       "vi": "Lịch sử ngắn"
     },
     "hint": {
-      "en": "A keyword timeline. The guide keeps the story broad and points you to places that carry it.",
-      "vi": "Dòng thời gian bằng từ khóa. Cẩm nang kể rộng và chỉ vào những nơi còn giữ câu chuyện."
+      "en": "A compact timeline with places attached to the story.",
+      "vi": "Một dòng thời gian ngắn, gắn câu chuyện với địa điểm cụ thể."
     },
     "keywords": "Keywords Từ khóa"
   },

@@ -140,7 +140,6 @@
         "en": "A river port of low houses, lanterns, and tailor shops. Walk it.",
         "vi": "Phố cảng nhà thấp, đèn lồng, và tiệm may. Đi bộ."
       },
-      "image": "hoian",
       "facts": [
         {
           "label": {
@@ -162,7 +161,8 @@
             "vi": "Phố cổ hạn chế xe. Hỏi vé tại chỗ."
           }
         }
-      ]
+      ],
+      "art": "lantern-night"
     },
     {
       "id": "japan-bridge",
@@ -232,7 +232,6 @@
         "en": "The beach city between Hue and Hoi An. Marble Mountains sit at the edge.",
         "vi": "Thành phố biển giữa Huế và Hội An. Ngũ Hành Sơn nằm ở rìa."
       },
-      "image": "danang-dragon-bridge",
       "facts": [
         {
           "label": {
@@ -244,7 +243,8 @@
             "vi": "Sân bay, biển, và đèo"
           }
         }
-      ]
+      ],
+      "art": "dragon-bridge"
     }
   ],
   "eatIntro": {
@@ -274,7 +274,7 @@
           }
         }
       ],
-      "gap": true
+      "art": "food-bun-bo"
     },
     {
       "id": "cao-lau",
@@ -321,7 +321,8 @@
             "vi": "Bữa trưa ở Hội An hoặc Đà Nẵng"
           }
         }
-      ]
+      ],
+      "art": "food-mi-quang"
     }
   ],
   "stayIntro": {
@@ -350,7 +351,8 @@
             "vi": "Lăng và Đại Nội"
           }
         }
-      ]
+      ],
+      "art": "icon:Castle"
     },
     {
       "id": "stay-hoian",
@@ -373,7 +375,8 @@
             "vi": "Sân bay Đà Nẵng phải đi xe, không đi bộ"
           }
         }
-      ]
+      ],
+      "image": "hoi-an-night"
     }
   ],
   "gettingThere": [
@@ -398,7 +401,8 @@
             "vi": "Tàu, rồi xe vào Hội An"
           }
         }
-      ]
+      ],
+      "art": "icon:TrainFront"
     },
     {
       "id": "hai-van",
@@ -445,7 +449,8 @@
             "vi": "Tàu, xe khách hoặc ô tô; hỏi lựa chọn trong ngày"
           }
         }
-      ]
+      ],
+      "art": "icon:Route"
     }
   ]
 }

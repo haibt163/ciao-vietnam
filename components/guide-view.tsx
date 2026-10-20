@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { InfoCard, Section } from "@/components/cards";
-import { ParallaxHero } from "@/components/hero";
 import { T } from "@/components/text";
+import { ArtImg, PhraseCard } from "@/components/visual";
 import type { GuideContent, GuideLink } from "@/content/types";
 
 function LinkChips({ items }: { items: GuideLink[] }) {
@@ -20,15 +20,19 @@ function LinkChips({ items }: { items: GuideLink[] }) {
 
 export function GuideView({ content }: { content: GuideContent }) {
   return (
-    <div className="grid gap-8 py-6">
+    <div className="grid gap-8 pb-6">
       {content.banner ? (
-        <ParallaxHero image={content.banner}>
-          <p className="prompt m-0">{">"} guide</p>
-          <h1 className="m-0 font-display text-5xl leading-none"><T text={content.title} /></h1>
-          <p className="m-0 max-w-[30ch]"><T text={content.lede} /></p>
-        </ParallaxHero>
+        <section className="banner relative -mx-4 overflow-hidden">
+          <ArtImg id={content.banner} className="absolute inset-0 h-full w-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-black/20" />
+          <div className="absolute inset-x-0 bottom-0 grid gap-2 p-4 text-[#fffbf6]">
+            <p className="prompt m-0">{">"} guide</p>
+            <h1 className="m-0 font-display text-5xl leading-none"><T text={content.title} /></h1>
+            <p className="m-0 max-w-[30ch]"><T text={content.lede} /></p>
+          </div>
+        </section>
       ) : (
-        <div className="grid gap-3">
+        <div className="grid gap-3 pt-6">
           <p className="prompt m-0 text-muted">{">"} guide</p>
           <h1 className="m-0 font-display text-5xl leading-none"><T text={content.title} /></h1>
           <p className="m-0 max-w-[30ch]"><T text={content.lede} /></p>
@@ -48,7 +52,11 @@ export function GuideView({ content }: { content: GuideContent }) {
             </div>
           ) : null}
           {section.cards?.length ? (
-            <div className="grid gap-3">{section.cards.map((card) => <InfoCard key={card.id} card={card} />)}</div>
+            section.cards.every((card) => card.art === "phrase") ? (
+              <div className="grid grid-cols-2 gap-3">{section.cards.map((card) => <PhraseCard key={card.id} card={card} />)}</div>
+            ) : (
+              <div className="grid gap-3">{section.cards.map((card) => <InfoCard key={card.id} card={card} />)}</div>
+            )
           ) : null}
         </Section>
       ))}

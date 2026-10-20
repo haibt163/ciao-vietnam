@@ -323,3 +323,92 @@ summary {
     opacity: 0;
   }
 }
+
+/* Visuals: photo/illustration frames, icon tiles, phrase tiles, banners */
+.visual {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--paper-2);
+}
+
+.credit-pill {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  max-width: calc(100% - 16px);
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgb(0 0 0 / 0.55);
+  color: #fffbf6;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.banner {
+  height: 52vh;
+  min-height: 340px;
+}
+
+.card summary::after {
+  content: "";
+  flex: none;
+  margin-left: auto;
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 160ms ease;
+}
+
+.card details[open] summary::after {
+  transform: rotate(-135deg) translateY(-2px);
+}
+
+.tile,
+.phrase {
+  --t1: #f6dcc6;
+  --t2: #eab08a;
+  --tf: #7d3412;
+}
+
+.tile {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  color: var(--tf);
+  background: radial-gradient(circle at 24% 18%, rgb(255 255 255 / 0.6), transparent 56%), linear-gradient(135deg, var(--t1), var(--t2));
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.06);
+}
+
+.tile-1 { --t1: #d8ede1; --t2: #9fd0b9; --tf: #1d5a46; }
+.tile-2 { --t1: #dbe9f4; --t2: #a9cee8; --tf: #1e4f77; }
+.tile-3 { --t1: #f8e8bb; --t2: #ecc975; --tf: #6a4808; }
+.tile-4 { --t1: #ecdff1; --t2: #cbabdc; --tf: #54306d; }
+
+html[data-theme="dark"] .tile,
+html[data-theme="dark"] .phrase { --t1: #4a2a1a; --t2: #7a4426; --tf: #ffd9bf; }
+html[data-theme="dark"] .tile-1 { --t1: #1d3d31; --t2: #2e6a54; --tf: #c9f0de; }
+html[data-theme="dark"] .tile-2 { --t1: #1d3249; --t2: #2f557c; --tf: #d3e8fb; }
+html[data-theme="dark"] .tile-3 { --t1: #473713; --t2: #7a5f1c; --tf: #fbe9b4; }
+html[data-theme="dark"] .tile-4 { --t1: #3a2547; --t2: #5e3f78; --tf: #f0dcfa; }
+
+.phrase {
+  display: grid;
+  gap: 4px;
+  align-content: center;
+  min-height: 108px;
+  padding: 14px;
+  border-radius: 18px;
+  color: var(--tf);
+  background: radial-gradient(circle at 20% 15%, rgb(255 255 255 / 0.55), transparent 60%), linear-gradient(135deg, var(--t1), var(--t2));
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.06);
+}

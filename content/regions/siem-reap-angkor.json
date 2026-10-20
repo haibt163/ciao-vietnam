@@ -92,7 +92,6 @@
         "en": "The south gate, faces on the causeway, then the city inside.",
         "vi": "Cổng nam, mặt người trên đường vào, rồi thành bên trong."
       },
-      "image": "angkor-thom-south-gate",
       "facts": [
         {
           "label": {
@@ -104,7 +103,8 @@
             "vi": "Lối vào thành cũ"
           }
         }
-      ]
+      ],
+      "art": "angkor-gate"
     },
     {
       "id": "bayon",
@@ -116,7 +116,6 @@
         "en": "The face temple at the centre of Angkor Thom.",
         "vi": "Đền mặt người ở giữa Angkor Thom."
       },
-      "image": "bayon",
       "facts": [
         {
           "label": {
@@ -128,7 +127,8 @@
             "vi": "Cùng buổi sáng với cổng"
           }
         }
-      ]
+      ],
+      "art": "angkor-towers"
     },
     {
       "id": "taprohm",
@@ -205,7 +205,8 @@
             "vi": "Phố Siem Reap, sau khi về từ đền"
           }
         }
-      ]
+      ],
+      "art": "food-khmer-meal"
     },
     {
       "id": "fish-amok",
@@ -228,7 +229,8 @@
             "vi": "Bữa tối Khmer đầu tiên"
           }
         }
-      ]
+      ],
+      "art": "food-fish-amok"
     },
     {
       "id": "market-night",
@@ -251,7 +253,8 @@
             "vi": "Sau một ngày ở đền"
           }
         }
-      ]
+      ],
+      "art": "food-night-snacks"
     }
   ],
   "stayIntro": {
@@ -280,7 +283,8 @@
             "vi": "Tính tiền xe ra đền, mỗi ngày"
           }
         }
-      ]
+      ],
+      "art": "icon:Hotel"
     },
     {
       "id": "stay-old-town",
@@ -304,7 +308,7 @@
           }
         }
       ],
-      "gap": true
+      "art": "icon:Landmark"
     }
   ],
   "gettingThere": [
@@ -329,7 +333,8 @@
             "vi": "Quy định hay đổi. Hỏi lại trước khi đi."
           }
         }
-      ]
+      ],
+      "art": "icon:IdCard"
     },
     {
       "id": "temple-ride",
@@ -352,7 +357,8 @@
             "vi": "Xe đạp, tuk-tuk, hoặc ô tô. Chốt từ tối hôm trước."
           }
         }
-      ]
+      ],
+      "art": "icon:Bike"
     }
   ]
 }

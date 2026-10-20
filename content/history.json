@@ -25,7 +25,8 @@
             "en": "Dong Son · Champa · Khmer worlds",
             "vi": "Đông Sơn · Chăm · thế giới Khmer"
           },
-          "facts": []
+          "facts": [],
+          "art": "cham-towers"
         },
         {
           "id": "hist-imperial",
@@ -46,7 +47,8 @@
               },
               "href": "/regions/central-vietnam"
             }
-          ]
+          ],
+          "image": "hue-imperial"
         },
         {
           "id": "hist-colonial",
@@ -67,7 +69,8 @@
               },
               "href": "/regions/hanoi"
             }
-          ]
+          ],
+          "art": "colonial"
         },
         {
           "id": "hist-division",
@@ -88,7 +91,8 @@
               },
               "href": "/regions/ho-chi-minh-city"
             }
-          ]
+          ],
+          "art": "division"
         },
         {
           "id": "hist-remnants",
@@ -109,7 +113,8 @@
               },
               "href": "/regions/ho-chi-minh-city"
             }
-          ]
+          ],
+          "art": "lantern-night"
         },
         {
           "id": "hist-trade",
@@ -130,7 +135,8 @@
               },
               "href": "/regions/central-vietnam"
             }
-          ]
+          ],
+          "art": "junk-harbor"
         },
         {
           "id": "hist-cholon",
@@ -151,7 +157,8 @@
               },
               "href": "/regions/ho-chi-minh-city"
             }
-          ]
+          ],
+          "art": "cholon"
         },
         {
           "id": "hist-delta",
@@ -172,7 +179,8 @@
               },
               "href": "/regions/mekong-delta"
             }
-          ]
+          ],
+          "art": "delta-canal"
         },
         {
           "id": "hist-angkor",
@@ -193,10 +201,11 @@
               },
               "href": "/regions/siem-reap-angkor"
             }
-          ]
+          ],
+          "art": "angkor-towers"
         }
       ]
     }
   ],
-  "banner": "banner-history-hue-gate"
+  "banner": "hue-gate"
 }

@@ -64,7 +64,8 @@
                 "vi": "Món ăn dùng chung"
               }
             }
-          ]
+          ],
+          "art": "food-bun-cha"
         },
         {
           "id": "eat-banh-mi",
@@ -87,7 +88,8 @@
                 "vi": "Ngày bận rộn"
               }
             }
-          ]
+          ],
+          "art": "food-banh-mi"
         },
         {
           "id": "eat-bun-bo",
@@ -110,7 +112,8 @@
                 "vi": "Người thích khám phá"
               }
             }
-          ]
+          ],
+          "art": "food-bun-bo"
         },
         {
           "id": "eat-cao-lau",
@@ -133,7 +136,8 @@
                 "vi": "Chuyến đi vì ẩm thực"
               }
             }
-          ]
+          ],
+          "art": "food-cao-lau"
         },
         {
           "id": "eat-com-tam",
@@ -156,7 +160,8 @@
                 "vi": "Ăn uống hằng ngày"
               }
             }
-          ]
+          ],
+          "art": "food-com-tam"
         },
         {
           "id": "eat-seafood",
@@ -179,7 +184,8 @@
                 "vi": "Điểm ven biển"
               }
             }
-          ]
+          ],
+          "art": "food-seafood"
         },
         {
           "id": "eat-fruit",
@@ -202,7 +208,8 @@
                 "vi": "Buổi sáng ngoài chợ"
               }
             }
-          ]
+          ],
+          "art": "food-fruit"
         }
       ]
     },
@@ -234,7 +241,8 @@
                 "vi": "Buổi tối thong thả"
               }
             }
-          ]
+          ],
+          "art": "food-bia-hoi"
         },
         {
           "id": "eat-iced-coffee",
@@ -257,7 +265,8 @@
                 "vi": "Những lần ghé quán"
               }
             }
-          ]
+          ],
+          "art": "food-iced-coffee"
         },
         {
           "id": "eat-night-markets",
@@ -341,7 +350,8 @@
                 "vi": "Khoảng nghỉ sau bữa trưa"
               }
             }
-          ]
+          ],
+          "art": "food-egg-coffee"
         },
         {
           "id": "coffee-highlands",
@@ -364,10 +374,11 @@
                 "vi": "Rẽ qua cao nguyên"
               }
             }
-          ]
+          ],
+          "art": "food-highland-coffee"
         }
       ]
     }
   ],
-  "banner": "banner-food-spread"
+  "banner": "food-pho"
 }

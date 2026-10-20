@@ -14,7 +14,7 @@
     "en": "Cooler air and coffee. Dalat is the easy gate. The rest of the plateau is a bus ride.",
     "vi": "Không khí mát và cà phê. Đà Lạt là cửa dễ. Phần còn lại của cao nguyên là một chuyến xe."
   },
-  "hero": "xuanhuong-lake-replacement",
+  "hero": "xuanhuong",
   "chips": [
     {
       "en": "Dalat",
@@ -78,7 +78,6 @@
         "en": "The lake in the middle of Dalat. Walk the shore before you hire a ride.",
         "vi": "Hồ giữa Đà Lạt. Đi bộ quanh bờ trước khi thuê xe."
       },
-      "image": "xuanhuong",
       "facts": [
         {
           "label": {
@@ -90,7 +89,8 @@
             "vi": "Giờ đầu tiên trong phố"
           }
         }
-      ]
+      ],
+      "art": "pines"
     },
     {
       "id": "buonmathuot",
@@ -150,7 +150,6 @@
         "en": "A national park on the way down toward the south. Forest, not a town.",
         "vi": "Vườn quốc gia trên đường xuống phía nam. Rừng, không phải phố."
       },
-      "image": "cattien-rainforest",
       "facts": [
         {
           "label": {
@@ -164,15 +163,16 @@
         },
         {
           "label": {
-            "en": "Watch",
-            "vi": "Lưu ý"
+            "en": "Search",
+            "vi": "Tìm"
           },
           "value": {
-            "en": "UNVERIFIED which book chapter files the park. Search finds it here.",
-            "vi": "CHƯA KIỂM sách xếp vườn vào chương nào. Tìm thì ra trang này."
+            "en": "Search finds the park under this region.",
+            "vi": "Tìm kiếm sẽ thấy vườn ở mục này."
           }
         }
-      ]
+      ],
+      "art": "forest"
     }
   ],
   "eatIntro": {
@@ -225,7 +225,8 @@
             "vi": "Buổi chiều mát"
           }
         }
-      ]
+      ],
+      "art": "food-artichoke-tea"
     },
     {
       "id": "highland-market",
@@ -248,7 +249,8 @@
             "vi": "Đà Lạt và Buôn Ma Thuột"
           }
         }
-      ]
+      ],
+      "art": "food-market-plates"
     }
   ],
   "stayIntro": {
@@ -277,7 +279,8 @@
             "vi": "Mang thêm một lớp áo. Quần áo biển thì không đủ."
           }
         }
-      ]
+      ],
+      "art": "icon:Mountain"
     },
     {
       "id": "stay-buon-ma-thuot",
@@ -300,7 +303,8 @@
             "vi": "Chuyến đi thiên về cà phê"
           }
         }
-      ]
+      ],
+      "art": "icon:Coffee"
     }
   ],
   "gettingThere": [
@@ -325,7 +329,8 @@
             "vi": "Hỏi xe từ sân bay tại chỗ"
           }
         }
-      ]
+      ],
+      "art": "icon:Route"
     },
     {
       "id": "highland-loop",
@@ -348,7 +353,8 @@
             "vi": "Xe khách, ô tô hoặc máy bay cho các điểm chính"
           }
         }
-      ]
+      ],
+      "art": "icon:Route"
     }
   ]
 }

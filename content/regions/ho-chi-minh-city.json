@@ -66,7 +66,7 @@
           }
         }
       ],
-      "image": "saigon-cathedral-facade"
+      "art": "cathedral"
     },
     {
       "id": "saigon-post",
@@ -78,7 +78,6 @@
         "en": "The long hall next to the cathedral. Maps on the walls, stalls in the middle.",
         "vi": "Hành lang dài cạnh nhà thờ. Bản đồ trên tường, quầy ở giữa."
       },
-      "image": "saigon-post",
       "facts": [
         {
           "label": {
@@ -90,7 +89,8 @@
             "vi": "Mười phút tránh nóng"
           }
         }
-      ]
+      ],
+      "art": "colonial"
     },
     {
       "id": "palace",
@@ -210,7 +210,7 @@
           }
         }
       ],
-      "image": "war-remnants-aircraft"
+      "art": "museum"
     },
     {
       "id": "cuchi",
@@ -222,7 +222,6 @@
         "en": "A tunnel network outside the city. A half-day ride, not a neighbourhood walk.",
         "vi": "Hệ thống địa đạo ngoài thành phố. Nửa ngày đi xe, không phải đi bộ trong phố."
       },
-      "image": "cuchi",
       "facts": [
         {
           "label": {
@@ -234,7 +233,8 @@
             "vi": "Tour hoặc xe ra ngoại thành. Hỏi tại chỗ."
           }
         }
-      ]
+      ],
+      "art": "cu-chi"
     }
   ],
   "eatIntro": {
@@ -263,7 +263,8 @@
             "vi": "Cuối sáng đến chiều"
           }
         }
-      ]
+      ],
+      "art": "food-com-tam"
     },
     {
       "id": "ca-phe-sua",
@@ -364,7 +365,8 @@
             "vi": "Xin phòng không nhìn mặt đường chính"
           }
         }
-      ]
+      ],
+      "image": "hcm-night"
     },
     {
       "id": "stay-cholon",
@@ -387,7 +389,8 @@
             "vi": "Lần ở thứ hai, không phải đêm đầu"
           }
         }
-      ]
+      ],
+      "art": "icon:Store"
     }
   ],
   "gettingThere": [
@@ -412,7 +415,8 @@
             "vi": "Taxi hoặc ứng dụng. Hỏi giá tại chỗ."
           }
         }
-      ]
+      ],
+      "art": "icon:PlaneLanding"
     },
     {
       "id": "saigon-station",
@@ -436,7 +440,7 @@
           }
         }
       ],
-      "image": "hcm-metro-train"
+      "art": "icon:TrainFront"
     }
   ]
 }

@@ -62,7 +62,6 @@
         "en": "The city's living room. A shaded loop around the water.",
         "vi": "Phòng khách của phố. Một vòng rợp bóng quanh hồ."
       },
-      "image": "hoan-kiem",
       "facts": [
         {
           "label": {
@@ -94,7 +93,8 @@
             "vi": "Đi bộ. Hồ ở giữa phố."
           }
         }
-      ]
+      ],
+      "art": "hoan-kiem"
     },
     {
       "id": "old-quarter",
@@ -269,7 +269,8 @@
             "vi": "Cùng khu với Chùa Một Cột"
           }
         }
-      ]
+      ],
+      "art": "mausoleum"
     },
     {
       "id": "opera",
@@ -488,7 +489,8 @@
             "vi": "Đi xe. Đừng đi bộ hết một vòng hồ."
           }
         }
-      ]
+      ],
+      "art": "west-lake"
     },
     {
       "id": "flag-tower",
@@ -757,7 +759,8 @@
             "vi": "Xin phòng không nhìn ra mặt phố"
           }
         }
-      ]
+      ],
+      "image": "hanoi-street-food"
     },
     {
       "id": "stay-french",
@@ -790,7 +793,8 @@
             "vi": "Tối yên hơn. Đồ ăn phải đi bộ một đoạn."
           }
         }
-      ]
+      ],
+      "art": "icon:Hotel"
     },
     {
       "id": "stay-west",
@@ -823,7 +827,8 @@
             "vi": "Tính tiền xe vào kế hoạch"
           }
         }
-      ]
+      ],
+      "art": "icon:House"
     }
   ],
   "gettingThere": [
@@ -858,7 +863,8 @@
             "vi": "Hỏi giá tại chỗ trước khi đi"
           }
         }
-      ]
+      ],
+      "art": "icon:PlaneLanding"
     },
     {
       "id": "train",
@@ -892,7 +898,7 @@
           }
         }
       ],
-      "image": "hanoi-train"
+      "art": "icon:TrainFront"
     },
     {
       "id": "in-town",
@@ -925,7 +931,8 @@
             "vi": "Chốt giá, hoặc bật đồng hồ"
           }
         }
-      ]
+      ],
+      "art": "icon:Bike"
     }
   ]
 }

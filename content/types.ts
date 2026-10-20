@@ -27,15 +27,17 @@ export type GuideMonth = { label: LangText; links: GuideLink[] };
 
 export type GuideSection = { id: string; title: LangText; intro?: LangText; cards?: Card[]; links?: GuideLink[]; months?: GuideMonth[] };
 
-export type GuideContent = { title: LangText; lede: LangText; banner?: string; sections: GuideSection[] };
+export type GuideContent = { title: LangText; lede: LangText; /** id of a scene in public/art used as the page banner */ banner?: string; sections: GuideSection[] };
 
 export type Card = {
   id: string;
   title: LangText;
   summary: LangText;
   image?: string;
-  /** Show the "photograph still needed" block when there is no file yet. */
+  /** Legacy flag; every card now shows a photo, an illustration (`art`) or an icon tile. */
   gap?: boolean;
+  /** Visual when there is no photo: a scene or food id in public/art, `icon:<Name>` for a tile, or `phrase`. */
+  art?: string;
   kicker?: LangText;
   facts: Fact[];
   links?: GuideLink[];
@@ -63,6 +65,7 @@ export type RegionContent = {
 
 export type RegionStub = {
   slug: string;
+  hero: string;
   name: LangText;
   blurb: LangText;
   chips: LangText[];
