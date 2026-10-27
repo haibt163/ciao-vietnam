@@ -17,8 +17,58 @@ labels or URLs; if an offline license cannot be represented accurately by the
 existing credits UI, document the constraint and make the smallest truthful change.
 
 This section is the current policy. The rounds below are retained as historical
-selection evidence and should not be rewritten to make the new media pass appear
-to have happened already.
+selection evidence; the completed 27 October 2026 media pass is recorded next.
+
+## Media pass — 27 October 2026
+
+Both licensed books were read locally from `C:\Projects\Ebooks`; neither ebook nor
+any page extract is in Git.
+
+Inventory before the pass: 75 registry entries, 96 derivative image ids (21 were
+orphaned files), 50 generated SVGs, 68 referenced photo ids, 52 hand-drawn scene or
+food visuals, and 186 guide cards.
+
+Result:
+
+- `content/images.json` now has 108 entries: 84 Lonely Planet photographs, 4 DK
+  Eyewitness page crops, and 20 retained prior assets.
+- 102 cards use photographs, 22 cards use one of 19 original dish illustrations,
+  and the rest keep icon or phrase tiles. No card-image id is reused.
+- 29 scene illustrations and 5 illustrated banners were replaced by photographs;
+  their SVGs and scene sources were deleted. The five page banners now use photo
+  ids through `components/guide-view.tsx`.
+- 21 orphan image ids and stale Pexels-era scripts/manifests were removed.
+
+Selection rules applied:
+
+- Subject first: the image must show the place, dish or activity named by the card.
+  Where the book had no usable frame, the card keeps an accurate illustration or a
+  previously credited photo rather than a different subject.
+- At least 960 px wide at the chosen crop; no upscaling. Cards produce 640/960 WebP;
+  heroes add 1280 when the crop allows.
+- Heroes are cropped to 4:5 (portrait) or 4:3 (landscape) with a recorded
+  `focus`. Card images keep their native aspect and are framed by `object-fit`.
+- Every new asset has an EN/VI alt, the printed credit, the licence label
+  `Owner-licensed guidebook image`, and a text source line with book, edition,
+  page and Lonely Planet image identifier. No licence URL is invented; the credits
+  page renders text instead of a link when `licenseUrl`/`sourceUrl` is absent.
+
+DK constraint: the PDF is a flattened page export. Each page is a 1383×2400 raster,
+so individual photos smaller than the page width fall below the 960 px bar. Only
+four page-width subjects were used (p. 68, 153, 224, 228), each cropped to the photo
+area with margins and page furniture excluded. Smaller DK dish photos were rejected
+rather than upscaled; those cards therefore keep their illustrations.
+
+Retained prior assets (20): `banteay`, `banh-can-food`, `banh-mi-food`,
+`coconut-market`, `egg-coffee`, `flag-tower`, `french`, `haivan`, `hon-chong`,
+`jade`, `long-bien`, `long-bien-sunset`, `nha-trang-beach`, `opera`, `phin-coffee`,
+`pho-bowl`, `pho-hanoi`, `seafood-nhatrang`, `tran-quoc`, `hoi-an-food-stall`. The
+guidebooks did not provide those specific subjects at the required width. Their
+existing credits stay on `/credits`.
+
+EN/VI summaries were revised only where book evidence supports a stable fact
+(architecture, dish composition, geography). Prices, hours, distances and entry
+rules remain omitted.
 
 ## Round 4 — autonomous photo replacement
 
@@ -62,17 +112,28 @@ The two guidebooks were not in this sandbox when this log was written, so the sh
 
 ## Image preparation usage
 
-scripts/images.mjs looks for the original photo folder in this order:
+`scripts/guidebook-media.mjs` rebuilds derivatives from the licensed sources listed
+in `scripts/guidebook-media.json`. The ebooks and their extracts stay outside the
+repository. Pass the extracted folders:
 
-1. --originals <folder> command-line argument.
-2. CIAO_PHOTO_ORIGINALS environment variable.
-3. owner-photos at the repository root.
+1. `--lp-images <folder>` — the EPUB `EPUB/images` directory.
+2. `--dk-pages <folder>` — PNG/JPEG renders of the DK pages named in the manifest.
+3. Or set `CIAO_LP_IMAGES` / `CIAO_DK_PAGES`.
 
 Example in PowerShell:
 
-node scripts/images.mjs --originals "D:\ciao-vietnam\owner-photos"
+node scripts/guidebook-media.mjs --lp-images "C:\path\to\lp\EPUB\images" --dk-pages "C:\path\to\dk-pages"
 
-The folder may contain the original JPGs and an optional manifest.json. If the resolved folder does not exist, the script exits cleanly without changing public/images.
+If a required source is absent, the script exits without touching `public/images`
+or `content/images.json`. When sources are present it rewrites only the derivatives
+for ids in the manifest, then updates those registry entries; retained entries are
+written back unchanged. It never fetches from a stock-photo site and never publishes
+a full book page.
+
+The retired Pexels-era scripts (`scripts/images.mjs`, `scripts/revamp-images.mjs`,
+`scripts/photo-review-sheets.mjs`) and their candidate manifests were removed in
+this pass. Historical Round 2–5 text below still refers to them; those references
+are kept as evidence, not as current instructions.
 
 ## What was reachable
 

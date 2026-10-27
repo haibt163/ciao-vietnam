@@ -55,8 +55,8 @@
         "vi": "Angkor Wat"
       },
       "summary": {
-        "en": "The great temple. Go at opening if you want the towers without the crush.",
-        "vi": "Ngôi đền lớn. Đến lúc mở cửa nếu muốn thấy tháp khi chưa đông."
+        "en": "The largest temple at Angkor, with five towers and long galleries. Go at opening.",
+        "vi": "Ngôi đền lớn nhất Angkor, năm tháp và hành lang dài. Đến lúc mở cửa."
       },
       "facts": [
         {
@@ -104,7 +104,7 @@
           }
         }
       ],
-      "art": "angkor-gate"
+      "image": "angkor-south-gate"
     },
     {
       "id": "bayon",
@@ -113,8 +113,8 @@
         "vi": "Bayon"
       },
       "summary": {
-        "en": "The face temple at the centre of Angkor Thom.",
-        "vi": "Đền mặt người ở giữa Angkor Thom."
+        "en": "The state temple at the centre of Angkor Thom, known for its stone faces.",
+        "vi": "Đền trung tâm Angkor Thom, nổi tiếng với những mặt đá."
       },
       "facts": [
         {
@@ -128,7 +128,7 @@
           }
         }
       ],
-      "art": "angkor-towers"
+      "image": "bayon"
     },
     {
       "id": "taprohm",
@@ -161,8 +161,8 @@
         "vi": "Banteay Srei"
       },
       "summary": {
-        "en": "A small pink temple, further out. Fine stone, a longer ride.",
-        "vi": "Đền nhỏ màu hồng, xa hơn. Đá tinh, đường thì dài hơn."
+        "en": "A small temple of pink sandstone, further out, with fine carvings.",
+        "vi": "Ngôi đền nhỏ bằng đá sa thạch hồng, xa hơn, chạm khắc tinh xảo."
       },
       "image": "banteay",
       "facts": [
@@ -191,8 +191,8 @@
         "vi": "Một bữa Khmer"
       },
       "summary": {
-        "en": "The town cooks for visitors. Ask for a Khmer fish curry if you want something that is not Vietnamese.",
-        "vi": "Phố nấu cho khách. Gọi cà ri cá Khmer nếu muốn món không phải Việt."
+        "en": "Khmer cooking leans on lemongrass, coconut and freshwater fish. Ask for a local curry.",
+        "vi": "Món Khmer dùng sả, nước cốt dừa và cá nước ngọt. Gọi một món cà ri địa phương."
       },
       "facts": [
         {
@@ -215,8 +215,8 @@
         "vi": "Amok cá"
       },
       "summary": {
-        "en": "A Cambodian classic worth ordering once. Mild, aromatic, and different from Vietnamese bowls.",
-        "vi": "Một món kinh điển Campuchia đáng thử một lần. Dịu, thơm, và khác các bát mì Việt."
+        "en": "Fish amok is a steamed coconut curry: mild, aromatic and unlike Vietnamese bowls.",
+        "vi": "Amok cá là món cà ri hấp với nước cốt dừa: dịu, thơm, khác các bát mì Việt."
       },
       "facts": [
         {

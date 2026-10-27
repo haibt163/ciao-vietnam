@@ -46,7 +46,7 @@
               "href": "/regions/north-vietnam"
             }
           ],
-          "art": "karst-boat"
+          "image": "ninh-binh-karst"
         },
         {
           "id": "out-high-mountains",
@@ -79,7 +79,7 @@
               "href": "/regions/north-vietnam"
             }
           ],
-          "art": "terraces"
+          "image": "pu-luong-terraces"
         },
         {
           "id": "out-central-caves",
@@ -112,7 +112,7 @@
               "href": "/regions/central-vietnam"
             }
           ],
-          "art": "cave"
+          "image": "marble-cave"
         },
         {
           "id": "out-coast",
@@ -152,7 +152,7 @@
               "href": "/regions/southeast-coast"
             }
           ],
-          "art": "coast-road"
+          "image": "coastal-road"
         },
         {
           "id": "out-highlands",
@@ -185,7 +185,7 @@
               "href": "/regions/central-highlands"
             }
           ],
-          "art": "pines"
+          "image": "tea-harvest"
         },
         {
           "id": "out-mekong",
@@ -251,7 +251,7 @@
               "href": "/regions/mekong-delta"
             }
           ],
-          "art": "island"
+          "image": "cay-sao-beach"
         },
         {
           "id": "out-catba",
@@ -289,5 +289,5 @@
       ]
     }
   ],
-  "banner": "karst-boat"
+  "banner": "ninhbinh"
 }

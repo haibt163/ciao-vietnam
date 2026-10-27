@@ -14,7 +14,7 @@
     "en": "Cooler air and coffee. Dalat is the easy gate. The rest of the plateau is a bus ride.",
     "vi": "Không khí mát và cà phê. Đà Lạt là cửa dễ. Phần còn lại của cao nguyên là một chuyến xe."
   },
-  "hero": "xuanhuong",
+  "hero": "lam-vien-square",
   "chips": [
     {
       "en": "Dalat",
@@ -51,8 +51,8 @@
         "vi": "Đà Lạt"
       },
       "summary": {
-        "en": "The hill station. Cool, walkable, and full of short rides to waterfalls and farms.",
-        "vi": "Thị trấn cao. Mát, đi bộ được, và nhiều chuyến xe ngắn ra thác và vườn."
+        "en": "A French-era hill station around a lake, with waterfalls, farms and cool mornings.",
+        "vi": "Thị trấn nghỉ dưỡng thời Pháp bên hồ, có thác, vườn và sáng mát."
       },
       "facts": [
         {
@@ -90,7 +90,7 @@
           }
         }
       ],
-      "art": "pines"
+      "image": "xuanhuong"
     },
     {
       "id": "buonmathuot",
@@ -99,8 +99,8 @@
         "vi": "Buôn Ma Thuột"
       },
       "summary": {
-        "en": "Coffee country. The city is a base for the plantations, not a beauty spot.",
-        "vi": "Xứ cà phê. Thành phố là chỗ nghỉ để ra rẫy, không phải điểm ngắm."
+        "en": "The centre of Vietnam's coffee belt; the city is a base for plantations.",
+        "vi": "Trung tâm vành đai cà phê Việt Nam; thành phố là chỗ nghỉ để ra rẫy."
       },
       "facts": [
         {
@@ -172,7 +172,7 @@
           }
         }
       ],
-      "art": "forest"
+      "image": "cattien"
     }
   ],
   "eatIntro": {

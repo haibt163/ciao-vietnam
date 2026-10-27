@@ -89,7 +89,7 @@
               }
             }
           ],
-          "art": "coast-highlands"
+          "image": "long-lan-pass"
         },
         {
           "id": "route-water",
@@ -457,5 +457,5 @@
       ]
     }
   ],
-  "banner": "coast-road"
+  "banner": "coastal-road"
 }

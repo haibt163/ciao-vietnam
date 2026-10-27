@@ -18,7 +18,51 @@ actual license still governs how an image is reproduced, cropped, adapted or
 attributed. Historical content mappings below are not evidence that the new media
 refresh has been completed.
 
-Chapter placements below are the ones checked against Lonely Planet Vietnam (16th edition) and DK Eyewitness Vietnam. This round did not re-read the books. The sandbox file search found the DK PDF only (`/workspace/attachments/DK Eyewitness Vietnam (Travel Guide) (DK Eyewitness) (Z-Library).pdf`). DK's contents used here: Ho Chi Minh City, Mekong Delta and Southern Vietnam, South Central Vietnam, Central Vietnam, Hanoi, Northern Vietnam, excursion to Angkor. Lonely Planet chapters: Hanoi, Northern Vietnam, Central Vietnam, Southeast Coast, Central Highlands, Ho Chi Minh City, Mekong Delta, plus Siem Reap and Angkor.
+### Media pass record — 27 October 2026
+
+Both ebooks were read locally from `C:\Projects\Ebooks` as reference and image
+sources. The ebooks and all page extracts remain outside Git.
+
+- **Lonely Planet Vietnam, 16th edition (EPUB).** 84 site images come from the
+  book's embedded photographs, pages 4–406. The site records the printed page,
+  the book's own credit line (for example `trong nguyen/Shutterstock`) and the
+  EPUB image identifier (`shutterstock_*.jpg` or a book-specific filename) in
+  `scripts/guidebook-media.json`. Selected sources are at least 960 px wide so
+  the 640/960 WebP set needs no upscaling.
+- **DK Eyewitness Vietnam (PDF edition, 2021).** 4 images come from single-photo
+  crops of page rasters: the Central Post Office hall (p. 68), the south gate of
+  Angkor Thom (p. 224), the Bayon (p. 228) and boats on the Perfume River at Hue
+  (p. 153). The PDF renders each page as a 1383×2400 flattened canvas, so a
+  subject photo is only usable when it spans the page width. Smaller DK photos
+  were rejected rather than upscaled. No full page, page furniture, caption or
+  surrounding text is published; each crop excludes margins and design elements
+  and is recorded with its page number.
+- **Registry.** `content/images.json` has 108 entries: 102 are used by cards, plus
+  region heroes and page banners. The manifest is
+  `scripts/guidebook-media.json`; the rebuild command is documented in
+  `docs/photo-selection.md`.
+- **Attribution label.** The credits page shows the printed photographer/agency
+  credit, the label `Owner-licensed guidebook image`, and a text-only source line
+  (book, edition, page, image identifier). No public licence URL is invented for
+  the owner-held licences, so the credits UI omits the link for these entries.
+- **Retained prior assets (20).** These subjects had no guidebook image that met
+  the 960 px no-upscaling bar: `banteay`, `banh-can-food`, `banh-mi-food`,
+  `coconut-market`, `egg-coffee`, `flag-tower`, `french`, `haivan`, `hon-chong`,
+  `jade`, `long-bien`, `long-bien-sunset`, `nha-trang-beach`, `opera`,
+  `phin-coffee`, `pho-bowl`, `pho-hanoi`, `seafood-nhatrang`, `tran-quoc`,
+  `hoi-an-food-stall`. Their existing Pexels/CC credits and files are unchanged
+  and remain visible on `/credits`.
+- **Retained dish illustrations (19).** Where the guidebooks offer no photograph
+  of the named dish at the required width (for example bun bo, com tam, fish amok,
+  hu tieu, sticky rice), the accurate original SVG flat-lay is kept instead of
+  substituting a photo of a different dish.
+
+No guidebook sentences were copied. Card summaries and alt text are original
+wording; the factual revisions are limited to stable geography, architecture and
+food descriptions visible in or confirmed by the books. Practical details such as
+prices, hours and distances are still omitted.
+
+Historical note (earlier round; superseded by the media pass record above): Chapter placements below are the ones checked against Lonely Planet Vietnam (16th edition) and DK Eyewitness Vietnam. That round did not re-read the books. The sandbox file search found the DK PDF only (`/workspace/attachments/DK Eyewitness Vietnam (Travel Guide) (DK Eyewitness) (Z-Library).pdf`). DK's contents used here: Ho Chi Minh City, Mekong Delta and Southern Vietnam, South Central Vietnam, Central Vietnam, Hanoi, Northern Vietnam, excursion to Angkor. Lonely Planet chapters: Hanoi, Northern Vietnam, Central Vietnam, Southeast Coast, Central Highlands, Ho Chi Minh City, Mekong Delta, plus Siem Reap and Angkor.
 
 ## Hanoi
 

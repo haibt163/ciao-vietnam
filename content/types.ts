@@ -9,8 +9,11 @@ export type ImageAsset = {
   alt: LangText;
   credit: string;
   license: string;
-  licenseUrl: string;
+  /** Only present when the licence has a public URL. */
+  licenseUrl?: string;
+  /** Book, edition and page for offline licences; a public URL for web sources. */
   source: string;
+  sourceUrl?: string;
   /** object-position on the cropped file, e.g. "50% 42%". */
   focus?: string;
   /** Heroes only. Landscape is a 4:3 box when a 4:5 crop would be too small. */

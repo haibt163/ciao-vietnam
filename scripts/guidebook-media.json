@@ -1,0 +1,1464 @@
+{
+  "note": "Source manifest for the guidebook media refresh. Ebook files stay outside the repository; run scripts/guidebook-media.mjs with extracted source folders to rebuild public/images.",
+  "assets": {
+    "hoan-kiem": {
+      "id": "hoan-kiem",
+      "alt": {
+        "en": "Turtle Tower on Hoan Kiem Lake in Hanoi.",
+        "vi": "Tháp Rùa trên Hồ Hoàn Kiếm, Hà Nội."
+      },
+      "credit": "trong nguyen/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 66 — image shutterstock_389312887.jpg",
+      "page": 66,
+      "lpFile": "shutterstock_389312887.jpg",
+      "hero": true,
+      "layout": "landscape",
+      "focus": "50% 55%"
+    },
+    "huc-bridge": {
+      "id": "huc-bridge",
+      "alt": {
+        "en": "The red Huc Bridge leading to Ngoc Son Temple.",
+        "vi": "Cầu Thê Húc đỏ dẫn tới đền Ngọc Sơn."
+      },
+      "credit": "pil-art/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 67 — image shutterstock_521781394.jpg",
+      "page": 67,
+      "lpFile": "shutterstock_521781394.jpg"
+    },
+    "temple": {
+      "id": "temple",
+      "alt": {
+        "en": "The main gate of the Temple of Literature at night.",
+        "vi": "Cổng chính Văn Miếu ở Hà Nội."
+      },
+      "credit": "vietnam stock images/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 24 — image shutterstock_589742027.jpg",
+      "page": 24,
+      "lpFile": "shutterstock_589742027.jpg"
+    },
+    "one-pillar": {
+      "id": "one-pillar",
+      "alt": {
+        "en": "One Pillar Pagoda above its small lotus pond.",
+        "vi": "Chùa Một Cột bên hồ sen nhỏ."
+      },
+      "credit": "fcg/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 84 — image shutterstock_118943224.jpg",
+      "page": 84,
+      "lpFile": "shutterstock_118943224.jpg"
+    },
+    "cathedral": {
+      "id": "cathedral",
+      "alt": {
+        "en": "St Joseph's Cathedral in Hanoi.",
+        "vi": "Nhà thờ Thánh Giuse ở Hà Nội."
+      },
+      "credit": "olga kashubin/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 68 — image shutterstock_755809123.jpg",
+      "page": 68,
+      "lpFile": "shutterstock_755809123.jpg"
+    },
+    "mausoleum-square": {
+      "id": "mausoleum-square",
+      "alt": {
+        "en": "The Martyr's Monument in Ba Dinh Square.",
+        "vi": "Đài tưởng niệm liệt sĩ ở Quảng trường Ba Đình."
+      },
+      "credit": "carrie fereday/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 69 — image shutterstock_1331592731.jpg",
+      "page": 69,
+      "lpFile": "shutterstock_1331592731.jpg"
+    },
+    "hanoi-old-quarter": {
+      "id": "hanoi-old-quarter",
+      "alt": {
+        "en": "A market street in Hanoi's Old Quarter.",
+        "vi": "Phố chợ ở khu Phố cổ Hà Nội."
+      },
+      "credit": "mark stephens photography/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 75 — image shutterstock_1575198778.jpg",
+      "page": 75,
+      "lpFile": "shutterstock_1575198778.jpg"
+    },
+    "hanoi-street-food": {
+      "id": "hanoi-street-food",
+      "alt": {
+        "en": "A street food stall in Hanoi.",
+        "vi": "Quán ăn đường phố ở Hà Nội."
+      },
+      "credit": "dttmstock/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 12 — image shutterstock_724001530.jpg",
+      "page": 12,
+      "lpFile": "shutterstock_724001530.jpg"
+    },
+    "bun-cha-food": {
+      "id": "bun-cha-food",
+      "alt": {
+        "en": "Bun cha: grilled pork, rice noodles and herbs.",
+        "vi": "Bún chả: thịt nướng, bún và rau thơm."
+      },
+      "credit": "bonchan/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 48 — image shutterstock_366705101.jpg",
+      "page": 48,
+      "lpFile": "shutterstock_366705101.jpg"
+    },
+    "bia-hanoi": {
+      "id": "bia-hanoi",
+      "alt": {
+        "en": "Glasses of bia hoi at a street bar.",
+        "vi": "Cốc bia hơi ở quán vỉa hè."
+      },
+      "credit": "phuong d. nguyen/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 406 — image shutterstock_602478416.jpg",
+      "page": 406,
+      "lpFile": "shutterstock_602478416.jpg"
+    },
+    "halong": {
+      "id": "halong",
+      "alt": {
+        "en": "Limestone towers in Ha Long Bay at sunset.",
+        "vi": "Tháp đá vôi ở vịnh Hạ Long lúc hoàng hôn."
+      },
+      "credit": "stefano zaccaria/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 4 — image shutterstock_2132970143.jpg",
+      "page": 4,
+      "lpFile": "shutterstock_2132970143.jpg",
+      "hero": true,
+      "layout": "portrait",
+      "focus": "50% 60%"
+    },
+    "halong-air": {
+      "id": "halong-air",
+      "alt": {
+        "en": "Boats among the limestone islands of Lan Ha Bay.",
+        "vi": "Thuyền giữa các đảo đá vôi ở vịnh Lan Hạ."
+      },
+      "credit": "tran qui thinh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 104 — image shutterstock_1795542688.jpg",
+      "page": 104,
+      "lpFile": "shutterstock_1795542688.jpg"
+    },
+    "catba": {
+      "id": "catba",
+      "alt": {
+        "en": "Limestone cliffs and water at Cat Ba.",
+        "vi": "Thuyền kayak trên nước ở Cát Bà."
+      },
+      "credit": "hannah stanbury/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 105 — image shutterstock_784179517.jpg",
+      "page": 105,
+      "lpFile": "shutterstock_784179517.jpg"
+    },
+    "catba-fishing-village": {
+      "id": "catba-fishing-village",
+      "alt": {
+        "en": "Boats on the water near Cat Ba at dusk.",
+        "vi": "Bờ biển đảo Cát Bà."
+      },
+      "credit": "dillon ward/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 98 — image shutterstock_535682827.jpg",
+      "page": 98,
+      "lpFile": "shutterstock_535682827.jpg"
+    },
+    "catba-cruise": {
+      "id": "catba-cruise",
+      "alt": {
+        "en": "A boat deck at sunset in Lan Ha Bay.",
+        "vi": "Boong thuyền lúc hoàng hôn ở vịnh Lan Hạ."
+      },
+      "credit": "sen photos/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 30 — image shutterstock_525046015.jpg",
+      "page": 30,
+      "lpFile": "shutterstock_525046015.jpg"
+    },
+    "sapa": {
+      "id": "sapa",
+      "alt": {
+        "en": "Hmong women in Sapa.",
+        "vi": "Phụ nữ H'Mông ở Sa Pa."
+      },
+      "credit": "martinho smart/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 110 — image shutterstock_319202882.jpg",
+      "page": 110,
+      "lpFile": "shutterstock_319202882.jpg"
+    },
+    "hagiang": {
+      "id": "hagiang",
+      "alt": {
+        "en": "The Ma Pi Leng Pass in Ha Giang.",
+        "vi": "Đèo Mã Pí Lèng ở Hà Giang."
+      },
+      "credit": "HUY THOAI/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 126 — image shutterstock_325756775.jpg",
+      "page": 126,
+      "lpFile": "shutterstock_325756775.jpg"
+    },
+    "hagian-road": {
+      "id": "hagian-road",
+      "alt": {
+        "en": "Terraced fields in the mountains between Mu Cang Chai and Ha Giang.",
+        "vi": "Vùng núi giữa Mù Cang Chải và Hà Giang."
+      },
+      "credit": "thongnguyengallery/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 16 — image shutterstock_1236122026.jpg",
+      "page": 16,
+      "lpFile": "shutterstock_1236122026.jpg"
+    },
+    "ninhbinh": {
+      "id": "ninhbinh",
+      "alt": {
+        "en": "Boats in the Trang An landscape.",
+        "vi": "Thuyền giữa cảnh quan Tràng An."
+      },
+      "credit": "quang minh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 150 — image shutterstock_1714608091.jpg",
+      "page": 150,
+      "lpFile": "shutterstock_1714608091.jpg"
+    },
+    "mai-chau": {
+      "id": "mai-chau",
+      "alt": {
+        "en": "Stilt houses reflected in water in Mai Chau.",
+        "vi": "Nhà sàn soi bóng nước ở Mai Châu."
+      },
+      "credit": "yvette ebertsohn/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 119 — image shutterstock_1574216329.jpg",
+      "page": 119,
+      "lpFile": "shutterstock_1574216329.jpg"
+    },
+    "bac-ha-food": {
+      "id": "bac-ha-food",
+      "alt": {
+        "en": "People eating at Bac Ha market.",
+        "vi": "Người ăn uống ở chợ Bắc Hà."
+      },
+      "credit": "asia images/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 50 — image shutterstock_330325973.jpg",
+      "page": 50,
+      "lpFile": "shutterstock_330325973.jpg"
+    },
+    "pu-luong-terraces": {
+      "id": "pu-luong-terraces",
+      "alt": {
+        "en": "Terraced rice fields in Pu Luong.",
+        "vi": "Ruộng bậc thang ở Pù Luông."
+      },
+      "credit": "big pearl/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 121 — image shutterstock_1131050057.jpg",
+      "page": 121,
+      "lpFile": "shutterstock_1131050057.jpg"
+    },
+    "hue": {
+      "id": "hue",
+      "alt": {
+        "en": "The Imperial City of Hue.",
+        "vi": "Hoàng thành Huế."
+      },
+      "credit": "nguyen quang ngoc tonkin/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 169 — image shutterstock_1407371531.jpg",
+      "page": 169,
+      "lpFile": "shutterstock_1407371531.jpg"
+    },
+    "thienmu": {
+      "id": "thienmu",
+      "alt": {
+        "en": "Thien Mu Pagoda above the Perfume River.",
+        "vi": "Chùa Thiên Mụ bên sông Hương."
+      },
+      "credit": "sergii figurnyi/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 171 — image shutterstock_1234816501.jpg",
+      "page": 171,
+      "lpFile": "shutterstock_1234816501.jpg"
+    },
+    "khai-dinh": {
+      "id": "khai-dinh",
+      "alt": {
+        "en": "The tomb of Khai Dinh near Hue.",
+        "vi": "Lăng Khải Định gần Huế."
+      },
+      "credit": "sergii figurnyi/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 174 — image shutterstock_1232624329.jpg",
+      "page": 174,
+      "lpFile": "shutterstock_1232624329.jpg"
+    },
+    "hoian": {
+      "id": "hoian",
+      "alt": {
+        "en": "The riverfront in Hoi An.",
+        "vi": "Bờ sông ở Hội An."
+      },
+      "credit": "romainslavik.com/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 193 — image shutterstock_1955933665.jpg",
+      "page": 193,
+      "lpFile": "shutterstock_1955933665.jpg",
+      "hero": true,
+      "layout": "landscape",
+      "focus": "50% 55%"
+    },
+    "japan-bridge": {
+      "id": "japan-bridge",
+      "alt": {
+        "en": "The Japanese Covered Bridge in Hoi An.",
+        "vi": "Chùa Cầu ở Hội An."
+      },
+      "credit": "Tang Trung Kien/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 195 — image shutterstock_1506184586.jpg",
+      "page": 195,
+      "lpFile": "shutterstock_1506184586.jpg"
+    },
+    "phongnha": {
+      "id": "phongnha",
+      "alt": {
+        "en": "Boats at the mouth of Phong Nha Cave.",
+        "vi": "Thuyền trước cửa động Phong Nha."
+      },
+      "credit": "vietnam stock images/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 159 — image shutterstock_455748502.jpg",
+      "page": 159,
+      "lpFile": "shutterstock_455748502.jpg"
+    },
+    "dragon-bridge": {
+      "id": "dragon-bridge",
+      "alt": {
+        "en": "The Dragon Bridge in Danang.",
+        "vi": "Cầu Rồng ở Đà Nẵng."
+      },
+      "credit": "richie chan/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 185 — image shutterstock_1476327617.jpg",
+      "page": 185,
+      "lpFile": "shutterstock_1476327617.jpg"
+    },
+    "mi-quang": {
+      "id": "mi-quang",
+      "alt": {
+        "en": "A bowl of noodles with herbs and pork.",
+        "vi": "Bát mì với rau thơm và thịt."
+      },
+      "credit": "balatran/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 12 — image shutterstock_1364988455.jpg",
+      "page": 12,
+      "lpFile": "shutterstock_1364988455.jpg"
+    },
+    "hoi-an-night": {
+      "id": "hoi-an-night",
+      "alt": {
+        "en": "A lantern-lit street in Hoi An.",
+        "vi": "Phố đèn lồng ở Hội An."
+      },
+      "credit": "noina/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 144 — image shutterstock_788077351.jpg",
+      "page": 144,
+      "lpFile": "shutterstock_788077351.jpg"
+    },
+    "lantern-night": {
+      "id": "lantern-night",
+      "alt": {
+        "en": "Lanterns on the water during the full moon festival in Hoi An.",
+        "vi": "Đèn lồng trên sông trong đêm hội hoa đăng ở Hội An."
+      },
+      "credit": "kobby dagan/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 197 — image shutterstock_750511906.jpg",
+      "page": 197,
+      "lpFile": "shutterstock_750511906.jpg"
+    },
+    "mui-ne-dunes": {
+      "id": "mui-ne-dunes",
+      "alt": {
+        "en": "Sand dunes at Mui Ne.",
+        "vi": "Đồi cát ở Mũi Né."
+      },
+      "credit": "det-anan/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 230 — image shutterstock_225120007.jpg",
+      "page": 230,
+      "lpFile": "shutterstock_225120007.jpg"
+    },
+    "muine": {
+      "id": "muine",
+      "alt": {
+        "en": "The beach and fishing boats at Mui Ne.",
+        "vi": "Bãi biển và thuyền cá ở Mũi Né."
+      },
+      "credit": "huy thoai/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 203 — image shutterstock_1085130752.jpg",
+      "page": 203,
+      "lpFile": "shutterstock_1085130752.jpg",
+      "hero": true,
+      "layout": "portrait",
+      "focus": "50% 55%"
+    },
+    "quynhon": {
+      "id": "quynhon",
+      "alt": {
+        "en": "The bay at Quy Nhon.",
+        "vi": "Vịnh Quy Nhơn."
+      },
+      "credit": "hien phung thu/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 213 — image shutterstock_1926490808.jpg",
+      "page": 213,
+      "lpFile": "shutterstock_1926490808.jpg"
+    },
+    "quynhon-village": {
+      "id": "quynhon-village",
+      "alt": {
+        "en": "Bai Xep beach south of Quy Nhon.",
+        "vi": "Bãi biển Bãi Xếp ở phía nam Quy Nhơn."
+      },
+      "credit": "fabio lamanna/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 218 — image shutterstock_1639478836.jpg",
+      "page": 218,
+      "lpFile": "shutterstock_1639478836.jpg"
+    },
+    "sonmy": {
+      "id": "sonmy",
+      "alt": {
+        "en": "The memorial statue at Son My.",
+        "vi": "Tượng đài ở Sơn Mỹ."
+      },
+      "credit": "mundosemfim/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 209 — image shutterstock_1363765805.jpg",
+      "page": 209,
+      "lpFile": "shutterstock_1363765805.jpg"
+    },
+    "vungtau": {
+      "id": "vungtau",
+      "alt": {
+        "en": "The coast at Ho Tram near Vung Tau.",
+        "vi": "Bờ biển Hồ Tràm gần Vũng Tàu."
+      },
+      "credit": "quang nguyen vinh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 241 — image shutterstock_279257471.jpg",
+      "page": 241,
+      "lpFile": "shutterstock_279257471.jpg"
+    },
+    "ponagar": {
+      "id": "ponagar",
+      "alt": {
+        "en": "The Po Nagar Cham Towers in Nha Trang.",
+        "vi": "Tháp Bà Ponagar ở Nha Trang."
+      },
+      "credit": "ovchinnikova irina/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 221 — image shutterstock_368497736.jpg",
+      "page": 221,
+      "lpFile": "shutterstock_368497736.jpg"
+    },
+    "drying-fish": {
+      "id": "drying-fish",
+      "alt": {
+        "en": "Fish drying on the coast at Long Hai.",
+        "vi": "Cá phơi trên bờ biển Long Hải."
+      },
+      "credit": "quang nguyen vinh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 239 — image shutterstock_1981342847.jpg",
+      "page": 239,
+      "lpFile": "shutterstock_1981342847.jpg"
+    },
+    "tea-harvest": {
+      "id": "tea-harvest",
+      "alt": {
+        "en": "Tea harvesting near Dalat.",
+        "vi": "Hái trà gần Đà Lạt."
+      },
+      "credit": "huy thoai/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 254 — image shutterstock_1106355953.jpg",
+      "page": 254,
+      "lpFile": "shutterstock_1106355953.jpg"
+    },
+    "floating-houses": {
+      "id": "floating-houses",
+      "alt": {
+        "en": "Floating houses on a delta river.",
+        "vi": "Nhà nổi trên một con sông ở đồng bằng."
+      },
+      "credit": "PHUONG D.NGUYEN/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 335 — image shutterstock_709313512.jpg",
+      "page": 335,
+      "lpFile": "shutterstock_709313512.jpg"
+    },
+    "vinh-long": {
+      "id": "vinh-long",
+      "alt": {
+        "en": "A boat at Vinh Long on the Mekong.",
+        "vi": "Thuyền ở Vĩnh Long trên sông Mekong."
+      },
+      "credit": "SCENIC VIETNAM/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 310 — image shutterstock_1221711985.jpg",
+      "page": 310,
+      "lpFile": "shutterstock_1221711985.jpg"
+    },
+    "ninh-binh-karst": {
+      "id": "ninh-binh-karst",
+      "alt": {
+        "en": "Limestone karst at Ninh Binh.",
+        "vi": "Núi đá vôi ở Ninh Bình."
+      },
+      "credit": "thongnguyengallery/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 148 — image shutterstock_1380131297.jpg",
+      "page": 148,
+      "lpFile": "shutterstock_1380131297.jpg"
+    },
+    "marble-cave": {
+      "id": "marble-cave",
+      "alt": {
+        "en": "Huyen Khong cave in the Marble Mountains.",
+        "vi": "Động Huyền Không ở Ngũ Hành Sơn."
+      },
+      "credit": "amadeustx/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 398 — image shutterstock_341650028.jpg",
+      "page": 398,
+      "lpFile": "shutterstock_341650028.jpg"
+    },
+    "cay-sao-beach": {
+      "id": "cay-sao-beach",
+      "alt": {
+        "en": "Cay Sao beach on Phu Quoc.",
+        "vi": "Bãi Sao trên đảo Phú Quốc."
+      },
+      "credit": "LOCHUYNH/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 346 — image shutterstock_2061711635.jpg",
+      "page": 346,
+      "lpFile": "shutterstock_2061711635.jpg"
+    },
+    "my-son": {
+      "id": "my-son",
+      "alt": {
+        "en": "The My Son Sanctuary.",
+        "vi": "Thánh địa Mỹ Sơn."
+      },
+      "credit": "roman babakin/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 201 — image shutterstock_1044245035.jpg",
+      "page": 201,
+      "lpFile": "shutterstock_1044245035.jpg"
+    },
+    "war-soldiers": {
+      "id": "war-soldiers",
+      "alt": {
+        "en": "Soldiers in uniform at a ceremony.",
+        "vi": "Những người lính mặc quân phục trong một buổi lễ."
+      },
+      "credit": "tanes ngamsom/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 26 — image shutterstock_1238358649.jpg",
+      "page": 26,
+      "lpFile": "shutterstock_1238358649.jpg"
+    },
+    "ong-bon-pagoda": {
+      "id": "ong-bon-pagoda",
+      "alt": {
+        "en": "Ong Bon Pagoda in Cholon.",
+        "vi": "Chùa Ông Bổn ở Chợ Lớn."
+      },
+      "credit": "STEPHANE BIDOUZE/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 286 — image shutterstock_318251402.jpg",
+      "page": 286,
+      "lpFile": "shutterstock_318251402.jpg"
+    },
+    "angkor-bas-relief": {
+      "id": "angkor-bas-relief",
+      "alt": {
+        "en": "Bas-relief at Angkor.",
+        "vi": "Phù điêu ở Angkor."
+      },
+      "credit": "emil litov/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 360 — image shutterstock_1675234936.jpg",
+      "page": 360,
+      "lpFile": "shutterstock_1675234936.jpg"
+    },
+    "cattien": {
+      "id": "cattien",
+      "alt": {
+        "en": "Forest in Cat Tien National Park.",
+        "vi": "Rừng ở Vườn quốc gia Cát Tiên."
+      },
+      "credit": "quang nguyen vinh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 20 — image shutterstock_1484651990.jpg",
+      "page": 20,
+      "lpFile": "shutterstock_1484651990.jpg"
+    },
+    "lam-vien-square": {
+      "id": "lam-vien-square",
+      "alt": {
+        "en": "Lam Vien Square in Dalat.",
+        "vi": "Quảng trường Lâm Viên ở Đà Lạt."
+      },
+      "credit": "dong nhat huy/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 246 — image shutterstock_2213277713.jpg",
+      "page": 246,
+      "lpFile": "shutterstock_2213277713.jpg"
+    },
+    "coastal-road": {
+      "id": "coastal-road",
+      "alt": {
+        "en": "The coastal road near Nha Trang.",
+        "vi": "Đường ven biển gần Nha Trang."
+      },
+      "credit": "nguyen quang ngoc tonkin/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 226 — image shutterstock_1497197399.jpg",
+      "page": 226,
+      "lpFile": "shutterstock_1497197399.jpg"
+    },
+    "xuanhuong": {
+      "id": "xuanhuong",
+      "alt": {
+        "en": "Xuan Huong Lake in Dalat.",
+        "vi": "Hồ Xuân Hương ở Đà Lạt."
+      },
+      "credit": "quang nguyen vinh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 253 — image shutterstock_1942106911.jpg",
+      "page": 253,
+      "lpFile": "shutterstock_1942106911.jpg",
+      "hero": true,
+      "layout": "landscape",
+      "focus": "50% 50%"
+    },
+    "dalat-falls": {
+      "id": "dalat-falls",
+      "alt": {
+        "en": "Dambri Falls near Dalat.",
+        "vi": "Thác Dambri gần Đà Lạt."
+      },
+      "credit": "viet su luoc/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 255 — image shutterstock_2112140651.jpg",
+      "page": 255,
+      "lpFile": "shutterstock_2112140651.jpg"
+    },
+    "bmt-coffee": {
+      "id": "bmt-coffee",
+      "alt": {
+        "en": "Sorting coffee beans.",
+        "vi": "Phân loại hạt cà phê."
+      },
+      "credit": "mohammad aldi purnomo/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 402 — image shutterstock_2052970763.jpg",
+      "page": 402,
+      "lpFile": "shutterstock_2052970763.jpg"
+    },
+    "kontum": {
+      "id": "kontum",
+      "alt": {
+        "en": "The Immaculate Conception Cathedral in Kon Tum.",
+        "vi": "Nhà thờ chính tòa Kon Tum."
+      },
+      "credit": "thi/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 261 — image shutterstock_669105220.jpg",
+      "page": 261,
+      "lpFile": "shutterstock_669105220.jpg"
+    },
+    "coffee-farm": {
+      "id": "coffee-farm",
+      "alt": {
+        "en": "A cafe in Dalat.",
+        "vi": "Một quán cà phê ở Đà Lạt."
+      },
+      "credit": "quang nguyen vinh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 403 — image shutterstock_634933070.jpg",
+      "page": 403,
+      "lpFile": "shutterstock_634933070.jpg"
+    },
+    "long-lan-pass": {
+      "id": "long-lan-pass",
+      "alt": {
+        "en": "The Long Lan Pass in Lam Dong province.",
+        "vi": "Đèo Long Lan ở tỉnh Lâm Đồng."
+      },
+      "credit": "hien phung thu/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 243 — image shutterstock_1175816959.jpg",
+      "page": 243,
+      "lpFile": "shutterstock_1175816959.jpg"
+    },
+    "saigon-post": {
+      "id": "saigon-post",
+      "alt": {
+        "en": "The vaulted hall of the Central Post Office in Ho Chi Minh City.",
+        "vi": "Sảnh vòm của Bưu điện Trung tâm ở Thành phố Hồ Chí Minh."
+      },
+      "credit": "DK Eyewitness Vietnam",
+      "license": "Owner-licensed guidebook image",
+      "source": "DK Eyewitness Vietnam (PDF edition, 2021), p. 68",
+      "page": 68,
+      "dkFile": "p068-img_p67_2.jpg",
+      "crop": [
+        150,
+        121,
+        1130,
+        685
+      ]
+    },
+    "saigon-cathedral": {
+      "id": "saigon-cathedral",
+      "alt": {
+        "en": "Notre-Dame Cathedral in Ho Chi Minh City.",
+        "vi": "Nhà thờ Đức Bà ở Thành phố Hồ Chí Minh."
+      },
+      "credit": "EFIRED/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 271 — image shutterstock_305712290.jpg",
+      "page": 271,
+      "lpFile": "shutterstock_305712290.jpg"
+    },
+    "palace": {
+      "id": "palace",
+      "alt": {
+        "en": "Reunification Palace in Ho Chi Minh City.",
+        "vi": "Dinh Độc Lập ở Thành phố Hồ Chí Minh."
+      },
+      "credit": "sean hsu/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 395 — image shutterstock_1483712507.jpg",
+      "page": 395,
+      "lpFile": "shutterstock_1483712507.jpg"
+    },
+    "ben-thanh": {
+      "id": "ben-thanh",
+      "alt": {
+        "en": "Ben Thanh Market in Ho Chi Minh City.",
+        "vi": "Chợ Bến Thành ở Thành phố Hồ Chí Minh."
+      },
+      "credit": "JARVA JAR/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 282 — image shutterstock_1263125779.jpg",
+      "page": 282,
+      "lpFile": "shutterstock_1263125779.jpg"
+    },
+    "cholon": {
+      "id": "cholon",
+      "alt": {
+        "en": "Incense at Thien Hau Pagoda in Cholon.",
+        "vi": "Khói hương ở chùa Thiên Hậu, Chợ Lớn."
+      },
+      "credit": "DUC HUY NGUYEN/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 285 — image shutterstock_2031624371.jpg",
+      "page": 285,
+      "lpFile": "shutterstock_2031624371.jpg"
+    },
+    "cu-chi-tunnels": {
+      "id": "cu-chi-tunnels",
+      "alt": {
+        "en": "A tunnel entrance at Ben Duoc, near Cu Chi.",
+        "vi": "Cửa hầm Bến Dược, gần Củ Chi."
+      },
+      "credit": "DAN HANSCOM/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 296 — image shutterstock_1068116066.jpg",
+      "page": 296,
+      "lpFile": "shutterstock_1068116066.jpg"
+    },
+    "vietnam-coffee": {
+      "id": "vietnam-coffee",
+      "alt": {
+        "en": "A barista making coffee.",
+        "vi": "Nhân viên đang pha cà phê."
+      },
+      "credit": "quang nguyen vinh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 403 — image shutterstock_634933070.jpg",
+      "page": 403,
+      "lpFile": "shutterstock_634933070.jpg"
+    },
+    "hcm-night": {
+      "id": "hcm-night",
+      "alt": {
+        "en": "The Cafe Apartments building in Ho Chi Minh City.",
+        "vi": "Tòa nhà Cafe Apartments ở Thành phố Hồ Chí Minh."
+      },
+      "credit": "elena ermakova/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 32 — image shutterstock_1161152674.jpg",
+      "page": 32,
+      "lpFile": "shutterstock_1161152674.jpg"
+    },
+    "hcm-skyline": {
+      "id": "hcm-skyline",
+      "alt": {
+        "en": "The Ho Chi Minh City skyline.",
+        "vi": "Toàn cảnh Thành phố Hồ Chí Minh."
+      },
+      "credit": "NGUYEN QUANG NGOC TONKIN/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 277 — image shutterstock_759434539.jpg",
+      "page": 277,
+      "lpFile": "shutterstock_759434539.jpg",
+      "hero": true,
+      "layout": "landscape",
+      "focus": "50% 55%"
+    },
+    "war-memorial": {
+      "id": "war-memorial",
+      "alt": {
+        "en": "The Thich Quang Duc memorial in Ho Chi Minh City.",
+        "vi": "Đài tưởng niệm Thích Quảng Đức ở Thành phố Hồ Chí Minh."
+      },
+      "credit": "AREAF AREEMAN/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 279 — image shutterstock_551989702.jpg",
+      "page": 279,
+      "lpFile": "shutterstock_551989702.jpg"
+    },
+    "cai-rang-aerial": {
+      "id": "cai-rang-aerial",
+      "alt": {
+        "en": "Boats at the Cai Rang floating market near Can Tho.",
+        "vi": "Thuyền ở chợ nổi Cái Răng gần Cần Thơ."
+      },
+      "credit": "lochuynh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 14 — image shutterstock_1910002276.jpg",
+      "page": 14,
+      "lpFile": "shutterstock_1910002276.jpg"
+    },
+    "cairang": {
+      "id": "cairang",
+      "alt": {
+        "en": "Boats at the Cai Rang floating market near Can Tho.",
+        "vi": "Thuyền ở chợ nổi Cái Răng gần Cần Thơ."
+      },
+      "credit": "FILMLANDSCAPE/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 299 — image shutterstock_121579798.jpg",
+      "page": 299,
+      "lpFile": "shutterstock_121579798.jpg"
+    },
+    "cantho": {
+      "id": "cantho",
+      "alt": {
+        "en": "A Buddhist temple in Can Tho.",
+        "vi": "Một ngôi chùa ở Cần Thơ."
+      },
+      "credit": "MARIE MARTIN/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 324 — image shutterstock_2112882557.jpg",
+      "page": 324,
+      "lpFile": "shutterstock_2112882557.jpg"
+    },
+    "bentre": {
+      "id": "bentre",
+      "alt": {
+        "en": "A boat on a tributary of the Mekong River.",
+        "vi": "Thuyền trên một nhánh sông Mekong."
+      },
+      "credit": "FIREBIRD007/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 307 — image shutterstock_785616973.jpg",
+      "page": 307,
+      "lpFile": "shutterstock_785616973.jpg",
+      "hero": true,
+      "layout": "landscape",
+      "focus": "50% 55%"
+    },
+    "chaudoc": {
+      "id": "chaudoc",
+      "alt": {
+        "en": "Rice fields below Sam Mountain near Chau Doc.",
+        "vi": "Núi Sam trên vùng đồng bằng gần Châu Đốc."
+      },
+      "credit": "VIETNGUYEN1234/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 334 — image shutterstock_1678533580.jpg",
+      "page": 334,
+      "lpFile": "shutterstock_1678533580.jpg"
+    },
+    "hatien": {
+      "id": "hatien",
+      "alt": {
+        "en": "Floating houses on a delta river.",
+        "vi": "Nhà nổi trên một con sông ở đồng bằng."
+      },
+      "credit": "PHUONG D.NGUYEN/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 335 — image shutterstock_709313512.jpg",
+      "page": 335,
+      "lpFile": "shutterstock_709313512.jpg"
+    },
+    "phuquoc": {
+      "id": "phuquoc",
+      "alt": {
+        "en": "A beach on Phu Quoc island.",
+        "vi": "Bãi biển trên đảo Phú Quốc."
+      },
+      "credit": "tran qui thinh/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 10 — image shutterstock_613710659.jpg",
+      "page": 10,
+      "lpFile": "shutterstock_613710659.jpg"
+    },
+    "condao": {
+      "id": "condao",
+      "alt": {
+        "en": "The Con Dao islands.",
+        "vi": "Quần đảo Côn Đảo."
+      },
+      "credit": "GAALLASZLO/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 329 — image shutterstock_1622434501.jpg",
+      "page": 329,
+      "lpFile": "shutterstock_1622434501.jpg"
+    },
+    "banana-boat": {
+      "id": "banana-boat",
+      "alt": {
+        "en": "Produce boats at a floating market.",
+        "vi": "Thuyền hàng ở chợ nổi."
+      },
+      "credit": "HUY THOAI/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 321 — image shutterstock_673340845.jpg",
+      "page": 321,
+      "lpFile": "shutterstock_673340845.jpg"
+    },
+    "mekong-boat-2": {
+      "id": "mekong-boat-2",
+      "alt": {
+        "en": "A boat at Vinh Long on the Mekong.",
+        "vi": "Thuyền ở Vĩnh Long trên sông Mekong."
+      },
+      "credit": "SCENIC VIETNAM/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 310 — image shutterstock_1221711985.jpg",
+      "page": 310,
+      "lpFile": "shutterstock_1221711985.jpg"
+    },
+    "angkorwat": {
+      "id": "angkorwat",
+      "alt": {
+        "en": "Angkor Wat reflected in the water at sunrise.",
+        "vi": "Angkor Wat soi bóng nước lúc bình minh."
+      },
+      "credit": "lena serditova/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 358 — image shutterstock_247116484.jpg",
+      "page": 358,
+      "lpFile": "shutterstock_247116484.jpg"
+    },
+    "angkor-south-gate": {
+      "id": "angkor-south-gate",
+      "alt": {
+        "en": "Stone guardians lining the causeway to the south gate of Angkor Thom.",
+        "vi": "Tượng đá dọc đường dẫn tới cổng nam Angkor Thom."
+      },
+      "credit": "DK Eyewitness Vietnam",
+      "license": "Owner-licensed guidebook image",
+      "source": "DK Eyewitness Vietnam (PDF edition, 2021), p. 224",
+      "page": 224,
+      "dkFile": "p224-img_p223_1.jpg",
+      "crop": [
+        134,
+        20,
+        1249,
+        880
+      ]
+    },
+    "bayon": {
+      "id": "bayon",
+      "alt": {
+        "en": "Stone faces and visitors at the Bayon.",
+        "vi": "Mặt đá và du khách ở đền Bayon."
+      },
+      "credit": "DK Eyewitness Vietnam",
+      "license": "Owner-licensed guidebook image",
+      "source": "DK Eyewitness Vietnam (PDF edition, 2021), p. 228",
+      "page": 228,
+      "dkFile": "p228-img_p227_1.jpg",
+      "crop": [
+        350,
+        560,
+        1033,
+        1480
+      ]
+    },
+    "taprohm": {
+      "id": "taprohm",
+      "alt": {
+        "en": "Tree roots over the stone at Ta Prohm.",
+        "vi": "Rễ cây phủ đá ở Ta Prohm."
+      },
+      "credit": "tsushi/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 353 — image shutterstock_1403087300.jpg",
+      "page": 353,
+      "lpFile": "shutterstock_1403087300.jpg"
+    },
+    "night-market-vietnam": {
+      "id": "night-market-vietnam",
+      "alt": {
+        "en": "Food stalls at a night market.",
+        "vi": "Quầy ăn ở chợ đêm."
+      },
+      "credit": "hanna summer/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 28 — image shutterstock_1083305948.jpg",
+      "page": 28,
+      "lpFile": "shutterstock_1083305948.jpg"
+    },
+    "hue-boats": {
+      "id": "hue-boats",
+      "alt": {
+        "en": "Boats on the Perfume River at dusk in Hue.",
+        "vi": "Thuyền trên sông Hương lúc hoàng hôn ở Huế."
+      },
+      "credit": "DK Eyewitness Vietnam",
+      "license": "Owner-licensed guidebook image",
+      "source": "DK Eyewitness Vietnam (PDF edition, 2021), p. 153",
+      "page": 153,
+      "dkFile": "p153-img_p152_2.jpg",
+      "crop": [
+        44,
+        43,
+        1298,
+        2312
+      ]
+    },
+    "west-lake": {
+      "id": "west-lake",
+      "alt": {
+        "en": "West Lake and the city skyline at dusk.",
+        "vi": "Hồ Tây và đường chân trời thành phố lúc hoàng hôn."
+      },
+      "credit": "jimmy tran/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 89 — image shutterstock_298395488.jpg",
+      "page": 89,
+      "lpFile": "shutterstock_298395488.jpg"
+    },
+    "dong-khoi": {
+      "id": "dong-khoi",
+      "alt": {
+        "en": "Dong Khoi Street in Ho Chi Minh City.",
+        "vi": "Phố Đồng Khởi ở Thành phố Hồ Chí Minh."
+      },
+      "credit": "SHEVCHENKO ANDREY/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 275 — image shutterstock_2129381807.jpg",
+      "page": 275,
+      "lpFile": "shutterstock_2129381807.jpg"
+    },
+    "hien-luong": {
+      "id": "hien-luong",
+      "alt": {
+        "en": "The Hien Luong Bridge in the former DMZ.",
+        "vi": "Cầu Hiền Lương ở vùng phi quân sự cũ."
+      },
+      "credit": "loner nguyen/Shutterstock",
+      "license": "Owner-licensed guidebook image",
+      "source": "Lonely Planet Vietnam (16th edition), p. 175 — image shutterstock_1949080819.jpg",
+      "page": 175,
+      "lpFile": "shutterstock_1949080819.jpg"
+    },
+    "banteay": {
+      "id": "banteay",
+      "src": "/images/banteay-960.webp",
+      "srcSet": "/images/banteay-640.webp 640w, /images/banteay-960.webp 960w",
+      "width": 960,
+      "height": 643,
+      "alt": {
+        "en": "Carved stone at Banteay Srei.",
+        "vi": "Đá chạm ở Banteay Srei."
+      },
+      "credit": "JJ Ying jjying",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Banteay_Srei_temple_(Unsplash).jpg",
+      "cropped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banteay_Srei_temple_(Unsplash).jpg",
+      "retain": true
+    },
+    "egg-coffee": {
+      "id": "egg-coffee",
+      "src": "/images/egg-coffee-960.webp",
+      "srcSet": "/images/egg-coffee-640.webp 640w, /images/egg-coffee-960.webp 960w",
+      "width": 960,
+      "height": 1125,
+      "alt": {
+        "en": "A glass of egg coffee beside a croissant.",
+        "vi": "Ly cà phê trứng cạnh một chiếc bánh sừng bò."
+      },
+      "credit": "Souradeep.Dasgupta",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:C%C3%80_PH%C3%8A_KEM_TR%E1%BB%A8NG_(Egg_cream_coffee).jpg",
+      "cropped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%80_PH%C3%8A_KEM_TR%E1%BB%A8NG_(Egg_cream_coffee).jpg",
+      "retain": true
+    },
+    "flag-tower": {
+      "id": "flag-tower",
+      "src": "/images/flag-tower-960.webp",
+      "srcSet": "/images/flag-tower-640.webp 640w, /images/flag-tower-960.webp 960w",
+      "width": 960,
+      "height": 1440,
+      "alt": {
+        "en": "The Flag Tower of Hanoi with the national flag.",
+        "vi": "Cột cờ Hà Nội và cờ Tổ quốc."
+      },
+      "credit": "Gary Todd",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_(9735319302).jpg",
+      "cropped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_(9735319302).jpg",
+      "retain": true
+    },
+    "french": {
+      "id": "french",
+      "src": "/images/french-960.webp",
+      "srcSet": "/images/french-640.webp 640w, /images/french-960.webp 960w",
+      "width": 960,
+      "height": 953,
+      "alt": {
+        "en": "Colonial-era architecture in Hanoi's French Quarter.",
+        "vi": "Kiến trúc thời thuộc địa ở khu phố Pháp Hà Nội."
+      },
+      "credit": "Q. Hưng Phạm",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/colonial-architecture-in-hanoi-vietnam-28998626/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/colonial-architecture-in-hanoi-vietnam-28998626/",
+      "retain": true
+    },
+    "haivan": {
+      "id": "haivan",
+      "src": "/images/haivan-960.webp",
+      "srcSet": "/images/haivan-640.webp 640w, /images/haivan-960.webp 960w",
+      "width": 960,
+      "height": 1440,
+      "alt": {
+        "en": "A scenic view of Hai Van Pass.",
+        "vi": "Cảnh quan đèo Hải Vân."
+      },
+      "credit": "Nhà văn",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/scenic-view-of-hai-van-pass-35211010/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-hai-van-pass-35211010/",
+      "retain": true
+    },
+    "hon-chong": {
+      "id": "hon-chong",
+      "src": "/images/hon-chong-960.webp",
+      "srcSet": "/images/hon-chong-640.webp 640w, /images/hon-chong-960.webp 960w",
+      "width": 960,
+      "height": 428,
+      "alt": {
+        "en": "Rocks at Hon Chong, Nha Trang.",
+        "vi": "Đá Hòn Chồng, Nha Trang."
+      },
+      "credit": "Can't stop shooting film from Nha Trang, Vietnam",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Hon_Chong_rocks_2011.jpg",
+      "cropped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hon_Chong_rocks_2011.jpg",
+      "retain": true
+    },
+    "jade": {
+      "id": "jade",
+      "src": "/images/jade-960.webp",
+      "srcSet": "/images/jade-640.webp 640w, /images/jade-960.webp 960w",
+      "width": 960,
+      "height": 720,
+      "alt": {
+        "en": "The gate of the Jade Emperor Pagoda.",
+        "vi": "Cổng chùa Ngọc Hoàng."
+      },
+      "credit": "Dhushara",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Jade_emperor_pagoda-1.jpg",
+      "cropped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jade_emperor_pagoda-1.jpg",
+      "retain": true
+    },
+    "long-bien": {
+      "id": "long-bien",
+      "src": "/images/long-bien-960.webp",
+      "srcSet": "/images/long-bien-640.webp 640w, /images/long-bien-960.webp 960w",
+      "width": 960,
+      "height": 640,
+      "alt": {
+        "en": "Rusted steel of Long Bien Bridge above the tracks.",
+        "vi": "Thép gỉ của cầu Long Biên trên đường ray."
+      },
+      "credit": "Quangpraha",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Long-bien-bridge-3371617.jpg",
+      "cropped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-bien-bridge-3371617.jpg",
+      "retain": true
+    },
+    "opera": {
+      "id": "opera",
+      "src": "/images/opera-960.webp",
+      "srcSet": "/images/opera-640.webp 640w, /images/opera-960.webp 960w",
+      "width": 960,
+      "height": 642,
+      "alt": {
+        "en": "Hanoi Opera House, a pale French-era theatre.",
+        "vi": "Nhà hát Lớn Hà Nội, nhà hát thời Pháp màu nhạt."
+      },
+      "credit": "xiquinhosilva",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_24_December_2016.jpg",
+      "cropped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_24_December_2016.jpg",
+      "retain": true
+    },
+    "tran-quoc": {
+      "id": "tran-quoc",
+      "src": "/images/tran-quoc-960.webp",
+      "srcSet": "/images/tran-quoc-640.webp 640w, /images/tran-quoc-960.webp 960w",
+      "width": 960,
+      "height": 642,
+      "alt": {
+        "en": "Tran Quoc Pagoda and its tower beside the water.",
+        "vi": "Chùa Trấn Quốc và tháp bên mặt nước."
+      },
+      "credit": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Tran_Quoc_Pagoda,_Hanoi,_Vietnam,_20240123_1212_3307.jpg",
+      "cropped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tran_Quoc_Pagoda,_Hanoi,_Vietnam,_20240123_1212_3307.jpg",
+      "retain": true
+    },
+    "pho-bowl": {
+      "id": "pho-bowl",
+      "src": "/images/pho-bowl-960.webp",
+      "srcSet": "/images/pho-bowl-640.webp 640w, /images/pho-bowl-960.webp 960w",
+      "width": 960,
+      "height": 640,
+      "alt": {
+        "en": "A bowl of Vietnamese pho with herbs.",
+        "vi": "Bát phở Việt Nam với rau thơm."
+      },
+      "credit": "RDNE Stock project",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/cooked-food-in-the-bowl-6646022/",
+      "sourceUrl": "https://www.pexels.com/photo/cooked-food-in-the-bowl-6646022/",
+      "retain": true
+    },
+    "seafood-nhatrang": {
+      "id": "seafood-nhatrang",
+      "src": "/images/seafood-nhatrang-960.webp",
+      "srcSet": "/images/seafood-nhatrang-640.webp 640w, /images/seafood-nhatrang-960.webp 960w",
+      "width": 960,
+      "height": 1382,
+      "alt": {
+        "en": "Fresh Vietnamese seafood in Nha Trang.",
+        "vi": "Hải sản Việt Nam tươi ở Nha Trang."
+      },
+      "credit": "DUONG QUÁCH",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/delicious-vietnamese-seafood-dish-on-ice-31302693/",
+      "sourceUrl": "https://www.pexels.com/photo/delicious-vietnamese-seafood-dish-on-ice-31302693/",
+      "retain": true
+    },
+    "pho-hanoi": {
+      "id": "pho-hanoi",
+      "src": "/images/pho-hanoi-960.webp",
+      "srcSet": "/images/pho-hanoi-640.webp 640w, /images/pho-hanoi-960.webp 960w",
+      "width": 960,
+      "height": 620,
+      "alt": {
+        "en": "A bowl of pho at a street-side table in Hanoi.",
+        "vi": "Bát phở bên bàn ăn ven phố ở Hà Nội."
+      },
+      "credit": "Trammese",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/street-food-scene-in-hanoi-vietnam-with-pho-34312520/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/street-food-scene-in-hanoi-vietnam-with-pho-34312520/",
+      "retain": true
+    },
+    "banh-mi-food": {
+      "id": "banh-mi-food",
+      "src": "/images/banh-mi-food-960.webp",
+      "srcSet": "/images/banh-mi-food-640.webp 640w, /images/banh-mi-food-960.webp 960w",
+      "width": 960,
+      "height": 640,
+      "alt": {
+        "en": "A Vietnamese bánh mì with fresh fillings.",
+        "vi": "Bánh mì Việt Nam với nhân tươi."
+      },
+      "credit": "Hậu Mai",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/vietnamese-banh-mi-sandwich-on-newspaper-32961649/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/vietnamese-banh-mi-sandwich-on-newspaper-32961649/",
+      "retain": true
+    },
+    "banh-can-food": {
+      "id": "banh-can-food",
+      "src": "/images/banh-can-food-960.webp",
+      "srcSet": "/images/banh-can-food-640.webp 640w, /images/banh-can-food-960.webp 960w",
+      "width": 960,
+      "height": 640,
+      "alt": {
+        "en": "Vietnamese bánh căn rice pancakes with scallions.",
+        "vi": "Bánh căn Việt Nam với hành lá."
+      },
+      "credit": "Theodore Nguyen",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/authentic-vietnamese-banh-can-with-scallions-31563462/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/authentic-vietnamese-banh-can-with-scallions-31563462/",
+      "retain": true
+    },
+    "hoi-an-food-stall": {
+      "id": "hoi-an-food-stall",
+      "src": "/images/hoi-an-food-stall-960.webp",
+      "srcSet": "/images/hoi-an-food-stall-640.webp 640w, /images/hoi-an-food-stall-960.webp 960w",
+      "width": 960,
+      "height": 1440,
+      "alt": {
+        "en": "A warm-lit street-food stall in Hoi An at night.",
+        "vi": "Quầy hàng ăn đường phố Hội An dưới ánh đèn đêm."
+      },
+      "credit": "Tom Chesseron",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/traditional-vietnamese-food-stall-at-night-35708759/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/traditional-vietnamese-food-stall-at-night-35708759/",
+      "retain": true
+    },
+    "phin-coffee": {
+      "id": "phin-coffee",
+      "src": "/images/phin-coffee-960.webp",
+      "srcSet": "/images/phin-coffee-640.webp 640w, /images/phin-coffee-960.webp 960w",
+      "width": 960,
+      "height": 720,
+      "alt": {
+        "en": "Vietnamese coffee with a phin filter on a café table.",
+        "vi": "Cà phê Việt Nam với phin trên bàn quán."
+      },
+      "credit": "J-Steve Pham",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/vietnamese-coffee-with-phin-filter-on-a-cafe-table-29181080/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/vietnamese-coffee-with-phin-filter-on-a-cafe-table-29181080/",
+      "retain": true
+    },
+    "coconut-market": {
+      "id": "coconut-market",
+      "src": "/images/coconut-market-960.webp",
+      "srcSet": "/images/coconut-market-640.webp 640w, /images/coconut-market-960.webp 960w",
+      "width": 960,
+      "height": 640,
+      "alt": {
+        "en": "Fresh coconuts stacked at a Vietnamese market.",
+        "vi": "Dừa tươi xếp tại một khu chợ Việt Nam."
+      },
+      "credit": "Hoàng Phương Nguyễn",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/pile-of-fresh-coconuts-at-vietnamese-market-34986625/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/pile-of-fresh-coconuts-at-vietnamese-market-34986625/",
+      "retain": true
+    },
+    "long-bien-sunset": {
+      "id": "long-bien-sunset",
+      "src": "/images/long-bien-sunset-960.webp",
+      "srcSet": "/images/long-bien-sunset-640.webp 640w, /images/long-bien-sunset-960.webp 960w",
+      "width": 960,
+      "height": 639,
+      "alt": {
+        "en": "Long Bien Bridge over the Red River near sunset.",
+        "vi": "Cầu Long Biên trên sông Hồng lúc gần hoàng hôn."
+      },
+      "credit": "Nguyen Ngoc Tien",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/sunset-over-long-bien-bridge-and-mustard-fields-30262556/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/sunset-over-long-bien-bridge-and-mustard-fields-30262556/",
+      "retain": true
+    },
+    "nha-trang-beach": {
+      "id": "nha-trang-beach",
+      "src": "/images/nha-trang-beach-960.webp",
+      "srcSet": "/images/nha-trang-beach-640.webp 640w, /images/nha-trang-beach-960.webp 960w",
+      "width": 960,
+      "height": 1280,
+      "alt": {
+        "en": "People enjoying Nha Trang beach on a sunny day.",
+        "vi": "Mọi người tận hưởng bãi biển Nha Trang trong ngày nắng."
+      },
+      "credit": "Thang Nguyen",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "https://www.pexels.com/photo/sunny-day-at-nha-trang-beach-vietnam-37797688/",
+      "cropped": false,
+      "sourceUrl": "https://www.pexels.com/photo/sunny-day-at-nha-trang-beach-vietnam-37797688/",
+      "retain": true
+    }
+  }
+}

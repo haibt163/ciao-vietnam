@@ -1,29 +1,22 @@
-// Writes public/art/<id>.svg from the scene and food definitions.
+// Writes public/art/<id>.svg for the dish illustrations that remain in use.
 // Run: node scripts/build-art.mjs   (add --png to also write previews to /tmp/art-preview for review)
-import { mkdirSync, writeFileSync } from "node:fs";
-import { scenes } from "./art/scenes.mjs";
-
-let all = { ...scenes };
-try {
-  const { foods } = await import("./art/food.mjs");
-  all = { ...all, ...foods };
-} catch {
-  /* food.mjs not present yet */
-}
-try {
-  const { more } = await import("./art/scenes2.mjs");
-  all = { ...all, ...more };
-} catch {
-  /* scenes2.mjs not present yet */
-}
+import { mkdirSync, readdirSync, unlinkSync, writeFileSync } from "node:fs";
+import { foods } from "./art/food.mjs";
 
 mkdirSync("public/art", { recursive: true });
-for (const [id, make] of Object.entries(all)) writeFileSync(`public/art/${id}.svg`, make());
-console.log(`wrote ${Object.keys(all).length} files to public/art`);
+for (const [id, make] of Object.entries(foods)) writeFileSync(`public/art/${id}.svg`, make());
+
+for (const file of readdirSync("public/art")) {
+  if (!file.endsWith(".svg")) continue;
+  if (foods[file.replace(/\.svg$/, "")]) continue;
+  unlinkSync(`public/art/${file}`);
+}
+
+console.log(`wrote ${Object.keys(foods).length} files to public/art`);
 
 if (process.argv.includes("--png")) {
   const { default: sharp } = await import("sharp");
   mkdirSync("/tmp/art-preview", { recursive: true });
-  for (const [id, make] of Object.entries(all)) await sharp(Buffer.from(make()), { density: 72 }).resize(640, 480).png().toFile(`/tmp/art-preview/${id}.png`);
+  for (const [id, make] of Object.entries(foods)) await sharp(Buffer.from(make()), { density: 72 }).resize(640, 480).png().toFile(`/tmp/art-preview/${id}.png`);
   console.log("previews in /tmp/art-preview");
 }

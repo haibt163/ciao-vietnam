@@ -208,8 +208,10 @@ an Owner decision and use covered imagery within the actual license terms.
 - No environment variables are required. Do not introduce undeclared ones.
 - Builds need network access to Google Fonts. A sandbox without it cannot run
   `next build` unchanged; record this when reporting.
-- Image preparation (`scripts/images.mjs`) needs the original photos, which are
-  not in the repository; it exits cleanly when they are absent.
+- Image preparation (`scripts/guidebook-media.mjs`) rebuilds WebP derivatives from
+  the licensed guidebook sources listed in `scripts/guidebook-media.json`. The
+  ebooks and their extracted images are not in the repository; the script exits
+  cleanly when the source folders are absent.
 
 ---
 
