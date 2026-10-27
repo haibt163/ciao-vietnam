@@ -21,6 +21,20 @@ Page banners (Plan, Eat, Essentials, Outdoors, History) use `banner: "<scene id>
 - Keep the style: layered shapes, warm dusk palettes, subtle grain, no text, no logos, no real brands, no identifiable people.
 - To use a photo instead of art on a card, set `image` on that card (and optionally remove `art`).
 
-## Credits
+## Credits and licensed guidebook artwork
 
-Illustrations are original artwork made for Ciao Vietnam. Icons are from Lucide (ISC license). Both are noted on the credits page.
+The generated SVGs currently in `public/art/` are original artwork made for Ciao
+Vietnam. The Project Owner has since confirmed (27 October 2026) that licensed
+photographs and illustrations from Lonely Planet Vietnam (16th ed.) and DK
+Eyewitness Vietnam may also be used on the website within the license terms. The
+next media pass may replace or redraw existing visuals using those references.
+
+Do not label an image as original Ciao Vietnam artwork if it is reproduced from a
+guidebook. Record the source book, edition, page/figure or image identifier, credit
+and license information in the relevant asset metadata and documentation. Any
+redrawn/adapted artwork must stay within the license's permitted uses. Keep the
+source ebooks and private license records outside the repository.
+
+Icons are from Lucide (ISC license). Photo and licensed-guidebook artwork credits
+should be surfaced through the site's existing credits mechanism with accurate
+license labels and links where a real URL exists.
