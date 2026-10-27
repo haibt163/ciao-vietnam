@@ -49,8 +49,8 @@
   "cambodia": { "en": "This stop is in Cambodia.", "vi": "Điểm này ở Campuchia." },
   "alias": { "en": "Also called South Central Vietnam.", "vi": "DK gọi vùng này là Nam Trung Bộ." },
   "creditsIntro": {
-    "en": "Every photo is licensed. None come from the guidebooks.",
-    "vi": "Mọi ảnh đều có giấy phép. Không ảnh nào lấy từ sách hướng dẫn."
+    "en": "Every image is credited below. Guidebook photographs are used under the Owner's licences; no book text is reproduced.",
+    "vi": "Mọi ảnh đều được ghi nguồn bên dưới. Ảnh từ sách hướng dẫn được dùng theo giấy phép của Chủ dự án; không sao chép chữ từ sách."
   },
   "sourceLink": { "en": "Source", "vi": "Nguồn" },
   "licenseLink": { "en": "License", "vi": "Giấy phép" },
@@ -71,7 +71,7 @@
     "vi": "Trang nguồn ảnh đã có."
   },
   "illustrationNote": {
-    "en": "Illustrations (scenes, food and banners) are original artwork made for Ciao Vietnam. Icons are from Lucide (ISC license).",
-    "vi": "Tranh minh hoạ (cảnh, món ăn và ảnh bìa) là tác phẩm gốc được tạo riêng cho Ciao Vietnam. Biểu tượng từ Lucide (giấy phép ISC)."
+    "en": "Dish illustrations that remain on some food cards are original artwork made for Ciao Vietnam. Icons are from Lucide (ISC license).",
+    "vi": "Tranh minh hoạ món ăn còn lại trên một số thẻ ẩm thực là tác phẩm gốc của Ciao Vietnam. Biểu tượng từ Lucide (giấy phép ISC)."
   }
 }

@@ -26,7 +26,7 @@
             "vi": "Đông Sơn · Chăm · thế giới Khmer"
           },
           "facts": [],
-          "art": "cham-towers"
+          "image": "my-son"
         },
         {
           "id": "hist-imperial",
@@ -48,7 +48,7 @@
               "href": "/regions/central-vietnam"
             }
           ],
-          "image": "hue-imperial"
+          "image": "hue-boats"
         },
         {
           "id": "hist-colonial",
@@ -70,7 +70,7 @@
               "href": "/regions/hanoi"
             }
           ],
-          "art": "colonial"
+          "image": "dong-khoi"
         },
         {
           "id": "hist-division",
@@ -92,7 +92,7 @@
               "href": "/regions/ho-chi-minh-city"
             }
           ],
-          "art": "division"
+          "image": "hien-luong"
         },
         {
           "id": "hist-remnants",
@@ -114,7 +114,7 @@
               "href": "/regions/ho-chi-minh-city"
             }
           ],
-          "art": "lantern-night"
+          "image": "war-soldiers"
         },
         {
           "id": "hist-trade",
@@ -136,7 +136,7 @@
               "href": "/regions/central-vietnam"
             }
           ],
-          "art": "junk-harbor"
+          "image": "hoian"
         },
         {
           "id": "hist-cholon",
@@ -158,7 +158,7 @@
               "href": "/regions/ho-chi-minh-city"
             }
           ],
-          "art": "cholon"
+          "image": "ong-bon-pagoda"
         },
         {
           "id": "hist-delta",
@@ -180,7 +180,7 @@
               "href": "/regions/mekong-delta"
             }
           ],
-          "art": "delta-canal"
+          "image": "floating-houses"
         },
         {
           "id": "hist-angkor",
@@ -202,10 +202,10 @@
               "href": "/regions/siem-reap-angkor"
             }
           ],
-          "art": "angkor-towers"
+          "image": "angkor-bas-relief"
         }
       ]
     }
   ],
-  "banner": "hue-gate"
+  "banner": "hue"
 }

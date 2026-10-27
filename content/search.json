@@ -21,7 +21,7 @@
       "en": "Hanoi",
       "vi": "Hà Nội"
     },
-    "keywords": "Hoan Kiem Lake Hồ Hoàn Kiếm The city's living room. A shaded loop around the water. Phòng khách của phố. Một vòng rợp bóng quanh hồ."
+    "keywords": "Hoan Kiem Lake Hồ Hoàn Kiếm The city's living room. Turtle Tower offshore, Ngoc Son Temple across the red bridge. Phòng khách của phố. Tháp Rùa ngoài hồ, đền Ngọc Sơn qua cầu Thê Húc đỏ."
   },
   {
     "href": "/regions/hanoi#old-quarter",
@@ -45,7 +45,7 @@
       "en": "Hanoi",
       "vi": "Hà Nội"
     },
-    "keywords": "Temple of Literature Văn Miếu Confucian courtyards. Vietnam's first university, still standing. Khu sân Khổng học. Trường đại học đầu tiên, còn đó."
+    "keywords": "Temple of Literature Văn Miếu Confucian courtyards and stone stelae; founded in the 11th century as Vietnam's first university. Sân Khổng học và bia đá; lập từ thế kỷ 11, được coi là trường đại học đầu tiên của Việt Nam."
   },
   {
     "href": "/regions/hanoi#one-pillar",
@@ -57,7 +57,7 @@
       "en": "Hanoi",
       "vi": "Hà Nội"
     },
-    "keywords": "One Pillar Pagoda Chùa Một Cột A wooden lotus on a single stone pillar. Đài sen gỗ trên một cột đá."
+    "keywords": "One Pillar Pagoda Chùa Một Cột A small wooden pagoda on a single stone pillar, rebuilt after it was destroyed. Ngôi chùa gỗ nhỏ trên một cột đá, được dựng lại sau khi bị phá."
   },
   {
     "href": "/regions/hanoi#mausoleum",
@@ -69,7 +69,7 @@
       "en": "Hanoi",
       "vi": "Hà Nội"
     },
-    "keywords": "Ho Chi Minh Mausoleum Lăng Chủ tịch Hồ Chí Minh A vast square and a strict dress code. Often closed. Quảng trường rộng, y phục nghiêm. Hay đóng cửa."
+    "keywords": "Ho Chi Minh Mausoleum Lăng Chủ tịch Hồ Chí Minh Ho Chi Minh's granite mausoleum on Ba Dinh Square. Strict dress code, limited opening. Lăng Hồ Chí Minh bằng đá granite trên Quảng trường Ba Đình. Y phục nghiêm, giờ mở hạn chế."
   },
   {
     "href": "/regions/hanoi#opera",
@@ -117,7 +117,7 @@
       "en": "Hanoi",
       "vi": "Hà Nội"
     },
-    "keywords": "Tran Quoc Pagoda Chùa Trấn Quốc A lakeside pagoda on a small causeway. Chùa bên hồ, trên con đường đắp ngắn."
+    "keywords": "Tran Quoc Pagoda Chùa Trấn Quốc One of Hanoi's oldest pagodas, on a causeway in West Lake. Một trong những ngôi chùa cổ nhất Hà Nội, trên đường đắp ở Hồ Tây."
   },
   {
     "href": "/regions/hanoi#west-lake",
@@ -129,7 +129,7 @@
       "en": "Hanoi",
       "vi": "Hà Nội"
     },
-    "keywords": "West Lake Hồ Tây The big water. Cafes on the east shore. Space to breathe. Mặt nước lớn. Quán cà phê bờ đông. Có chỗ thở."
+    "keywords": "West Lake Hồ Tây The city's largest lake. Tran Quoc Pagoda sits on a small causeway. Hồ lớn nhất thành phố. Chùa Trấn Quốc nằm trên đường đắp nhỏ."
   },
   {
     "href": "/regions/hanoi#flag-tower",
@@ -297,7 +297,7 @@
       "en": "North Vietnam",
       "vi": "Miền Bắc"
     },
-    "keywords": "Ha Long Bay Vịnh Hạ Long Limestone towers in green water. Most visits are by boat. Tháp đá vôi trên nước xanh. Phần lớn đi bằng thuyền."
+    "keywords": "Ha Long Bay Vịnh Hạ Long Limestone islands in green water. Most visits are by day or overnight boat. Đảo đá vôi trên nước xanh. Phần lớn đi thuyền trong ngày hoặc qua đêm."
   },
   {
     "href": "/regions/north-vietnam#catba",
@@ -309,7 +309,7 @@
       "en": "North Vietnam",
       "vi": "Miền Bắc"
     },
-    "keywords": "Cat Ba and Lan Ha Cát Bà và Lan Hạ The island side of the same water. Quieter than the main cruise route. Phía đảo của cùng một vùng nước. Yên hơn tuyến du thuyền chính."
+    "keywords": "Cat Ba and Lan Ha Cát Bà và Lan Hạ The largest island in the bay, with a national park and quieter Lan Ha water. Đảo lớn nhất trong vịnh, có vườn quốc gia và vùng nước Lan Hạ yên hơn."
   },
   {
     "href": "/regions/north-vietnam#sapa",
@@ -321,7 +321,7 @@
       "en": "North Vietnam",
       "vi": "Miền Bắc"
     },
-    "keywords": "Sapa Sa Pa A hill town above the terraces. The walks start at the edge of town. Thị trấn đồi trên ruộng bậc thang. Đường đi bộ bắt đầu từ rìa phố."
+    "keywords": "Sapa Sa Pa A hill town above rice terraces, with Hmong and Dao villages on the slopes. Thị trấn đồi trên ruộng bậc thang, có làng H'Mông và Dao trên sườn núi."
   },
   {
     "href": "/regions/north-vietnam#hagiang",
@@ -345,7 +345,7 @@
       "en": "North Vietnam",
       "vi": "Miền Bắc"
     },
-    "keywords": "Ninh Binh Ninh Bình Karst south of Hanoi. Tam Coc and Trang An are boat country. Núi đá phía nam Hà Nội. Tam Cốc và Tràng An là xứ thuyền."
+    "keywords": "Ninh Binh Ninh Bình Karst valleys at Tam Coc and Trang An, where boats pass through caves under the cliffs. Thung lũng đá vôi ở Tam Cốc và Tràng An, thuyền qua hang dưới vách núi."
   },
   {
     "href": "/regions/north-vietnam#maichau",
@@ -357,7 +357,7 @@
       "en": "North Vietnam",
       "vi": "Miền Bắc"
     },
-    "keywords": "Mai Chau Mai Châu A gentler valley. Rice, stilt houses, a shorter hop from the capital. Thung lũng hiền hơn. Lúa, nhà sàn, gần thủ đô hơn."
+    "keywords": "Mai Chau Mai Châu A gentler valley of rice fields and White Thai stilt houses, close to Hanoi. Thung lũng hiền hòa với ruộng lúa và nhà sàn người Thái trắng, gần Hà Nội."
   },
   {
     "href": "/regions/north-vietnam#north-pho",
@@ -477,7 +477,7 @@
       "en": "Central Vietnam",
       "vi": "Miền Trung"
     },
-    "keywords": "Imperial City Đại Nội The Nguyen citadel in Hue. Walls, gates, and quiet ruined courts. Kinh thành nhà Nguyễn ở Huế. Tường, cổng, và sân vắng."
+    "keywords": "Imperial City Đại Nội The Nguyen dynasty capital: citadel, palaces and tombs along the Perfume River. Kinh đô triều Nguyễn: kinh thành, cung điện và lăng tẩm bên sông Hương."
   },
   {
     "href": "/regions/central-vietnam#thienmu",
@@ -489,7 +489,7 @@
       "en": "Central Vietnam",
       "vi": "Miền Trung"
     },
-    "keywords": "Thien Mu Pagoda Chùa Thiên Mụ The riverside tower west of the citadel. A short ride, or a long walk. Tháp bên sông, phía tây kinh thành. Đi xe ngắn, hoặc đi bộ dài."
+    "keywords": "Thien Mu Pagoda Chùa Thiên Mụ A seven-tiered pagoda on the north bank of the Perfume River. Ngôi chùa bảy tầng bên bờ bắc sông Hương."
   },
   {
     "href": "/regions/central-vietnam#khai-dinh",
@@ -513,7 +513,7 @@
       "en": "Central Vietnam",
       "vi": "Miền Trung"
     },
-    "keywords": "Hoi An old town Phố cổ Hội An A river port of low houses, lanterns, and tailor shops. Walk it. Phố cảng nhà thấp, đèn lồng, và tiệm may. Đi bộ."
+    "keywords": "Hoi An old town Phố cổ Hội An A trading port of low houses, lanterns and tailors. The old town is small enough to walk. Phố cảng với nhà thấp, đèn lồng và tiệm may. Phố cổ nhỏ, đi bộ là đủ."
   },
   {
     "href": "/regions/central-vietnam#japan-bridge",
@@ -525,7 +525,7 @@
       "en": "Central Vietnam",
       "vi": "Miền Trung"
     },
-    "keywords": "Japanese Covered Bridge Chùa Cầu The short covered bridge at the west end of the old town. Cây cầu mái ngắn ở đầu tây phố cổ."
+    "keywords": "Japanese Covered Bridge Chùa Cầu A covered bridge built by the Japanese trading community at the west end of the old town. Cầu có mái do cộng đồng thương nhân Nhật xây ở đầu tây phố cổ."
   },
   {
     "href": "/regions/central-vietnam#phongnha",
@@ -537,7 +537,7 @@
       "en": "Central Vietnam",
       "vi": "Miền Trung"
     },
-    "keywords": "Phong Nha caves Hang Phong Nha River caves in a national park. Boats go into the rock. Hang sông trong vườn quốc gia. Thuyền vào trong đá."
+    "keywords": "Phong Nha caves Hang Phong Nha River caves in Phong Nha-Ke Bang National Park; boats enter the rock. Hang sông trong Vườn quốc gia Phong Nha-Kẻ Bàng; thuyền đi vào trong núi đá."
   },
   {
     "href": "/regions/central-vietnam#danang",
@@ -561,7 +561,7 @@
       "en": "Central Vietnam",
       "vi": "Miền Trung"
     },
-    "keywords": "Bun bo Hue Bún bò Huế A spicy beef noodle bowl. It belongs to this city. Bát bún bò cay. Nó thuộc về thành phố này."
+    "keywords": "Bun bo Hue Bún bò Huế A spicy beef noodle soup from Hue, scented with lemongrass and chili. Bún bò cay xứ Huế, thơm sả và ớt."
   },
   {
     "href": "/regions/central-vietnam#cao-lau",
@@ -849,7 +849,7 @@
       "en": "Central Highlands",
       "vi": "Tây Nguyên"
     },
-    "keywords": "Dalat Đà Lạt The hill station. Cool, walkable, and full of short rides to waterfalls and farms. Thị trấn cao. Mát, đi bộ được, và nhiều chuyến xe ngắn ra thác và vườn."
+    "keywords": "Dalat Đà Lạt A French-era hill station around a lake, with waterfalls, farms and cool mornings. Thị trấn nghỉ dưỡng thời Pháp bên hồ, có thác, vườn và sáng mát."
   },
   {
     "href": "/regions/central-highlands#xuanhuong",
@@ -873,7 +873,7 @@
       "en": "Central Highlands",
       "vi": "Tây Nguyên"
     },
-    "keywords": "Buon Ma Thuot Buôn Ma Thuột Coffee country. The city is a base for the plantations, not a beauty spot. Xứ cà phê. Thành phố là chỗ nghỉ để ra rẫy, không phải điểm ngắm."
+    "keywords": "Buon Ma Thuot Buôn Ma Thuột The centre of Vietnam's coffee belt; the city is a base for plantations. Trung tâm vành đai cà phê Việt Nam; thành phố là chỗ nghỉ để ra rẫy."
   },
   {
     "href": "/regions/central-highlands#kontum",
@@ -1017,7 +1017,7 @@
       "en": "Ho Chi Minh City",
       "vi": "Thành phố Hồ Chí Minh"
     },
-    "keywords": "Central Post Office Bưu điện Thành phố The long hall next to the cathedral. Maps on the walls, stalls in the middle. Hành lang dài cạnh nhà thờ. Bản đồ trên tường, quầy ở giữa."
+    "keywords": "Central Post Office Bưu điện Thành phố A vaulted hall from the French period, with maps on the walls and stalls down the middle. Sảnh vòm thời Pháp, bản đồ trên tường và quầy dọc lối giữa."
   },
   {
     "href": "/regions/ho-chi-minh-city#palace",
@@ -1077,7 +1077,7 @@
       "en": "Ho Chi Minh City",
       "vi": "Thành phố Hồ Chí Minh"
     },
-    "keywords": "War Remnants Museum Bảo tàng Chứng tích Chiến tranh A hard museum. Go if you want the war told in objects. Not a light hour. Một bảo tàng nặng. Đến nếu muốn thấy chiến tranh qua hiện vật. Không phải một giờ nhẹ."
+    "keywords": "War Remnants Museum Bảo tàng Chứng tích Chiến tranh A museum of the war told through vehicles, photographs and testimony. Not a light visit. Bảo tàng chiến tranh qua xe cộ, ảnh và lời kể. Không phải chuyến nhẹ."
   },
   {
     "href": "/regions/ho-chi-minh-city#cuchi",
@@ -1089,7 +1089,7 @@
       "en": "Ho Chi Minh City",
       "vi": "Thành phố Hồ Chí Minh"
     },
-    "keywords": "Cu Chi tunnels Địa đạo Củ Chi A tunnel network outside the city. A half-day ride, not a neighbourhood walk. Hệ thống địa đạo ngoài thành phố. Nửa ngày đi xe, không phải đi bộ trong phố."
+    "keywords": "Cu Chi tunnels Địa đạo Củ Chi Tunnels used by the Viet Cong outside the city; most visits take half a day. Địa đạo của Việt Cộng ngoài thành phố; phần lớn chuyến đi mất nửa ngày."
   },
   {
     "href": "/regions/ho-chi-minh-city#com-tam",
@@ -1209,7 +1209,7 @@
       "en": "Mekong Delta",
       "vi": "Đồng bằng sông Cửu Long"
     },
-    "keywords": "Cai Rang market Chợ nổi Cái Răng The floating market near Can Tho. Boats sell fruit at dawn. Go early. Chợ nổi gần Cần Thơ. Ghe bán trái cây lúc bình minh. Đi sớm."
+    "keywords": "Cai Rang market Chợ nổi Cái Răng The floating market near Can Tho, busiest at dawn when boats sell fruit and noodles. Chợ nổi gần Cần Thơ, đông nhất lúc bình minh khi ghe bán trái cây và mì."
   },
   {
     "href": "/regions/mekong-delta#cantho",
@@ -1245,7 +1245,7 @@
       "en": "Mekong Delta",
       "vi": "Đồng bằng sông Cửu Long"
     },
-    "keywords": "Chau Doc Châu Đốc A border town. Sam Mountain is the lookout above the floodplain. Phố biên giới. Núi Sam là chỗ nhìn xuống đồng ngập."
+    "keywords": "Chau Doc Châu Đốc A border town below Sam Mountain, with a busy river and a mixed delta population. Phố biên giới dưới Núi Sam, sông đông và dân cư đồng bằng đa dạng."
   },
   {
     "href": "/regions/mekong-delta#hatien",
@@ -1269,7 +1269,7 @@
       "en": "Mekong Delta",
       "vi": "Đồng bằng sông Cửu Long"
     },
-    "keywords": "Phu Quoc Phú Quốc A large island in the gulf. Beaches, fish sauce, and a national park in the north. Đảo lớn trong vịnh. Biển, nước mắm, và vườn quốc gia phía bắc. Island. Still this chapter. Đảo. Vẫn chương này."
+    "keywords": "Phu Quoc Phú Quốc A large gulf island with beaches, fish sauce workshops and a national park in the north. Đảo lớn trong vịnh với biển, cơ sở nước mắm và vườn quốc gia phía bắc. Island. Still this chapter. Đảo. Vẫn chương này."
   },
   {
     "href": "/regions/mekong-delta#condao",
@@ -1281,7 +1281,7 @@
       "en": "Mekong Delta",
       "vi": "Đồng bằng sông Cửu Long"
     },
-    "keywords": "Con Dao Côn Đảo A remote island of prisons, forest, and empty beaches. Fewer flights. Đảo xa: nhà tù, rừng, và biển vắng. Ít chuyến bay hơn. Island. Still this chapter. Đảo. Vẫn chương này."
+    "keywords": "Con Dao Côn Đảo A remote island group known for forest, empty beaches and its prison history. Quần đảo xa với rừng, biển vắng và lịch sử nhà tù. Island. Still this chapter. Đảo. Vẫn chương này."
   },
   {
     "href": "/regions/mekong-delta#delta-fruit",
@@ -1401,7 +1401,7 @@
       "en": "Siem Reap & Angkor Wat",
       "vi": "Siem Reap và Angkor Wat"
     },
-    "keywords": "Angkor Wat Angkor Wat The great temple. Go at opening if you want the towers without the crush. Ngôi đền lớn. Đến lúc mở cửa nếu muốn thấy tháp khi chưa đông."
+    "keywords": "Angkor Wat Angkor Wat The largest temple at Angkor, with five towers and long galleries. Go at opening. Ngôi đền lớn nhất Angkor, năm tháp và hành lang dài. Đến lúc mở cửa."
   },
   {
     "href": "/regions/siem-reap-angkor#angkor-gate",
@@ -1425,7 +1425,7 @@
       "en": "Siem Reap & Angkor Wat",
       "vi": "Siem Reap và Angkor Wat"
     },
-    "keywords": "Bayon Bayon The face temple at the centre of Angkor Thom. Đền mặt người ở giữa Angkor Thom."
+    "keywords": "Bayon Bayon The state temple at the centre of Angkor Thom, known for its stone faces. Đền trung tâm Angkor Thom, nổi tiếng với những mặt đá."
   },
   {
     "href": "/regions/siem-reap-angkor#taprohm",
@@ -1449,7 +1449,7 @@
       "en": "Siem Reap & Angkor Wat",
       "vi": "Siem Reap và Angkor Wat"
     },
-    "keywords": "Banteay Srei Banteay Srei A small pink temple, further out. Fine stone, a longer ride. Đền nhỏ màu hồng, xa hơn. Đá tinh, đường thì dài hơn."
+    "keywords": "Banteay Srei Banteay Srei A small temple of pink sandstone, further out, with fine carvings. Ngôi đền nhỏ bằng đá sa thạch hồng, xa hơn, chạm khắc tinh xảo."
   },
   {
     "href": "/regions/siem-reap-angkor#khmer-meal",
@@ -1461,7 +1461,7 @@
       "en": "Siem Reap & Angkor Wat",
       "vi": "Siem Reap và Angkor Wat"
     },
-    "keywords": "A Khmer meal Một bữa Khmer The town cooks for visitors. Ask for a Khmer fish curry if you want something that is not Vietnamese. Phố nấu cho khách. Gọi cà ri cá Khmer nếu muốn món không phải Việt."
+    "keywords": "A Khmer meal Một bữa Khmer Khmer cooking leans on lemongrass, coconut and freshwater fish. Ask for a local curry. Món Khmer dùng sả, nước cốt dừa và cá nước ngọt. Gọi một món cà ri địa phương."
   },
   {
     "href": "/regions/siem-reap-angkor#fish-amok",
@@ -1473,7 +1473,7 @@
       "en": "Siem Reap & Angkor Wat",
       "vi": "Siem Reap và Angkor Wat"
     },
-    "keywords": "Fish amok Amok cá A Cambodian classic worth ordering once. Mild, aromatic, and different from Vietnamese bowls. Một món kinh điển Campuchia đáng thử một lần. Dịu, thơm, và khác các bát mì Việt."
+    "keywords": "Fish amok Amok cá Fish amok is a steamed coconut curry: mild, aromatic and unlike Vietnamese bowls. Amok cá là món cà ri hấp với nước cốt dừa: dịu, thơm, khác các bát mì Việt."
   },
   {
     "href": "/regions/siem-reap-angkor#market-night",

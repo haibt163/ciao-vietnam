@@ -55,8 +55,8 @@
         "vi": "Chợ nổi Cái Răng"
       },
       "summary": {
-        "en": "The floating market near Can Tho. Boats sell fruit at dawn. Go early.",
-        "vi": "Chợ nổi gần Cần Thơ. Ghe bán trái cây lúc bình minh. Đi sớm."
+        "en": "The floating market near Can Tho, busiest at dawn when boats sell fruit and noodles.",
+        "vi": "Chợ nổi gần Cần Thơ, đông nhất lúc bình minh khi ghe bán trái cây và mì."
       },
       "facts": [
         {
@@ -118,7 +118,7 @@
           }
         }
       ],
-      "art": "mekong"
+      "image": "vinh-long"
     },
     {
       "id": "chaudoc",
@@ -127,8 +127,8 @@
         "vi": "Châu Đốc"
       },
       "summary": {
-        "en": "A border town. Sam Mountain is the lookout above the floodplain.",
-        "vi": "Phố biên giới. Núi Sam là chỗ nhìn xuống đồng ngập."
+        "en": "A border town below Sam Mountain, with a busy river and a mixed delta population.",
+        "vi": "Phố biên giới dưới Núi Sam, sông đông và dân cư đồng bằng đa dạng."
       },
       "facts": [
         {
@@ -142,7 +142,7 @@
           }
         }
       ],
-      "art": "floating-village"
+      "image": "chaudoc"
     },
     {
       "id": "hatien",
@@ -166,7 +166,7 @@
           }
         }
       ],
-      "art": "harbor-hill"
+      "image": "hatien"
     },
     {
       "id": "phuquoc",
@@ -179,8 +179,8 @@
         "vi": "Đảo. Vẫn chương này."
       },
       "summary": {
-        "en": "A large island in the gulf. Beaches, fish sauce, and a national park in the north.",
-        "vi": "Đảo lớn trong vịnh. Biển, nước mắm, và vườn quốc gia phía bắc."
+        "en": "A large gulf island with beaches, fish sauce workshops and a national park in the north.",
+        "vi": "Đảo lớn trong vịnh với biển, cơ sở nước mắm và vườn quốc gia phía bắc."
       },
       "image": "phuquoc",
       "facts": [
@@ -207,8 +207,8 @@
         "vi": "Đảo. Vẫn chương này."
       },
       "summary": {
-        "en": "A remote island of prisons, forest, and empty beaches. Fewer flights.",
-        "vi": "Đảo xa: nhà tù, rừng, và biển vắng. Ít chuyến bay hơn."
+        "en": "A remote island group known for forest, empty beaches and its prison history.",
+        "vi": "Quần đảo xa với rừng, biển vắng và lịch sử nhà tù."
       },
       "facts": [
         {

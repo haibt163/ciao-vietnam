@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { Photo } from "@/components/photo";
 import { InfoCard, Section } from "@/components/cards";
 import { T } from "@/components/text";
-import { ArtImg, PhraseCard } from "@/components/visual";
+import { PhraseCard } from "@/components/visual";
 import type { GuideContent, GuideLink } from "@/content/types";
 
 function LinkChips({ items }: { items: GuideLink[] }) {
@@ -23,7 +24,7 @@ export function GuideView({ content }: { content: GuideContent }) {
     <div className="grid gap-8 pb-6">
       {content.banner ? (
         <section className="banner relative -mx-4 overflow-hidden">
-          <ArtImg id={content.banner} className="absolute inset-0 h-full w-full object-cover" />
+          <Photo id={content.banner} fill sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-black/20" />
           <div className="absolute inset-x-0 bottom-0 grid gap-2 p-4 text-[#fffbf6]">
             <p className="prompt m-0">{">"} guide</p>

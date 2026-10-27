@@ -14,7 +14,7 @@
     "en": "A loud southern city. Walk one old grid, then eat. The war sites are their own hour.",
     "vi": "Một thành phố phía nam ồn ào. Đi bộ một khu cũ, rồi ăn. Chỗ về chiến tranh là một giờ riêng."
   },
-  "hero": "saigon-post",
+  "hero": "hcm-skyline",
   "chips": [
     {
       "en": "Dong Khoi",
@@ -66,7 +66,7 @@
           }
         }
       ],
-      "art": "cathedral"
+      "image": "saigon-cathedral"
     },
     {
       "id": "saigon-post",
@@ -75,8 +75,8 @@
         "vi": "Bưu điện Thành phố"
       },
       "summary": {
-        "en": "The long hall next to the cathedral. Maps on the walls, stalls in the middle.",
-        "vi": "Hành lang dài cạnh nhà thờ. Bản đồ trên tường, quầy ở giữa."
+        "en": "A vaulted hall from the French period, with maps on the walls and stalls down the middle.",
+        "vi": "Sảnh vòm thời Pháp, bản đồ trên tường và quầy dọc lối giữa."
       },
       "facts": [
         {
@@ -90,7 +90,7 @@
           }
         }
       ],
-      "art": "colonial"
+      "image": "saigon-post"
     },
     {
       "id": "palace",
@@ -195,8 +195,8 @@
         "vi": "Bảo tàng Chứng tích Chiến tranh"
       },
       "summary": {
-        "en": "A hard museum. Go if you want the war told in objects. Not a light hour.",
-        "vi": "Một bảo tàng nặng. Đến nếu muốn thấy chiến tranh qua hiện vật. Không phải một giờ nhẹ."
+        "en": "A museum of the war told through vehicles, photographs and testimony. Not a light visit.",
+        "vi": "Bảo tàng chiến tranh qua xe cộ, ảnh và lời kể. Không phải chuyến nhẹ."
       },
       "facts": [
         {
@@ -210,7 +210,7 @@
           }
         }
       ],
-      "art": "museum"
+      "image": "war-memorial"
     },
     {
       "id": "cuchi",
@@ -219,8 +219,8 @@
         "vi": "Địa đạo Củ Chi"
       },
       "summary": {
-        "en": "A tunnel network outside the city. A half-day ride, not a neighbourhood walk.",
-        "vi": "Hệ thống địa đạo ngoài thành phố. Nửa ngày đi xe, không phải đi bộ trong phố."
+        "en": "Tunnels used by the Viet Cong outside the city; most visits take half a day.",
+        "vi": "Địa đạo của Việt Cộng ngoài thành phố; phần lớn chuyến đi mất nửa ngày."
       },
       "facts": [
         {
@@ -234,7 +234,7 @@
           }
         }
       ],
-      "art": "cu-chi"
+      "image": "cu-chi-tunnels"
     }
   ],
   "eatIntro": {
@@ -324,7 +324,7 @@
         "en": "The city eats after dark. Follow busy low-stool places and order one thing at a time.",
         "vi": "Thành phố vẫn ăn sau tối. Theo quán ghế thấp đông người và gọi từng món một."
       },
-      "image": "hcm-night-street",
+      "image": "night-market-vietnam",
       "facts": [
         {
           "label": {

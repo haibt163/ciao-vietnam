@@ -27,22 +27,30 @@ export default function CreditsPage() {
                 <T text={image.alt} />
               </p>
               <p className="m-0">{image.credit}</p>
-              <a
-                href={image.licenseUrl}
-                className="tap inline-flex min-h-11 items-center text-clay-fill"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {image.license}
-              </a>
-              <a
-                href={image.source}
-                className="tap inline-flex min-h-11 items-center text-clay-fill"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <T text={ui.sourceLink} />
-              </a>
+              {image.licenseUrl ? (
+                <a
+                  href={image.licenseUrl}
+                  className="tap inline-flex min-h-11 items-center text-clay-fill"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {image.license}
+                </a>
+              ) : (
+                <p className="m-0">{image.license}</p>
+              )}
+              {image.sourceUrl ? (
+                <a
+                  href={image.sourceUrl}
+                  className="tap inline-flex min-h-11 items-center text-clay-fill"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <T text={ui.sourceLink} />
+                </a>
+              ) : (
+                <p className="m-0 text-muted">{image.source}</p>
+              )}
               <p className="m-0 text-muted">
                 <T text={image.cropped ? ui.croppedNote : ui.resized} />
               </p>

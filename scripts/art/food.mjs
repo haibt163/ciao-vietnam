@@ -55,7 +55,6 @@ function noodleBowl({ a = "#e9d8b8", b = "#cfb78f", broth = "#c98a3a", noodle = 
 
 const pho = () => noodleBowl({ broth: "#b87b36", noodle: "#fff7e2", tops: ["beef", "onion", "herb", "beef", "onion", "chili"], seed: 3 });
 const bunBo = () => noodleBowl({ a: "#e8d3b0", b: "#cdb085", broth: "#c2412a", noodle: "#fff0cf", tops: ["lemongrass", "pork", "herb", "chili", "pork", "onion"], seed: 5, band: "#c4622d" });
-const miQuang = () => noodleBowl({ a: "#ecd9b4", b: "#d1b684", broth: "#e0a22c", noodle: "#f6cf5a", tops: ["shrimp", "egg", "peanut", "herb", "crisp", "pork"], seed: 7, band: "#3a8a78" });
 const huTieu = () => noodleBowl({ a: "#e7dcc4", b: "#c9b894", broth: "#e8c88a", noodle: "#fffaf0", tops: ["shrimp", "pork", "egg", "onion", "herb", "shrimp"], seed: 9, band: "#6a8ac4" });
 const caoLau = () => noodleBowl({ a: "#e6d1ae", b: "#c9aa7c", broth: "#8a5a2a", noodle: "#e9c98a", tops: ["pork", "herb", "sprout", "crisp", "herb", "chili"], seed: 11, band: "#a8321e" });
 
@@ -96,15 +95,7 @@ function comTam() {
   return build(t, body);
 }
 
-function seafood() {
-  const t = table("#d9e4e0", "#aebfb8");
-  const prawn = (x, y, rot, c) => g(path("M-60 10Q-70 -40 -20 -50Q30 -56 56 -20Q66 0 50 10Q40 -10 10 -12Q-30 -14 -40 20Z", c) + [-30, -10, 10, 30].map((px) => path(`M${px} -48V-6`, "none", 'stroke="#00000030" stroke-width="3"')).join("") + path("M54 -12Q80 -26 96 -10", "none", 'stroke="#f08a6a" stroke-width="3" fill="none"') + circ(40, -22, 3, "#2a2a2a"), `translate(${x} ${y}) rotate(${rot})`);
-  const crab = g(ell(0, 0, 70, 52, "#d9482b") + ell(0, 6, 56, 38, "#e8664a") + [-1, 1].map((s) => path(`M${s * 60} -20Q${s * 120} -50 ${s * 120} -90Q${s * 90} -70 ${s * 70} -50Z`, "#d9482b")).join("") + [-40, -22, 22, 40].map((x) => path(`M${x} 40L${x * 1.5} 80`, "none", 'stroke="#d9482b" stroke-width="7" stroke-linecap="round"')).join(""), "translate(520 380)");
-  const squid = [0, 1, 2, 3, 4].map((i) => circ(200 + i * 36, 440 + (i % 2) * 8, 18, "#f5e9d6") + circ(200 + i * 36, 440 + (i % 2) * 8, 9, "#d8c7aa")).join("");
-  const body = shade(ell(400, 320, 330, 240, "#000")) + ell(400, 320, 330, 240, "#fbf6ec") + ell(400, 320, 308, 222, "#2f6aa0", 'opacity="0.35"') + ell(400, 320, 300, 214, "#fbf6ec") +
-    prawn(220, 220, -12, "#f09a78") + prawn(360, 170, 8, "#f08a6a") + prawn(250, 330, 4, "#f4a688") + crab + squid + leaves(430, 270, 70, 10, 6) + lime(330, 480, 1.1) + lime(660, 230, 1) + chili(620, 470, -10);
-  return build(t, body);
-}
+
 
 function fruit() {
   const t = table("#f0e0c0", "#d4b888");
@@ -216,8 +207,8 @@ function nightSnacks() {
 }
 
 export const foods = {
-  "food-pho": pho, "food-bun-bo": bunBo, "food-mi-quang": miQuang, "food-hu-tieu": huTieu, "food-cao-lau": caoLau,
-  "food-bun-cha": bunCha, "food-banh-mi": banhMi, "food-com-tam": comTam, "food-seafood": seafood, "food-fruit": fruit,
+  "food-pho": pho, "food-bun-bo": bunBo, "food-hu-tieu": huTieu, "food-cao-lau": caoLau,
+  "food-bun-cha": bunCha, "food-banh-mi": banhMi, "food-com-tam": comTam, "food-fruit": fruit,
   "food-bia-hoi": biaHoi, "food-iced-coffee": icedCoffee, "food-egg-coffee": eggCoffee, "food-highland-coffee": highlandCoffee,
   "food-artichoke-tea": artichokeTea, "food-market-plates": marketPlates, "food-sticky-rice": stickyRice, "food-fish-amok": fishAmok,
   "food-cold-drink": coldDrink, "food-khmer-meal": khmerMeal, "food-night-snacks": nightSnacks,

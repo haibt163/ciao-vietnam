@@ -185,7 +185,7 @@
               }
             }
           ],
-          "art": "food-seafood"
+          "image": "drying-fish"
         },
         {
           "id": "eat-fruit",
@@ -278,7 +278,7 @@
             "en": "Night markets work best when you sample one small thing at a time instead of committing to one big meal.",
             "vi": "Chợ đêm dễ khám phá nhất khi nếm từng món nhỏ thay vì gọi một bữa lớn."
           },
-          "image": "night-market-vietnam",
+          "art": "food-night-snacks",
           "facts": [
             {
               "label": {
@@ -380,5 +380,5 @@
       ]
     }
   ],
-  "banner": "food-pho"
+  "banner": "pho-bowl"
 }

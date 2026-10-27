@@ -59,8 +59,8 @@
         "vi": "Vịnh Hạ Long"
       },
       "summary": {
-        "en": "Limestone towers in green water. Most visits are by boat.",
-        "vi": "Tháp đá vôi trên nước xanh. Phần lớn đi bằng thuyền."
+        "en": "Limestone islands in green water. Most visits are by day or overnight boat.",
+        "vi": "Đảo đá vôi trên nước xanh. Phần lớn đi thuyền trong ngày hoặc qua đêm."
       },
       "image": "halong-air",
       "facts": [
@@ -93,8 +93,8 @@
         "vi": "Cát Bà và Lan Hạ"
       },
       "summary": {
-        "en": "The island side of the same water. Quieter than the main cruise route.",
-        "vi": "Phía đảo của cùng một vùng nước. Yên hơn tuyến du thuyền chính."
+        "en": "The largest island in the bay, with a national park and quieter Lan Ha water.",
+        "vi": "Đảo lớn nhất trong vịnh, có vườn quốc gia và vùng nước Lan Hạ yên hơn."
       },
       "facts": [
         {
@@ -127,8 +127,8 @@
         "vi": "Sa Pa"
       },
       "summary": {
-        "en": "A hill town above the terraces. The walks start at the edge of town.",
-        "vi": "Thị trấn đồi trên ruộng bậc thang. Đường đi bộ bắt đầu từ rìa phố."
+        "en": "A hill town above rice terraces, with Hmong and Dao villages on the slopes.",
+        "vi": "Thị trấn đồi trên ruộng bậc thang, có làng H'Mông và Dao trên sườn núi."
       },
       "image": "sapa",
       "facts": [
@@ -195,8 +195,8 @@
         "vi": "Ninh Bình"
       },
       "summary": {
-        "en": "Karst south of Hanoi. Tam Coc and Trang An are boat country.",
-        "vi": "Núi đá phía nam Hà Nội. Tam Cốc và Tràng An là xứ thuyền."
+        "en": "Karst valleys at Tam Coc and Trang An, where boats pass through caves under the cliffs.",
+        "vi": "Thung lũng đá vôi ở Tam Cốc và Tràng An, thuyền qua hang dưới vách núi."
       },
       "image": "ninhbinh",
       "facts": [
@@ -229,8 +229,8 @@
         "vi": "Mai Châu"
       },
       "summary": {
-        "en": "A gentler valley. Rice, stilt houses, a shorter hop from the capital.",
-        "vi": "Thung lũng hiền hơn. Lúa, nhà sàn, gần thủ đô hơn."
+        "en": "A gentler valley of rice fields and White Thai stilt houses, close to Hanoi.",
+        "vi": "Thung lũng hiền hòa với ruộng lúa và nhà sàn người Thái trắng, gần Hà Nội."
       },
       "facts": [
         {
@@ -244,7 +244,7 @@
           }
         }
       ],
-      "art": "mai-chau"
+      "image": "mai-chau"
     }
   ],
   "eatIntro": {
@@ -298,7 +298,7 @@
           }
         }
       ],
-      "art": "food-night-snacks"
+      "image": "bac-ha-food"
     },
     {
       "id": "sticky-rice",

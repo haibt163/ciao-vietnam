@@ -59,8 +59,8 @@
         "vi": "Hồ Hoàn Kiếm"
       },
       "summary": {
-        "en": "The city's living room. A shaded loop around the water.",
-        "vi": "Phòng khách của phố. Một vòng rợp bóng quanh hồ."
+        "en": "The city's living room. Turtle Tower offshore, Ngoc Son Temple across the red bridge.",
+        "vi": "Phòng khách của phố. Tháp Rùa ngoài hồ, đền Ngọc Sơn qua cầu Thê Húc đỏ."
       },
       "facts": [
         {
@@ -94,7 +94,7 @@
           }
         }
       ],
-      "art": "hoan-kiem"
+      "image": "huc-bridge"
     },
     {
       "id": "old-quarter",
@@ -147,8 +147,8 @@
         "vi": "Văn Miếu"
       },
       "summary": {
-        "en": "Confucian courtyards. Vietnam's first university, still standing.",
-        "vi": "Khu sân Khổng học. Trường đại học đầu tiên, còn đó."
+        "en": "Confucian courtyards and stone stelae; founded in the 11th century as Vietnam's first university.",
+        "vi": "Sân Khổng học và bia đá; lập từ thế kỷ 11, được coi là trường đại học đầu tiên của Việt Nam."
       },
       "image": "temple",
       "facts": [
@@ -191,8 +191,8 @@
         "vi": "Chùa Một Cột"
       },
       "summary": {
-        "en": "A wooden lotus on a single stone pillar.",
-        "vi": "Đài sen gỗ trên một cột đá."
+        "en": "A small wooden pagoda on a single stone pillar, rebuilt after it was destroyed.",
+        "vi": "Ngôi chùa gỗ nhỏ trên một cột đá, được dựng lại sau khi bị phá."
       },
       "image": "one-pillar",
       "facts": [
@@ -235,8 +235,8 @@
         "vi": "Lăng Chủ tịch Hồ Chí Minh"
       },
       "summary": {
-        "en": "A vast square and a strict dress code. Often closed.",
-        "vi": "Quảng trường rộng, y phục nghiêm. Hay đóng cửa."
+        "en": "Ho Chi Minh's granite mausoleum on Ba Dinh Square. Strict dress code, limited opening.",
+        "vi": "Lăng Hồ Chí Minh bằng đá granite trên Quảng trường Ba Đình. Y phục nghiêm, giờ mở hạn chế."
       },
       "facts": [
         {
@@ -270,7 +270,7 @@
           }
         }
       ],
-      "art": "mausoleum"
+      "image": "mausoleum-square"
     },
     {
       "id": "opera",
@@ -411,8 +411,8 @@
         "vi": "Chùa Trấn Quốc"
       },
       "summary": {
-        "en": "A lakeside pagoda on a small causeway.",
-        "vi": "Chùa bên hồ, trên con đường đắp ngắn."
+        "en": "One of Hanoi's oldest pagodas, on a causeway in West Lake.",
+        "vi": "Một trong những ngôi chùa cổ nhất Hà Nội, trên đường đắp ở Hồ Tây."
       },
       "image": "tran-quoc",
       "facts": [
@@ -455,8 +455,8 @@
         "vi": "Hồ Tây"
       },
       "summary": {
-        "en": "The big water. Cafes on the east shore. Space to breathe.",
-        "vi": "Mặt nước lớn. Quán cà phê bờ đông. Có chỗ thở."
+        "en": "The city's largest lake. Tran Quoc Pagoda sits on a small causeway.",
+        "vi": "Hồ lớn nhất thành phố. Chùa Trấn Quốc nằm trên đường đắp nhỏ."
       },
       "facts": [
         {
@@ -490,7 +490,7 @@
           }
         }
       ],
-      "art": "west-lake"
+      "image": "west-lake"
     },
     {
       "id": "flag-tower",

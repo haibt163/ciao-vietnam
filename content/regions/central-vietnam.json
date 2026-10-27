@@ -55,8 +55,8 @@
         "vi": "Đại Nội"
       },
       "summary": {
-        "en": "The Nguyen citadel in Hue. Walls, gates, and quiet ruined courts.",
-        "vi": "Kinh thành nhà Nguyễn ở Huế. Tường, cổng, và sân vắng."
+        "en": "The Nguyen dynasty capital: citadel, palaces and tombs along the Perfume River.",
+        "vi": "Kinh đô triều Nguyễn: kinh thành, cung điện và lăng tẩm bên sông Hương."
       },
       "facts": [
         {
@@ -89,8 +89,8 @@
         "vi": "Chùa Thiên Mụ"
       },
       "summary": {
-        "en": "The riverside tower west of the citadel. A short ride, or a long walk.",
-        "vi": "Tháp bên sông, phía tây kinh thành. Đi xe ngắn, hoặc đi bộ dài."
+        "en": "A seven-tiered pagoda on the north bank of the Perfume River.",
+        "vi": "Ngôi chùa bảy tầng bên bờ bắc sông Hương."
       },
       "image": "thienmu",
       "facts": [
@@ -137,8 +137,8 @@
         "vi": "Phố cổ Hội An"
       },
       "summary": {
-        "en": "A river port of low houses, lanterns, and tailor shops. Walk it.",
-        "vi": "Phố cảng nhà thấp, đèn lồng, và tiệm may. Đi bộ."
+        "en": "A trading port of low houses, lanterns and tailors. The old town is small enough to walk.",
+        "vi": "Phố cảng với nhà thấp, đèn lồng và tiệm may. Phố cổ nhỏ, đi bộ là đủ."
       },
       "facts": [
         {
@@ -162,7 +162,7 @@
           }
         }
       ],
-      "art": "lantern-night"
+      "image": "lantern-night"
     },
     {
       "id": "japan-bridge",
@@ -171,8 +171,8 @@
         "vi": "Chùa Cầu"
       },
       "summary": {
-        "en": "The short covered bridge at the west end of the old town.",
-        "vi": "Cây cầu mái ngắn ở đầu tây phố cổ."
+        "en": "A covered bridge built by the Japanese trading community at the west end of the old town.",
+        "vi": "Cầu có mái do cộng đồng thương nhân Nhật xây ở đầu tây phố cổ."
       },
       "image": "japan-bridge",
       "facts": [
@@ -195,8 +195,8 @@
         "vi": "Hang Phong Nha"
       },
       "summary": {
-        "en": "River caves in a national park. Boats go into the rock.",
-        "vi": "Hang sông trong vườn quốc gia. Thuyền vào trong đá."
+        "en": "River caves in Phong Nha-Ke Bang National Park; boats enter the rock.",
+        "vi": "Hang sông trong Vườn quốc gia Phong Nha-Kẻ Bàng; thuyền đi vào trong núi đá."
       },
       "facts": [
         {
@@ -244,7 +244,7 @@
           }
         }
       ],
-      "art": "dragon-bridge"
+      "image": "dragon-bridge"
     }
   ],
   "eatIntro": {
@@ -259,8 +259,8 @@
         "vi": "Bún bò Huế"
       },
       "summary": {
-        "en": "A spicy beef noodle bowl. It belongs to this city.",
-        "vi": "Bát bún bò cay. Nó thuộc về thành phố này."
+        "en": "A spicy beef noodle soup from Hue, scented with lemongrass and chili.",
+        "vi": "Bún bò cay xứ Huế, thơm sả và ớt."
       },
       "facts": [
         {
@@ -322,7 +322,7 @@
           }
         }
       ],
-      "art": "food-mi-quang"
+      "image": "mi-quang"
     }
   ],
   "stayIntro": {
