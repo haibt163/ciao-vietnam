@@ -1,5 +1,25 @@
 # Photo selection
 
+## Owner-authorized guidebook imagery — 27 October 2026
+
+The Project Owner confirms that full licenses have been obtained to use photographs
+and illustrations contained in Lonely Planet Vietnam (16th ed.) and DK Eyewitness
+Vietnam on the website. This is an Owner decision. Use covered image assets within
+the actual terms of those licenses; do not infer any additional rights beyond the
+image-use grant.
+
+For each used asset, record the book title, edition, page/figure or image identifier,
+creator/credit where given, applicable license label and source in the project
+metadata/documentation. Extract individual embedded images where practical instead
+of publishing full-page facsimiles. Do not copy book sentences. Do not commit the
+source ebooks or private license records. Do not invent creator names, license
+labels or URLs; if an offline license cannot be represented accurately by the
+existing credits UI, document the constraint and make the smallest truthful change.
+
+This section is the current policy. The rounds below are retained as historical
+selection evidence and should not be rewritten to make the new media pass appear
+to have happened already.
+
 ## Round 4 — autonomous photo replacement
 
 Owner-approved autonomous selection by ChatGPT (Main Engineer). All selected photos below use the Pexels License, which is on the project's allowed list. Final originals are fetched by GitHub Actions so their actual dimensions can be checked before wiring; any source failing the 3000 px long-edge minimum is rejected rather than upscaled.

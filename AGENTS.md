@@ -118,10 +118,11 @@ accuracy of practical information.
 
 Never:
 
-- commit the source guidebooks (PDF/EPUB) or any extract of their images;
-- copy sentences from the guidebooks; copy is original and keyword-style;
-- publish a photo without recorded credit, license, license URL and source;
-- use a photo whose license is not on the allowed list in `AGENTS.project.md`;
+- commit the source guidebooks (PDF/EPUB), full-page scans, or book-text extracts; the source books and private license records stay outside Git;
+- copy sentences from the guidebooks; all visible copy is original and keyword-style;
+- use a guidebook photograph or illustration outside the scope of the Project Owner-confirmed license;
+- publish an image without recorded credit, license, license URL (when one exists), and source provenance;
+- use any other external photo whose license is not on the allowed list in `AGENTS.project.md`;
 - present prices, hours, visa or entry rules as current unless checked against
   an official source and dated;
 - commit credentials, secrets or tracking scripts;

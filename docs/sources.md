@@ -2,6 +2,22 @@
 
 No sentences are copied from the guidebooks. Prices, opening hours, and distances are left out on purpose. Where a practical detail can change, the page says to verify it locally.
 
+## Licensed guidebook imagery — Owner decision, 27 October 2026
+
+The Project Owner confirms that full licenses have been obtained for use of
+photographs and illustrations contained in Lonely Planet Vietnam (16th ed.) and
+DK Eyewitness Vietnam on the public website. The source ebooks and private license
+records remain outside the repository. For each asset actually used, record the
+book, edition, printed/PDF page or figure where available, creator/credit, license
+label, and any required attribution. This confirms permission to use covered
+images/artwork; it does not permit copying guidebook prose. New descriptions are
+to be original wording informed by the books.
+
+This entry records the Owner's instruction. Any specific limitation stated in the
+actual license still governs how an image is reproduced, cropped, adapted or
+attributed. Historical content mappings below are not evidence that the new media
+refresh has been completed.
+
 Chapter placements below are the ones checked against Lonely Planet Vietnam (16th edition) and DK Eyewitness Vietnam. This round did not re-read the books. The sandbox file search found the DK PDF only (`/workspace/attachments/DK Eyewitness Vietnam (Travel Guide) (DK Eyewitness) (Z-Library).pdf`). DK's contents used here: Ho Chi Minh City, Mekong Delta and Southern Vietnam, South Central Vietnam, Central Vietnam, Hanoi, Northern Vietnam, excursion to Angkor. Lonely Planet chapters: Hanoi, Northern Vietnam, Central Vietnam, Southeast Coast, Central Highlands, Ho Chi Minh City, Mekong Delta, plus Siem Reap and Angkor.
 
 ## Hanoi

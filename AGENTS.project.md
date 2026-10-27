@@ -89,14 +89,32 @@ preferences: language, theme, sound.
 ## 7. Content Provenance and Text Rules
 
 The two reference guidebooks are Lonely Planet Vietnam (16th ed.) and DK
-Eyewitness Vietnam. They are reference material only.
+Eyewitness Vietnam. They are reference sources for both content and imagery.
+On 27 October 2026, the Project Owner confirmed that full licenses have been
+obtained to use images/artwork from both ebooks on the website. Treat that as
+an Owner decision and use covered imagery within the actual license terms.
 
-- The books are kept outside the repository and are never committed.
-- No sentences are copied. Copy is original, keyword style: chips, 3–7 word
-  bullets, "Don't miss / Best for / When / How to get there".
-- Places and chapter placement follow the books. Every factual claim should be
-  traceable to a book chapter; record this in `docs/sources.md`.
-- Anything not traceable is removed or listed as UNVERIFIED in `docs/sources.md`.
+- The books (PDF/EPUB) and private license/transaction records stay outside the
+  repository. Individual licensed image assets may be committed for the site.
+- Do not copy guidebook sentences. All visible copy is freshly written in
+  keyword style: chips, 3–7 word bullets, "Don't miss / Best for / When / How
+  to get there". Descriptions should be informed by the books, not transcribed.
+- Places, chapter placement, image subjects and image provenance should be
+  traceable to the book title, edition, and page/figure where available; record
+  this in `docs/sources.md` or `docs/photo-selection.md`.
+- Preserve attribution and licensing information required by the license in
+  `content/images.json` and the credits UI. Use exact names/terms when known;
+  do not invent a creator, license name, or URL. If the existing required
+  `licenseUrl` field cannot truthfully represent an owner-held license, adjust
+  the credits representation minimally so the license label and attribution
+  remain accurate without a fabricated link.
+- Extract individual embedded images where practical instead of using whole
+  page screenshots. Never publish a page facsimile or surrounding guidebook
+  text as an image. Crop, resize, optimize or adapt images only as the license
+  permits. Do not upscale; use the best native source available and flag
+  quality conflicts rather than hiding them.
+- Anything factual that cannot be traced to a book or trusted verification is
+  removed or listed as UNVERIFIED in `docs/sources.md`.
 - Reader-friendly choices that differ from the books (for example Ninh Binh on
   the North Vietnam page) are stated plainly in `docs/sources.md`.
 - Region names: Hanoi, North Vietnam, Central Vietnam, Southeast Coast (search
@@ -108,15 +126,19 @@ Eyewitness Vietnam. They are reference material only.
 
 ## 8. Images and Licensing
 
-- Images are NOT taken from the two guidebooks. They come from properly
-  licensed sources.
-- Allowed licenses: CC0, public domain, CC BY, Unsplash License, Pexels License.
-- Not allowed: CC BY-SA (excluded until a clear reading of the adaptation rule
-  is recorded in `docs/photo-selection.md`), any NonCommercial (NC), any
-  NoDerivatives (ND).
-- Every photo has credit, license, license URL and source in `images.json`. The
-  credits page (`/credits`) is generated from it and states that images are
-  resized and, where `cropped` is true, cropped.
+- Licensed photos and illustrations contained in the two guidebooks are now an
+  Owner-approved image source, based on the Project Owner's 27 October 2026
+  confirmation. Use them within the actual license terms and record book,
+  edition, page/figure and required attribution.
+- For all other external image sources, allowed licenses remain CC0, public
+  domain, CC BY, Unsplash License and Pexels License unless the Owner explicitly
+  approves another license. CC BY-SA remains excluded unless its adaptation
+  terms are clearly resolved and recorded in `docs/photo-selection.md`; NC and
+  ND remain excluded for these other sources.
+- Every photo records credit, license, license URL where one exists, and source
+  in `content/images.json`. The credits page (`/credits`) is generated from
+  this data. Keep this metadata truthful for offline/owner-held image licenses;
+  do not invent a URL or attribution.
 - Quality bar for an original: at least 3000 px on the long edge (2400 px
   absolute minimum), sharp, well exposed, clear light. Reject hazy, grey,
   low-light snapshots, watermarks, banners, readable brand signs.
@@ -124,10 +146,10 @@ Eyewitness Vietnam. They are reference material only.
   Never upscale. If a source is too small, set `heroLayout: "landscape"`.
 - Compression: WebP, quality floor 78 for heroes and 75 for cards.
 - Selection decisions and rejections are logged in `docs/photo-selection.md`.
-- Where no approved photo exists, a card uses an original illustration, a food
-  flat-lay or an icon tile (`art` field; sources in `scripts/art/`, output in
-  `public/art/`). See `docs/illustrations.md`. Every card must show a photo, an
-  illustration or an icon tile; never ship a "photo needed" label.
+- Where no approved photo exists, a card uses a licensed image or an illustration,
+  a food flat-lay or an icon tile (`art` field; sources in `scripts/art/`, output
+  in `public/art/`). See `docs/illustrations.md`. Every card must show a photo,
+  an illustration or an icon tile; never ship a "photo needed" label.
 - Owner-supplied photos are welcome; record the photographer and page URL.
 
 ---
