@@ -1287,24 +1287,6 @@
       "sourceUrl": "https://www.pexels.com/photo/authentic-vietnamese-banh-can-with-scallions-31563462/",
       "retain": true
     },
-    "hoi-an-food-stall": {
-      "id": "hoi-an-food-stall",
-      "src": "/images/hoi-an-food-stall-960.webp",
-      "srcSet": "/images/hoi-an-food-stall-640.webp 640w, /images/hoi-an-food-stall-960.webp 960w",
-      "width": 960,
-      "height": 1440,
-      "alt": {
-        "en": "A warm-lit street-food stall in Hoi An at night.",
-        "vi": "Quầy hàng ăn đường phố Hội An dưới ánh đèn đêm."
-      },
-      "credit": "Tom Chesseron",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "source": "https://www.pexels.com/photo/traditional-vietnamese-food-stall-at-night-35708759/",
-      "cropped": false,
-      "sourceUrl": "https://www.pexels.com/photo/traditional-vietnamese-food-stall-at-night-35708759/",
-      "retain": true
-    },
     "phin-coffee": {
       "id": "phin-coffee",
       "src": "/images/phin-coffee-960.webp",
