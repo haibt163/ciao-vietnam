@@ -72,36 +72,6 @@ function hash(text: string) {
   return h;
 }
 
-/** Original illustration from public/art (scenes and food flat-lays). */
-export function ArtImg({
-  id,
-  className = "h-full w-full object-cover",
-}: {
-  id: string;
-  className?: string;
-}) {
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={`/art/${id}.svg`}
-      alt=""
-      width={800}
-      height={600}
-      loading="lazy"
-      decoding="async"
-      className={className}
-    />
-  );
-}
-
-export function ArtFigure({ id }: { id: string }) {
-  return (
-    <figure className="visual m-0">
-      <ArtImg id={id} />
-    </figure>
-  );
-}
-
 /** Rounded icon tile for practical cards (stay, getting there, essentials). */
 export function IconTile({ name, seed }: { name: string; seed: string }) {
   const Icon = ICONS[name] ?? Compass;

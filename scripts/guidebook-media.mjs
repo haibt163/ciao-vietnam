@@ -1,14 +1,17 @@
-// Rebuilds derived WebP files and the image registry from licensed guidebook sources.
+// Rebuilds derived WebP files and the image registry from licensed book and web sources.
 //
-// The ebook files and their extracted images stay outside the repository. Point this
-// script at local folders extracted from the two licensed books:
+// The source files stay outside the repository. Point this script at local folders:
 //
 //   node scripts/guidebook-media.mjs \
-//     --lp-images "C:\path\to\lp\EPUB\images" \
-//     --dk-pages  "C:\path\to\dk-pages"
+//     --lp-images   "C:\path\to\lp\EPUB\images" \
+//     --dk-pages    "C:\path\to\dk-pages" \
+//     --food-images "C:\path\to\licensed-food-photos"
+//
+// Add --food-only to rebuild just the external food photographs without the book sources.
 //
 // With no sources present it exits without changing public/images or content/images.json.
-// See scripts/guidebook-media.json for the per-asset book, edition, page and credit.
+// See scripts/guidebook-media.json for book, edition, page and credit, and
+// scripts/food-media.json for the external food photographs and their licences.
 import fs from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
@@ -22,23 +25,30 @@ const arg = (name) => {
 
 const lpDir = arg("--lp-images") || process.env.CIAO_LP_IMAGES;
 const dkDir = arg("--dk-pages") || process.env.CIAO_DK_PAGES;
+const foodDir = arg("--food-images") || process.env.CIAO_FOOD_IMAGES;
 const manifestFile = path.join(import.meta.dirname, "guidebook-media.json");
+const foodManifestFile = path.join(import.meta.dirname, "food-media.json");
 const imageFile = path.join(root, "content", "images.json");
 const publicDir = path.join(root, "public", "images");
 
 const manifest = JSON.parse(fs.readFileSync(manifestFile, "utf8")).assets;
-const allAssets = Object.values(manifest);
-const assets = allAssets.filter((asset) => !asset.retain);
-const retained = allAssets.filter((asset) => asset.retain);
+const foodManifest = JSON.parse(fs.readFileSync(foodManifestFile, "utf8")).assets;
+const allAssets = [...Object.values(manifest), ...Object.values(foodManifest)];
+const foodOnly = args.includes("--food-only");
+const assets = foodOnly
+  ? Object.values(foodManifest)
+  : allAssets.filter((asset) => !asset.retain);
+const retained = foodOnly ? [] : allAssets.filter((asset) => asset.retain);
 const missingSources = assets.filter((asset) => {
   if (asset.lpFile) return !lpDir || !fs.existsSync(path.join(lpDir, asset.lpFile));
   if (asset.dkFile) return !dkDir || !fs.existsSync(path.join(dkDir, asset.dkFile));
+  if (asset.webFile) return !foodDir || !fs.existsSync(path.join(foodDir, asset.webFile));
   return true;
 });
 
 if (missingSources.length) {
-  console.log("Guidebook sources are not available in the given folders. Nothing to do.");
-  console.log(`  ${missingSources.length} assets need --lp-images / --dk-pages (first: ${missingSources[0]?.id})`);
+  console.log("Media sources are not available in the given folders. Nothing to do.");
+  console.log(`  ${missingSources.length} assets need --lp-images / --dk-pages / --food-images (first: ${missingSources[0]?.id})`);
   process.exit(0);
 }
 
@@ -64,7 +74,9 @@ for (const asset of assets) {
   try {
     const sourcePath = asset.lpFile
       ? path.join(lpDir, asset.lpFile)
-      : path.join(dkDir, asset.dkFile);
+      : asset.dkFile
+        ? path.join(dkDir, asset.dkFile)
+        : path.join(foodDir, asset.webFile);
     let pipeline = sharp(sourcePath).rotate();
     const meta = await pipeline.metadata();
     let width = meta.width ?? 0;
@@ -123,7 +135,9 @@ for (const asset of assets) {
       alt: asset.alt,
       credit: asset.credit,
       license: asset.license,
+      ...(asset.licenseUrl ? { licenseUrl: asset.licenseUrl } : {}),
       source: asset.source,
+      ...(asset.sourceUrl ? { sourceUrl: asset.sourceUrl } : {}),
       ...(asset.focus ? { focus: asset.focus } : {}),
       ...(asset.hero ? { heroLayout: asset.layout ?? "portrait" } : {}),
       ...(cropped ? { cropped: true } : {}),

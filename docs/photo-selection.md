@@ -70,6 +70,53 @@ EN/VI summaries were revised only where book evidence supports a stable fact
 (architecture, dish composition, geography). Prices, hours, distances and entry
 rules remain omitted.
 
+## Food photographs — November 2026
+
+Scope: replace the 19 generated food SVGs with photographs on the 22 cards that used
+them. The 27 October book inventory was re-checked first. The Lonely Planet EPUB
+serves its dish photographs at roughly 1,000–2,000 px on the long edge (for example
+Bun Cha, p. 48, is 1,421×947; the banh beo tray, p. 51, is 2,000×2,000), and the DK
+pages are 1,383×2,400 flattened rasters. None provided the named dish at the 2,400 px
+original long-edge minimum, so the book images were rejected rather than upscaled.
+No full book page or caption is used.
+
+All 22 replacements use the project's allowed external licences. No card image id is
+reused. Wikimedia originals were checked at the file page; derivatives were built
+without upscaling from a 1,920 px Wikimedia rendition (originals are larger) or a
+2,400 px Pexels rendition.
+
+| Card image id | Source and credit | Licence | Original size | Note |
+|---|---|---|---|---|
+| food-banh-mi | Wikimedia Commons — Special Baguette (Bánh mì), Banh Mi Ancient Saigon; Andy Li | CC0 | 8160×6144 | Split baguette, no readable branding. |
+| food-bun-cha | Wikimedia Commons — Bún chả ObaNa, Bình Thạnh; Phương Huy | Public domain | 3120×4160 | Grilled pork, noodles, herbs and dipping broth. |
+| food-noodle-bowl | Pexels — Soup and Meat with Vegetables; nguyendesigner | Pexels License | 6240×4160 | Generic pork noodle bowl for the Eat overview card. |
+| food-cao-lau | Wikimedia Commons — Cao lầu Hội An (2024); Chainwit. | CC BY 4.0 | 4030×3023 | Hoi An cao lầu with pork and crisp crackers. |
+| food-com-tam | Wikimedia Commons — Cơm tấm Sài Gòn with grilled ribs; Phương Huy | CC0 | 3024×4032 | Broken rice, rib, cucumber, soup. |
+| food-fruit | Pexels — Vibrant Fruit Stall in Ho Chi Minh City; Loriz E | Pexels License | 5801×3768 | Lychees and tropical fruit at a market. |
+| food-bia-hoi | Wikimedia Commons — Bia hoi in Hoi An, Vietnam; R. from Bangkok, Thailand | CC BY 2.0 | 3888×2592 | Glasses on a low street-side table. |
+| food-iced-coffee | Wikimedia Commons — Vietnam, preparing coffee; P. Hughes | CC BY 4.0 | 4100×2720 | Several phin filters on a tray. |
+| food-night-snacks | Pexels — Women Sitting at Bazaar and Eating; HONG SON | Pexels License | 6720×4480 | Diners sharing small bowls at a night market. |
+| food-egg-coffee | Pexels — Delicious Vietnamese Egg Coffee in Hue Café; nhavantuonglai | Pexels License | 4000×2667 | Egg coffee with a thick creamy layer. |
+| food-highland-coffee | Wikimedia Commons — Vietnam, coffee plantation; P. Hughes | CC BY 4.0 | 4288×2848 | Coffee bushes on a Vietnamese hillside. |
+| food-artichoke-tea | Pexels — Fresh Market Produce with Artichoke Tea Packs; Surya Travel | Pexels License | 4000×2667 | Packs labelled Trà Atisô beside market produce. |
+| food-market-plates | Pexels — Street Vendor Cooking in Da Lat Night Market; peterpham | Pexels License | 6016×4000 | Dalat market cooking scene. |
+| food-bun-bo-hue | Wikimedia Commons — Bún bò Huế at Chợ Đông Ba, Huế; Chainwit. | CC BY 4.0 | 3024×4032 | Hue market bowl; distinct from the Eat overview photo. |
+| food-com-tam-saigon | Wikimedia Commons — Cơm tấm sườn cây; Tokeisan | Public domain | 4032×3024 | Saigon broken-rice plate; distinct from the Eat overview photo. |
+| food-hu-tieu | Wikimedia Commons — Bowl of Hu Tieu in Bui Vien Street; GiveMeMollusks | CC0 | 3468×4624 | Hu tieu with shrimp and pork. |
+| food-pho | Pexels — Cooked Food in the Bowl; RDNE Stock project | Pexels License | 4468×2979 | Beef pho with herbs. |
+| food-sticky-rice | Wikimedia Commons — Xôi gà; Yuichi Kosio | CC BY 2.0 | 3264×2448 | Sticky rice with shredded chicken on banana leaf. |
+| food-khmer-meal | Pexels — Chicken Soup Dish, Phnom Penh; HM Grand Central Hotel | Pexels License | 5760×3840 | Cambodian chicken soup with lemongrass. |
+| food-fish-amok | Wikimedia Commons — Fish Amok with Rice; sharonang | CC0 | 3456×2304 | Fish amok in a banana-leaf cup. |
+| food-night-snacks-siem-reap | Pexels — Night Street Food Scene in Phnom Penh; Elifinatlasi | Pexels License | 3438×5157 | Cambodian night skewer stall; distinct from the Eat photo. |
+| food-cold-drink | Pexels — Refreshing Red Fruit Beverages with Ice Outdoors; Nguyễn Tiến Thịnh | Pexels License | 6960×4640 | Red fruit drink with ice. |
+
+Pexels does not require attribution, but every entry records the creator and page.
+Two Pexels credits use the photographer's published username (`nguyendesigner`,
+`peterpham`) because the retrieved Pexels metadata exposed only that username.
+The artichoke tea photograph contains readable product packaging; it is the only
+verified photograph of the actual tea found under an allowed licence. No price,
+hours or health claim is added to the card.
+
 ## Round 4 — autonomous photo replacement
 
 Owner-approved autonomous selection by ChatGPT (Main Engineer). All selected photos below use the Pexels License, which is on the project's allowed list. Final originals are fetched by GitHub Actions so their actual dimensions can be checked before wiring; any source failing the 3000 px long-edge minimum is rejected rather than upscaled.
@@ -113,20 +160,24 @@ The two guidebooks were not in this sandbox when this log was written, so the sh
 ## Image preparation usage
 
 `scripts/guidebook-media.mjs` rebuilds derivatives from the licensed sources listed
-in `scripts/guidebook-media.json`. The ebooks and their extracts stay outside the
-repository. Pass the extracted folders:
+in `scripts/guidebook-media.json` and `scripts/food-media.json`. The ebooks, photo
+originals and their extracts stay outside the repository. Pass the extracted folders:
 
 1. `--lp-images <folder>` — the EPUB `EPUB/images` directory.
 2. `--dk-pages <folder>` — PNG/JPEG renders of the DK pages named in the manifest.
-3. Or set `CIAO_LP_IMAGES` / `CIAO_DK_PAGES`.
+3. `--food-images <folder>` — the external food photographs named in
+   `scripts/food-media.json`.
+4. Or set `CIAO_LP_IMAGES` / `CIAO_DK_PAGES` / `CIAO_FOOD_IMAGES`.
 
-Example in PowerShell:
+Examples in PowerShell:
 
 node scripts/guidebook-media.mjs --lp-images "C:\path\to\lp\EPUB\images" --dk-pages "C:\path\to\dk-pages"
 
+node scripts/guidebook-media.mjs --food-only --food-images "C:\path\to\licensed-food-photos"
+
 If a required source is absent, the script exits without touching `public/images`
 or `content/images.json`. When sources are present it rewrites only the derivatives
-for ids in the manifest, then updates those registry entries; retained entries are
+for ids in the manifest(s), then updates those registry entries; retained entries are
 written back unchanged. It never fetches from a stock-photo site and never publishes
 a full book page.
 

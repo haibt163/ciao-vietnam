@@ -65,7 +65,7 @@
               }
             }
           ],
-          "art": "food-bun-cha"
+          "image": "food-bun-cha"
         },
         {
           "id": "eat-banh-mi",
@@ -89,7 +89,7 @@
               }
             }
           ],
-          "art": "food-banh-mi"
+          "image": "food-banh-mi"
         },
         {
           "id": "eat-bun-bo",
@@ -113,7 +113,7 @@
               }
             }
           ],
-          "art": "food-bun-bo"
+          "image": "food-noodle-bowl"
         },
         {
           "id": "eat-cao-lau",
@@ -137,7 +137,7 @@
               }
             }
           ],
-          "art": "food-cao-lau"
+          "image": "food-cao-lau"
         },
         {
           "id": "eat-com-tam",
@@ -161,7 +161,7 @@
               }
             }
           ],
-          "art": "food-com-tam"
+          "image": "food-com-tam"
         },
         {
           "id": "eat-seafood",
@@ -209,7 +209,7 @@
               }
             }
           ],
-          "art": "food-fruit"
+          "image": "food-fruit"
         }
       ]
     },
@@ -242,7 +242,7 @@
               }
             }
           ],
-          "art": "food-bia-hoi"
+          "image": "food-bia-hoi"
         },
         {
           "id": "eat-iced-coffee",
@@ -266,7 +266,7 @@
               }
             }
           ],
-          "art": "food-iced-coffee"
+          "image": "food-iced-coffee"
         },
         {
           "id": "eat-night-markets",
@@ -278,7 +278,7 @@
             "en": "Night markets work best when you sample one small thing at a time instead of committing to one big meal.",
             "vi": "Chợ đêm dễ khám phá nhất khi nếm từng món nhỏ thay vì gọi một bữa lớn."
           },
-          "art": "food-night-snacks",
+          "image": "food-night-snacks",
           "facts": [
             {
               "label": {
@@ -351,7 +351,7 @@
               }
             }
           ],
-          "art": "food-egg-coffee"
+          "image": "food-egg-coffee"
         },
         {
           "id": "coffee-highlands",
@@ -375,7 +375,7 @@
               }
             }
           ],
-          "art": "food-highland-coffee"
+          "image": "food-highland-coffee"
         }
       ]
     }

@@ -1,0 +1,311 @@
+{
+  "note": "External licensed photo sources for the food card photographs. The source files stay outside the repository; run scripts/guidebook-media.mjs --food-images <folder> to rebuild the 640/960 WebP derivatives. Each entry records the original page, creator credit, licence and dimensions checked before selection.",
+  "assets": {
+    "food-banh-mi": {
+      "id": "food-banh-mi",
+      "webFile": "food-banh-mi.jpg",
+      "alt": {
+        "en": "A baguette filled with meat and herbs, wrapped in paper.",
+        "vi": "Bánh mì kẹp thịt và rau thơm, bọc trong giấy."
+      },
+      "credit": "Andy Li",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "Wikimedia Commons — Special Baguette (Bánh mì), Banh Mi Ancient Saigon",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Special_Baguette_(B%C3%A1nh_m%C3%AC)_-_Banh_Mi_Ancient_Saigon_2024-12-20.jpg",
+      "focus": "50% 50%"
+    },
+    "food-bun-cha": {
+      "id": "food-bun-cha",
+      "webFile": "food-bun-cha.jpg",
+      "alt": {
+        "en": "Grilled pork, rice noodles, herbs and dipping broth on a table.",
+        "vi": "Thịt nướng, bún, rau thơm và bát nước chấm trên bàn."
+      },
+      "credit": "Phương Huy",
+      "license": "Public domain",
+      "source": "Wikimedia Commons — Bún chả ObaNa, Bình Thạnh",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_ch%E1%BA%A3_ObaNa_Q.B%C3%ACnh_Th%E1%BA%A1nh.jpg",
+      "focus": "50% 50%"
+    },
+    "food-noodle-bowl": {
+      "id": "food-noodle-bowl",
+      "webFile": "food-noodle-bowl.jpg",
+      "alt": {
+        "en": "A pork and noodle bowl with broth, herbs and a plate of rice.",
+        "vi": "Tô bún thịt với nước dùng, rau thơm và đĩa cơm bên cạnh."
+      },
+      "credit": "nguyendesigner",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Soup and Meat with Vegetables",
+      "sourceUrl": "https://www.pexels.com/photo/soup-and-meat-with-vegetables-9224926/",
+      "focus": "50% 55%"
+    },
+    "food-cao-lau": {
+      "id": "food-cao-lau",
+      "webFile": "food-cao-lau.jpg",
+      "alt": {
+        "en": "A bowl of cao lau with pork, greens and crisp rice crackers.",
+        "vi": "Tô cao lầu với thịt, rau và bánh đa giòn."
+      },
+      "credit": "Chainwit.",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "Wikimedia Commons — Cao lầu Hội An (2024)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cao_l%E1%BA%A7u_H%E1%BB%99i_An_(2024).jpg",
+      "focus": "50% 50%"
+    },
+    "food-com-tam": {
+      "id": "food-com-tam",
+      "webFile": "food-com-tam.jpg",
+      "alt": {
+        "en": "A broken-rice plate with grilled pork, cucumber and soup.",
+        "vi": "Đĩa cơm tấm với sườn nướng, dưa leo và canh."
+      },
+      "credit": "Phương Huy",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "Wikimedia Commons — Cơm tấm Sài Gòn with grilled pork ribs",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_t%E1%BA%A5m_SG,_s%C6%B0%E1%BB%9Dn_c%E1%BB%8Dng_n%C6%B0%E1%BB%9Bng,_ng23th8n2022_(1).jpg",
+      "focus": "50% 50%"
+    },
+    "food-fruit": {
+      "id": "food-fruit",
+      "webFile": "food-fruit.jpg",
+      "alt": {
+        "en": "A market stall stacked with lychees, mangoes and other tropical fruit.",
+        "vi": "Sạp chợ bày vải, xoài và nhiều loại trái cây nhiệt đới."
+      },
+      "credit": "Loriz E",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Vibrant Fruit Stall in Ho Chi Minh City",
+      "sourceUrl": "https://www.pexels.com/photo/vibrant-fruit-stall-in-ho-chi-minh-city-33529409/",
+      "focus": "50% 50%"
+    },
+    "food-bia-hoi": {
+      "id": "food-bia-hoi",
+      "webFile": "food-bia-hoi.jpg",
+      "alt": {
+        "en": "Glasses of fresh beer on a low table at a street-side bia hoi.",
+        "vi": "Những ly bia hơi trên bàn thấp ở quán vỉa hè."
+      },
+      "credit": "R. from Bangkok, Thailand",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "Wikimedia Commons — Bia hoi in Hoi An, Vietnam",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bia_hoi_in_Hoi_An,_Vietnam.jpg",
+      "focus": "50% 50%"
+    },
+    "food-iced-coffee": {
+      "id": "food-iced-coffee",
+      "webFile": "food-iced-coffee.jpg",
+      "alt": {
+        "en": "Phin filters dripping coffee into glasses on a tray.",
+        "vi": "Những phin cà phê đang nhỏ giọt vào ly trên khay."
+      },
+      "credit": "P. Hughes",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "Wikimedia Commons — Vietnam, preparing coffee",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnam_-_preparing_coffee.jpg",
+      "focus": "50% 50%"
+    },
+    "food-night-snacks": {
+      "id": "food-night-snacks",
+      "webFile": "food-night-snacks.jpg",
+      "alt": {
+        "en": "Diners sharing small bowls at a busy night market.",
+        "vi": "Thực khách chia nhau những tô nhỏ ở chợ đêm đông người."
+      },
+      "credit": "HONG SON",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Women Sitting at Bazaar and Eating",
+      "sourceUrl": "https://www.pexels.com/photo/women-sitting-at-bazaar-and-eating-20795590/",
+      "focus": "50% 50%"
+    },
+    "food-egg-coffee": {
+      "id": "food-egg-coffee",
+      "webFile": "food-egg-coffee.jpg",
+      "alt": {
+        "en": "A glass of egg coffee with a thick creamy layer.",
+        "vi": "Ly cà phê trứng với lớp kem trứng dày."
+      },
+      "credit": "nhavantuonglai",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Delicious Vietnamese Egg Coffee in Hue Café",
+      "sourceUrl": "https://www.pexels.com/photo/delicious-vietnamese-egg-coffee-in-hue-cafe-40285774/",
+      "focus": "50% 50%"
+    },
+    "food-highland-coffee": {
+      "id": "food-highland-coffee",
+      "webFile": "food-highland-coffee.jpg",
+      "alt": {
+        "en": "Coffee bushes on a hillside plantation in Vietnam.",
+        "vi": "Những bụi cà phê trên đồi ở Việt Nam."
+      },
+      "credit": "P. Hughes",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "Wikimedia Commons — Vietnam, coffee plantation",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnam_-_coffee_plantation.jpg",
+      "focus": "50% 50%"
+    },
+    "food-artichoke-tea": {
+      "id": "food-artichoke-tea",
+      "webFile": "food-artichoke-tea.jpg",
+      "alt": {
+        "en": "Packs of Dalat artichoke tea beside fresh market produce.",
+        "vi": "Các gói trà atisô Đà Lạt bên cạnh rau củ tươi ở chợ."
+      },
+      "credit": "Surya Travel",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Fresh Market Produce with Artichoke Tea Packs",
+      "sourceUrl": "https://www.pexels.com/photo/fresh-market-produce-with-artichoke-tea-packs-39126977/",
+      "focus": "50% 50%"
+    },
+    "food-market-plates": {
+      "id": "food-market-plates",
+      "webFile": "food-market-plates.jpg",
+      "alt": {
+        "en": "A vendor cooking at a night market stall in Da Lat.",
+        "vi": "Người bán đang nấu ăn tại quầy chợ đêm ở Đà Lạt."
+      },
+      "credit": "peterpham",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Street Vendor Cooking in Da Lat Night Market",
+      "sourceUrl": "https://www.pexels.com/photo/street-vendor-cooking-in-da-l-t-night-market-33062393/",
+      "focus": "50% 50%"
+    },
+    "food-bun-bo-hue": {
+      "id": "food-bun-bo-hue",
+      "webFile": "food-bun-bo-hue.jpg",
+      "alt": {
+        "en": "A bowl of bun bo Hue with beef, noodles and herbs.",
+        "vi": "Tô bún bò Huế với thịt bò, bún và rau thơm."
+      },
+      "credit": "Chainwit.",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "Wikimedia Commons — Bún bò Huế at Chợ Đông Ba, Huế",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_-_Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba_(2024)_-_img_02.jpg",
+      "focus": "50% 55%"
+    },
+    "food-com-tam-saigon": {
+      "id": "food-com-tam-saigon",
+      "webFile": "food-com-tam-saigon.jpg",
+      "alt": {
+        "en": "A Saigon broken-rice plate with grilled ribs, rice and vegetables.",
+        "vi": "Đĩa cơm tấm Sài Gòn với sườn nướng, cơm và rau."
+      },
+      "credit": "Tokeisan",
+      "license": "Public domain",
+      "source": "Wikimedia Commons — Cơm tấm sườn cây",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_t%E1%BA%A5m_s%C6%B0%E1%BB%9Dn_c%C3%A2y.JPG",
+      "focus": "50% 50%"
+    },
+    "food-hu-tieu": {
+      "id": "food-hu-tieu",
+      "webFile": "food-hu-tieu.jpg",
+      "alt": {
+        "en": "A bowl of hu tieu with shrimp, pork and herbs.",
+        "vi": "Tô hủ tiếu với tôm, thịt và rau thơm."
+      },
+      "credit": "GiveMeMollusks",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "Wikimedia Commons — Bowl of Hu Tieu in Bui Vien Street",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bowl_of_Hu_Tieu_in_Bui_Vien_Street.jpg",
+      "focus": "50% 50%"
+    },
+    "food-pho": {
+      "id": "food-pho",
+      "webFile": "food-pho.jpg",
+      "alt": {
+        "en": "A bowl of pho with beef, rice noodles and fresh herbs.",
+        "vi": "Tô phở bò với bánh phở và rau thơm."
+      },
+      "credit": "RDNE Stock project",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Cooked Food in the Bowl",
+      "sourceUrl": "https://www.pexels.com/photo/cooked-food-in-the-bowl-6646072/",
+      "focus": "50% 55%"
+    },
+    "food-sticky-rice": {
+      "id": "food-sticky-rice",
+      "webFile": "food-sticky-rice.jpg",
+      "alt": {
+        "en": "Sticky rice with shredded chicken served on a banana leaf.",
+        "vi": "Xôi gà xé ăn cùng lá chuối."
+      },
+      "credit": "Yuichi Kosio",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "Wikimedia Commons — Xôi gà",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%C3%A0.jpg",
+      "focus": "50% 55%"
+    },
+    "food-khmer-meal": {
+      "id": "food-khmer-meal",
+      "webFile": "food-khmer-meal.jpg",
+      "alt": {
+        "en": "A bowl of Cambodian chicken soup with lemongrass and herbs.",
+        "vi": "Tô canh gà Campuchia với sả và rau thơm."
+      },
+      "credit": "HM Grand Central Hotel",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Chicken Soup Dish, Phnom Penh",
+      "sourceUrl": "https://www.pexels.com/photo/chicken-soup-dish-2532442/",
+      "focus": "50% 55%"
+    },
+    "food-fish-amok": {
+      "id": "food-fish-amok",
+      "webFile": "food-fish-amok.jpg",
+      "alt": {
+        "en": "Fish amok in a banana-leaf cup with rice.",
+        "vi": "Cá amok hấp trong lá chuối, dùng với cơm."
+      },
+      "credit": "sharonang",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "Wikimedia Commons — Fish Amok with Rice",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Amok_with_Rice.jpg",
+      "focus": "50% 60%"
+    },
+    "food-night-snacks-siem-reap": {
+      "id": "food-night-snacks-siem-reap",
+      "webFile": "food-night-snacks-siem-reap.jpg",
+      "alt": {
+        "en": "A street-food skewer stall at night in Cambodia.",
+        "vi": "Quầy xiên nướng ở chợ đêm Campuchia."
+      },
+      "credit": "Elifinatlasi",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Night Street Food Scene in Phnom Penh",
+      "sourceUrl": "https://www.pexels.com/photo/night-street-food-scene-in-phnom-penh-33045810/",
+      "focus": "50% 62%"
+    },
+    "food-cold-drink": {
+      "id": "food-cold-drink",
+      "webFile": "food-cold-drink.jpg",
+      "alt": {
+        "en": "A tall glass of red fruit drink with ice.",
+        "vi": "Ly nước trái cây đỏ có đá."
+      },
+      "credit": "Nguyễn Tiến Thịnh",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Refreshing Red Fruit Beverages with Ice Outdoors",
+      "sourceUrl": "https://www.pexels.com/photo/refreshing-red-fruit-beverages-with-ice-outdoors-31578573/",
+      "focus": "50% 50%"
+    }
+  }
+}

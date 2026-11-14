@@ -206,7 +206,7 @@
           }
         }
       ],
-      "art": "food-khmer-meal"
+      "image": "food-khmer-meal"
     },
     {
       "id": "fish-amok",
@@ -230,7 +230,7 @@
           }
         }
       ],
-      "art": "food-fish-amok"
+      "image": "food-fish-amok"
     },
     {
       "id": "market-night",
@@ -254,7 +254,7 @@
           }
         }
       ],
-      "art": "food-night-snacks"
+      "image": "food-night-snacks-siem-reap"
     }
   ],
   "stayIntro": {
