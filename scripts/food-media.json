@@ -1,18 +1,18 @@
 {
-  "note": "External licensed photo sources for the food card photographs. The source files stay outside the repository; run scripts/guidebook-media.mjs --food-images <folder> to rebuild the 640/960 WebP derivatives. Each entry records the original page, creator credit, licence and dimensions checked before selection.",
+  "note": "External licensed photo sources for card photographs and banners. The source files stay outside the repository; run scripts/guidebook-media.mjs --food-only --food-images <folder> to rebuild the 640/960 WebP derivatives. Each entry records the original page, creator credit, licence and dimensions checked before selection.",
   "assets": {
     "food-banh-mi": {
       "id": "food-banh-mi",
       "webFile": "food-banh-mi.jpg",
       "alt": {
-        "en": "A baguette filled with meat and herbs, wrapped in paper.",
-        "vi": "Bánh mì kẹp thịt và rau thơm, bọc trong giấy."
+        "en": "A banh mi with herbs beside a glass of iced coffee.",
+        "vi": "Bánh mì với rau thơm bên ly cà phê đá."
       },
-      "credit": "Andy Li",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "source": "Wikimedia Commons — Special Baguette (Bánh mì), Banh Mi Ancient Saigon",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Special_Baguette_(B%C3%A1nh_m%C3%AC)_-_Banh_Mi_Ancient_Saigon_2024-12-20.jpg",
+      "credit": "Minh Nguyen",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Sandwich and Glass of Ice Cold Coffee on a Wooden Table",
+      "sourceUrl": "https://www.pexels.com/photo/sandwich-and-glass-of-ice-cold-coffee-on-a-wooden-table-13293882/",
       "focus": "50% 50%"
     },
     "food-bun-cha": {
@@ -42,32 +42,32 @@
       "sourceUrl": "https://www.pexels.com/photo/soup-and-meat-with-vegetables-9224926/",
       "focus": "50% 55%"
     },
+    "food-com-tam": {
+      "id": "food-com-tam",
+      "webFile": "food-com-tam.png",
+      "alt": {
+        "en": "A broken-rice plate with grilled pork, egg and vegetables.",
+        "vi": "Đĩa cơm tấm với sườn nướng, trứng và rau."
+      },
+      "credit": "Anh Nguyen",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Traditional Vietnamese Meal with Rice and Grilled Pork",
+      "sourceUrl": "https://www.pexels.com/photo/traditional-vietnamese-meal-with-rice-and-grilled-pork-33999512/",
+      "focus": "50% 50%"
+    },
     "food-cao-lau": {
       "id": "food-cao-lau",
       "webFile": "food-cao-lau.jpg",
       "alt": {
-        "en": "A bowl of cao lau with pork, greens and crisp rice crackers.",
-        "vi": "Tô cao lầu với thịt, rau và bánh đa giòn."
+        "en": "A bowl of cao lau noodles with pork, herbs and crisp crackers.",
+        "vi": "Tô cao lầu với thịt, rau thơm và bánh đa giòn."
       },
       "credit": "Chainwit.",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "source": "Wikimedia Commons — Cao lầu Hội An (2024)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cao_l%E1%BA%A7u_H%E1%BB%99i_An_(2024).jpg",
-      "focus": "50% 50%"
-    },
-    "food-com-tam": {
-      "id": "food-com-tam",
-      "webFile": "food-com-tam.jpg",
-      "alt": {
-        "en": "A broken-rice plate with grilled pork, cucumber and soup.",
-        "vi": "Đĩa cơm tấm với sườn nướng, dưa leo và canh."
-      },
-      "credit": "Phương Huy",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "source": "Wikimedia Commons — Cơm tấm Sài Gòn with grilled pork ribs",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_t%E1%BA%A5m_SG,_s%C6%B0%E1%BB%9Dn_c%E1%BB%8Dng_n%C6%B0%E1%BB%9Bng,_ng23th8n2022_(1).jpg",
       "focus": "50% 50%"
     },
     "food-fruit": {
@@ -189,38 +189,39 @@
         "en": "A bowl of bun bo Hue with beef, noodles and herbs.",
         "vi": "Tô bún bò Huế với thịt bò, bún và rau thơm."
       },
-      "credit": "Chainwit.",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "source": "Wikimedia Commons — Bún bò Huế at Chợ Đông Ba, Huế",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_-_Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba_(2024)_-_img_02.jpg",
-      "focus": "50% 55%"
+      "credit": "Vinnie Cartabiano",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "Wikimedia Commons — Bún bò Huế",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_(39838132032).jpg",
+      "focus": "50% 50%"
     },
     "food-com-tam-saigon": {
       "id": "food-com-tam-saigon",
       "webFile": "food-com-tam-saigon.jpg",
       "alt": {
-        "en": "A Saigon broken-rice plate with grilled ribs, rice and vegetables.",
-        "vi": "Đĩa cơm tấm Sài Gòn với sườn nướng, cơm và rau."
+        "en": "A Saigon rice plate with grilled pork, fried egg and iced coffee.",
+        "vi": "Đĩa cơm Sài Gòn với sườn nướng, trứng chiên và cà phê đá."
       },
-      "credit": "Tokeisan",
-      "license": "Public domain",
-      "source": "Wikimedia Commons — Cơm tấm sườn cây",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_t%E1%BA%A5m_s%C6%B0%E1%BB%9Dn_c%C3%A2y.JPG",
+      "credit": "Nam Nguyen",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Delicious Vietnamese Pork Rice Dish with Iced Coffee",
+      "sourceUrl": "https://www.pexels.com/photo/delicious-vietnamese-pork-rice-dish-with-iced-coffee-36453297/",
       "focus": "50% 50%"
     },
     "food-hu-tieu": {
       "id": "food-hu-tieu",
       "webFile": "food-hu-tieu.jpg",
       "alt": {
-        "en": "A bowl of hu tieu with shrimp, pork and herbs.",
-        "vi": "Tô hủ tiếu với tôm, thịt và rau thơm."
+        "en": "A bowl of seafood hu tieu with shrimp and fish cakes.",
+        "vi": "Tô hủ tiếu hải sản với tôm và chả cá."
       },
-      "credit": "GiveMeMollusks",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "source": "Wikimedia Commons — Bowl of Hu Tieu in Bui Vien Street",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bowl_of_Hu_Tieu_in_Bui_Vien_Street.jpg",
+      "credit": "Khánh Hưng Trần Võ",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Traditional Vietnamese Seafood Noodle Soup",
+      "sourceUrl": "https://www.pexels.com/photo/traditional-vietnamese-seafood-noodle-soup-36300772/",
       "focus": "50% 50%"
     },
     "food-pho": {
@@ -230,12 +231,12 @@
         "en": "A bowl of pho with beef, rice noodles and fresh herbs.",
         "vi": "Tô phở bò với bánh phở và rau thơm."
       },
-      "credit": "RDNE Stock project",
+      "credit": "FOX",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/",
-      "source": "Pexels — Cooked Food in the Bowl",
-      "sourceUrl": "https://www.pexels.com/photo/cooked-food-in-the-bowl-6646072/",
-      "focus": "50% 55%"
+      "source": "Pexels — Delicious Vietnamese Pho Bowl with Beef and Fresh Herbs",
+      "sourceUrl": "https://www.pexels.com/photo/delicious-vietnamese-pho-bowl-with-beef-and-fresh-herbs-30136627/",
+      "focus": "50% 50%"
     },
     "food-sticky-rice": {
       "id": "food-sticky-rice",
@@ -305,6 +306,104 @@
       "licenseUrl": "https://www.pexels.com/license/",
       "source": "Pexels — Refreshing Red Fruit Beverages with Ice Outdoors",
       "sourceUrl": "https://www.pexels.com/photo/refreshing-red-fruit-beverages-with-ice-outdoors-31578573/",
+      "focus": "50% 50%"
+    },
+    "mausoleum-square": {
+      "id": "mausoleum-square",
+      "webFile": "mausoleum-square.jpg",
+      "alt": {
+        "en": "The Ho Chi Minh Mausoleum on Ba Dinh Square, Hanoi.",
+        "vi": "Lăng Chủ tịch Hồ Chí Minh trên Quảng trường Ba Đình, Hà Nội."
+      },
+      "credit": "Haneul Trac",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Ho Chi Minh Mausoleum in Hanoi Vietnam",
+      "sourceUrl": "https://www.pexels.com/photo/ho-chi-minh-mausoleum-in-hanoi-vietnam-34361934/",
+      "focus": "50% 50%"
+    },
+    "long-bien": {
+      "id": "long-bien",
+      "webFile": "long-bien.jpg",
+      "alt": {
+        "en": "The steel spans of Long Bien Bridge reflected in the Red River.",
+        "vi": "Nhịp thép cầu Long Biên phản chiếu trên sông Hồng."
+      },
+      "credit": "Lộc Nguyễn",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Ancient Long Bien Bridge Reflected in Hanoi River",
+      "sourceUrl": "https://www.pexels.com/photo/ancient-long-bien-bridge-reflected-in-hanoi-river-32123706/",
+      "focus": "50% 50%"
+    },
+    "long-bien-sunset": {
+      "id": "long-bien-sunset",
+      "webFile": "long-bien-sunset.jpg",
+      "alt": {
+        "en": "Long Bien Bridge in morning mist over the Red River.",
+        "vi": "Cầu Long Biên trong sương sớm trên sông Hồng."
+      },
+      "credit": "trung nguyen",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Misty Morning Over Long Bien Bridge in Hanoi",
+      "sourceUrl": "https://www.pexels.com/photo/misty-morning-over-long-bien-bridge-in-hanoi-35667480/",
+      "focus": "50% 50%"
+    },
+    "pho-bowl": {
+      "id": "pho-bowl",
+      "webFile": "pho-bowl.jpg",
+      "alt": {
+        "en": "A bowl of pho with beef, herbs and chillies, seen from above.",
+        "vi": "Tô phở bò với rau thơm và ớt, nhìn từ trên xuống."
+      },
+      "credit": "Eduardo Escalante",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Delicious Vietnamese Pho Bo with Fresh Herbs",
+      "sourceUrl": "https://www.pexels.com/photo/delicious-vietnamese-pho-bo-with-fresh-herbs-29305882/",
+      "focus": "50% 50%"
+    },
+    "pho-hanoi": {
+      "id": "pho-hanoi",
+      "webFile": "pho-hanoi.jpg",
+      "alt": {
+        "en": "A bowl of pho with beef and herbs on a wooden table.",
+        "vi": "Tô phở bò với rau thơm trên bàn gỗ."
+      },
+      "credit": "UNDO KIM",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Delicious Bowl of Vietnamese Pho on Rustic Table",
+      "sourceUrl": "https://www.pexels.com/photo/delicious-bowl-of-vietnamese-pho-on-rustic-table-34683313/",
+      "focus": "50% 50%"
+    },
+    "banh-mi-food": {
+      "id": "banh-mi-food",
+      "webFile": "banh-mi-food.jpg",
+      "alt": {
+        "en": "A banh mi filled with cold cuts, herbs and chilli.",
+        "vi": "Bánh mì kẹp thịt nguội, rau thơm và ớt."
+      },
+      "credit": "Hậu Mai",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Vibrant Vietnamese Bánh Mì Sandwich Close-Up",
+      "sourceUrl": "https://www.pexels.com/photo/vibrant-vietnamese-banh-mi-sandwich-close-up-32961648/",
+      "focus": "50% 50%"
+    },
+    "mi-quang-photo": {
+      "id": "mi-quang-photo",
+      "webFile": "mi-quang-photo.jpg",
+      "alt": {
+        "en": "A bowl of mi quang with pork, peanuts and herbs.",
+        "vi": "Tô mì Quảng với thịt, đậu phộng và rau thơm."
+      },
+      "credit": "LUC PH@M",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "source": "Pexels — Delicious Mi Quang Noodles in Hoi An",
+      "sourceUrl": "https://www.pexels.com/photo/delicious-mi-quang-noodles-in-hoi-an-33022451/",
       "focus": "50% 50%"
     }
   }

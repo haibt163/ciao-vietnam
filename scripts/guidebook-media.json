@@ -64,18 +64,6 @@
       "page": 68,
       "lpFile": "shutterstock_755809123.jpg"
     },
-    "mausoleum-square": {
-      "id": "mausoleum-square",
-      "alt": {
-        "en": "The Martyr's Monument in Ba Dinh Square.",
-        "vi": "Đài tưởng niệm liệt sĩ ở Quảng trường Ba Đình."
-      },
-      "credit": "carrie fereday/Shutterstock",
-      "license": "Owner-licensed guidebook image",
-      "source": "Lonely Planet Vietnam (16th edition), p. 69 — image shutterstock_1331592731.jpg",
-      "page": 69,
-      "lpFile": "shutterstock_1331592731.jpg"
-    },
     "hanoi-old-quarter": {
       "id": "hanoi-old-quarter",
       "alt": {
@@ -358,11 +346,11 @@
       "page": 185,
       "lpFile": "shutterstock_1476327617.jpg"
     },
-    "mi-quang": {
-      "id": "mi-quang",
+    "cao-lau-bowl": {
+      "id": "cao-lau-bowl",
       "alt": {
-        "en": "A bowl of noodles with herbs and pork.",
-        "vi": "Bát mì với rau thơm và thịt."
+        "en": "A bowl of cao lau noodles with pork and crisp crackers.",
+        "vi": "Tô cao lầu với thịt và bánh đa giòn."
       },
       "credit": "balatran/Shutterstock",
       "license": "Owner-licensed guidebook image",
@@ -1228,24 +1216,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jade_emperor_pagoda-1.jpg",
       "retain": true
     },
-    "long-bien": {
-      "id": "long-bien",
-      "src": "/images/long-bien-960.webp",
-      "srcSet": "/images/long-bien-640.webp 640w, /images/long-bien-960.webp 960w",
-      "width": 960,
-      "height": 640,
-      "alt": {
-        "en": "Rusted steel of Long Bien Bridge above the tracks.",
-        "vi": "Thép gỉ của cầu Long Biên trên đường ray."
-      },
-      "credit": "Quangpraha",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "source": "https://commons.wikimedia.org/wiki/File:Long-bien-bridge-3371617.jpg",
-      "cropped": false,
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-bien-bridge-3371617.jpg",
-      "retain": true
-    },
     "opera": {
       "id": "opera",
       "src": "/images/opera-960.webp",
@@ -1282,23 +1252,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tran_Quoc_Pagoda,_Hanoi,_Vietnam,_20240123_1212_3307.jpg",
       "retain": true
     },
-    "pho-bowl": {
-      "id": "pho-bowl",
-      "src": "/images/pho-bowl-960.webp",
-      "srcSet": "/images/pho-bowl-640.webp 640w, /images/pho-bowl-960.webp 960w",
-      "width": 960,
-      "height": 640,
-      "alt": {
-        "en": "A bowl of Vietnamese pho with herbs.",
-        "vi": "Bát phở Việt Nam với rau thơm."
-      },
-      "credit": "RDNE Stock project",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "source": "https://www.pexels.com/photo/cooked-food-in-the-bowl-6646022/",
-      "sourceUrl": "https://www.pexels.com/photo/cooked-food-in-the-bowl-6646022/",
-      "retain": true
-    },
     "seafood-nhatrang": {
       "id": "seafood-nhatrang",
       "src": "/images/seafood-nhatrang-960.webp",
@@ -1314,42 +1267,6 @@
       "licenseUrl": "https://www.pexels.com/license/",
       "source": "https://www.pexels.com/photo/delicious-vietnamese-seafood-dish-on-ice-31302693/",
       "sourceUrl": "https://www.pexels.com/photo/delicious-vietnamese-seafood-dish-on-ice-31302693/",
-      "retain": true
-    },
-    "pho-hanoi": {
-      "id": "pho-hanoi",
-      "src": "/images/pho-hanoi-960.webp",
-      "srcSet": "/images/pho-hanoi-640.webp 640w, /images/pho-hanoi-960.webp 960w",
-      "width": 960,
-      "height": 620,
-      "alt": {
-        "en": "A bowl of pho at a street-side table in Hanoi.",
-        "vi": "Bát phở bên bàn ăn ven phố ở Hà Nội."
-      },
-      "credit": "Trammese",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "source": "https://www.pexels.com/photo/street-food-scene-in-hanoi-vietnam-with-pho-34312520/",
-      "cropped": false,
-      "sourceUrl": "https://www.pexels.com/photo/street-food-scene-in-hanoi-vietnam-with-pho-34312520/",
-      "retain": true
-    },
-    "banh-mi-food": {
-      "id": "banh-mi-food",
-      "src": "/images/banh-mi-food-960.webp",
-      "srcSet": "/images/banh-mi-food-640.webp 640w, /images/banh-mi-food-960.webp 960w",
-      "width": 960,
-      "height": 640,
-      "alt": {
-        "en": "A Vietnamese bánh mì with fresh fillings.",
-        "vi": "Bánh mì Việt Nam với nhân tươi."
-      },
-      "credit": "Hậu Mai",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "source": "https://www.pexels.com/photo/vietnamese-banh-mi-sandwich-on-newspaper-32961649/",
-      "cropped": false,
-      "sourceUrl": "https://www.pexels.com/photo/vietnamese-banh-mi-sandwich-on-newspaper-32961649/",
       "retain": true
     },
     "banh-can-food": {
@@ -1368,24 +1285,6 @@
       "source": "https://www.pexels.com/photo/authentic-vietnamese-banh-can-with-scallions-31563462/",
       "cropped": false,
       "sourceUrl": "https://www.pexels.com/photo/authentic-vietnamese-banh-can-with-scallions-31563462/",
-      "retain": true
-    },
-    "hoi-an-food-stall": {
-      "id": "hoi-an-food-stall",
-      "src": "/images/hoi-an-food-stall-960.webp",
-      "srcSet": "/images/hoi-an-food-stall-640.webp 640w, /images/hoi-an-food-stall-960.webp 960w",
-      "width": 960,
-      "height": 1440,
-      "alt": {
-        "en": "A warm-lit street-food stall in Hoi An at night.",
-        "vi": "Quầy hàng ăn đường phố Hội An dưới ánh đèn đêm."
-      },
-      "credit": "Tom Chesseron",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "source": "https://www.pexels.com/photo/traditional-vietnamese-food-stall-at-night-35708759/",
-      "cropped": false,
-      "sourceUrl": "https://www.pexels.com/photo/traditional-vietnamese-food-stall-at-night-35708759/",
       "retain": true
     },
     "phin-coffee": {
@@ -1422,24 +1321,6 @@
       "source": "https://www.pexels.com/photo/pile-of-fresh-coconuts-at-vietnamese-market-34986625/",
       "cropped": false,
       "sourceUrl": "https://www.pexels.com/photo/pile-of-fresh-coconuts-at-vietnamese-market-34986625/",
-      "retain": true
-    },
-    "long-bien-sunset": {
-      "id": "long-bien-sunset",
-      "src": "/images/long-bien-sunset-960.webp",
-      "srcSet": "/images/long-bien-sunset-640.webp 640w, /images/long-bien-sunset-960.webp 960w",
-      "width": 960,
-      "height": 639,
-      "alt": {
-        "en": "Long Bien Bridge over the Red River near sunset.",
-        "vi": "Cầu Long Biên trên sông Hồng lúc gần hoàng hôn."
-      },
-      "credit": "Nguyen Ngoc Tien",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "source": "https://www.pexels.com/photo/sunset-over-long-bien-bridge-and-mustard-fields-30262556/",
-      "cropped": false,
-      "sourceUrl": "https://www.pexels.com/photo/sunset-over-long-bien-bridge-and-mustard-fields-30262556/",
       "retain": true
     },
     "nha-trang-beach": {

@@ -8,6 +8,7 @@
 //     --food-images "C:\path\to\licensed-food-photos"
 //
 // Add --food-only to rebuild just the external food photographs without the book sources.
+// Add --asset <id[,id]> to rebuild only named assets and leave every other registry entry alone.
 //
 // With no sources present it exits without changing public/images or content/images.json.
 // See scripts/guidebook-media.json for book, edition, page and credit, and
@@ -35,10 +36,15 @@ const manifest = JSON.parse(fs.readFileSync(manifestFile, "utf8")).assets;
 const foodManifest = JSON.parse(fs.readFileSync(foodManifestFile, "utf8")).assets;
 const allAssets = [...Object.values(manifest), ...Object.values(foodManifest)];
 const foodOnly = args.includes("--food-only");
-const assets = foodOnly
+const assetFilter = arg("--asset")?.split(",").map((id) => id.trim()).filter(Boolean);
+let assets = foodOnly
   ? Object.values(foodManifest)
   : allAssets.filter((asset) => !asset.retain);
-const retained = foodOnly ? [] : allAssets.filter((asset) => asset.retain);
+let retained = foodOnly ? [] : allAssets.filter((asset) => asset.retain);
+if (assetFilter) {
+  assets = assets.filter((asset) => assetFilter.includes(asset.id));
+  retained = retained.filter((asset) => assetFilter.includes(asset.id));
+}
 const missingSources = assets.filter((asset) => {
   if (asset.lpFile) return !lpDir || !fs.existsSync(path.join(lpDir, asset.lpFile));
   if (asset.dkFile) return !dkDir || !fs.existsSync(path.join(dkDir, asset.dkFile));

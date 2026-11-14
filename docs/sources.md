@@ -80,6 +80,31 @@ all 22 rows and the selection reasons.
 - The Pexels and Commons pages were checked for the actual subject before selection.
   Two Pexels credits use the published username because no display name was shown.
 
+### Instagram-worthy replacements — 14 November 2026 (second pass)
+
+The Owner asked for stronger card photographs for the Ho Chi Minh Mausoleum, Long
+Lien Bridge, pho, bun bo Hue, cao lau, com tam, banh mi and hu tieu. Fifteen image
+ids changed across 15 cards (14 requested placements plus the supporting Mi Quang
+card) and the Eat banner.
+
+- **Pexels (12):** mausoleum, both Long Bien frames, three pho frames, both com tam
+  plates, both banh mi frames, hu tieu and the supporting mi quang photo. All use the
+  Pexels License with creator and page in `content/images.json`.
+- **Wikimedia Commons (2):** the bun bo Hue bowl (Vinnie Cartabiano, CC BY 2.0) and
+  the Eat cao lau bowl (Chainwit., CC BY 4.0).
+- **Owner-licensed guidebook image (1):** the Lonely Planet p.12 cao lau bowl
+  (balatran/Shutterstock) on the Central Vietnam cao lau card. The EPUB frame is
+  1,068×712; the final 960×640 asset is not upscaled. Because that is below the
+  2,400 px external-original bar, the exception and the separate Eat cao lau photo
+  are recorded in `docs/photo-selection.md`.
+- The previous `mausoleum-square` image was the Martyr's Monument, not the
+  mausoleum. It is replaced. The previous `mi-quang` image was the book cao lau bowl;
+  the Mi Quang card now uses a Pexels mi quang photo so the book bowl can serve the
+  cao lau card without duplication.
+- No CC BY-SA, NC or ND image is used. No guidebook text or page facsimile is
+  published.
+- `content/images.json` still has 130 entries; 124 cards carry a photo.
+
 No guidebook sentences were copied. Card summaries and alt text are original
 wording; the factual revisions are limited to stable geography, architecture and
 food descriptions visible in or confirmed by the books. Practical details such as

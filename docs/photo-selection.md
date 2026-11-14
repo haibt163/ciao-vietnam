@@ -117,6 +117,38 @@ The artichoke tea photograph contains readable product packaging; it is the only
 verified photograph of the actual tea found under an allowed licence. No price,
 hours or health claim is added to the card.
 
+## Instagram-worthy replacements — 14 November 2026 (second pass)
+
+The Owner asked for stronger photographs for the Ho Chi Minh Mausoleum, Long Bien
+Bridge, pho, bun bo Hue, cao lau, com tam, banh mi and hu tieu. This pass replaces
+15 image ids across 15 cards (14 requested placements plus the supporting Mi Quang
+card) and the Eat banner. It supersedes the corresponding rows in the first-pass
+table above; that table remains as evidence.
+
+| Image id | Placement | Source and credit | Licence | Original | Reason |
+|---|---|---|---|---|---|
+| mausoleum-square | Hanoi — mausoleum | Pexels — Ho Chi Minh Mausoleum in Hanoi Vietnam; Haneul Trac | Pexels License | 6000×4000 | Replaces the mislabeled Martyr's Monument image with the actual mausoleum. |
+| long-bien | Hanoi — Long Bien Bridge | Pexels — Ancient Long Bien Bridge Reflected in Hanoi River; Lộc Nguyễn | Pexels License | 5536×4160 | Clear river reflection instead of the under-bridge steel detail. |
+| long-bien-sunset | Plan — Heritage spine | Pexels — Misty Morning Over Long Bien Bridge in Hanoi; trung nguyen | Pexels License | 6132×4088 | Softer, atmospheric frame; the id is historical, the alt text says morning mist. |
+| pho-bowl | Eat — breakfast bowls + Eat banner | Pexels — Delicious Vietnamese Pho Bo with Fresh Herbs; Eduardo Escalante | Pexels License | 3267×2178 | Bright overhead bowl with herbs and chilli. |
+| pho-hanoi | Hanoi — pho | Pexels — Delicious Bowl of Vietnamese Pho on Rustic Table; UNDO KIM | Pexels License | 3648×5472 | Warm wooden-table composition. |
+| food-pho | North Vietnam — northern pho | Pexels — Delicious Vietnamese Pho Bowl with Beef and Fresh Herbs; FOX | Pexels License | 6000×4000 | Bowl on a bamboo mat with herbs. |
+| food-bun-bo-hue | Central Vietnam — bun bo Hue | Wikimedia Commons — Bún bò Huế; Vinnie Cartabiano | CC BY 2.0 | 6000×4000 | Rich beef broth and herbs; the previous Hue frame was a mushroom bowl. |
+| food-cao-lau | Eat — local signatures | Wikimedia Commons — Cao lầu Hội An (2024); Chainwit. | CC BY 4.0 | 4030×3023 | Exact bowl, kept distinct from the Central card. |
+| cao-lau-bowl | Central Vietnam — cao lau | Lonely Planet Vietnam (16th ed.), p. 12 — balatran/Shutterstock | Owner-licensed guidebook image | 1068×712 | Best exact cao lau frame; 960×640 final without upscaling. |
+| food-com-tam | Eat — rice as the everyday base | Pexels — Traditional Vietnamese Meal with Rice and Grilled Pork; Anh Nguyen | Pexels License | 2400×3000 | Plated rice, grilled pork, egg and vegetables. |
+| food-com-tam-saigon | Ho Chi Minh City — com tam | Pexels — Delicious Vietnamese Pork Rice Dish with Iced Coffee; Nam Nguyen | Pexels License | 3024×4032 | Rice, grilled pork, fried egg and iced coffee on wood. |
+| food-banh-mi | Eat — eating on the move | Pexels — Sandwich and Glass of Ice Cold Coffee on a Wooden Table; Minh Nguyen | Pexels License | 5472×3648 | Clean banh mi and coffee pairing; no glove or readable newspaper. |
+| banh-mi-food | Ho Chi Minh City — banh mi | Pexels — Vibrant Vietnamese Bánh Mì Sandwich Close-Up; Hậu Mai | Pexels License | 6000×4000 | Vibrant close-up with herbs and chilli. |
+| food-hu-tieu | Mekong Delta — hu tieu | Pexels — Traditional Vietnamese Seafood Noodle Soup; Khánh Hưng Trần Võ | Pexels License | 2448×3264 | Seafood hu tieu with shrimp and fish cakes. |
+| mi-quang-photo | Central Vietnam — mi quang (supporting) | Pexels — Delicious Mi Quang Noodles in Hoi An; LUC PH@M | Pexels License | 5472×3648 | The previous `mi-quang` image was actually the book cao lau bowl; this frees that bowl for the Central cao lau card. |
+
+The 1,068×712 book cao lau frame is below the 2,400 px external-original bar. It is
+the only exact cao lau book frame, and the final 960×640 asset is not upscaled; the
+Eat card keeps a separate exact CC BY 4.0 bowl. This is a recorded resolution
+exception, not a silent upscale. No CC BY-SA, NC or ND image was used; a Flickr
+CC BY-SA cao lau candidate was rejected.
+
 ## Round 4 — autonomous photo replacement
 
 Owner-approved autonomous selection by ChatGPT (Main Engineer). All selected photos below use the Pexels License, which is on the project's allowed list. Final originals are fetched by GitHub Actions so their actual dimensions can be checked before wiring; any source failing the 3000 px long-edge minimum is rejected rather than upscaled.

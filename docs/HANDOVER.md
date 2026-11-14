@@ -8,12 +8,12 @@ reports remain unchanged. Evidence labels follow `AGENTS.md` §8.
 | Item | State |
 |---|---|
 | Repository | https://github.com/haibt163/ciao-vietnam (public) |
-| Canonical `main` | **VERIFIED** at `679063a` (merge of PR #16, 27 October 2026). |
+| Canonical `main` | **VERIFIED** at `c8c4482` (merge of PR #17, 14 November 2026). |
 | Current product | **VERIFIED from repository files:** Home, eight region pages, Plan, Eat, Essentials, Outdoors, History, credits/search and English/Vietnamese. |
-| Active work | **VERIFIED this session:** branch `media/food-art-to-photo`, based on `origin/main` at `679063a`, pushed and opened as PR #17. It replaces the 19 remaining food SVGs with 22 licensed photographs; it is not merged. |
+| Active work | **VERIFIED this session:** branch `media/instagram-worthy-picks`, based on `origin/main` at `c8c4482`, pushed and opened as PR #18. It replaces 15 photo ids for the mausoleum, Long Bien, pho, bun bo Hue, cao lau, com tam, banh mi, hu tieu and the supporting mi quang image; it is not merged. |
 | Guidebooks and license | **Owner decision (27 October 2026):** Lonely Planet Vietnam (16th ed.) and DK Eyewitness Vietnam are stored under `C:\Projects\Ebooks`; the Owner confirms full licenses to use their images/artwork on the website. The ebooks and private license records remain outside Git. |
-| Media registry | **VERIFIED:** `content/images.json` has 130 entries — 108 from the 27 October pass plus 22 new food photographs. 124 cards use photos; no card uses a food SVG; no card-image id is reused. |
-| Deployment | **VERIFIED (check):** Vercel preview deployment for PR #17 completed successfully. **UNVERIFIED:** the preview URL is behind Vercel SSO, so the live page was not visually inspected; no real-device check. |
+| Media registry | **VERIFIED:** `content/images.json` has 130 entries and 124 cards use photos; no card uses a food SVG; no card-image id is reused. |
+| Deployment | **VERIFIED (check):** Vercel preview deployment for PR #18 completed successfully. **UNVERIFIED:** the deployed preview was not visually inspected; no real-device check. |
 
 ## 2. Project summary and boundaries
 
@@ -70,6 +70,25 @@ For OMP, read `.omp/RULES.md` and `.omp/AGENTS.md` in addition to `AGENTS.md` an
   contains readable product packaging; it is the only verified photo of the actual
   tea under an allowed licence.
 
+### Instagram-worthy replacements — 14 November 2026
+
+- The Owner asked for stronger photographs for the Ho Chi Minh Mausoleum, Long Bien
+  Bridge, pho, bun bo Hue, cao lau, com tam, banh mi and hu tieu. This pass changed
+  15 image ids across 15 cards (14 requested placements plus the supporting Mi Quang
+  card) and the Eat banner.
+- The old `mausoleum-square` image was the Martyr's Monument, not the mausoleum; it
+  is replaced. Long Bien now has a clear river reflection on the Hanoi card and a
+  misty frame on the Plan card. Pho has three distinct new bowls.
+- 12 Pexels, two Wikimedia Commons (bun bo Hue, Eat cao lau) and one Owner-licensed
+  book image (the p.12 cao lau bowl on the Central Vietnam card). No CC BY-SA, NC or
+  ND material.
+- The book cao lau frame is 1,068×712; the final 960×640 asset is not upscaled. This
+  is a recorded exception to the 2,400 px external-original bar. The Mi Quang card
+  now uses a Pexels photo so the book bowl can serve Cao Lau without duplication; the
+  Eat cao lau card keeps a separate exact CC BY 4.0 bowl.
+- `scripts/guidebook-media.mjs` now also accepts `--asset <id[,id]>` for targeted
+  rebuilds; the external photo manifest covers card and banner assets.
+
 ## 5. Existing verified history
 
 Retain the original evidence in:
@@ -93,7 +112,7 @@ Run from `C:\Projects\ciao-vietnam`:
 | `npm run typecheck` | **VERIFIED:** no errors. |
 | `npm run lint` | **VERIFIED:** no warnings or errors. |
 | `npm run build` | **VERIFIED:** compiled, TypeScript passed, 20/20 static pages generated. The installed Next.js prints a security-upgrade advisory; the first attempt exits with `SecurityFatalError` and the same command passes on retry. See §7. |
-| Browser pass | **VERIFIED locally:** Eat, Central Highlands, Central Vietnam, Ho Chi Minh City, Mekong Delta, North Vietnam, Siem Reap & Angkor and Southeast Coast checked at 390 px and 1280 px in EN and VI; `/credits` checked too. Zero broken images (`naturalWidth === 0`), no horizontal scroll, language attribute switched correctly. Screenshots were inspected but are not committed. The Vercel preview URL redirects to Vercel SSO, so the deployed page was not visually checked. |
+| Browser pass | **VERIFIED locally:** Hanoi, Plan, Eat, Central Vietnam, Ho Chi Minh City, North Vietnam, Mekong Delta and `/credits` checked at 390 px and 1280 px in EN and VI after the second pass. Zero broken images (`naturalWidth === 0`), no horizontal scroll, language attribute switched correctly. Card-level screenshots were inspected for the mausoleum, Long Bien, pho, bun bo Hue, cao lau, com tam, banh mi and hu tieu. Screenshots were inspected but are not committed. |
 | Google Fonts | Build succeeded in this environment; deployment remains **UNVERIFIED**. |
 | Native Vietnamese review | **UNVERIFIED:** the new/revised VI strings have not been checked by a native reader. |
 
@@ -104,19 +123,26 @@ Run from `C:\Projects\ciao-vietnam`:
 - **DK source limit.** DK photos baked into page rasters below page width were
   rejected; only four DK assets met the 960 px bar. Do not upscale the rest.
 - **No food illustrations remain.** Every card now uses a photo, icon tile or phrase
-  tile. The 22 food photos are listed in `docs/photo-selection.md`; replace a photo
+  tile. The food-photo set is listed in `docs/photo-selection.md`; replace a photo
   only if a licensed source meets the same subject and quality bar.
-- **Commons renditions.** Derivatives for the 12 Commons photos were built from
-  1,920 px Wikimedia renditions; the originals are larger (documented in
+- **Cao Lau book exception.** The Central cao lau card uses the Lonely Planet p.12
+  frame at 1,068×712, below the 2,400 px external-original bar. The 960×640 final is
+  not upscaled; the Eat cao lau card keeps a separate exact CC BY 4.0 bowl. Do not
+  enlarge the book frame.
+- **Supporting Mi Quang change.** The previous `mi-quang` image was actually the book
+  cao lau bowl. The Mi Quang card now uses a Pexels photo; this was necessary to put
+  the book bowl on Cao Lau without a duplicate.
+- **Commons renditions.** Derivatives for the Commons photos were built from 1,920 px
+  Wikimedia renditions; the originals are larger (documented in
   `docs/photo-selection.md`). The final assets are 960 px without upscaling.
-- **Attribution detail.** Two Pexels credits use the published username
-  (`nguyendesigner`, `peterpham`). The artichoke-tea photo shows the product
-  packaging. Neither introduces a price, hours or health claim.
+- **Attribution detail.** Some Pexels credits use the published username
+  (`FOX`, `LUC PH@M`, `nguyendesigner`, `peterpham`). The artichoke-tea photo shows
+  the product packaging. Neither introduces a price, hours or health claim.
 - **Licence terms.** The Owner-confirmed book terms are not in the repository. The
   credits UI states the label and source but has no public licence URL; do not
   invent one.
-- **Live checks.** The Vercel preview deployment check passed, but the preview URL
-  is behind Vercel SSO; real-device rendering and font loading remain
+- **Live checks.** The PR #18 preview deployment check passed, but the deployed
+  preview was not visually inspected; real-device rendering and font loading remain
   **UNVERIFIED**.
 - Open the PR against `main`, request review, and do not merge from this lane.
 

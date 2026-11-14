@@ -213,7 +213,8 @@ an Owner decision and use covered imagery within the actual license terms.
   the licensed book sources in `scripts/guidebook-media.json` and the external food
   photographs in `scripts/food-media.json`. The source files are not in the
   repository; the script exits cleanly when the folders are absent. Use
-  `--food-only --food-images <folder>` for the food set.
+  `--food-only --food-images <folder>` for the external set, and `--asset <id>` for
+  a targeted rebuild.
 
 ---
 
