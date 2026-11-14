@@ -10,10 +10,10 @@ reports remain unchanged. Evidence labels follow `AGENTS.md` §8.
 | Repository | https://github.com/haibt163/ciao-vietnam (public) |
 | Canonical `main` | **VERIFIED** at `679063a` (merge of PR #16, 27 October 2026). |
 | Current product | **VERIFIED from repository files:** Home, eight region pages, Plan, Eat, Essentials, Outdoors, History, credits/search and English/Vietnamese. |
-| Active work | **VERIFIED this session:** branch `media/food-art-to-photo`, based on `origin/main` at `679063a`. It replaces the 19 remaining food SVGs with 22 licensed photographs; it is not merged. |
+| Active work | **VERIFIED this session:** branch `media/food-art-to-photo`, based on `origin/main` at `679063a`, pushed and opened as PR #17. It replaces the 19 remaining food SVGs with 22 licensed photographs; it is not merged. |
 | Guidebooks and license | **Owner decision (27 October 2026):** Lonely Planet Vietnam (16th ed.) and DK Eyewitness Vietnam are stored under `C:\Projects\Ebooks`; the Owner confirms full licenses to use their images/artwork on the website. The ebooks and private license records remain outside Git. |
 | Media registry | **VERIFIED:** `content/images.json` has 130 entries — 108 from the 27 October pass plus 22 new food photographs. 124 cards use photos; no card uses a food SVG; no card-image id is reused. |
-| Deployment | **UNVERIFIED:** the new branch has not been pushed or checked on a Vercel preview. |
+| Deployment | **VERIFIED (check):** Vercel preview deployment for PR #17 completed successfully. **UNVERIFIED:** the preview URL is behind Vercel SSO, so the live page was not visually inspected; no real-device check. |
 
 ## 2. Project summary and boundaries
 
@@ -93,7 +93,7 @@ Run from `C:\Projects\ciao-vietnam`:
 | `npm run typecheck` | **VERIFIED:** no errors. |
 | `npm run lint` | **VERIFIED:** no warnings or errors. |
 | `npm run build` | **VERIFIED:** compiled, TypeScript passed, 20/20 static pages generated. The installed Next.js prints a security-upgrade advisory; the first attempt exits with `SecurityFatalError` and the same command passes on retry. See §7. |
-| Browser pass | **VERIFIED locally:** Eat, Central Highlands, Central Vietnam, Ho Chi Minh City, Mekong Delta, North Vietnam, Siem Reap & Angkor and Southeast Coast checked at 390 px and 1280 px in EN and VI; `/credits` checked too. Zero broken images (`naturalWidth === 0`), no horizontal scroll, language attribute switched correctly. Screenshots were inspected but are not committed. |
+| Browser pass | **VERIFIED locally:** Eat, Central Highlands, Central Vietnam, Ho Chi Minh City, Mekong Delta, North Vietnam, Siem Reap & Angkor and Southeast Coast checked at 390 px and 1280 px in EN and VI; `/credits` checked too. Zero broken images (`naturalWidth === 0`), no horizontal scroll, language attribute switched correctly. Screenshots were inspected but are not committed. The Vercel preview URL redirects to Vercel SSO, so the deployed page was not visually checked. |
 | Google Fonts | Build succeeded in this environment; deployment remains **UNVERIFIED**. |
 | Native Vietnamese review | **UNVERIFIED:** the new/revised VI strings have not been checked by a native reader. |
 
@@ -115,7 +115,8 @@ Run from `C:\Projects\ciao-vietnam`:
 - **Licence terms.** The Owner-confirmed book terms are not in the repository. The
   credits UI states the label and source but has no public licence URL; do not
   invent one.
-- **Live checks.** Vercel preview, real-device rendering and font loading remain
+- **Live checks.** The Vercel preview deployment check passed, but the preview URL
+  is behind Vercel SSO; real-device rendering and font loading remain
   **UNVERIFIED**.
 - Open the PR against `main`, request review, and do not merge from this lane.
 
