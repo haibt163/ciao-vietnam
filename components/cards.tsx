@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Card, LangText } from "@/content/types";
 import { T } from "@/components/text";
 import { Photo } from "@/components/photo";
-import { ArtFigure, IconTile, iconName } from "@/components/visual";
+import { IconTile, iconName } from "@/components/visual";
 import { ui } from "@/lib/content";
 
 export function Chips({ items }: { items: LangText[] }) {
@@ -19,11 +19,7 @@ export function Chips({ items }: { items: LangText[] }) {
 
 export function InfoCard({ card }: { card: Card }) {
   const icon = iconName(card);
-  const visual = card.image ? (
-    <Photo id={card.image} cover />
-  ) : card.art && !icon && card.art !== "phrase" ? (
-    <ArtFigure id={card.art} />
-  ) : null;
+  const visual = card.image ? <Photo id={card.image} cover /> : null;
   return (
     <article id={card.id} className="card">
       {visual}

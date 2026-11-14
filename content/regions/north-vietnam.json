@@ -274,7 +274,7 @@
           }
         }
       ],
-      "art": "food-pho"
+      "image": "food-pho"
     },
     {
       "id": "hill-grill",
@@ -322,7 +322,7 @@
           }
         }
       ],
-      "art": "food-sticky-rice"
+      "image": "food-sticky-rice"
     }
   ],
   "stayIntro": {

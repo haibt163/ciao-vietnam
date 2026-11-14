@@ -1,6 +1,6 @@
 # Ciao Vietnam — Handover
 
-**As of 27 October 2026.** This is the current status summary; historical phase
+**As of 14 November 2026.** This is the current status summary; historical phase
 reports remain unchanged. Evidence labels follow `AGENTS.md` §8.
 
 ## 1. Where things stand
@@ -8,13 +8,12 @@ reports remain unchanged. Evidence labels follow `AGENTS.md` §8.
 | Item | State |
 |---|---|
 | Repository | https://github.com/haibt163/ciao-vietnam (public) |
-| Canonical `main` | **VERIFIED** at `7a9da23` (merge of PR #15). The media pass is on `chore/guidebook-media-refresh` and is not merged. |
-| Current product | **VERIFIED from repository files:** Home, eight region pages, Plan, Eat, Essentials, Outdoors, History, credits/search and English/Vietnamese. The 27 October media pass replaced the photo set and scene artwork with licensed guidebook imagery and revised relevant EN/VI copy. |
-| Local working copy | **VERIFIED this session:** `C:\Projects\ciao-vietnam`, branch `chore/guidebook-media-refresh`, built and previewed locally. |
+| Canonical `main` | **VERIFIED** at `679063a` (merge of PR #16, 27 October 2026). |
+| Current product | **VERIFIED from repository files:** Home, eight region pages, Plan, Eat, Essentials, Outdoors, History, credits/search and English/Vietnamese. |
+| Active work | **VERIFIED this session:** branch `media/food-art-to-photo`, based on `origin/main` at `679063a`. It replaces the 19 remaining food SVGs with 22 licensed photographs; it is not merged. |
 | Guidebooks and license | **Owner decision (27 October 2026):** Lonely Planet Vietnam (16th ed.) and DK Eyewitness Vietnam are stored under `C:\Projects\Ebooks`; the Owner confirms full licenses to use their images/artwork on the website. The ebooks and private license records remain outside Git. |
-| Media registry | **VERIFIED:** `content/images.json` has 108 entries — 84 Lonely Planet photographs, 4 DK Eyewitness page crops, 20 retained prior-licensed photos. 102 cards use photos; 22 cards use 19 original dish illustrations; no card-image id is reused. |
-| Deployment | **UNVERIFIED:** no live Vercel or real-device check was performed for this branch. |
-| Next phase | Chief Engineer/Owner review of the media PR, then a native Vietnamese copy review and a live deployment check. |
+| Media registry | **VERIFIED:** `content/images.json` has 130 entries — 108 from the 27 October pass plus 22 new food photographs. 124 cards use photos; no card uses a food SVG; no card-image id is reused. |
+| Deployment | **UNVERIFIED:** the new branch has not been pushed or checked on a Vercel preview. |
 
 ## 2. Project summary and boundaries
 
@@ -48,7 +47,30 @@ For OMP, read `.omp/RULES.md` and `.omp/AGENTS.md` in addition to `AGENTS.md` an
 - Relevant EN/VI summaries and all new alt text were written from book facts in
   original wording. Prices, hours, distances and entry rules remain omitted.
 
-## 4. Existing verified history
+## 4. Food photograph pass — 14 November 2026
+
+- All 19 food flat-lay SVGs and the 22 cards that used them were replaced by
+  photographs. `public/art/`, `scripts/build-art.mjs`, `scripts/art/food.mjs` and
+  `scripts/art/lib.mjs` were removed; `components/visual.tsx` no longer renders SVG
+  artwork. Icon and phrase tiles remain.
+- Both books were re-checked before sourcing. Their dish photographs are about
+  1,000–2,000 px on the long edge, below the 2,400 px minimum, so no book image was
+  upscaled or substituted. All 22 replacements are externally licensed: 12
+  Wikimedia Commons (CC0, public domain, CC BY 2.0/4.0) and 10 Pexels (Pexels
+  License).
+- 22 distinct ids; the three illustrations that had served two cards each were split
+  into `food-bun-bo-hue`, `food-com-tam-saigon` and `food-night-snacks-siem-reap`.
+  `scripts/food-media.json` records each source file, creator, licence, licence URL
+  and page. `docs/photo-selection.md` holds the selection table.
+- `scripts/guidebook-media.mjs` now accepts `--food-images` and `--food-only`; it
+  builds the 640/960 WebPs from sources outside the repository and preserves the
+  existing book entries.
+- EN/VI alt text and credits were written for each photo. Two Pexels credits use the
+  published username because no display name was shown. The artichoke-tea photo
+  contains readable product packaging; it is the only verified photo of the actual
+  tea under an allowed licence.
+
+## 5. Existing verified history
 
 Retain the original evidence in:
 
@@ -60,38 +82,44 @@ Retain the original evidence in:
 
 Do not rewrite those historical reports to imply that later passes happened earlier.
 
-## 5. Verification for this branch
+## 6. Verification for this branch
 
 Run from `C:\Projects\ciao-vietnam`:
 
 | Check | Result |
 |---|---|
-| `npm run validate:images` | **VERIFIED:** `Image integrity OK: 103 referenced IDs; 108 registry entries; 640/960 assets present.` |
-| `npm run validate:content` | **VERIFIED:** 186 cards, 102 image-bearing cards, 0 duplicate titles, 0 duplicate summaries, 0 reused image IDs. |
+| `npm run validate:images` | **VERIFIED:** `Image integrity OK: 125 referenced IDs; 130 registry entries; 640/960 assets present.` |
+| `npm run validate:content` | **VERIFIED:** 186 cards, 124 image-bearing cards, 0 duplicate titles, 0 duplicate summaries, 0 reused image IDs. |
 | `npm run typecheck` | **VERIFIED:** no errors. |
 | `npm run lint` | **VERIFIED:** no warnings or errors. |
-| `npm run build` | **VERIFIED:** compiled, TypeScript passed, 20/20 static pages generated. The installed Next.js prints a security-upgrade advisory; see §6. |
-| Browser pass | **VERIFIED locally:** 16 routes returned no broken images (`naturalWidth === 0`); EN and VI checked at 390 px and desktop width; credits render guidebook text without fake links. Screenshots were inspected but are not committed. |
+| `npm run build` | **VERIFIED:** compiled, TypeScript passed, 20/20 static pages generated. The installed Next.js prints a security-upgrade advisory; the first attempt exits with `SecurityFatalError` and the same command passes on retry. See §7. |
+| Browser pass | **VERIFIED locally:** Eat, Central Highlands, Central Vietnam, Ho Chi Minh City, Mekong Delta, North Vietnam, Siem Reap & Angkor and Southeast Coast checked at 390 px and 1280 px in EN and VI; `/credits` checked too. Zero broken images (`naturalWidth === 0`), no horizontal scroll, language attribute switched correctly. Screenshots were inspected but are not committed. |
 | Google Fonts | Build succeeded in this environment; deployment remains **UNVERIFIED**. |
-| Native Vietnamese review | **UNVERIFIED:** new/revised VI strings have not been checked by a native reader. |
+| Native Vietnamese review | **UNVERIFIED:** the new/revised VI strings have not been checked by a native reader. |
 
-## 6. Remaining risks and next steps
+## 7. Remaining risks and next steps
 
 - **Next.js security advisory.** The installed Next.js version is flagged by the
   build-time advisory. An upgrade is recommended as a separate, scoped change.
 - **DK source limit.** DK photos baked into page rasters below page width were
   rejected; only four DK assets met the 960 px bar. Do not upscale the rest.
-- **Retained assets.** Twenty prior photos and nineteen dish illustrations remain.
-  They are listed with reasons; replace only if a licensed source meets the same
-  quality and subject bar.
-- **Licence terms.** The Owner-confirmed terms are not in the repository. The
+- **No food illustrations remain.** Every card now uses a photo, icon tile or phrase
+  tile. The 22 food photos are listed in `docs/photo-selection.md`; replace a photo
+  only if a licensed source meets the same subject and quality bar.
+- **Commons renditions.** Derivatives for the 12 Commons photos were built from
+  1,920 px Wikimedia renditions; the originals are larger (documented in
+  `docs/photo-selection.md`). The final assets are 960 px without upscaling.
+- **Attribution detail.** Two Pexels credits use the published username
+  (`nguyendesigner`, `peterpham`). The artichoke-tea photo shows the product
+  packaging. Neither introduces a price, hours or health claim.
+- **Licence terms.** The Owner-confirmed book terms are not in the repository. The
   credits UI states the label and source but has no public licence URL; do not
   invent one.
 - **Live checks.** Vercel preview, real-device rendering and font loading remain
   **UNVERIFIED**.
 - Open the PR against `main`, request review, and do not merge from this lane.
 
-## 7. Resume sequence
+## 8. Resume sequence
 
 Read `AGENTS.md` → `AGENTS.project.md` → `docs/HANDOVER.md` →
 `docs/illustrations.md`, `docs/photo-selection.md`, `docs/sources.md` → inspect Git

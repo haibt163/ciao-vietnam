@@ -226,7 +226,7 @@
           }
         }
       ],
-      "art": "food-artichoke-tea"
+      "image": "food-artichoke-tea"
     },
     {
       "id": "highland-market",
@@ -250,7 +250,7 @@
           }
         }
       ],
-      "art": "food-market-plates"
+      "image": "food-market-plates"
     }
   ],
   "stayIntro": {

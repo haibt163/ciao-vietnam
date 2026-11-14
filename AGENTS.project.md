@@ -146,10 +146,11 @@ an Owner decision and use covered imagery within the actual license terms.
   Never upscale. If a source is too small, set `heroLayout: "landscape"`.
 - Compression: WebP, quality floor 78 for heroes and 75 for cards.
 - Selection decisions and rejections are logged in `docs/photo-selection.md`.
-- Where no approved photo exists, a card uses a licensed image or an illustration,
-  a food flat-lay or an icon tile (`art` field; sources in `scripts/art/`, output
-  in `public/art/`). See `docs/illustrations.md`. Every card must show a photo,
-  an illustration or an icon tile; never ship a "photo needed" label.
+- Where no approved photo exists, a card uses an icon tile
+  (`art: "icon:<Name>"`) or a phrase tile (`art: "phrase"`). Scene artwork was
+  retired in October 2026 and food illustrations in November 2026; do not add SVG
+  artwork. See `docs/illustrations.md`. Every card must show a photo, an icon tile
+  or a phrase tile; never ship a "photo needed" label.
 - Owner-supplied photos are welcome; record the photographer and page URL.
 
 ---
@@ -209,9 +210,10 @@ an Owner decision and use covered imagery within the actual license terms.
 - Builds need network access to Google Fonts. A sandbox without it cannot run
   `next build` unchanged; record this when reporting.
 - Image preparation (`scripts/guidebook-media.mjs`) rebuilds WebP derivatives from
-  the licensed guidebook sources listed in `scripts/guidebook-media.json`. The
-  ebooks and their extracted images are not in the repository; the script exits
-  cleanly when the source folders are absent.
+  the licensed book sources in `scripts/guidebook-media.json` and the external food
+  photographs in `scripts/food-media.json`. The source files are not in the
+  repository; the script exits cleanly when the folders are absent. Use
+  `--food-only --food-images <folder>` for the food set.
 
 ---
 

@@ -57,6 +57,29 @@ sources. The ebooks and all page extracts remain outside Git.
   hu tieu, sticky rice), the accurate original SVG flat-lay is kept instead of
   substituting a photo of a different dish.
 
+### Food photograph pass — 14 November 2026
+
+The 19 original dish illustrations and the 22 cards that used them were re-checked
+against both books. The Lonely Planet EPUB dish photographs top out around
+1,000–2,000 px on the long edge; the DK pages are 1,383×2,400 flattened rasters.
+Neither source supplied the named dish at the 2,400 px minimum, so no guidebook
+image was upscaled or substituted. Every replacement is an externally licensed
+photograph: Wikimedia Commons (CC0, public domain, CC BY 2.0/4.0) or Pexels
+(Pexels License). `scripts/food-media.json` records the local source filename,
+creator, licence, licence URL and original page; `docs/photo-selection.md` lists
+all 22 rows and the selection reasons.
+
+- 22 cards now use 22 distinct photo ids. The three illustrations that had served
+  two cards each were split into distinct ids: `food-bun-bo-hue`,
+  `food-com-tam-saigon` and `food-night-snacks-siem-reap`.
+- `content/images.json` now has 130 entries; 124 guide cards carry a photo.
+- `public/art/` and the food illustration generator (`scripts/build-art.mjs`,
+  `scripts/art/`) were removed. No page uses a scene or dish SVG.
+- No guidebook text, page facsimile or caption is published. Alt text and card copy
+  remain original wording.
+- The Pexels and Commons pages were checked for the actual subject before selection.
+  Two Pexels credits use the published username because no display name was shown.
+
 No guidebook sentences were copied. Card summaries and alt text are original
 wording; the factual revisions are limited to stable geography, architecture and
 food descriptions visible in or confirmed by the books. Practical details such as
