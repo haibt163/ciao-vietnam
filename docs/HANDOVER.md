@@ -13,7 +13,7 @@ reports remain unchanged. Evidence labels follow `AGENTS.md` §8.
 | Active work | **VERIFIED this session:** branch `media/instagram-worthy-picks`, based on `origin/main` at `c8c4482`, pushed and opened as PR #18. It replaces 15 photo ids for the mausoleum, Long Bien, pho, bun bo Hue, cao lau, com tam, banh mi, hu tieu and the supporting mi quang image; it is not merged. |
 | Guidebooks and license | **Owner decision (27 October 2026):** Lonely Planet Vietnam (16th ed.) and DK Eyewitness Vietnam are stored under `C:\Projects\Ebooks`; the Owner confirms full licenses to use their images/artwork on the website. The ebooks and private license records remain outside Git. |
 | Media registry | **VERIFIED:** `content/images.json` has 130 entries and 124 cards use photos; no card uses a food SVG; no card-image id is reused. |
-| Deployment | **VERIFIED (check):** Vercel preview deployment for PR #18 completed successfully. **UNVERIFIED:** the preview URL is behind Vercel SSO, so the deployed page was not visually inspected; no real-device check. |
+| Deployment | **VERIFIED (check):** Vercel preview deployment for PR #18 completed successfully. **UNVERIFIED:** the deployed preview was not visually inspected; no real-device check. |
 
 ## 2. Project summary and boundaries
 
@@ -141,8 +141,8 @@ Run from `C:\Projects\ciao-vietnam`:
 - **Licence terms.** The Owner-confirmed book terms are not in the repository. The
   credits UI states the label and source but has no public licence URL; do not
   invent one.
-- **Live checks.** The PR #18 preview deployment check passed, but the preview URL
-  is behind Vercel SSO; real-device rendering and font loading remain
+- **Live checks.** The PR #18 preview deployment check passed, but the deployed
+  preview was not visually inspected; real-device rendering and font loading remain
   **UNVERIFIED**.
 - Open the PR against `main`, request review, and do not merge from this lane.
 
