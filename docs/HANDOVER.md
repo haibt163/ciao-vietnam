@@ -1,6 +1,6 @@
 # Ciao Vietnam — Handover
 
-**As of 14 November 2026.** This is the current status summary; historical phase
+**As of 21 November 2026.** This is the current status summary; historical phase
 reports remain unchanged. Evidence labels follow `AGENTS.md` §8.
 
 ## 1. Where things stand
@@ -8,12 +8,12 @@ reports remain unchanged. Evidence labels follow `AGENTS.md` §8.
 | Item | State |
 |---|---|
 | Repository | https://github.com/haibt163/ciao-vietnam (public) |
-| Canonical `main` | **VERIFIED** at `c8c4482` (merge of PR #17, 14 November 2026). |
+| Canonical `main` | **VERIFIED** at `10a852a` (post-PR #18 merge). |
 | Current product | **VERIFIED from repository files:** Home, eight region pages, Plan, Eat, Essentials, Outdoors, History, credits/search and English/Vietnamese. |
-| Active work | **VERIFIED this session:** branch `media/instagram-worthy-picks`, based on `origin/main` at `c8c4482`, pushed and opened as PR #18. It replaces 15 photo ids for the mausoleum, Long Bien, pho, bun bo Hue, cao lau, com tam, banh mi, hu tieu and the supporting mi quang image; it is not merged. |
-| Guidebooks and license | **Owner decision (27 October 2026):** Lonely Planet Vietnam (16th ed.) and DK Eyewitness Vietnam are stored under `C:\Projects\Ebooks`; the Owner confirms full licenses to use their images/artwork on the website. The ebooks and private license records remain outside Git. |
+| Active work | **VERIFIED this session:** branch `chore/nextjs-security-upgrade` upgrades Next.js from 16.4.0 to 16.4.6. |
+| Guidebooks and license | **Owner decision (27 October 2026):** Lonely Planet Vietnam (16th ed.) and DK Eyewitness Vietnam are stored under `C:\\Projects\\Ebooks`; the Owner confirms full licenses to use their images/artwork on the website. The ebooks and private license records remain outside Git. |
 | Media registry | **VERIFIED:** `content/images.json` has 130 entries and 124 cards use photos; no card uses a food SVG; no card-image id is reused. |
-| Deployment | **VERIFIED (check):** Vercel preview deployment for PR #18 completed successfully. **UNVERIFIED:** the deployed preview was not visually inspected; no real-device check. |
+| Deployment | Previous media PRs deployed successfully to Vercel previews. |
 
 ## 2. Project summary and boundaries
 
@@ -101,25 +101,18 @@ Retain the original evidence in:
 
 Do not rewrite those historical reports to imply that later passes happened earlier.
 
-## 6. Verification for this branch
+## 6. Verification for prior branches
 
-Run from `C:\Projects\ciao-vietnam`:
-
-| Check | Result |
-|---|---|
-| `npm run validate:images` | **VERIFIED:** `Image integrity OK: 125 referenced IDs; 130 registry entries; 640/960 assets present.` |
-| `npm run validate:content` | **VERIFIED:** 186 cards, 124 image-bearing cards, 0 duplicate titles, 0 duplicate summaries, 0 reused image IDs. |
-| `npm run typecheck` | **VERIFIED:** no errors. |
-| `npm run lint` | **VERIFIED:** no warnings or errors. |
-| `npm run build` | **VERIFIED:** compiled, TypeScript passed, 20/20 static pages generated. The installed Next.js prints a security-upgrade advisory; the first attempt exits with `SecurityFatalError` and the same command passes on retry. See §7. |
-| Browser pass | **VERIFIED locally:** Hanoi, Plan, Eat, Central Vietnam, Ho Chi Minh City, North Vietnam, Mekong Delta and `/credits` checked at 390 px and 1280 px in EN and VI after the second pass. Zero broken images (`naturalWidth === 0`), no horizontal scroll, language attribute switched correctly. Card-level screenshots were inspected for the mausoleum, Long Bien, pho, bun bo Hue, cao lau, com tam, banh mi and hu tieu. Screenshots were inspected but are not committed. |
-| Google Fonts | Build succeeded in this environment; deployment remains **UNVERIFIED**. |
-| Native Vietnamese review | **UNVERIFIED:** the new/revised VI strings have not been checked by a native reader. |
+Prior media work (PR #16–#18) verified typecheck, lint, build, image integrity and
+content checks. Browser passes at 390/1280 px in EN/VI were done locally.
 
 ## 7. Remaining risks and next steps
 
-- **Next.js security advisory.** The installed Next.js version is flagged by the
-  build-time advisory. An upgrade is recommended as a separate, scoped change.
+- **Next.js security upgrade (this branch).** Upgrades `next` and `eslint-config-next`
+  from 16.4.0 to 16.4.6. Addresses October 2026 critical RCEs (use cache typed arrays,
+  SVG Image Optimization) and November 2026 advisories. `package-lock.json` must be
+  regenerated with `npm install` before merge or production build. Sharp remains at
+  the project-pinned range; confirm `npm ls sharp` resolves ≥ 0.35.5 after install.
 - **DK source limit.** DK photos baked into page rasters below page width were
   rejected; only four DK assets met the 960 px bar. Do not upscale the rest.
 - **No food illustrations remain.** Every card now uses a photo, icon tile or phrase
@@ -141,10 +134,7 @@ Run from `C:\Projects\ciao-vietnam`:
 - **Licence terms.** The Owner-confirmed book terms are not in the repository. The
   credits UI states the label and source but has no public licence URL; do not
   invent one.
-- **Live checks.** The PR #18 preview deployment check passed, but the deployed
-  preview was not visually inspected; real-device rendering and font loading remain
-  **UNVERIFIED**.
-- Open the PR against `main`, request review, and do not merge from this lane.
+- **Live checks.** Real-device rendering and font loading remain **UNVERIFIED**.
 
 ## 8. Resume sequence
 
