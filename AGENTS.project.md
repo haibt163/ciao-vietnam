@@ -6,8 +6,9 @@
 
 Repository: `haibt163/ciao-vietnam` (public)
 
-Canonical integration branch: `main`. `main` is the protected source of record.
-Normal implementation work uses a dedicated feature branch or worktree.
+Canonical integration branch: `main`. `main` is the source of record; every change
+reaches it through a pull request from a sub-branch
+(`docs/ENGINEERING_GOVERNANCE.md`).
 
 ---
 
@@ -241,8 +242,9 @@ run is UNVERIFIED.
 
 ## 15. Documentation Structure
 
-- `docs/ENGINEERING_GOVERNANCE.md` — roles, lanes, review, merge
-- `docs/AI_ENGINEERING_WORKFLOW.md` — pipeline and handoffs
+- `docs/ENGINEERING_GOVERNANCE.md` — roles, operating modes, approval and merge
+  gate (single source of truth)
+- `docs/AI_ENGINEERING_WORKFLOW.md` — session flow and handoff formats
 - `docs/HANDOVER.md` — current state, decisions, outstanding work
 - `docs/sources.md` — which book chapters informed each region; UNVERIFIED lines
 - `docs/photo-selection.md` — photo sources, licenses, rejections
@@ -256,26 +258,25 @@ run is UNVERIFIED.
 
 ---
 
-## 16. Multi-Lane Engineering Model
+## 16. Main Engineer
 
-Lanes: Claude Code, Codex CLI/App, OMP CLI, Grok (sandbox), and a chat lane
-acting as author in two-lane mode (Claude Chat or ChatGPT). Sandbox lanes
-without Git write access (Grok, chat lanes) deliver a ZIP or patch plus
-plain-language steps and a pull-request description; the Project Owner commits
-and pushes. Lane choice does not change scope, verification, Git rules, review
-or approval boundaries, or the Project Owner's final authority.
+Any harness agent may serve as Main Engineer: OMP, Codex, Claude Code,
+Antigravity, or another harness the Owner assigns. The Project Owner chooses the
+operating mode per task (two lanes or three lanes) and may reassign roles at any
+time. Operating modes, role switching and the merge gate are defined only in
+`docs/ENGINEERING_GOVERNANCE.md`.
 
 ---
 
 ## 17. Approval Boundary
 
-Project Owner defines task → implementation → tests + evidence + handoff →
-Chief Engineer review (APPROVE / REQUEST CORRECTION) → APPROVE from Claude Chat,
-ChatGPT or the Project Owner → merge executed by the Project Owner, Claude Code
-or Codex CLI/App → protected `main`.
+Project Owner defines task → Main Engineer implements on a sub-branch → pull
+request opened for tracking → Chief Engineer reviews and recommends (three-lane
+mode only) → Owner approves on record → Main Engineer or Owner merges to `main`.
 
-The author never approves their own change. Grok, OMP and chat lanes do not
-execute merges. See `docs/ENGINEERING_GOVERNANCE.md` §6a.
+Chief Engineer review is advisory, not a merge gate. The Chief Engineer never
+merges. Passing tests do not authorize a merge. See
+`docs/ENGINEERING_GOVERNANCE.md` §3–§4.
 
 ---
 
@@ -301,4 +302,4 @@ A substantive task is complete when:
 - documentation is accurate where behavior changed (and `docs/HANDOVER.md` is
   updated);
 - remaining limitations are explicit;
-- the work is ready for the required review.
+- the work is ready for the Owner's approval.

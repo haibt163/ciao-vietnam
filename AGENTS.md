@@ -12,10 +12,9 @@ Roles, lanes, review and merge rules belong in `docs/ENGINEERING_GOVERNANCE.md`.
 The current state of the project belongs in `docs/HANDOVER.md`.
 Detailed procedures and historical evidence remain under `docs/`.
 
-Claude Chat and ChatGPT are peer Chief Engineer lanes with identical review
-authority. Main Engineer lanes (Claude Code, Codex CLI/App, OMP, Grok in its
-sandbox, or a chat lane acting as author in two-lane mode) are interchangeable
-under the same review boundary.
+Any harness agent may serve as Main Engineer. The Project Owner holds merge
+approval. Chief Engineer review is advisory. Roles, operating modes and the merge
+gate are defined only in `docs/ENGINEERING_GOVERNANCE.md`.
 
 ---
 
@@ -159,28 +158,23 @@ Report verification limitations explicitly. State whether evidence came from
 direct local execution, from a sandbox with limited network access, or from
 inspecting material handed over into a chat session. These are not equivalent
 and must not be described as if they were. A deployment not visible to the
-reporting lane is UNVERIFIED.
+reporting session is UNVERIFIED.
 
 ---
 
 ## 9. Git and Review Boundary
 
-`main` is the protected canonical integration branch.
+`main` is the canonical integration branch.
 
-Normal implementation work uses a dedicated feature branch or worktree.
+Every change goes through a pull request from a sub-branch. Do not commit
+directly to `main`.
 
-Implementation agents must not bypass the review and approval process. Passing
-tests do not by themselves authorize a merge.
+Any harness agent may serve as Main Engineer and may merge to `main`, but only
+after the Project Owner's approval is on record. Chief Engineer review is
+advisory input, not a merge gate. The authoritative definition is
+`docs/ENGINEERING_GOVERNANCE.md`.
 
-**Approval to merge is held by the active Chief Engineer chat lane (Claude Chat
-or ChatGPT — either is independently sufficient) or the Project Owner.
-Execution of the merge is held by the Project Owner, Claude Code, or Codex
-CLI/App.** Grok, OMP and chat lanes do not execute merges. The authoritative
-definition is `docs/ENGINEERING_GOVERNANCE.md` §6a.
-
-**The author of a change never approves it.** The Project Owner may override
-any rule when it benefits the project and notes the override on the pull
-request (`docs/ENGINEERING_GOVERNANCE.md` §2, §2b).
+Passing tests do not authorize a merge.
 
 ---
 

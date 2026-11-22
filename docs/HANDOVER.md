@@ -1,155 +1,102 @@
 # Ciao Vietnam — Handover
 
-**As of 14 November 2026.** This is the current status summary; historical phase
-reports remain unchanged. Evidence labels follow `AGENTS.md` §8.
+**As of 22 November 2026.** Current status summary; historical reports remain
+unchanged. Evidence labels follow `docs/ENGINEERING_GOVERNANCE.md` §6.
 
-## 1. Where things stand
+## 1. Current state
 
 | Item | State |
 |---|---|
-| Repository | https://github.com/haibt163/ciao-vietnam (public) |
-| Canonical `main` | **VERIFIED** at `c8c4482` (merge of PR #17, 14 November 2026). |
-| Current product | **VERIFIED from repository files:** Home, eight region pages, Plan, Eat, Essentials, Outdoors, History, credits/search and English/Vietnamese. |
-| Active work | **VERIFIED this session:** branch `media/instagram-worthy-picks`, based on `origin/main` at `c8c4482`, pushed and opened as PR #18. It replaces 15 photo ids for the mausoleum, Long Bien, pho, bun bo Hue, cao lau, com tam, banh mi, hu tieu and the supporting mi quang image; it is not merged. |
-| Guidebooks and license | **Owner decision (27 October 2026):** Lonely Planet Vietnam (16th ed.) and DK Eyewitness Vietnam are stored under `C:\Projects\Ebooks`; the Owner confirms full licenses to use their images/artwork on the website. The ebooks and private license records remain outside Git. |
-| Media registry | **VERIFIED:** `content/images.json` has 130 entries and 124 cards use photos; no card uses a food SVG; no card-image id is reused. |
-| Deployment | **VERIFIED (check):** Vercel preview deployment for PR #18 completed successfully. **UNVERIFIED:** the deployed preview was not visually inspected; no real-device check. |
+| Repository | https://github.com/haibt163/ciao-vietnam (public), default branch `main` |
+| Canonical `main` | **VERIFIED:** `10a852a` — merge of PR #18, "Media: upgrade landmark and signature dish photographs", 14 November 2026. Every `main` commit in `git log --first-parent` is a pull-request merge. |
+| PR #18 | **VERIFIED:** merged 14 November 2026 14:56 UTC; head `media/instagram-worthy-picks`, base `main`; no GitHub reviews recorded (`reviews: []`). An Owner approval outside GitHub is **UNVERIFIED**. |
+| Open pull requests | **VERIFIED:** none (`gh pr list --state open` returned `[]`, 22 November 2026). |
+| Remote branches | **VERIFIED:** 17 merged branches remain. Three are not merged into `main`: `chore/nextjs-security-upgrade` (one commit ahead: Next.js 16.4.6 plus a HANDOVER edit; no PR), `media/food-art-to-photo` (two commits ahead; tree differs from `main`; superseded by PR #17 is likely but **UNVERIFIED**), and `media/instagram-worthy-picks` (tree identical to `main`; safe to delete). |
+| Product | **VERIFIED from repository files:** Home, eight region pages, Plan, Eat, Essentials, Outdoors, History, search and credits, in English and Vietnamese. |
+| Governance | **Owner decision (22 November 2026):** new harness-neutral standard in `docs/ENGINEERING_GOVERNANCE.md`. Any harness may be Main Engineer and may merge only after the Owner's approval on record; changes reach `main` by pull request from a sub-branch; Chief Engineer review is advisory; the Owner chooses two-lane or three-lane mode per task. |
+| Media registry | **VERIFIED (22 November 2026):** `npm run validate:images` reports 125 referenced IDs, 130 registry entries and 640/960 assets present. `npm run validate:content` reports 186 guide cards, 124 image-bearing cards, 0 duplicate title groups, 0 duplicate summary groups and 0 reused image IDs. |
+| GitHub branch protection | **VERIFIED:** none. `GET /repos/haibt163/ciao-vietnam/branches/main/protection` returns 404 "Branch not protected"; `GET /rulesets` returns `[]`. Direct pushes are technically possible; the pull-request rule is governance, not enforced by GitHub settings. |
+| Deployment | **VERIFIED:** production at https://ciaovietnam.vercel.app returns HTTP 200 from Vercel (`X-Vercel-Cache: HIT`, cache age about 7.7 days at check, 22 November 2026). The deployed commit and whether the PR #18 preview was visually inspected are **UNVERIFIED**. |
 
-## 2. Project summary and boundaries
+## 2. Governance revision — 22 November 2026
 
-Mobile-first Vietnam travel guide, English/Vietnamese, static Next.js site deployed
-from GitHub to Vercel. No database, login, accounts or backend. Canonical stack and
-scripts are in `AGENTS.project.md`; merge authority is in
-`docs/ENGINEERING_GOVERNANCE.md`; workflow/report formats are in
-`docs/AI_ENGINEERING_WORKFLOW.md`.
+- `docs/ENGINEERING_GOVERNANCE.md` is now the single source of truth: roles,
+  two-lane/three-lane modes, the pull-request flow and the Owner approval gate.
+  It contains no project-specific content.
+- `docs/AI_ENGINEERING_WORKFLOW.md` was reduced to session flow and handoff
+  formats; it points to the governance file instead of restating roles.
+- `AGENTS.md`, `AGENTS.project.md`, `.omp/AGENTS.md` and `.omp/RULES.md` now use
+  the same model. OMP is a Main Engineer harness and may merge only after the
+  Owner's approval on record.
+- The earlier statement that Codex Cloud was not an approved lane and the Grok
+  sandbox-lane procedure were removed because the new standard assigns any
+  harness the Main Engineer role. The Owner may restore a restriction explicitly.
+- This revision is on branch `docs/governance-standard-2026-11` and is not merged.
 
-For OMP, read `.omp/RULES.md` and `.omp/AGENTS.md` in addition to `AGENTS.md` and
-`AGENTS.project.md`.
+## 3. Completed media passes
 
-## 3. Completed media pass — 27 October 2026
+- **27 October 2026.** Both licensed guidebooks were read locally. 84 Lonely
+  Planet photographs and 4 DK page crops replaced the scene artwork and five
+  illustrated banners. 20 prior assets and 19 dish illustrations were retained
+  where the books had no usable frame. Provenance and the owner-licensed label are
+  recorded in `scripts/guidebook-media.json` and `content/images.json`.
+- **14 November 2026, food pass.** All 19 dish SVGs and the 22 cards using them
+  became photographs: 12 Wikimedia Commons and 10 Pexels. No book dish photo met
+  the 2,400 px minimum, so none was upscaled. The SVG generator and `public/art/`
+  were removed. `scripts/guidebook-media.mjs` supports `--food-only` and
+  `--food-images`.
+- **14 November 2026, second pass.** 15 image IDs across 15 cards and the Eat
+  banner were replaced: 12 Pexels, 2 Wikimedia Commons and one owner-licensed
+  Lonely Planet cao lau frame (1,068×712, final 960×640 without upscaling). The
+  cao lau resolution exception and the supporting Mi Quang change are recorded in
+  `docs/photo-selection.md`.
+- Detail and per-asset credit remain in `docs/photo-selection.md`,
+  `docs/sources.md` and `docs/illustrations.md`.
 
-- Both ebooks were read locally. Individual Lonely Planet images were extracted
-  from the EPUB; DK photos were cropped from page-width photo areas of the flattened
-  PDF pages. No full page, caption or book text is published.
-- 29 scene SVGs and 5 illustrated banners were replaced by photographs. The five
-  page banners now use photo ids and `components/guide-view.tsx` renders them with
-  `Photo`.
-- 20 prior assets and 19 dish illustrations were retained where the books do not
-  provide that exact subject at the 960 px no-upscaling bar. The lists and reasons
-  are in `docs/photo-selection.md` and `docs/sources.md`.
-- Provenance is per asset in `scripts/guidebook-media.json` and
-  `content/images.json`: book, edition, page, printed credit, an
-  `Owner-licensed guidebook image` label and a text source line. The credits page
-  now renders text instead of a link when no public licence/source URL exists.
-- Legacy Pexels pipelines and candidate manifests were removed;
-  `scripts/guidebook-media.mjs` is the only image generator. It needs extracted
-  source folders outside the repository and exits cleanly without them.
-- Relevant EN/VI summaries and all new alt text were written from book facts in
-  original wording. Prices, hours, distances and entry rules remain omitted.
+## 4. Verification
 
-## 4. Food photograph pass — 14 November 2026
+**Last product verification (14 November 2026, PR #18, recorded then; not rerun
+for this docs branch):** `validate:images`, `validate:content`, `typecheck`,
+`lint`, `build` (20/20 static pages) and a local browser pass at 390 px and
+1280 px in English and Vietnamese. The build printed a Next.js security-upgrade
+advisory and passed on retry.
 
-- All 19 food flat-lay SVGs and the 22 cards that used them were replaced by
-  photographs. `public/art/`, `scripts/build-art.mjs`, `scripts/art/food.mjs` and
-  `scripts/art/lib.mjs` were removed; `components/visual.tsx` no longer renders SVG
-  artwork. Icon and phrase tiles remain.
-- Both books were re-checked before sourcing. Their dish photographs are about
-  1,000–2,000 px on the long edge, below the 2,400 px minimum, so no book image was
-  upscaled or substituted. All 22 replacements are externally licensed: 12
-  Wikimedia Commons (CC0, public domain, CC BY 2.0/4.0) and 10 Pexels (Pexels
-  License).
-- 22 distinct ids; the three illustrations that had served two cards each were split
-  into `food-bun-bo-hue`, `food-com-tam-saigon` and `food-night-snacks-siem-reap`.
-  `scripts/food-media.json` records each source file, creator, licence, licence URL
-  and page. `docs/photo-selection.md` holds the selection table.
-- `scripts/guidebook-media.mjs` now accepts `--food-images` and `--food-only`; it
-  builds the 640/960 WebPs from sources outside the repository and preserves the
-  existing book entries.
-- EN/VI alt text and credits were written for each photo. Two Pexels credits use the
-  published username because no display name was shown. The artichoke-tea photo
-  contains readable product packaging; it is the only verified photo of the actual
-  tea under an allowed licence.
-
-### Instagram-worthy replacements — 14 November 2026
-
-- The Owner asked for stronger photographs for the Ho Chi Minh Mausoleum, Long Bien
-  Bridge, pho, bun bo Hue, cao lau, com tam, banh mi and hu tieu. This pass changed
-  15 image ids across 15 cards (14 requested placements plus the supporting Mi Quang
-  card) and the Eat banner.
-- The old `mausoleum-square` image was the Martyr's Monument, not the mausoleum; it
-  is replaced. Long Bien now has a clear river reflection on the Hanoi card and a
-  misty frame on the Plan card. Pho has three distinct new bowls.
-- 12 Pexels, two Wikimedia Commons (bun bo Hue, Eat cao lau) and one Owner-licensed
-  book image (the p.12 cao lau bowl on the Central Vietnam card). No CC BY-SA, NC or
-  ND material.
-- The book cao lau frame is 1,068×712; the final 960×640 asset is not upscaled. This
-  is a recorded exception to the 2,400 px external-original bar. The Mi Quang card
-  now uses a Pexels photo so the book bowl can serve Cao Lau without duplication; the
-  Eat cao lau card keeps a separate exact CC BY 4.0 bowl.
-- `scripts/guidebook-media.mjs` now also accepts `--asset <id[,id]>` for targeted
-  rebuilds; the external photo manifest covers card and banner assets.
-
-## 5. Existing verified history
-
-Retain the original evidence in:
-
-- `docs/PHASE-0-REPORT.md`
-- `docs/PHASE-1-REPORT.md`
-- `docs/editorial-image-audit-20261008.md`
-- `docs/photo-selection.md` (Round 2–5 sections)
-- `docs/vi-review.md`
-
-Do not rewrite those historical reports to imply that later passes happened earlier.
-
-## 6. Verification for this branch
-
-Run from `C:\Projects\ciao-vietnam`:
+**This docs-only branch (22 November 2026):**
 
 | Check | Result |
 |---|---|
 | `npm run validate:images` | **VERIFIED:** `Image integrity OK: 125 referenced IDs; 130 registry entries; 640/960 assets present.` |
-| `npm run validate:content` | **VERIFIED:** 186 cards, 124 image-bearing cards, 0 duplicate titles, 0 duplicate summaries, 0 reused image IDs. |
-| `npm run typecheck` | **VERIFIED:** no errors. |
-| `npm run lint` | **VERIFIED:** no warnings or errors. |
-| `npm run build` | **VERIFIED:** compiled, TypeScript passed, 20/20 static pages generated. The installed Next.js prints a security-upgrade advisory; the first attempt exits with `SecurityFatalError` and the same command passes on retry. See §7. |
-| Browser pass | **VERIFIED locally:** Hanoi, Plan, Eat, Central Vietnam, Ho Chi Minh City, North Vietnam, Mekong Delta and `/credits` checked at 390 px and 1280 px in EN and VI after the second pass. Zero broken images (`naturalWidth === 0`), no horizontal scroll, language attribute switched correctly. Card-level screenshots were inspected for the mausoleum, Long Bien, pho, bun bo Hue, cao lau, com tam, banh mi and hu tieu. Screenshots were inspected but are not committed. |
-| Google Fonts | Build succeeded in this environment; deployment remains **UNVERIFIED**. |
-| Native Vietnamese review | **UNVERIFIED:** the new/revised VI strings have not been checked by a native reader. |
+| `npm run validate:content` | **VERIFIED:** `Content audit: 186 guide cards, 124 image-bearing cards, 0 duplicate title groups, 0 duplicate summary groups, 0 reused image IDs.` |
+| Markdown or link checker | **None configured.** `package.json` and `.github/workflows/` contain no Markdown lint or link check; ESLint does not cover `.md`. |
+| `typecheck`, `lint`, `build`, browser pass | Not run: no application code, content JSON or assets changed. |
 
-## 7. Remaining risks and next steps
+## 5. Risks and next steps
 
-- **Next.js security advisory.** The installed Next.js version is flagged by the
-  build-time advisory. An upgrade is recommended as a separate, scoped change.
-- **DK source limit.** DK photos baked into page rasters below page width were
-  rejected; only four DK assets met the 960 px bar. Do not upscale the rest.
-- **No food illustrations remain.** Every card now uses a photo, icon tile or phrase
-  tile. The food-photo set is listed in `docs/photo-selection.md`; replace a photo
-  only if a licensed source meets the same subject and quality bar.
-- **Cao Lau book exception.** The Central cao lau card uses the Lonely Planet p.12
-  frame at 1,068×712, below the 2,400 px external-original bar. The 960×640 final is
-  not upscaled; the Eat cao lau card keeps a separate exact CC BY 4.0 bowl. Do not
-  enlarge the book frame.
-- **Supporting Mi Quang change.** The previous `mi-quang` image was actually the book
-  cao lau bowl. The Mi Quang card now uses a Pexels photo; this was necessary to put
-  the book bowl on Cao Lau without a duplicate.
-- **Commons renditions.** Derivatives for the Commons photos were built from 1,920 px
-  Wikimedia renditions; the originals are larger (documented in
-  `docs/photo-selection.md`). The final assets are 960 px without upscaling.
-- **Attribution detail.** Some Pexels credits use the published username
-  (`FOX`, `LUC PH@M`, `nguyendesigner`, `peterpham`). The artichoke-tea photo shows
-  the product packaging. Neither introduces a price, hours or health claim.
-- **Licence terms.** The Owner-confirmed book terms are not in the repository. The
-  credits UI states the label and source but has no public licence URL; do not
-  invent one.
-- **Live checks.** The PR #18 preview deployment check passed, but the deployed
-  preview was not visually inspected; real-device rendering and font loading remain
-  **UNVERIFIED**.
-- Open the PR against `main`, request review, and do not merge from this lane.
+- **Next.js security advisory.** `main` pins Next.js 16.4.0. Branch
+  `chore/nextjs-security-upgrade` upgrades to 16.4.6 but has no PR and also edits
+  `docs/HANDOVER.md`; expect a conflict with this branch. Owner decision needed.
+- **Branch protection is absent.** The governance rule that every change uses a
+  pull request is not enforced by GitHub. Adding a ruleset is an Owner decision;
+  no GitHub setting was changed here.
+- **PR #18 approval record.** GitHub shows no review on PR #18. If the Owner
+  approval exists only outside GitHub, that is acceptable under the new standard;
+  record it on future pull requests.
+- **Cao Lau book exception.** The Central cao lau card uses a 1,068×712 book
+  frame, below the 2,400 px external-original bar. The 960×640 final is not
+  upscaled; do not enlarge it.
+- **DK source limit.** DK page rasters are 1,383×2,400; only four page-width
+  subjects met the 960 px bar. Smaller DK photos were rejected, not upscaled.
+- **Attribution and licence detail.** Some Pexels credits use published usernames.
+  Owner-held book licences have no public URL; the credits UI shows text only. Do
+  not invent a licence URL.
+- **Native Vietnamese review** of revised strings remains **UNVERIFIED**.
+- **Live checks.** Production responds, but real-device rendering, font loading
+  and the deployed commit are **UNVERIFIED**.
 
-## 8. Resume sequence
+## 6. Resume sequence
 
-Read `AGENTS.md` → `AGENTS.project.md` → `docs/HANDOVER.md` →
-`docs/illustrations.md`, `docs/photo-selection.md`, `docs/sources.md` → inspect Git
-state and the relevant code. State actual GitHub/shell/filesystem capabilities
-before acting. Keep changes on a feature branch and open a PR for review; do not
-merge.
+Read `docs/ENGINEERING_GOVERNANCE.md` → `AGENTS.md` → `AGENTS.project.md` → this
+file → `docs/illustrations.md`, `docs/photo-selection.md`, `docs/sources.md` →
+inspect live Git state and the relevant code. State actual GitHub, shell and
+filesystem capabilities first. Work on a sub-branch, open a pull request, and
+merge only after the Owner's approval is on record.
