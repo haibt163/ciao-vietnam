@@ -50,6 +50,11 @@ from a sub-branch.
 
 A merge to `main` requires the Owner's approval on record.
 
+**Approval on record** means either a GitHub review marked **Approve** by the
+Owner, or an explicit approval comment by the Owner on the pull request. A chat
+verdict is not an approval on record unless the Owner posts it on the pull
+request.
+
 - The Chief Engineer's recommendation is advisory input, not a merge gate.
 - Passing tests, CI, a prior approval, or silence do not substitute for the
   Owner's approval.

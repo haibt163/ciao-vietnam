@@ -73,6 +73,8 @@ Every pull request states:
 - open questions for the Owner;
 - author lane and reviewer lane (or "Owner only" in two-lane mode).
 
+Owner steps are written in plain language, with exact commands and what to expect.
+
 Keep the description under 200 words. Use the pull request as the review surface:
 diff, commit history and visible CI/preview results. A review states what it
 actually inspected and what it could not see.
