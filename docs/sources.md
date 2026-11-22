@@ -15,8 +15,8 @@ to be original wording informed by the books.
 
 This entry records the Owner's instruction. Any specific limitation stated in the
 actual license still governs how an image is reproduced, cropped, adapted or
-attributed. Historical content mappings below are not evidence that the new media
-refresh has been completed.
+attributed. Historical content mappings below are not part of the media-pass
+evidence.
 
 ### Media pass record — 27 October 2026
 

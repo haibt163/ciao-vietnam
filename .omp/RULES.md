@@ -9,8 +9,9 @@ Short tripwires. The reasons and project-specific requirements are in
 3. Repository evidence outranks an earlier report or chat.
 
 ## Never
-- merge to `main`, force-push, rewrite history, or bypass a review/approval gate;
-- approve a change you authored, or treat a green test as approval to merge;
+- merge to `main` without the Project Owner's approval on record, commit directly
+  to `main`, force-push, or rewrite history;
+- treat a green test as the Owner's approval;
 - claim a check passed without running it and recording its actual result;
 - weaken/bypass a failed safeguard or invent provenance, credits, license terms,
   source URLs or research facts;
